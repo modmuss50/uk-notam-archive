@@ -9,8 +9,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
       - name: Fetch and commit
         run: |
+          pip install xq
+
           mkdir -p data
           wget https://pibs.nats.co.uk/operational/pibs/PIB.xml -O data/PIB.xml
           cat data/PIB.xml | xq > data/PIB.json
@@ -30,5 +36,8 @@ jobs:
 
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
-          git commit -m "Automatic NOTAM data update"
-          git push
+
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "Automatic NOTAM data update"
+            git push
+          fi
