@@ -15,7 +15,7 @@ jobs:
 
           mkdir -p data
           wget https://pibs.nats.co.uk/operational/pibs/PIB.xml -O data/PIB.xml
-          cat data/PIB.xml | xq > data/PIB.json
+          cat data/PIB.xml | xq . > data/PIB.json
           git add data
 
           mkdir -p html
