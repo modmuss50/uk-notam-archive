@@ -1,16 +1,14 @@
 name: Update data
 on: 
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 jobs:
   fetch-and-commit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+        uses: actions/checkout@v3
       - name: Fetch and commit
         run: |
           mkdir -p data
@@ -29,11 +27,7 @@ jobs:
           wget http://pibs.nats.co.uk/operational/pibs/pib50n.shtml -O html/pib50n.shtml
           git add html
 
-          git config --global user.email "uk-notam-archive@jonty.co.uk"
-          git config --global user.name "NOTAM Update Bot"
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
           git commit -m "Automatic NOTAM data update"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          git push
