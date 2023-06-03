@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000060994047",
+    "@PIBId": "400000060995705",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-02T23:00:11+00:00",
-        "ValidTo": "2023-06-03T23:00:00+00:00"
+        "ValidFrom": "2023-06-03T00:00:23+00:00",
+        "ValidTo": "2023-06-04T00:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-02T23:00:11+00:00",
+      "Issued": "2023-06-03T00:00:23+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306021719",
+      "PibUid": "EG712306030006",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6482,63 +6482,34 @@
             "Code": "EGGP",
             "Name": "LIVERPOOL",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4126",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "35"
-                  },
-                  "Coordinates": "5321N00258W",
-                  "Radius": "16",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2305311900",
-                  "EndValidity": "2306300600",
-                  "ItemD": "1900-0600",
-                  "ItemE": "LIVERPOOL ATC RADAR WILL OPR COMBINED APCH RADAR AND AD CONTROL \nSER AT TIMES BY SINGLE CONTROLLER FROM THE TOWER. ACTIVITY WILL BE \nANNOUNCED VIA ATIS AND GENERAL BROADCAST. FREQUENCIES WILL NOT BE \nCROSS COUPLED. SRA APCH NOT AVBL WHEN RADAR IN TOWER (RITT) \nOPERATIONS ARE ACTIVE",
-                  "Marker": "+",
-                  "NotamStoreDate": "310520231435"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4126",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "35"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4179",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00251W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2306012249",
-                  "EndValidity": "2306022359",
-                  "ItemE": "RED OBST LIGHT ON ATC TWR U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "010620232252"
-                }
-              ]
+                "Coordinates": "5321N00258W",
+                "Radius": "16",
+                "ItemA": "EGGP",
+                "StartValidity": "2305311900",
+                "EndValidity": "2306300600",
+                "ItemD": "1900-0600",
+                "ItemE": "LIVERPOOL ATC RADAR WILL OPR COMBINED APCH RADAR AND AD CONTROL \nSER AT TIMES BY SINGLE CONTROLLER FROM THE TOWER. ACTIVITY WILL BE \nANNOUNCED VIA ATIS AND GENERAL BROADCAST. FREQUENCIES WILL NOT BE \nCROSS COUPLED. SRA APCH NOT AVBL WHEN RADAR IN TOWER (RITT) \nOPERATIONS ARE ACTIVE",
+                "Marker": "+",
+                "NotamStoreDate": "310520231435"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -6547,33 +6518,6 @@
             "Name": "LONDON/CITY",
             "NotamList": {
               "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "96",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "5"
-                  },
-                  "Coordinates": "5131N00006W",
-                  "Radius": "1",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2303040000",
-                  "EndValidity": "2306022359",
-                  "ItemE": "CRANE OPERATING AT PSN: 513102N 0000532W (CITY PLACE HOUSE,\nGREATER LONDON). UP TO 426FT AGL/481FT AMSL. FOR INFO CONTACT \n07590 860919. ON EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN \nTHE UK AIP ENR 5.4. 2023-03-0031/AS8.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060120231506"
-                },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
@@ -11703,36 +11647,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "1537",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "422",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5222N00029E",
-                  "Radius": "5",
-                  "ItemA": "EGUN",
-                  "StartValidity": "2303051733",
-                  "EndValidity": "2306022359",
-                  "ItemE": "THE FOLLOWING OBSTRUCTION LIGHTS ARE UNSERVICABLE:\nHARDSTAND-32(MIL1811) STADIUM LIGHT, HARDSTAND-34(MIL1809)STADIUM\nLIGHT, HARDSTAND 58(MIL1818) STADIUM LIGHT, HARDSTAND-62(MIL1816)\nSTADIUM LIGHT, HARDSTAND-25(MIL1564)STADIUM\nLIGHT,HARDSTAND-29(MIL1822) STADIUM LIGHT, HARDSTAND-27(MIL1824)\nSTADIUMLIGHT, STADIUM LIGHT NORTHEAST OF BLDG 707(MIL1088), CCTV\nTOWER(M224), CCTV TOWER(M226), TACAN(M032), TAXIWAY DELTA NORTH\nSTADIUM LIGHTS(MIL1096, MIL1097, MIL1098), STADIUM LIGHT SOUTHWEST\nOF BLDG 539(MIL1093), BLDG 539 SOUTHWEST CORNER UNLIT, BLDG 550\nSOUTHEAST AND NORTHEAST CORNER LIGHTS UNLIT, OBSTRUCTION LIGHTS\nSURROUNDING ATEX AREA NEAR BLDG 782 UNLIT, WATER TOWER(MIL1525)\nNORTH OF BLDG 772, NAVAID BETWEEN DELTA NORTH AND ALPHA WEST(2791)",
-                  "Marker": "+",
-                  "NotamStoreDate": "050320231733"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "1802",
                   "Year": "23",
                   "Type": "N",
@@ -12088,35 +12002,7 @@
           {
             "Code": "EGDI",
             "Name": "MERRYFIELD",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "3454",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "AH",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5058N00256W",
-                "Radius": "5",
-                "ItemA": "EGDI",
-                "StartValidity": "2305290001",
-                "EndValidity": "2306022359",
-                "ItemE": "CHANGE TO MERRYFIELD AD OPERATIONAL HOURS:\nMON          CLOSED\nTUE AND WED  1230-1800 AND 2115-2259 \nTHU AND FRI  CLOSED",
-                "Marker": "+",
-                "NotamStoreDate": "250520231349"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -12653,33 +12539,6 @@
                   "ItemE": "PAR NOT AVBL DUE TO LIMITED STAFFING",
                   "Marker": "+",
                   "NotamStoreDate": "010620231336"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "3640",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5310N00031W",
-                  "Radius": "5",
-                  "ItemA": "EGXW",
-                  "StartValidity": "2306021314",
-                  "EndValidity": "2306022359",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "020620231320"
                 }
               ]
             },
@@ -12963,33 +12822,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "1555",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FU",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5100N00239W",
-                  "Radius": "5",
-                  "ItemA": "EGDY",
-                  "StartValidity": "2303061000",
-                  "EndValidity": "2306022359",
-                  "ItemE": "DUE TO ONGOING F34 ISSUES, ALL NON-STATION BASED ACFT REQUIRING \nAVTUR REFUEL ARE TO HAVE POSITIVE ACCEPTANCE WHEN BOOKING PPR",
-                  "Marker": "+",
-                  "NotamStoreDate": "060320231027"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "2991",
                   "Year": "23",
                   "Type": "N",
@@ -13038,33 +12870,6 @@
                   "ItemE": "TACAN VLN/YEOVILTON 110.0MHZ CH47X SERVICEABLE WITH THE FOLLOWING \nCAVEATS: USERS MAY EXPERIENCE BEARING SWINGS IN THE SECTORS\n020 TO 030 DEGREES, 200 TO 250 DEGREES AND 290 TO 300 DEGREES.",
                   "Marker": "+",
                   "NotamStoreDate": "110520230716"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "3455",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5100N00239W",
-                  "Radius": "5",
-                  "ItemA": "EGDY",
-                  "StartValidity": "2305290001",
-                  "EndValidity": "2306022359",
-                  "ItemE": "CHANGE TO YEOVILTON AD OPERATIONAL HOURS:\nMON            CLOSED\nTUE            0900-1600 AND 2100-0130\nWED AND THU    0800-1600 AND 2100-0130\nFRI            0800-1300",
-                  "Marker": "+",
-                  "NotamStoreDate": "250520231353"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -13433,34 +13238,6 @@
                 "ItemE": "WITTERING TACAN WIT 117.6MHZ CHAN 123X ON MAINTENANCE",
                 "Marker": "+",
                 "NotamStoreDate": "090120231254"
-              },
-              {
-                "@Reference": "EGLC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "96",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "5"
-                },
-                "Coordinates": "5131N00006W",
-                "Radius": "1",
-                "ItemA": "EGLC",
-                "StartValidity": "2303040000",
-                "EndValidity": "2306022359",
-                "ItemE": "CRANE OPERATING AT PSN: 513102N 0000532W (CITY PLACE HOUSE,\nGREATER LONDON). UP TO 426FT AGL/481FT AMSL. FOR INFO CONTACT \n07590 860919. ON EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN \nTHE UK AIP ENR 5.4. 2023-03-0031/AS8.",
-                "Marker": "+",
-                "NotamStoreDate": "060120231506"
               },
               {
                 "@Reference": "EGSC",
