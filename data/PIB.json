@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061042768",
+    "@PIBId": "400000061044240",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-03T23:00:11+00:00",
-        "ValidTo": "2023-06-04T23:00:00+00:00"
+        "ValidFrom": "2023-06-04T00:00:23+00:00",
+        "ValidTo": "2023-06-05T00:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-03T23:00:11+00:00",
+      "Issued": "2023-06-04T00:00:23+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306031546",
+      "PibUid": "EG712306040006",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4655,7 +4655,64 @@
           {
             "Code": "EGFF",
             "Name": "CARDIFF",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4229",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306040100",
+                  "EndValidity": "2306040200",
+                  "ItemE": "AD CLOSED. IN THE EVENT OF AN EMERGENCY CTC THE AIRPORT FIRE \nSERVICE ON 01446 712505",
+                  "Marker": "+",
+                  "NotamStoreDate": "030620232335"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4230",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FM",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306040100",
+                  "EndValidity": "2306040200",
+                  "ItemE": "AUTOMET OBSERVATIONS UNVERFIED",
+                  "Marker": "+",
+                  "NotamStoreDate": "030620232336"
+                }
+              ]
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -8553,6 +8610,33 @@
                   "ItemE": "INSTRUMENT APPROACHES NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "210520231723"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3053",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5049N00021W",
+                  "Radius": "1",
+                  "ItemA": "EGKA",
+                  "StartValidity": "2306042300",
+                  "EndValidity": "2306051700",
+                  "ItemE": "CRANE OPR PSN 504912N 0002032W (EAST WORTHING WATER TREATMENT\nWORKS) MAX HGT 131FT AGL/138FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020620231708"
                 }
               ]
             },
@@ -17404,6 +17488,34 @@
                 "ItemE": "WESTERN RADAR CLOSED",
                 "Marker": "+",
                 "NotamStoreDate": "250520231608"
+              },
+              {
+                "@Reference": "EGKA",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3053",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5049N00021W",
+                "Radius": "1",
+                "ItemA": "EGKA",
+                "StartValidity": "2306042300",
+                "EndValidity": "2306051700",
+                "ItemE": "CRANE OPR PSN 504912N 0002032W (EAST WORTHING WATER TREATMENT\nWORKS) MAX HGT 131FT AGL/138FT AMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "020620231708"
               }
             ]
           },
@@ -24932,6 +25044,35 @@
                 "ItemG": "150FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "020620230959"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "2987",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WE",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "25"
+                },
+                "Coordinates": "5613N00327W",
+                "Radius": "6",
+                "ItemA": "EGPX",
+                "StartValidity": "2306042300",
+                "EndValidity": "2306212300",
+                "ItemE": "AREA OF INTENSE AERIAL ACTIVITY. MILITARY EXERCISE WI 5NM\nRADIUS: 561300N 0032726W (BALADO DISUSED AD, KINROSS) FOR INFO \n07392 023611. OPS CTC (CS: BALADO RADIO) 118.605MHZ. \n2023-06-0283/AS3.",
+                "ItemF": "SFC",
+                "ItemG": "2500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "020620231842"
               }
             ]
           },
