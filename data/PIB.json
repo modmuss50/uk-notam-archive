@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061517222",
+    "@PIBId": "400000061519431",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-13T10:00:21+00:00",
-        "ValidTo": "2023-06-14T10:00:00+00:00"
+        "ValidFrom": "2023-06-13T11:00:12+00:00",
+        "ValidTo": "2023-06-14T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-13T10:00:21+00:00",
+      "Issued": "2023-06-13T11:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306130859",
+      "PibUid": "EG712306130923",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6848,9 +6848,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "4435",
+                  "Number": "4446",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "A",
+                  "ReferredNumber": "4435",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "SA",
@@ -6864,11 +6867,11 @@
                   "Coordinates": "5320N00251W",
                   "Radius": "5",
                   "ItemA": "EGGP",
-                  "StartValidity": "2306122105",
-                  "EndValidity": "2306131200",
-                  "ItemE": "ATIS FREQ 124.33MHZ U/S",
+                  "StartValidity": "2306131017",
+                  "EndValidity": "2306151500",
+                  "ItemE": "ATIS FREQ 124.33MHZ U/S.",
                   "Marker": "+",
-                  "NotamStoreDate": "120620232108"
+                  "NotamStoreDate": "130620231020"
                 }
               ]
             },
@@ -9325,38 +9328,7 @@
           {
             "Code": "EGFP",
             "Name": "PEMBREY",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3183",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5142N00422W",
-                "Radius": "6",
-                "ItemA": "EGFP",
-                "StartValidity": "2306130755",
-                "EndValidity": "2306160025",
-                "ItemD": "13 0755-1055, 14 2025-2325, 15 2125-0025",
-                "ItemE": "MULTIPLE LARGE ACFT WILL CONDUCT TACTICAL APPROACHES/LANDINGS\nWI 5NM RADIUS: 514225N 0042151W (PEMBREY, CARMARTHENSHIRE). FOR \nINFO 01993 896111. OPS CTC 122.750MHZ / 278.475MHZ / 315.000MHZ. \n2023-06-0423/AS3.",
-                "ItemF": "SFC",
-                "ItemG": "3500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "120620230942"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -9483,6 +9455,64 @@
                   "ItemE": "TWY B CLOSED",
                   "Marker": "+",
                   "NotamStoreDate": "120620230914"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3445",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "1",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2306131030",
+                  "EndValidity": "2306131530",
+                  "ItemE": "UAS OPR WI 70M OF PSN 531656N 0005654W RETFORD/GAMSTON AD\n100FT AGL, 187FT AMSL.",
+                  "ItemF": "SFC",
+                  "ItemG": "187FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "130620231025"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3444",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "1",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2306131030",
+                  "EndValidity": "2306131530",
+                  "ItemE": "UAS OPR WI 250M OF PSN 531706N 0005645W (RETFORD/GAMSTON AD, NE\nPERIMITER TRACK REMAINING E OF RWY 02/20). MAX HGT 140FT AGL, \n227FT AMSL",
+                  "ItemF": "SFC",
+                  "ItemG": "227FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "130620231025"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -9703,35 +9733,6 @@
                   "ItemE": "CRANE OPR AT PSN 534743N 0011205W (SHERBURN INDUSTRIAL ESTATE) \n191FT AMSL, 164FT AGL. CTC 07881 466941 OR 07496 202102",
                   "Marker": "+",
                   "NotamStoreDate": "120620231130"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3425",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5348N00113W",
-                  "Radius": "1",
-                  "ItemA": "EGCJ",
-                  "StartValidity": "2306130930",
-                  "EndValidity": "2306131100",
-                  "ItemE": "UAS OPR 534740N 0011256W (SHERBURN INDUSTRIAL ESTATE) RADIUS 0.5NM\nHGT 227FT AMSL/ 200FT AGL. FOR INFO CONTACT: 07779 782647",
-                  "ItemF": "SFC",
-                  "ItemG": "227FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "120620231210"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -13540,6 +13541,33 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
+                  "Number": "3865",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MP",
+                    "Code45": "HW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2306131054",
+                  "EndValidity": "2306131800",
+                  "ItemE": "AIRCREW USE CAUTION: MEN AND EQUIPMENT OPERATING ON HARDSTAND 29.",
+                  "Marker": "+",
+                  "NotamStoreDate": "130620231058"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
                   "Number": "3806",
                   "Year": "23",
                   "Type": "N",
@@ -13884,33 +13912,62 @@
             "Code": "EGWU",
             "Name": "NORTHOLT",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "2515",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "2515",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5133N00025W",
+                  "Radius": "5",
+                  "ItemA": "EGWU",
+                  "StartValidity": "2304170700",
+                  "EndValidity": "2306150700",
+                  "ItemE": "VISITING MILITARY AIRCRAFT ARE REQUESTED TO CONTACT NORTHOLT OPS \nON 389.450MHZ FOR NON-URGENT MATTERS IN ORDER TO REDUCE \nTRANSMISSIONS ON THE GROUND FREQUENCY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "150420231129"
                 },
-                "Coordinates": "5133N00025W",
-                "Radius": "5",
-                "ItemA": "EGWU",
-                "StartValidity": "2304170700",
-                "EndValidity": "2306150700",
-                "ItemE": "VISITING MILITARY AIRCRAFT ARE REQUESTED TO CONTACT NORTHOLT OPS \nON 389.450MHZ FOR NON-URGENT MATTERS IN ORDER TO REDUCE \nTRANSMISSIONS ON THE GROUND FREQUENCY.",
-                "Marker": "+",
-                "NotamStoreDate": "150420231129"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "3692",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "CA",
+                    "Code45": "CF",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5133N00025W",
+                  "Radius": "5",
+                  "ItemA": "EGWU",
+                  "StartValidity": "2306141000",
+                  "EndValidity": "2306141100",
+                  "ItemE": "NORTHOLT RADAR APPROACH INITIAL CTC FREQ 126.450MHZ NOT AVBL.\nPILOTS ARE REQUESTED TO CTC THE ALTN FREQ 129.125MHZ.",
+                  "Marker": "+",
+                  "NotamStoreDate": "060620231013"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -23844,37 +23901,6 @@
                 "NotamStoreDate": "120620231301"
               },
               {
-                "@Reference": "EGFP",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3183",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5142N00422W",
-                "Radius": "6",
-                "ItemA": "EGFP",
-                "StartValidity": "2306130755",
-                "EndValidity": "2306160025",
-                "ItemD": "13 0755-1055, 14 2025-2325, 15 2125-0025",
-                "ItemE": "MULTIPLE LARGE ACFT WILL CONDUCT TACTICAL APPROACHES/LANDINGS\nWI 5NM RADIUS: 514225N 0042151W (PEMBREY, CARMARTHENSHIRE). FOR \nINFO 01993 896111. OPS CTC 122.750MHZ / 278.475MHZ / 315.000MHZ. \n2023-06-0423/AS3.",
-                "ItemF": "SFC",
-                "ItemG": "3500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "120620230942"
-              },
-              {
                 "@Reference": "EGDM",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -24389,12 +24415,42 @@
                 "NotamStoreDate": "120620231707"
               },
               {
-                "@Reference": "EGCJ",
+                "@Reference": "EGNE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "3425",
+                "Number": "3445",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5317N00057W",
+                "Radius": "1",
+                "ItemA": "EGNE",
+                "StartValidity": "2306131030",
+                "EndValidity": "2306131530",
+                "ItemE": "UAS OPR WI 70M OF PSN 531656N 0005654W RETFORD/GAMSTON AD\n100FT AGL, 187FT AMSL.",
+                "ItemF": "SFC",
+                "ItemG": "187FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130620231025"
+              },
+              {
+                "@Reference": "EGNE",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3444",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -24407,16 +24463,16 @@
                   "Lower": "0",
                   "Upper": "3"
                 },
-                "Coordinates": "5348N00113W",
+                "Coordinates": "5317N00057W",
                 "Radius": "1",
-                "ItemA": "EGCJ",
-                "StartValidity": "2306130930",
-                "EndValidity": "2306131100",
-                "ItemE": "UAS OPR 534740N 0011256W (SHERBURN INDUSTRIAL ESTATE) RADIUS 0.5NM\nHGT 227FT AMSL/ 200FT AGL. FOR INFO CONTACT: 07779 782647",
+                "ItemA": "EGNE",
+                "StartValidity": "2306131030",
+                "EndValidity": "2306131530",
+                "ItemE": "UAS OPR WI 250M OF PSN 531706N 0005645W (RETFORD/GAMSTON AD, NE\nPERIMITER TRACK REMAINING E OF RWY 02/20). MAX HGT 140FT AGL, \n227FT AMSL",
                 "ItemF": "SFC",
                 "ItemG": "227FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "120620231210"
+                "NotamStoreDate": "130620231025"
               },
               {
                 "@Reference": "EGBB",
@@ -24981,6 +25037,35 @@
                 "NotamStoreDate": "120620231417"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3213",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5103N00214W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2306140700",
+                "EndValidity": "2306141600",
+                "ItemE": "UAS OPR WI 1NM RADIUS OF 510322N 0021426W (GILLINGHAM, DORSET).\nMAX HGT 200FT AGL. FOR INFO 07591 106069. 2023-06-0441/AS2",
+                "ItemF": "SFC",
+                "ItemG": "500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130620231019"
+              },
+              {
                 "@Reference": "EGSC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -25190,6 +25275,35 @@
                 "ItemG": "10500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "120620231417"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3201",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "44"
+                },
+                "Coordinates": "5415N00216W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2306141000",
+                "EndValidity": "2306141700",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPR IN LOW FLYING AREA 17 WI 1NM RADIUS OF PSN 541459N 0021550W \n(SEDBERGH, NORTH YORKSHIRE). 2000FT AGL. CTC 07794 950856. \n23/06/074/LFC",
+                "ItemF": "SFC",
+                "ItemG": "4400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130620230648"
               }
             ]
           },
@@ -26904,33 +27018,6 @@
                   "ItemG": "1300FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "100520231219"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4416",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5531N00436W",
-                  "Radius": "5",
-                  "ItemA": "EGPK",
-                  "StartValidity": "2306121200",
-                  "EndValidity": "2306131100",
-                  "ItemE": "RWY 03/21 CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "120620231150"
                 },
                 {
                   "@OriginalMessage": "false",
