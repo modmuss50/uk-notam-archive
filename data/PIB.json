@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061781574",
+    "@PIBId": "400000061782796",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-18T22:00:54+00:00",
-        "ValidTo": "2023-06-19T22:00:00+00:00"
+        "ValidFrom": "2023-06-18T23:00:11+00:00",
+        "ValidTo": "2023-06-19T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-18T22:00:54+00:00",
+      "Issued": "2023-06-18T23:00:11+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306181424",
+      "PibUid": "EG712306181439",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4713,6 +4713,33 @@
                   "ItemE": "AUTOMET OBSERVATIONS UNVERIFIED",
                   "Marker": "+",
                   "NotamStoreDate": "180620231920"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4590",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306190215",
+                  "EndValidity": "2306190430",
+                  "ItemE": "AD CLOSED. IN THE EVENT OF EMERGENCY CONTACT CARDIFF AIRPORT FIRE \nSERVICE ON 01446 712505",
+                  "Marker": "+",
+                  "NotamStoreDate": "180620232226"
                 }
               ]
             },
@@ -8389,62 +8416,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "1694",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2303260001",
-                  "EndValidity": "PERM",
-                  "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060320230903"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "1694",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4569",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2306182200",
-                  "EndValidity": "2306182230",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "180620231330"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2303260001",
+                "EndValidity": "PERM",
+                "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
+                "Marker": "+",
+                "NotamStoreDate": "060320230903"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -18735,34 +18733,6 @@
                 "ItemE": "WOODVALE ATC AND ATS CLOSED, ATZ REMAINS ACTIVE",
                 "Marker": "+",
                 "NotamStoreDate": "180620231439"
-              },
-              {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4569",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2306182200",
-                "EndValidity": "2306182230",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "180620231330"
               },
               {
                 "@OriginalMessage": "false",
