@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061823216",
+    "@PIBId": "400000061824767",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-19T19:00:25+00:00",
-        "ValidTo": "2023-06-20T19:00:00+00:00"
+        "ValidFrom": "2023-06-19T20:00:20+00:00",
+        "ValidTo": "2023-06-20T20:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-19T19:00:25+00:00",
+      "Issued": "2023-06-19T20:00:20+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306191562",
+      "PibUid": "EG712306191637",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4777,33 +4777,89 @@
             "Code": "EGFF",
             "Name": "CARDIFF",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4602",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "AP",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4602",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AP",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306192100",
+                  "EndValidity": "2306200600",
+                  "ItemE": "AD PPR TO NON SCHEDULED TFC. FOR PPR SLOT CONTACT +44 (0)1446 \n712562",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231357"
                 },
-                "Coordinates": "5124N00321W",
-                "Radius": "5",
-                "ItemA": "EGFF",
-                "StartValidity": "2306192100",
-                "EndValidity": "2306200600",
-                "ItemE": "AD PPR TO NON SCHEDULED TFC. FOR PPR SLOT CONTACT +44 (0)1446 \n712562",
-                "Marker": "+",
-                "NotamStoreDate": "190620231357"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4617",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306200100",
+                  "EndValidity": "2306200300",
+                  "ItemE": "AD CLSD. IN THE EVENT OF EMERGENCY CTC AD FIRE SER ON 01446 712505",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231949"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4618",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FM",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2306200100",
+                  "EndValidity": "2306200300",
+                  "ItemE": "AUTOMET OBSERVATIONS UNVERIFIED",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231955"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8148,6 +8204,33 @@
                   "ItemE": "AMEND LOCAL AERODROME REGULATIONS - USE OF RUNWAYS.  \nPARA A/ I/ TO READ:\nDUAL RUNWAY SEGREGATED OPERATIONS ARE NORMALLY IN FORCE DURING THE \nFOLLOWING PERIODS IN SUMMER: MON-SUN 0600-0800 AND 1000-1500.\nALL OTHER TIMES, SINGLE RUNWAY, MIXED-MODE OPERATIONS ARE IN FORCE \nUSING RWY 05L/23R.\nUK AIP EGCC AD 2.20-6 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "190520231224"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4616",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5321N00217W",
+                  "Radius": "5",
+                  "ItemA": "EGCC",
+                  "StartValidity": "2306192100",
+                  "EndValidity": "2306230500",
+                  "ItemE": "ACFT UNABLE TO DEPART RWY 23R OR VACATE 05L VIA TWY MIKE 1 ARE TO \nBACKTRACK THE RWY DIRECTED BY ATC. ACFT REQUIRING FULL LENGTH \nDEPARTURE 23R ARE TO ADVISE ATC ON FIRST CONTACT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231947"
                 }
               ]
             },
@@ -9809,6 +9892,33 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
+                  "Series": "B",
+                  "Number": "1462",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5050N00132W",
+                  "Radius": "23",
+                  "ItemA": "EGHI",
+                  "StartValidity": "2306192005",
+                  "EndValidity": "2306192100",
+                  "ItemE": "SOLENT CTA, SOUTHAMPTON CTR/ATZ DEACTIVATED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231959"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
                   "Series": "C",
                   "Number": "3322",
                   "Year": "23",
@@ -10036,6 +10146,33 @@
                   "ItemE": "ACFT DEICING REQUIRES 2HR NOTICE. CTC LONDON SOUTHEND JET CENTRE\n01702 538600",
                   "Marker": "+",
                   "NotamStoreDate": "290520230650"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4615",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5135N00056E",
+                  "Radius": "22",
+                  "ItemA": "EGMC",
+                  "StartValidity": "2306192000",
+                  "EndValidity": "2306192100",
+                  "ItemE": "SOUTHEND CTA/CTR/ATZ ACTIVATED, AD HOURS EXTENDED",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231932"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -19006,6 +19143,62 @@
                 "NotamStoreDate": "190620231510"
               },
               {
+                "@Reference": "EGMC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4615",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5135N00056E",
+                "Radius": "22",
+                "ItemA": "EGMC",
+                "StartValidity": "2306192000",
+                "EndValidity": "2306192100",
+                "ItemE": "SOUTHEND CTA/CTR/ATZ ACTIVATED, AD HOURS EXTENDED",
+                "Marker": "+",
+                "NotamStoreDate": "190620231932"
+              },
+              {
+                "@Reference": "EGHI",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1462",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5050N00132W",
+                "Radius": "23",
+                "ItemA": "EGHI",
+                "StartValidity": "2306192005",
+                "EndValidity": "2306192100",
+                "ItemE": "SOLENT CTA, SOUTHAMPTON CTR/ATZ DEACTIVATED.",
+                "Marker": "+",
+                "NotamStoreDate": "190620231959"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -25152,62 +25345,33 @@
             "Code": "EGPA",
             "Name": "KIRKWALL",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1741",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5857N00254W",
-                  "Radius": "5",
-                  "ItemA": "EGPA",
-                  "StartValidity": "2306061900",
-                  "EndValidity": "2306200615",
-                  "ItemE": "OUT OF HOURS INDEMNITIES WITHDRAWN DUE WIP. NORMAL CALLOUT \nPROCEDURES APPLY FOR AMBULANCE, SAR AND EMERGENCY FLIGHTS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060620231155"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "1741",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1872",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5857N00254W",
-                  "Radius": "2",
-                  "ItemA": "EGPA",
-                  "StartValidity": "2306191900",
-                  "EndValidity": "2306192000",
-                  "ItemE": "KIRKWALL ATZ ACTIVATED. AD/APP/TWR/ATIS/MET HOURS OF OPERATION\nEXTENDED, RFFS CAT 4. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "190620231818"
-                }
-              ]
+                "Coordinates": "5857N00254W",
+                "Radius": "5",
+                "ItemA": "EGPA",
+                "StartValidity": "2306061900",
+                "EndValidity": "2306200615",
+                "ItemE": "OUT OF HOURS INDEMNITIES WITHDRAWN DUE WIP. NORMAL CALLOUT \nPROCEDURES APPLY FOR AMBULANCE, SAR AND EMERGENCY FLIGHTS.",
+                "Marker": "+",
+                "NotamStoreDate": "060620231155"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -26070,33 +26234,6 @@
                   "ItemE": "CHARLIE STOPBAR U/S. REMAINING LIT.",
                   "Marker": "+",
                   "NotamStoreDate": "160620231559"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4613",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "100"
-                  },
-                  "Coordinates": "5950N00118W",
-                  "Radius": "19",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2306191900",
-                  "EndValidity": "2306192000",
-                  "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "190620231810"
                 }
               ]
             },
@@ -26173,6 +26310,33 @@
                   "ItemE": "WICK ATZ DEACTIVATED, AD CLOSED AND ATC/MET NOT AVAILABLE DUE ATC \nSTAFF SHORTAGE.",
                   "Marker": "+",
                   "NotamStoreDate": "120620230744"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1873",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "22"
+                  },
+                  "Coordinates": "5828N00306W",
+                  "Radius": "2",
+                  "ItemA": "EGPC",
+                  "StartValidity": "2306192015",
+                  "EndValidity": "2306192130",
+                  "ItemE": "WICK ATZ ACTIVATED. AD AND AFIS ADDITIONAL HOURS OF OPERATION, OUT\nOF HOURS INDEMNITIES SUSPENDED",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231954"
                 }
               ]
             },
@@ -27442,40 +27606,12 @@
                 "NotamStoreDate": "120620230744"
               },
               {
-                "@Reference": "EGPB",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4613",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5950N00118W",
-                "Radius": "19",
-                "ItemA": "EGPB",
-                "StartValidity": "2306191900",
-                "EndValidity": "2306192000",
-                "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
-                "Marker": "+",
-                "NotamStoreDate": "190620231810"
-              },
-              {
-                "@Reference": "EGPA",
+                "@Reference": "EGPC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "I",
-                "Number": "1872",
+                "Number": "1873",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -27486,16 +27622,16 @@
                   "Purpose": "NBO",
                   "Scope": "AE",
                   "Lower": "0",
-                  "Upper": "21"
+                  "Upper": "22"
                 },
-                "Coordinates": "5857N00254W",
+                "Coordinates": "5828N00306W",
                 "Radius": "2",
-                "ItemA": "EGPA",
-                "StartValidity": "2306191900",
-                "EndValidity": "2306192000",
-                "ItemE": "KIRKWALL ATZ ACTIVATED. AD/APP/TWR/ATIS/MET HOURS OF OPERATION\nEXTENDED, RFFS CAT 4. AD REMAINS STRICTLY PPR.",
+                "ItemA": "EGPC",
+                "StartValidity": "2306192015",
+                "EndValidity": "2306192130",
+                "ItemE": "WICK ATZ ACTIVATED. AD AND AFIS ADDITIONAL HOURS OF OPERATION, OUT\nOF HOURS INDEMNITIES SUSPENDED",
                 "Marker": "+",
-                "NotamStoreDate": "190620231818"
+                "NotamStoreDate": "190620231954"
               },
               {
                 "@Reference": "EGAE",
