@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061911074",
+    "@PIBId": "400000061912560",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-21T21:00:52+00:00",
-        "ValidTo": "2023-06-22T21:00:00+00:00"
+        "ValidFrom": "2023-06-21T22:00:55+00:00",
+        "ValidTo": "2023-06-22T22:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-21T21:00:52+00:00",
+      "Issued": "2023-06-21T22:00:55+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306211777",
+      "PibUid": "EG712306211802",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7164,6 +7164,34 @@
                   "ItemE": "RWY 08L/26R BTN TWY FOXTROT ROMEO AND TWY ECHO CLSD DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "210620231838"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4660",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2306222130",
+                  "EndValidity": "2306240430",
+                  "ItemD": "2130-0430",
+                  "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR 08L/26R WILL BE AVBL TO ALLOW\nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MIN BEFORE CHANGEOVER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "210620231837"
                 }
               ]
             },
@@ -8568,62 +8596,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "1694",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2303260001",
-                  "EndValidity": "PERM",
-                  "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060320230903"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "1694",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4656",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2306212130",
-                  "EndValidity": "2306212200",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "210620231645"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2303260001",
+                "EndValidity": "PERM",
+                "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
+                "Marker": "+",
+                "NotamStoreDate": "060320230903"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -8732,34 +8731,6 @@
                   "ItemE": "ADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: MOBILE CRANE\nPOSITION: 514938.65N 0011836.26W\nELEVATION/HEIGHT: 393FT AMSL/165FT AGL\nLIGHTING: YES - RED\nREMARKS: OXFORD TECHNOLOGY PARK, LANGFORD LANE. NOT PRESENT ALL THE \nTIME. OPERATING WITHIN RADIUS 150 M FROM POSITION. END ESTIMATED DEC \n2023.\nUK AIP EGTK AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "020620231114"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3234",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5150N00119W",
-                  "Radius": "5",
-                  "ItemA": "EGTK",
-                  "StartValidity": "2306050630",
-                  "EndValidity": "2306212130",
-                  "ItemD": "0630-2130",
-                  "ItemE": "TWY C CLOSED 45M EAST OF C3, DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "020620231255"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -10064,33 +10035,6 @@
                   "ItemE": "CRANE OPR PSN 513334.21N 0004341.18E (SOUTHEND), 116 DEG (MAG)\n2747M FRM ARP, MAX HGT 184FT AGL/240FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "100620230927"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4662",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5134N00042E",
-                  "Radius": "5",
-                  "ItemA": "EGMC",
-                  "StartValidity": "2306212001",
-                  "EndValidity": "2306212115",
-                  "ItemE": "AD HOURS EXTENDED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "210620231849"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -19445,34 +19389,6 @@
                 "NotamStoreDate": "210620231500"
               },
               {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4656",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2306212130",
-                "EndValidity": "2306212200",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "210620231645"
-              },
-              {
                 "@Reference": "EGKA",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -24341,33 +24257,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "4657",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "35"
-                  },
-                  "Coordinates": "5435N00543W",
-                  "Radius": "16",
-                  "ItemA": "EGAC",
-                  "StartValidity": "2306211815",
-                  "EndValidity": "2306212145",
-                  "ItemE": "BELFAST CITY RADAR MAY NOT BE AVBL DUE ATC STAFFING. ALDERGROVE \nRADAR MAY PROVIDE ASSISTANCE WITH VECTORING ON TO THE BELFAST CITY \nILS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "210620231812"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "4630",
                   "Year": "23",
                   "Type": "N",
@@ -27618,34 +27507,6 @@
                 "ItemE": "LIT MOBILE CRANE PSN 562728N 0030410W (HDG 283 DEG MAG 1.5NM\nFM DUNDEE ARP) MAX HGT 112FT AGL / 189FT AMSL)",
                 "Marker": "+",
                 "NotamStoreDate": "200620231432"
-              },
-              {
-                "@Reference": "EGAC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4657",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5435N00543W",
-                "Radius": "16",
-                "ItemA": "EGAC",
-                "StartValidity": "2306211815",
-                "EndValidity": "2306212145",
-                "ItemE": "BELFAST CITY RADAR MAY NOT BE AVBL DUE ATC STAFFING. ALDERGROVE \nRADAR MAY PROVIDE ASSISTANCE WITH VECTORING ON TO THE BELFAST CITY \nILS.",
-                "Marker": "+",
-                "NotamStoreDate": "210620231812"
               },
               {
                 "@Reference": "EGAA",
