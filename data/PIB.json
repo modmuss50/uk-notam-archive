@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061915436",
+    "@PIBId": "400000061917796",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-22T00:00:24+00:00",
-        "ValidTo": "2023-06-23T00:00:00+00:00"
+        "ValidFrom": "2023-06-22T01:00:31+00:00",
+        "ValidTo": "2023-06-23T01:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-22T00:00:24+00:00",
+      "Issued": "2023-06-22T01:00:31+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306220006",
+      "PibUid": "EG712306220024",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6665,6 +6665,33 @@
                   "ItemE": "LIT CRANES OPR PSN 532051N 0024957W (1926 M FM LIVERPOOL ARP).\nMAX HGT 171FT AGL/ 248FT AMSL. CRANES PENETRATE THE INNER\nHORIZONTAL SURFACE BY 41FT.",
                   "Marker": "+",
                   "NotamStoreDate": "070620231547"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4649",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5320N00251W",
+                  "Radius": "5",
+                  "ItemA": "EGGP",
+                  "StartValidity": "2306230050",
+                  "EndValidity": "2306230450",
+                  "ItemE": "RUNWAY 27/09 CLOSED DUE MAINT. NO DIVERTS ACCEPTED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "210620231021"
                 }
               ]
             },
@@ -23901,6 +23928,38 @@
                 "ItemG": "3000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "200620231000"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "LFFA",
+                "Series": "R",
+                "Number": "1765",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "LFXX",
+                  "Code23": "RT",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5048N00140E",
+                "Radius": "32",
+                "ItemA": [
+                  "LFFF",
+                  "EGTT"
+                ],
+                "StartValidity": "2306230000",
+                "EndValidity": "2306251600",
+                "ItemE": "TEMPO AREAS OVER ENGLISH CHANNEL - AIP SUP 130/23\nSUBJECT : AREAS ACTIVATION\nFRI 23 JUN 2023  0300-1100 : LF-R400 A DEP GRIS-NEZ AND LF-R401 \nMANCHE 1 ACT (SCENARIO SOUTH ACT)\nFRI 23 JUN 2023 1100-1330 : LF-R400 A DEP GRIS-NEZ AND LF-R402 \nMANCHE 2 ACTS (SCENARIO NORTH GRIS-NEZ ACT)\nSAT 24 JUN 2023 : ALL AREAS NOT ACT\nSUN 25 JUN 2023 : 0300-1100 : LF-R400 A DEP GRIS-NEZ AND LF-R401 \nMANCHE 1 ACT (SCENARIO SOUTH ACTIF)\nSUN 25 JUN 2023 : 1100-1330 : LF-R400 A DEP GRIS-NEZ AND LF-R402 \nMANCHE 2 ACT (SCENARIO NORTH GRIS-NEZ ACT)\nAIP SUP IS AVBL ON WWW.SIA.AVIATION-CIVILE.GOUV.FR",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "200620231206"
               }
             ]
           },
@@ -25115,33 +25174,62 @@
             "Code": "EGPA",
             "Name": "KIRKWALL",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "1877",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1877",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5857N00254W",
+                  "Radius": "5",
+                  "ItemA": "EGPA",
+                  "StartValidity": "2306201900",
+                  "EndValidity": "2306240615",
+                  "ItemE": "OUT OF HOURS INDEMNITIES WITHDRAWN DUE WIP. NORMAL CALLOUT \nPROCEDURES APPLY FOR AMBULANCE, SAR AND EMERGENCY FLIGHTS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "200620231308"
                 },
-                "Coordinates": "5857N00254W",
-                "Radius": "5",
-                "ItemA": "EGPA",
-                "StartValidity": "2306201900",
-                "EndValidity": "2306240615",
-                "ItemE": "OUT OF HOURS INDEMNITIES WITHDRAWN DUE WIP. NORMAL CALLOUT \nPROCEDURES APPLY FOR AMBULANCE, SAR AND EMERGENCY FLIGHTS.",
-                "Marker": "+",
-                "NotamStoreDate": "200620231308"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1897",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5857N00254W",
+                  "Radius": "2",
+                  "ItemA": "EGPA",
+                  "StartValidity": "2306212355",
+                  "EndValidity": "2306220300",
+                  "ItemE": "KIRKWALL ATZ ACTIVE. AFIS/AD/ATIS/MET/FIRE AND RESCUE CAT 3/\nADDITIONAL HOURS OF OPERATION. AD REMAINS STRICTLY PPR.",
+                  "Marker": "+",
+                  "NotamStoreDate": "220620230004"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -25949,33 +26037,6 @@
                   "ItemE": "RFFS CAT 6 PPR ONLY",
                   "Marker": "+",
                   "NotamStoreDate": "310520230956"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4664",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5953N00118W",
-                  "Radius": "2",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2306212200",
-                  "EndValidity": "2306220100",
-                  "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "210620232204"
                 }
               ]
             },
@@ -27382,12 +27443,12 @@
                 "NotamStoreDate": "200620231432"
               },
               {
-                "@Reference": "EGPB",
+                "@Reference": "EGPA",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4664",
+                "Series": "I",
+                "Number": "1897",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -27400,14 +27461,14 @@
                   "Lower": "0",
                   "Upper": "21"
                 },
-                "Coordinates": "5953N00118W",
+                "Coordinates": "5857N00254W",
                 "Radius": "2",
-                "ItemA": "EGPB",
-                "StartValidity": "2306212200",
-                "EndValidity": "2306220100",
-                "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
+                "ItemA": "EGPA",
+                "StartValidity": "2306212355",
+                "EndValidity": "2306220300",
+                "ItemE": "KIRKWALL ATZ ACTIVE. AFIS/AD/ATIS/MET/FIRE AND RESCUE CAT 3/\nADDITIONAL HOURS OF OPERATION. AD REMAINS STRICTLY PPR.",
                 "Marker": "+",
-                "NotamStoreDate": "210620232204"
+                "NotamStoreDate": "220620230004"
               },
               {
                 "@Reference": "EGAA",
