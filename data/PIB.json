@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061926970",
+    "@PIBId": "400000061929232",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-22T06:00:56+00:00",
-        "ValidTo": "2023-06-23T06:00:00+00:00"
+        "ValidFrom": "2023-06-22T07:00:44+00:00",
+        "ValidTo": "2023-06-23T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-22T06:00:56+00:00",
+      "Issued": "2023-06-22T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306220506",
+      "PibUid": "EG712306220602",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8652,33 +8652,62 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "1694",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "AH",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "1694",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "5",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2303260001",
+                  "EndValidity": "PERM",
+                  "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "060320230903"
                 },
-                "Coordinates": "5241N00117E",
-                "Radius": "5",
-                "ItemA": "EGSH",
-                "StartValidity": "2303260001",
-                "EndValidity": "PERM",
-                "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
-                "Marker": "+",
-                "NotamStoreDate": "060320230903"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4667",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5239N00115E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2306220630",
+                  "EndValidity": "2306221400",
+                  "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (HELLESDON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL)",
+                  "Marker": "+",
+                  "NotamStoreDate": "220620230629"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -10969,6 +10998,34 @@
                   "ItemE": "TAXIING ACFT TO BE AWARE OF LIGHTING WORKS ON THE EDGE OF\nAIRCRAFT SERVICING PLATFORM. \nAIRFIELD DISPERSAL EDGE LIGHTING WILL NOT BE AVBL DURING THIS TIME.",
                   "Marker": "+",
                   "NotamStoreDate": "060620231254"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4127",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5138N00106W",
+                  "Radius": "1",
+                  "ItemA": "EGUB",
+                  "StartValidity": "2306220700",
+                  "EndValidity": "2306231500",
+                  "ItemD": "0700-1500",
+                  "ItemE": "CRANE OPR PSN 513753N 0010612W (BERRICK SALOME, VCY BENSON AD)\nMAX HGT 85FT AGL/ 270FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "220620230638"
                 }
               ]
             },
@@ -11436,6 +11493,33 @@
                   "ItemE": "RWY 25 THRESHOLD WINGBARS U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "120520230151"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4126",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5145N00135W",
+                  "Radius": "5",
+                  "ItemA": "EGVN",
+                  "StartValidity": "2306220930",
+                  "EndValidity": "2306221700",
+                  "ItemE": "HEAT EMBARGO ESTABLISHED FOR RISK MANAGEMENT OF AD OPERATING\nSURFACE",
+                  "Marker": "+",
+                  "NotamStoreDate": "220620230635"
                 }
               ]
             },
@@ -19382,6 +19466,34 @@
                 "NotamStoreDate": "200620230831"
               },
               {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4667",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5239N00115E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2306220630",
+                "EndValidity": "2306221400",
+                "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (HELLESDON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL)",
+                "Marker": "+",
+                "NotamStoreDate": "220620230629"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -19435,6 +19547,35 @@
                 "ItemE": "CRANE OPR PSN 505558N 0012353W. (SOUTHAMPTON). MAX HGT 197FT AGL, \n263FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "190620231518"
+              },
+              {
+                "@Reference": "EGUB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4127",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5138N00106W",
+                "Radius": "1",
+                "ItemA": "EGUB",
+                "StartValidity": "2306220700",
+                "EndValidity": "2306231500",
+                "ItemD": "0700-1500",
+                "ItemE": "CRANE OPR PSN 513753N 0010612W (BERRICK SALOME, VCY BENSON AD)\nMAX HGT 85FT AGL/ 270FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230638"
               },
               {
                 "@Reference": "EGBJ",
@@ -22964,6 +23105,124 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3549",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "44"
+                },
+                "Coordinates": "5201N00306W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2306220615",
+                "EndValidity": "2306222100",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 4 AND 7 WI 2NM RADIUS OF PSN 520118N 0030606W \n(HAY BLUFF, POWYS). 2000FT AGL. CTC 07941 224153. 23/06/174/LFC",
+                "ItemF": "SFC",
+                "ItemG": "4400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230610"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3550",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "40"
+                },
+                "Coordinates": "5149N00303W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2306220615",
+                "EndValidity": "2306222100",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 7 WI 2NM RADIUS OF PSN 514836N 0030244W \n(BLORENGE, MONMOUTHSHIRE). 2000FT AGL. CTC 07906 318456. \n23/06/175/LFC",
+                "ItemF": "SFC",
+                "ItemG": "4000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230614"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3551",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "43"
+                },
+                "Coordinates": "5423N00234W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2306220615",
+                "EndValidity": "2306222049",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 17 WI 1NM RADIUS OF PSN 542247N 0023348W \n(WHITESTONES, SEDBERGH, CUMBRIA). 2000FT AGL. CTC 07503 148118. \n23/06/176/LFC",
+                "ItemF": "SFC",
+                "ItemG": "4300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230616"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3552",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "36"
+                },
+                "Coordinates": "5443N00314W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2306220617",
+                "EndValidity": "2306222054",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 544253N 0031335W \n(BEWALDETH, CUMBRIA). 2000FT AGL. CTC 07830 281986. 23/06/177/LFC",
+                "ItemF": "SFC",
+                "ItemG": "3600FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230617"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
                 "Series": "M",
                 "Number": "3182",
                 "Year": "23",
@@ -23847,6 +24106,36 @@
                 "ItemG": "2700FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "210620231840"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3553",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "50"
+                },
+                "Coordinates": "5436N00302W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2306230336",
+                "EndValidity": "2306232053",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 543554N 0030229W (CLOUGH \nHEAD, CUMBRIA). 2000FT AGL. CTC 07811 888720. 23/06/178/LFC",
+                "ItemF": "SFC",
+                "ItemG": "5000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220620230653"
               },
               {
                 "@OriginalMessage": "false",
@@ -25440,33 +25729,6 @@
                   "ItemE": "ARRIVING AND DEPARTING ROUTES VIA ERKIT/BAVDO/OTR/TENDO NOT AVBL. \nOTBED DCT EGNT/EGNT DCT OTBED NOT AVBL. ALL OPERATORS SHOULD REFILE \nVIA AN ALTERNATIVE ROUTE.",
                   "Marker": "+",
                   "NotamStoreDate": "200620231743"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3453",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "NL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5503N00139W",
-                  "Radius": "5",
-                  "ItemA": "EGNT",
-                  "StartValidity": "2306220104",
-                  "EndValidity": "2306220900",
-                  "ItemE": "LOCATOR NT/NEWCASTLE 352KHZ U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "220620230133"
                 }
               ]
             },
@@ -28304,6 +28566,35 @@
                 "ItemG": "3000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "200620230957"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EKCH",
+                "Series": "D",
+                "Number": "868",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5535N00446E",
+                "Radius": "3",
+                "ItemA": "EKGC",
+                "StartValidity": "2306230600",
+                "EndValidity": "2306231000",
+                "ItemE": "TEMPORARY DANGER AREA EKD525 GORM,\nOVER AND AROUND EKGC ACTIVATED.\nLATERAL LIMITS:\nA CIRCLE CENTERED AT PSN 553447N0044532E.\nRADIUS 3 NM.\nTRAFFIC IS STRONGLY ADVISED NOT TO ENTER THE AREA UNTIL IT\nHAS BEEN CONFIRMED BY TYRA AFIS, THAT THERE\nARE NO DRONES REPORTED AIRBORNE IN THE AREA.",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "200620231932"
               }
             ]
           },
