@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000061975106",
+    "@PIBId": "400000061977722",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-23T06:01:01+00:00",
-        "ValidTo": "2023-06-24T06:00:00+00:00"
+        "ValidFrom": "2023-06-23T07:00:44+00:00",
+        "ValidTo": "2023-06-24T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-23T06:01:01+00:00",
+      "Issued": "2023-06-23T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306230498",
+      "PibUid": "EG712306230622",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -501,7 +501,7 @@
           },
           {
             "Id": "18879030",
-            "Vid": "510558806",
+            "Vid": "400004974971192",
             "Code": "EGPG",
             "Name": "CUMBERNAULD",
             "CityName": "GLASGOW",
@@ -3561,33 +3561,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "3660",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5408N00316W",
-                  "Radius": "5",
-                  "ItemA": "EGNL",
-                  "StartValidity": "2306230600",
-                  "EndValidity": "2306230645",
-                  "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENCED AD DUE NO FIRE\nCOVER",
-                  "Marker": "+",
-                  "NotamStoreDate": "220620231130"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
                   "Number": "3661",
                   "Year": "23",
                   "Type": "N",
@@ -5494,34 +5467,63 @@
             "Code": "EGTF",
             "Name": "FAIROAKS",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3432",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3432",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5121N00034W",
+                  "Radius": "5",
+                  "ItemA": "EGTF",
+                  "StartValidity": "2306200900",
+                  "EndValidity": "2306242000",
+                  "ItemD": "0900-2000",
+                  "ItemE": "PILOTS DEPARTING AD WHEN FAIROAKS INFORMATION CLOSED, INCLUDING\nHEL INBOUND TO ASCOT, MUST TELEPONE FARNBOROUGH ATC ON 01252 526015\nBEFORE THEIR FLIGHT DUE HELICOPTER OPERATIONS AT ROYAL ASCOT (AIC\nY029/2023 REFERS)",
+                  "Marker": "+",
+                  "NotamStoreDate": "120620231503"
                 },
-                "Coordinates": "5121N00034W",
-                "Radius": "5",
-                "ItemA": "EGTF",
-                "StartValidity": "2306200900",
-                "EndValidity": "2306242000",
-                "ItemD": "0900-2000",
-                "ItemE": "PILOTS DEPARTING AD WHEN FAIROAKS INFORMATION CLOSED, INCLUDING\nHEL INBOUND TO ASCOT, MUST TELEPONE FARNBOROUGH ATC ON 01252 526015\nBEFORE THEIR FLIGHT DUE HELICOPTER OPERATIONS AT ROYAL ASCOT (AIC\nY029/2023 REFERS)",
-                "Marker": "+",
-                "NotamStoreDate": "120620231503"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3675",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5121N00034W",
+                  "Radius": "2",
+                  "ItemA": "EGTF",
+                  "StartValidity": "2306230700",
+                  "EndValidity": "2306231700",
+                  "ItemE": "FAIROAKS ATS REVISED HOURS:\n0700-0900, 0930-1130, 1200-1400, 1430-1630\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED, CIRCUIT FLYING\nNOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY",
+                  "Marker": "+",
+                  "NotamStoreDate": "230620230652"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -19327,6 +19329,34 @@
                 "NotamStoreDate": "220620231214"
               },
               {
+                "@Reference": "EGTF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3675",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5121N00034W",
+                "Radius": "2",
+                "ItemA": "EGTF",
+                "StartValidity": "2306230700",
+                "EndValidity": "2306231700",
+                "ItemE": "FAIROAKS ATS REVISED HOURS:\n0700-0900, 0930-1130, 1200-1400, 1430-1630\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED, CIRCUIT FLYING\nNOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY",
+                "Marker": "+",
+                "NotamStoreDate": "230620230652"
+              },
+              {
                 "@Reference": "EGBP",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -24592,6 +24622,36 @@
                 "ItemG": "2600FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "200620231132"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "619",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5153N00113W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2306240600",
+                "EndValidity": "2306300300",
+                "ItemD": "24 0600-0200, 27-29 SS-0300",
+                "ItemE": "DANGER AREA EG D129 WESTON-ON-THE-GREEN ACTIVATED. \n2023-06-0745/AS3.",
+                "ItemF": "SFC",
+                "ItemG": "FL085",
+                "Marker": "+",
+                "NotamStoreDate": "220620230844"
               }
             ]
           },
@@ -25363,33 +25423,6 @@
                   "ItemE": "STEEL PLATE ON TAXIWAY ALPHA 25M WEST OF A12",
                   "Marker": "+",
                   "NotamStoreDate": "220620230938"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4688",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2306221800",
-                  "EndValidity": "2306231800",
-                  "ItemE": "LINK BRAVO CLOSED DUE TO A SURFACE DEFECT",
-                  "Marker": "+",
-                  "NotamStoreDate": "220620231740"
                 }
               ]
             },
@@ -25677,33 +25710,6 @@
                   "ItemE": "SOUTH APRON PYLON NUMBER 4 OBST LIGHT U/S",
                   "Marker": "+",
                   "NotamStoreDate": "310520230851"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4690",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5733N00403W",
-                  "Radius": "3",
-                  "ItemA": "EGPE",
-                  "StartValidity": "2306230530",
-                  "EndValidity": "2306230700",
-                  "ItemE": "INVERNESS RADAR SERVICE UNAVAILABLE.AERODROME\nCONTROL AND APROACH PROCEDURAL CONTROL COMBINED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "220620231852"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -26659,63 +26665,34 @@
             "Code": "EGPC",
             "Name": "WICK",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1834",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5828N00306W",
-                  "Radius": "5",
-                  "ItemA": "EGPC",
-                  "StartValidity": "2306181815",
-                  "EndValidity": "2306230700",
-                  "ItemE": "OUT OF HOURS INDEMNITIES SUSPENDED DUE WORK IN PROGRESS",
-                  "Marker": "+",
-                  "NotamStoreDate": "160620231524"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "1784",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1784",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "22"
-                  },
-                  "Coordinates": "5828N00306W",
-                  "Radius": "2",
-                  "ItemA": "EGPC",
-                  "StartValidity": "2306230815",
-                  "EndValidity": "2306231900",
-                  "ItemD": "0815-0845 1615-1645 1845-1900",
-                  "ItemE": "WICK ATZ DEACTIVATED, AD CLOSED AND ATC/MET NOT AVAILABLE DUE ATC \nSTAFF SHORTAGE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "120620230745"
-                }
-              ]
+                "Coordinates": "5828N00306W",
+                "Radius": "2",
+                "ItemA": "EGPC",
+                "StartValidity": "2306230815",
+                "EndValidity": "2306231900",
+                "ItemD": "0815-0845 1615-1645 1845-1900",
+                "ItemE": "WICK ATZ DEACTIVATED, AD CLOSED AND ATC/MET NOT AVAILABLE DUE ATC \nSTAFF SHORTAGE.",
+                "Marker": "+",
+                "NotamStoreDate": "120620230745"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -27952,34 +27929,6 @@
                 "NotamStoreDate": "270520231055"
               },
               {
-                "@Reference": "EGPE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4690",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5733N00403W",
-                "Radius": "3",
-                "ItemA": "EGPE",
-                "StartValidity": "2306230530",
-                "EndValidity": "2306230700",
-                "ItemE": "INVERNESS RADAR SERVICE UNAVAILABLE.AERODROME\nCONTROL AND APROACH PROCEDURAL CONTROL COMBINED.",
-                "Marker": "+",
-                "NotamStoreDate": "220620231852"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -29049,6 +28998,35 @@
                 "ItemG": "FL245",
                 "Marker": "+",
                 "NotamStoreDate": "220620231157"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EKCH",
+                "Series": "D",
+                "Number": "867",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5535N00446E",
+                "Radius": "3",
+                "ItemA": "EKGC",
+                "StartValidity": "2306240600",
+                "EndValidity": "2306241000",
+                "ItemE": "TEMPORARY DANGER AREA EKD525 GORM,\nOVER AND AROUND EKGC ACTIVATED.\nLATERAL LIMITS:\nA CIRCLE CENTERED AT PSN 553447N0044532E.\nRADIUS 3 NM.\nTRAFFIC IS STRONGLY ADVISED NOT TO ENTER THE AREA UNTIL IT\nHAS BEEN CONFIRMED BY TYRA AFIS, THAT THERE\nARE NO DRONES REPORTED AIRBORNE IN THE AREA.",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "200620231931"
               }
             ]
           },
