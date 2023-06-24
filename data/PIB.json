@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062029816",
+    "@PIBId": "400000062032364",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-24T08:01:01+00:00",
-        "ValidTo": "2023-06-25T08:00:00+00:00"
+        "ValidFrom": "2023-06-24T09:00:52+00:00",
+        "ValidTo": "2023-06-25T09:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-24T08:01:01+00:00",
+      "Issued": "2023-06-24T09:00:52+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306240638",
+      "PibUid": "EG712306240709",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5857,7 +5857,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "3694",
+                  "Number": "3169",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -5873,11 +5873,12 @@
                   "Coordinates": "5154N00210W",
                   "Radius": "2",
                   "ItemA": "EGBJ",
-                  "StartValidity": "2306240830",
-                  "EndValidity": "2306240900",
-                  "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
+                  "StartValidity": "2306250800",
+                  "EndValidity": "2306251830",
+                  "ItemD": "0800-0830 1030-1100 1300-1400 1530-1600 1800-1830",
+                  "ItemE": "GLOUCESTER APPROACH SERVICES NOT AVBL DUE STAFF SHORTAGE.\nAERODROME CONTROL SERVICE ONLY AND  IAP NOT AVBL.",
                   "Marker": "+",
-                  "NotamStoreDate": "230620231611"
+                  "NotamStoreDate": "310520231056"
                 }
               ]
             },
@@ -8673,7 +8674,35 @@
           {
             "Code": "EGSV",
             "Name": "OLD BUCKENHAM",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3692",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5230N00103E",
+                "Radius": "5",
+                "ItemA": "EGSV",
+                "StartValidity": "2306250800",
+                "EndValidity": "2306251630",
+                "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENSED AD DUE RFFS \nNOT ALWAYS AVBL.",
+                "Marker": "+",
+                "NotamStoreDate": "230620231331"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9329,6 +9358,34 @@
                   "ItemE": "MOBILE CRANE OPR PSN 504939N 0001230W (PORTSLADE, VCY SHOREHAM \nAD) MAX HGT 98FT AGL/118FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "120520231737"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "2763",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PI",
+                    "Code45": "AU",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5050N00018W",
+                  "Radius": "5",
+                  "ItemA": "EGKA",
+                  "StartValidity": "2306040800",
+                  "EndValidity": "2306301900",
+                  "ItemD": "04 0800-1800, 05-06 0700-1900, 10 0800-1900, 11 0800-1800, 12-14 \n0700-1900, 18 0800-1800, 19-21 0700-1900, 25 0800-1800, 27-28 \n0700-1900, 30 0700-1900",
+                  "ItemE": "INSTRUMENT APPROACHES NOT AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "210520231723"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -13098,33 +13155,65 @@
             "Code": "EGXZ",
             "Name": "TOPCLIFFE",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "2523",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AZ",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "1248",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "22"
+                  },
+                  "Coordinates": "5408N00125W",
+                  "Radius": "2",
+                  "ItemA": "EGXZ",
+                  "StartValidity": "2304020800",
+                  "EndValidity": "2306251700",
+                  "ItemD": "SUN 0800-1700",
+                  "ItemE": "FLYING OF MODEL ACFT WI 0.6NM RADIUS 540827N 0012505W\n(DISHFORTH AD). FOR INFO CONTACT 07761 480111 / 07825 306493. \n2023-04-0143/AS2.",
+                  "ItemF": "SFC",
+                  "ItemG": "2200FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "240320231911"
                 },
-                "Coordinates": "5412N00123W",
-                "Radius": "2",
-                "ItemA": "EGXZ",
-                "StartValidity": "2304170625",
-                "EndValidity": "PERM",
-                "ItemE": "TOPCLIFFE ATZ - AMEND AS FOLLOWS:\nUNIT PROVIDING SERVICE TO READ TOPCLIFFE\nCALLSIGN/FREQUENCY TO READ TOPCLIFFE RADIO 121.450 MHZ. \nUK AIP ENR 2.2 REFERS.",
-                "Marker": "+",
-                "NotamStoreDate": "170420230625"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "2523",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AZ",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5412N00123W",
+                  "Radius": "2",
+                  "ItemA": "EGXZ",
+                  "StartValidity": "2304170625",
+                  "EndValidity": "PERM",
+                  "ItemE": "TOPCLIFFE ATZ - AMEND AS FOLLOWS:\nUNIT PROVIDING SERVICE TO READ TOPCLIFFE\nCALLSIGN/FREQUENCY TO READ TOPCLIFFE RADIO 121.450 MHZ. \nUK AIP ENR 2.2 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "170420230625"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -18908,34 +18997,6 @@
                 "NotamStoreDate": "080520230840"
               },
               {
-                "@Reference": "EGBJ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3694",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5154N00210W",
-                "Radius": "2",
-                "ItemA": "EGBJ",
-                "StartValidity": "2306240830",
-                "EndValidity": "2306240900",
-                "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
-                "Marker": "+",
-                "NotamStoreDate": "230620231611"
-              },
-              {
                 "@Reference": "EGOW",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19018,6 +19079,35 @@
                 "ItemE": "WESTERN RADAR CLOSED",
                 "Marker": "+",
                 "NotamStoreDate": "250520231615"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3169",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5154N00210W",
+                "Radius": "2",
+                "ItemA": "EGBJ",
+                "StartValidity": "2306250800",
+                "EndValidity": "2306251830",
+                "ItemD": "0800-0830 1030-1100 1300-1400 1530-1600 1800-1830",
+                "ItemE": "GLOUCESTER APPROACH SERVICES NOT AVBL DUE STAFF SHORTAGE.\nAERODROME CONTROL SERVICE ONLY AND  IAP NOT AVBL.",
+                "Marker": "+",
+                "NotamStoreDate": "310520231056"
               }
             ]
           },
@@ -19267,6 +19357,37 @@
                 "ItemG": "650FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "280320230943"
+              },
+              {
+                "@Reference": "EGXZ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "1248",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5408N00125W",
+                "Radius": "2",
+                "ItemA": "EGXZ",
+                "StartValidity": "2304020800",
+                "EndValidity": "2306251700",
+                "ItemD": "SUN 0800-1700",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.6NM RADIUS 540827N 0012505W\n(DISHFORTH AD). FOR INFO CONTACT 07761 480111 / 07825 306493. \n2023-04-0143/AS2.",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240320231911"
               },
               {
                 "@Reference": "EGHI",
@@ -23446,6 +23567,35 @@
                 "ItemG": "900FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220620230909"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3217",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "150"
+                },
+                "Coordinates": "5440N00403W",
+                "Radius": "10",
+                "ItemA": "EGTT",
+                "StartValidity": "2306250800",
+                "EndValidity": "2306251200",
+                "ItemE": "THE FOLLOWING KIRKCUDBRIGHT DANGER AREA IS ACTIVATED:\nEG D405  0800-1200   SFC-15000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "15000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "230620231038"
               }
             ]
           },
@@ -24695,7 +24845,35 @@
           {
             "Code": "EGPA",
             "Name": "KIRKWALL",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "1900",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FU",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5857N00254W",
+                "Radius": "5",
+                "ItemA": "EGPA",
+                "StartValidity": "2306250800",
+                "EndValidity": "2306251100",
+                "ItemE": "JET A1 FUEL NOT AVBL DUE TO ESSENTIAL VEHICLE MAINTENANCE",
+                "Marker": "+",
+                "NotamStoreDate": "220620231138"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
