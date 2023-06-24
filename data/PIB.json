@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062010369",
+    "@PIBId": "400000062011835",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-23T23:00:12+00:00",
-        "ValidTo": "2023-06-24T23:00:00+00:00"
+        "ValidFrom": "2023-06-24T00:00:24+00:00",
+        "ValidTo": "2023-06-25T00:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-23T23:00:12+00:00",
+      "Issued": "2023-06-24T00:00:24+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306231935",
+      "PibUid": "EG712306240006",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8464,62 +8464,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "1694",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2303260001",
-                  "EndValidity": "PERM",
-                  "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060320230903"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "1694",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4725",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2306232230",
-                  "EndValidity": "2306232320",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "230620232219"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2303260001",
+                "EndValidity": "PERM",
+                "ItemE": "CHANGE TO AERODROME OPERATIONAL HOURS:\n26 MARCH-29 OCT              0500-2130. \n01 MAY-29 OCT FRI AND SUN    0500-2200.\nUK AIP EGSH AD 2.3 REFERS.",
+                "Marker": "+",
+                "NotamStoreDate": "060320230903"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -18571,34 +18542,6 @@
                 "NotamStoreDate": "230620231916"
               },
               {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4725",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2306232230",
-                "EndValidity": "2306232320",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "230620232219"
-              },
-              {
                 "@Reference": "EGNM",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -20420,35 +20363,6 @@
                 "ItemG": "2200FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "090620231337"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3119",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "5"
-                },
-                "Coordinates": "5138N00447W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2306120000",
-                "EndValidity": "2306232359",
-                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW \nFLYING AREA 7, NIGHT SECTOR 5DS AND NIGHT ROTARY REGION 7S AT PSN \n513821N 0044653W, (MANORBIER RANGE, PEMBROKESHIRE) RADIUS 1NM. MAX \nHEIGHT 216FT AGL. 23/06/051/LFC\nSAFE DISTANCES\nCIVILIAN ACFT                    0.0215NM       47FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                         0.0177NM       25FT AGL\nLOW                              0.0256NM       71FT AGL\nMEDIUM                           0.0324NM      110FT AGL\nHIGH                             0.0507NM      263FT AGL\nPULSE LOW                        0.0140NM        3FT AGL\nPULSE MEDIUM                     0.0165NM       18FT AGL\nPULSE HIGH                       0.0190NM       32FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "433FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "080620231758"
               },
               {
                 "@OriginalMessage": "false",
@@ -27123,35 +27037,6 @@
                 "ItemG": "FL180",
                 "Marker": "+",
                 "NotamStoreDate": "200620231135"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "G",
-                "Number": "185",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGGX",
-                  "Code23": "RA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "340",
-                  "Upper": "999"
-                },
-                "Coordinates": "4547N01435W",
-                "Radius": "111",
-                "ItemA": "EGGX",
-                "StartValidity": "2306231700",
-                "EndValidity": "2306232359",
-                "ItemE": "AIRSPACE RESERVATION:\nAREA: 472841N 0153107W - 462113N 0170417W - 450230N 0143629W -\n445917N 0121507W - 472841N 0153107W\nFLW SEPERATIONS WILL BE PROVIDED WITHIN OCEANIC AIRSPACE: MNPS/NAT\nHIGH LEVEL AIRSPACE(HLA) 30NM, NON-MNPS/NAT HLA 60NM.",
-                "ItemF": "FL340",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "200620230826"
               },
               {
                 "@OriginalMessage": "false",
