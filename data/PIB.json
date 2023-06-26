@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062125157",
+    "@PIBId": "400000062127426",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-26T09:00:52+00:00",
-        "ValidTo": "2023-06-27T09:00:00+00:00"
+        "ValidFrom": "2023-06-26T10:00:22+00:00",
+        "ValidTo": "2023-06-27T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-26T09:00:52+00:00",
+      "Issued": "2023-06-26T10:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306260803",
+      "PibUid": "EG712306260900",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4191,6 +4191,35 @@
                   "ItemE": "ILS RWY 09/27 NOT AVBL DUE MAINT. DME MAY NOT BE AVBL DUE TO RWY \nIN\nUSE. ARRIVALS SHOULD EXPECT RNP APPROACH",
                   "Marker": "+",
                   "NotamStoreDate": "170520231937"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "3717",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WL",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5115N00243W",
+                  "Radius": "2",
+                  "ItemA": "EGGD",
+                  "StartValidity": "2306270930",
+                  "EndValidity": "2306271230",
+                  "ItemE": "MET BALLOON RELEASE/S WI 1NM RADIUS: 511515N 0024247W (WESTBURY\nBEACON, NORTH SOMERSET). THIS ACTIVITY WILL NOT BE WHOLLY \nCONTAINED WI LATERAL DIMENSION AS NOTIFIED. ASSOCIATED EQUIPMENT \nWILL SUBSEQUENTLY DESCEND BY PARACHUTE. FOR INFO 07711 812075 OR \n07956 418494. 2023-05-0603/AS5.",
+                  "ItemF": "SFC",
+                  "ItemG": "UNL",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230928"
                 }
               ]
             },
@@ -7729,65 +7758,36 @@
             "Code": "EGSS",
             "Name": "LONDON STANSTED",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4193",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "A",
-                  "ReferredNumber": "4015",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5153N00014E",
-                  "Radius": "5",
-                  "ItemA": "EGSS",
-                  "StartValidity": "2306021317",
-                  "EndValidity": "2306290000",
-                  "ItemE": "RUNWAY 22/04 FULLY SERVICEABLE. AIP SUP 077/2022 CANCELLED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "020620231317"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4193",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "A",
+                "ReferredNumber": "4015",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4758",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MY",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5153N00014E",
-                  "Radius": "5",
-                  "ItemA": "EGSS",
-                  "StartValidity": "2306260800",
-                  "EndValidity": "2306261000",
-                  "ItemE": "RAPID EXIT TAXIWAY LIMA ROMEO CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "260620230751"
-                }
-              ]
+                "Coordinates": "5153N00014E",
+                "Radius": "5",
+                "ItemA": "EGSS",
+                "StartValidity": "2306021317",
+                "EndValidity": "2306290000",
+                "ItemE": "RUNWAY 22/04 FULLY SERVICEABLE. AIP SUP 077/2022 CANCELLED.",
+                "Marker": "+",
+                "NotamStoreDate": "020620231317"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -8091,6 +8091,33 @@
                   "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENSED RWY DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "020420231436"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3724",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5328N00223W",
+                  "Radius": "5",
+                  "ItemA": "EGCB",
+                  "StartValidity": "2306260945",
+                  "EndValidity": "2306261700",
+                  "ItemE": "RWY 02/20 CLOSED DUE EVENT",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230942"
                 }
               ]
             },
@@ -8848,6 +8875,33 @@
                   "ItemE": "AIRBORNE PPR NOT ACCEPTED. OPERATORS SHOULD PPR ON \n+44 01777 838 521.",
                   "Marker": "+",
                   "NotamStoreDate": "080620230919"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3723",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "5",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2306261015",
+                  "EndValidity": "2306261600",
+                  "ItemE": "RUNWAY 02/20 CLOSED. UNLICENSED RWY 14/32 AVAILABLE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230920"
                 }
               ]
             },
@@ -9607,33 +9661,6 @@
                   "ItemE": "NO ARRIVALS OR DEPARTURES PERMITTED ON RWY 24 DURING PUBLISHED\nPERIODS OF AIR/GROUND SERVICE, UNLESS IN AN EMERGENCY. RWY 24\nREMAINS AVAILABLE AS A TAXI ROUTE ONLY.",
                   "Marker": "+",
                   "NotamStoreDate": "220620231753"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3412",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FU",
-                    "Code45": "AU",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5050N00018W",
-                  "Radius": "5",
-                  "ItemA": "EGKA",
-                  "StartValidity": "2306260700",
-                  "EndValidity": "2306261000",
-                  "ItemE": "AVGAS NOT AVBL",
-                  "Marker": "+",
-                  "NotamStoreDate": "200620231504"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11786,33 +11813,6 @@
                   "ItemE": "AD OPENING HOURS 0730-1630",
                   "Marker": "+",
                   "NotamStoreDate": "230620231533"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4178",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "CP",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5302N00030W",
-                  "Radius": "5",
-                  "ItemA": "EGYD",
-                  "StartValidity": "2306260845",
-                  "EndValidity": "2306260945",
-                  "ItemE": "PAR ON MAINTENANCE",
-                  "Marker": "+",
-                  "NotamStoreDate": "230620231353"
                 }
               ]
             },
@@ -19529,6 +19529,33 @@
                 "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
                 "Marker": "+",
                 "NotamStoreDate": "260620230706"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1488",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "ND",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5441N00227W",
+                "Radius": "25",
+                "ItemA": "EGTT",
+                "StartValidity": "2306270900",
+                "EndValidity": "2306271500",
+                "ItemE": "DME DUF/GREAT DUN FELL CH99Y U/S",
+                "Marker": "+",
+                "NotamStoreDate": "220620230812"
               }
             ]
           },
@@ -24027,6 +24054,94 @@
                 "ItemG": "10000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "230620230852"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1228",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5000N00514W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2306270900",
+                "EndValidity": "2306271100",
+                "ItemE": "DANGER AREA EG D005A PREDANNACK ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620230759"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1229",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "4957N00515W",
+                "Radius": "7",
+                "ItemA": "EGTT",
+                "StartValidity": "2306270900",
+                "EndValidity": "2306271100",
+                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620230800"
+              },
+              {
+                "@Reference": "EGGD",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3717",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WL",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5115N00243W",
+                "Radius": "2",
+                "ItemA": "EGGD",
+                "StartValidity": "2306270930",
+                "EndValidity": "2306271230",
+                "ItemE": "MET BALLOON RELEASE/S WI 1NM RADIUS: 511515N 0024247W (WESTBURY\nBEACON, NORTH SOMERSET). THIS ACTIVITY WILL NOT BE WHOLLY \nCONTAINED WI LATERAL DIMENSION AS NOTIFIED. ASSOCIATED EQUIPMENT \nWILL SUBSEQUENTLY DESCEND BY PARACHUTE. FOR INFO 07711 812075 OR \n07956 418494. 2023-05-0603/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "UNL",
+                "Marker": "+",
+                "NotamStoreDate": "260620230928"
               }
             ]
           },
@@ -24825,6 +24940,33 @@
                   "ItemE": "STEEL PLATE 10M WEST OF A10",
                   "Marker": "+",
                   "NotamStoreDate": "240620231033"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4759",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5557N00322W",
+                  "Radius": "5",
+                  "ItemA": "EGPH",
+                  "StartValidity": "2306270210",
+                  "EndValidity": "2306270415",
+                  "ItemE": "RWY 06/24 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230926"
                 }
               ]
             },
@@ -25203,6 +25345,87 @@
                   "ItemE": "RWY 08/26 CLOSED. AVBL AS TWY ONLY",
                   "Marker": "+",
                   "NotamStoreDate": "190620231533"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1935",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MT",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5541N00616W",
+                  "Radius": "5",
+                  "ItemA": "EGPI",
+                  "StartValidity": "2306260930",
+                  "EndValidity": "2307101740",
+                  "ItemE": "TEMPORARY THRESHOLD MARKINGS RWY 31",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230942"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1936",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5541N00616W",
+                  "Radius": "5",
+                  "ItemA": "EGPI",
+                  "StartValidity": "2306260930",
+                  "EndValidity": "2307101740",
+                  "ItemE": "TEMPORARY MARKINNGS RWY 08/26",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230946"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "1937",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MT",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5541N00616W",
+                  "Radius": "5",
+                  "ItemA": "EGPI",
+                  "StartValidity": "2306260930",
+                  "EndValidity": "2307101740",
+                  "ItemE": "THRESHOLD BAR U/S. RWY 31 WINGBARS ONLY",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620230952"
                 }
               ]
             },
@@ -25617,33 +25840,6 @@
                   "ItemE": "RUNWAY DEFECT EAST OF THE 25 THRESHOLD. REDUCED DISTANCES AS\nFOLLOWS:\nRWY 25 TORA 2112M, TODA 2236M, ASDA 2112M, LDA  2124M\nRWY 07 TORA 2180M, TODA 2405M, ASDA 2180M, LDA  2059M",
                   "Marker": "+",
                   "NotamStoreDate": "250620232228"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3561",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MR",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5502N00141W",
-                  "Radius": "5",
-                  "ItemA": "EGNT",
-                  "StartValidity": "2306260900",
-                  "EndValidity": "2306260930",
-                  "ItemE": "RWY 07/25 CLOSED TO FIXED WING TRAFFIC FOR ESSENTIAL MAINTENANCE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "260620230752"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -28321,6 +28517,35 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "230620231052"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "635",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5503N00235W",
+                "Radius": "2",
+                "ItemA": "EGPX",
+                "StartValidity": "2306261600",
+                "EndValidity": "2306261700",
+                "ItemE": "THE FOLLOWING DANGER AREA IS ADDITIONALLY ACTIVE\nD510C SPADEADAM\nNO DANGER AREA CROSSING SERVICE AVAILABLE",
+                "ItemF": "SFC",
+                "ItemG": "5500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620230905"
               },
               {
                 "@OriginalMessage": "false",
