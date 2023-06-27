@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062200670",
+    "@PIBId": "400000062202212",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-27T21:00:52+00:00",
-        "ValidTo": "2023-06-28T21:00:00+00:00"
+        "ValidFrom": "2023-06-27T22:00:55+00:00",
+        "ValidTo": "2023-06-28T22:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-27T21:00:52+00:00",
+      "Issued": "2023-06-27T22:00:55+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306271706",
+      "PibUid": "EG712306271733",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6702,33 +6702,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "3597",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5130N00003E",
-                  "Radius": "5",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2306272100",
-                  "EndValidity": "2306272130",
-                  "ItemE": "AERODROME OPENING HOURS EXTENDED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "270620232038"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "3483",
                   "Year": "23",
                   "Type": "N",
@@ -6979,33 +6952,6 @@
                   "ItemE": "RWY 08L/26R BTN TWY FOXTROT ROMEO AND TWY ECHO CLSD DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "220620232318"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4785",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00011W",
-                  "Radius": "5",
-                  "ItemA": "EGKK",
-                  "StartValidity": "2306270700",
-                  "EndValidity": "2306272130",
-                  "ItemE": "TWY YANKEE CLSD DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "270620230423"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -10760,7 +10706,37 @@
           {
             "Code": "EGBO",
             "Name": "WOLVERHAMPTON/HALFPENNY GREEN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3722",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WM",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "18"
+                },
+                "Coordinates": "5231N00217W",
+                "Radius": "1",
+                "ItemA": "EGBO",
+                "StartValidity": "2306282100",
+                "EndValidity": "2306282145",
+                "ItemE": "FIREWORK DISPLAY WI 0.5 NM RADIUS: 523101N 0021631W (BOBBINGTON, \nSTAFFORDSHIRE) FOR INFO 07966 364016. 2023-06-0788/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "1770FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620231004"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -24362,6 +24338,36 @@
                 "ItemG": "470FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "260620231312"
+              },
+              {
+                "@Reference": "EGBO",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3722",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WM",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "18"
+                },
+                "Coordinates": "5231N00217W",
+                "Radius": "1",
+                "ItemA": "EGBO",
+                "StartValidity": "2306282100",
+                "EndValidity": "2306282145",
+                "ItemE": "FIREWORK DISPLAY WI 0.5 NM RADIUS: 523101N 0021631W (BOBBINGTON, \nSTAFFORDSHIRE) FOR INFO 07966 364016. 2023-06-0788/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "1770FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620231004"
               }
             ]
           },
@@ -25106,36 +25112,6 @@
                   "ItemE": "STEEL PLATE 10M WEST OF A10",
                   "Marker": "+",
                   "NotamStoreDate": "240620231033"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "3501",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "WM",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "9"
-                  },
-                  "Coordinates": "5558N00325W",
-                  "Radius": "1",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2306242115",
-                  "EndValidity": "2306272200",
-                  "ItemD": "24 2115-2200, 27 2115-2200",
-                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS\nCASTLE, QUEENSFERRY). FOR INFO 07763 638313/07849 248737. \n2023-06-0664/AS5.",
-                  "ItemF": "SFC",
-                  "ItemG": "900FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "210620230936"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -25914,33 +25890,6 @@
                   "ItemE": "INCREASED SMALL BIRD ACTIVITY ON ALL AREAS OF THE AD, ATC MAY \nVARY THE DEPARTURE AND ARRIVAL RUNWAY AVAILABILITY BASED ON ACTIVITY.",
                   "Marker": "+",
                   "NotamStoreDate": "230620231721"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1966",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "75"
-                  },
-                  "Coordinates": "5502N00720W",
-                  "Radius": "14",
-                  "ItemA": "EGAE",
-                  "StartValidity": "2306272100",
-                  "EndValidity": "2306272125",
-                  "ItemE": "LONDONDERRY/EGLINTON CTA/ATZ ACTIVATED. ATS, ATIS, AD, RFFS HR OF \nOPS EXTENDED. ALL MOVEMENTS STRICTLY PPR. CTC ATC ON +44 2871 813314",
-                  "Marker": "+",
-                  "NotamStoreDate": "270620232013"
                 }
               ]
             },
@@ -27778,34 +27727,6 @@
                 "NotamStoreDate": "270620231252"
               },
               {
-                "@Reference": "EGAE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "1966",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "75"
-                },
-                "Coordinates": "5502N00720W",
-                "Radius": "14",
-                "ItemA": "EGAE",
-                "StartValidity": "2306272100",
-                "EndValidity": "2306272125",
-                "ItemE": "LONDONDERRY/EGLINTON CTA/ATZ ACTIVATED. ATS, ATIS, AD, RFFS HR OF \nOPS EXTENDED. ALL MOVEMENTS STRICTLY PPR. CTC ATC ON +44 2871 813314",
-                "Marker": "+",
-                "NotamStoreDate": "270620232013"
-              },
-              {
                 "@Reference": "EGPE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -28506,37 +28427,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220620231223"
-              },
-              {
-                "@Reference": "EGPH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3501",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WM",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "9"
-                },
-                "Coordinates": "5558N00325W",
-                "Radius": "1",
-                "ItemA": "EGPH",
-                "StartValidity": "2306242115",
-                "EndValidity": "2306272200",
-                "ItemD": "24 2115-2200, 27 2115-2200",
-                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS\nCASTLE, QUEENSFERRY). FOR INFO 07763 638313/07849 248737. \n2023-06-0664/AS5.",
-                "ItemF": "SFC",
-                "ItemG": "900FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "210620230936"
               },
               {
                 "@Reference": "EGTT",
