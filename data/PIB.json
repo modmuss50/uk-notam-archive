@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062264062",
+    "@PIBId": "400000062266988",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-29T05:00:07+00:00",
-        "ValidTo": "2023-06-30T05:00:00+00:00"
+        "ValidFrom": "2023-06-29T06:00:56+00:00",
+        "ValidTo": "2023-06-30T06:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-29T05:00:07+00:00",
+      "Issued": "2023-06-29T06:00:56+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306290380",
+      "PibUid": "EG712306290506",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6242,33 +6242,63 @@
             "Code": "EGHF",
             "Name": "LEE-ON-SOLENT",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3691",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "HW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "2423",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2304280500",
+                  "EndValidity": "2307280730",
+                  "ItemD": "FRI 0500-0730",
+                  "ItemE": "RESIDENTS OUT OF HOURS MOVEMENT NOT PERMITTED DUE TO SCHEDULED \nAIRPORT AND RUNWAY SWEEPING. COASTGUARD SAR IS EXCLUDED FROM THIS \nRESTRICTION",
+                  "Marker": "+",
+                  "NotamStoreDate": "250420230925"
                 },
-                "Coordinates": "5049N00112W",
-                "Radius": "5",
-                "ItemA": "EGHF",
-                "StartValidity": "2306260800",
-                "EndValidity": "2307071700",
-                "ItemE": "WIP ON SOUTHERN END OF TWY E. PILOTS TO EXERCISE CAUTION WHILE\nTAXIING TO/FROM SOUTHEAST APRON.",
-                "Marker": "+",
-                "NotamStoreDate": "230620231317"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3691",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "HW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2306260800",
+                  "EndValidity": "2307071700",
+                  "ItemE": "WIP ON SOUTHERN END OF TWY E. PILOTS TO EXERCISE CAUTION WHILE\nTAXIING TO/FROM SOUTHEAST APRON.",
+                  "Marker": "+",
+                  "NotamStoreDate": "230620231317"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -9920,7 +9950,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "4846",
+                  "Number": "4858",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -9936,12 +9966,12 @@
                   "Coordinates": "5134N00042E",
                   "Radius": "5",
                   "ItemA": "EGMC",
-                  "StartValidity": "2306281859",
-                  "EndValidity": "2306290600",
-                  "ItemD": "1855-2000 0530-0600",
+                  "StartValidity": "2306290601",
+                  "EndValidity": "2306300600",
+                  "ItemD": "29 0601-2000, 30 0530-0600",
                   "ItemE": "RFFS DOWNGRADED TO CATEGORY 6",
                   "Marker": "+",
-                  "NotamStoreDate": "280620231859"
+                  "NotamStoreDate": "290620230532"
                 }
               ]
             },
@@ -12284,6 +12314,33 @@
                   "ItemG": "14000FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "270620230900"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4287",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2306290545",
+                  "EndValidity": "2306292100",
+                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620230550"
                 }
               ]
             },
