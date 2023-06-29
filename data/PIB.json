@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062266988",
+    "@PIBId": "400000062269646",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-29T06:00:56+00:00",
-        "ValidTo": "2023-06-30T06:00:00+00:00"
+        "ValidFrom": "2023-06-29T07:00:44+00:00",
+        "ValidTo": "2023-06-30T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-29T06:00:56+00:00",
+      "Issued": "2023-06-29T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306290506",
+      "PibUid": "EG712306290611",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5796,6 +5796,33 @@
                   "ItemE": "GLOUCESTERSHIRE APCH CONTROL SER NOT AVBL. INSTR APCH NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "280620230903"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3608",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5154N00209W",
+                  "Radius": "1",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2306300600",
+                  "EndValidity": "2306301400",
+                  "ItemE": "CRANE OPR 515336N 0020907W, (STAVERTON) MAX HGT 82FT AGL/ 181FT\nAMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "200620231601"
                 }
               ]
             },
@@ -8418,36 +8445,65 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3733",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "72"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "3733",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WP",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "72"
+                  },
+                  "Coordinates": "5239N00111E",
+                  "Radius": "3",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2306280900",
+                  "EndValidity": "2306291735",
+                  "ItemD": "0900-1045, 1630-1735",
+                  "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 523857N 0011030E (EASTON,\nNORFOLK). DROP HGT SUBJ ATC CLR. FOR INFO 07970 363249. \n2023-06-0787/AS3.",
+                  "ItemF": "SFC",
+                  "ItemG": "7200FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620231425"
                 },
-                "Coordinates": "5239N00111E",
-                "Radius": "3",
-                "ItemA": "EGSH",
-                "StartValidity": "2306280900",
-                "EndValidity": "2306291735",
-                "ItemD": "0900-1045, 1630-1735",
-                "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 523857N 0011030E (EASTON,\nNORFOLK). DROP HGT SUBJ ATC CLR. FOR INFO 07970 363249. \n2023-06-0787/AS3.",
-                "ItemF": "SFC",
-                "ItemG": "7200FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "260620231425"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4859",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5240N00119E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2306290730",
+                  "EndValidity": "2306291500",
+                  "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT\nAGL/209FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620230653"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -10189,33 +10245,6 @@
                   "ItemE": "RFFS CAT CHANGES:\nTUE 27 - 0710-0850 CAT 7, 1130-1410 CAT 7\nWED 28 - 1615-1755 CAT 7\nTHU 29 - 0640-0855 CAT 7\nFRI 30 - 0605-0745 CAT 7\nSAT 01 - 0605-0955 CAT 7, 1015-1255 CAT 7, 1750-1945 CAT 7\nSUN 02 - 0600-0825 CAT 7",
                   "Marker": "+",
                   "NotamStoreDate": "250620231217"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3615",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2306290630",
-                  "EndValidity": "2306290700",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "280620231523"
                 }
               ]
             },
@@ -12341,6 +12370,33 @@
                   "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
                   "Marker": "+",
                   "NotamStoreDate": "290620230550"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4289",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "HG",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2306290645",
+                  "EndValidity": "2306291530",
+                  "ItemE": "GRASS CUTTING OPERATIONS BEING CONDUCTED FROM POINT 3 SOUTH TO\nPOINT 4 SOUTH IN THE CONTROLLED MOVEMENT AREA",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620230651"
                 }
               ]
             },
@@ -13747,33 +13803,6 @@
                   "ItemE": "WITTERING ATZ ACTIVE H24",
                   "Marker": "+",
                   "NotamStoreDate": "160520231239"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4215",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5237N00029W",
-                  "Radius": "5",
-                  "ItemA": "EGXT",
-                  "StartValidity": "2306261457",
-                  "EndValidity": "2306290700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "260620231502"
                 }
               ]
             },
@@ -18806,34 +18835,6 @@
                 "NotamStoreDate": "290620230019"
               },
               {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "3615",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2306290630",
-                "EndValidity": "2306290700",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "280620231523"
-              },
-              {
                 "@Reference": "EGFE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18916,6 +18917,34 @@
                 "ItemE": "FAIROAKS ATS REVISED HOURS:\n0700-0900, 0930-1130, 1200-1400, 1430-1630\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED, CIRCUIT FLYING\nNOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY))",
                 "Marker": "+",
                 "NotamStoreDate": "280620231610"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4859",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5240N00119E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2306290730",
+                "EndValidity": "2306291500",
+                "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT\nAGL/209FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "290620230653"
               },
               {
                 "@OriginalMessage": "false",
@@ -19139,6 +19168,34 @@
                 "ItemE": "LIT CRANE OPR AT PSN 511311N 0000937W (EAST SURREY HOSPITAL). UP\nTO 102FT AGL/330FT AMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "280620231150"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3608",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5154N00209W",
+                "Radius": "1",
+                "ItemA": "EGBJ",
+                "StartValidity": "2306300600",
+                "EndValidity": "2306301400",
+                "ItemE": "CRANE OPR 515336N 0020907W, (STAVERTON) MAX HGT 82FT AGL/ 181FT\nAMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "200620231601"
               }
             ]
           },
@@ -24201,6 +24258,35 @@
                 "ItemG": "197FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "200620231517"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3793",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5022N00408W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2306300600",
+                "EndValidity": "2306301400",
+                "ItemE": "UAS OPR WI 1NM RADIUS OF 502213N 0040818W (PLYMOUTH, DEVON). MAX \nHGT 400FT AGL. FOR INFO 07563 636357. 2032-06-0850/AS2",
+                "ItemF": "SFC",
+                "ItemG": "650FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "280620231152"
               }
             ]
           },
@@ -25465,35 +25551,7 @@
           {
             "Code": "EGPA",
             "Name": "KIRKWALL",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "1942",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5857N00254W",
-                "Radius": "5",
-                "ItemA": "EGPA",
-                "StartValidity": "2306281900",
-                "EndValidity": "2306290615",
-                "ItemE": "OUT OF HOURS INDEMNITIES WITHDRAWN DUE WIP. NORMAL CALLOUT \nPROCEDURES APPLY FOR AMBULANCE, SAR AND EMERGENCY FLIGHTS.",
-                "Marker": "+",
-                "NotamStoreDate": "260620231501"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
