@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062327869",
+    "@PIBId": "400000062330075",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-30T11:00:13+00:00",
-        "ValidTo": "2023-07-01T11:00:00+00:00"
+        "ValidFrom": "2023-06-30T12:00:19+00:00",
+        "ValidTo": "2023-07-01T12:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-30T11:00:13+00:00",
+      "Issued": "2023-06-30T12:00:19+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306301010",
+      "PibUid": "EG712306301072",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -9598,7 +9598,35 @@
           {
             "Code": "EGCV",
             "Name": "SLEAP",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3841",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FU",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5250N00246W",
+                "Radius": "5",
+                "ItemA": "EGCV",
+                "StartValidity": "2306301134",
+                "EndValidity": "2309281700",
+                "ItemE": "FUEL UL91 NOT AVBL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231134"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9921,33 +9949,6 @@
                   "ItemE": "SOUTHEND RADAR SERVICES NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "060420231638"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4065",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "55"
-                  },
-                  "Coordinates": "5135N00056E",
-                  "Radius": "22",
-                  "ItemA": "EGMC",
-                  "StartValidity": "2305301201",
-                  "EndValidity": "2306301200",
-                  "ItemE": "SOUTHEND ATC RADAR IN THE TOWER (RITT) TRIAL. A COMBINED AERODROME\nAND APPROACH RADAR CONTROL SERVICE WILL BE PROVIDED AT TIMES BY A\nSINGLE AIR TRAFFIC CONTROLLER FROM THE TOWER. ACTIVITY WILL BE\nPROMULGATED VIA ATIS. SOUTHEND TOWER (127.730MHZ), RADAR (130.780MHZ)\nAND DIRECTOR (128.965MHZ) FREQUENCIES WILL BE CROSS COUPLED AND\nSTATIONS WILL RECEIVE TRANSMISSIONS MADE ON ALL THESE FREQUENCIES.\nPILOTS WILL RECEIVE TRANSMISSIONS FROM ATC TO VEHICLES/GROUND\nSTATIONS BUT WILL NOT HEAR TRANSMISSIONS MADE BY VEHICLES/GROUND\nSTATIONS. POSSIBLE DELAYS IN ATC TRANSMISSIONS. SRA NOT AVAILABLE\nWHEN RITT OPERATIONS ARE ACTIVE",
-                  "Marker": "+",
-                  "NotamStoreDate": "290520230646"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -10418,6 +10419,34 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HOURS:",
                   "Marker": "+",
                   "NotamStoreDate": "270620231842"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3651",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "60"
+                  },
+                  "Coordinates": "5432N00123W",
+                  "Radius": "12",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2307010600",
+                  "EndValidity": "2307010830",
+                  "ItemD": "0600-0630 0800-0830",
+                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "300620231142"
                 }
               ]
             },
@@ -10515,6 +10544,33 @@
                   "ItemG": "8000FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "070620231338"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3840",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2306301130",
+                  "EndValidity": "2306301700",
+                  "ItemE": "RWY 04/22 CLSD TO ALL TFC DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "300620231120"
                 }
               ]
             },
@@ -16515,34 +16571,6 @@
                 "NotamStoreDate": "300520230711"
               },
               {
-                "@Reference": "EGMC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "4065",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "55"
-                },
-                "Coordinates": "5135N00056E",
-                "Radius": "22",
-                "ItemA": "EGMC",
-                "StartValidity": "2305301201",
-                "EndValidity": "2306301200",
-                "ItemE": "SOUTHEND ATC RADAR IN THE TOWER (RITT) TRIAL. A COMBINED AERODROME\nAND APPROACH RADAR CONTROL SERVICE WILL BE PROVIDED AT TIMES BY A\nSINGLE AIR TRAFFIC CONTROLLER FROM THE TOWER. ACTIVITY WILL BE\nPROMULGATED VIA ATIS. SOUTHEND TOWER (127.730MHZ), RADAR (130.780MHZ)\nAND DIRECTOR (128.965MHZ) FREQUENCIES WILL BE CROSS COUPLED AND\nSTATIONS WILL RECEIVE TRANSMISSIONS MADE ON ALL THESE FREQUENCIES.\nPILOTS WILL RECEIVE TRANSMISSIONS FROM ATC TO VEHICLES/GROUND\nSTATIONS BUT WILL NOT HEAR TRANSMISSIONS MADE BY VEHICLES/GROUND\nSTATIONS. POSSIBLE DELAYS IN ATC TRANSMISSIONS. SRA NOT AVAILABLE\nWHEN RITT OPERATIONS ARE ACTIVE",
-                "Marker": "+",
-                "NotamStoreDate": "290520230646"
-              },
-              {
                 "@Reference": "EGHH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19196,6 +19224,34 @@
                 "NotamStoreDate": "300620231036"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1570",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "100",
+                  "Upper": "245"
+                },
+                "Coordinates": "5122N00440W",
+                "Radius": "130",
+                "ItemA": "EGTT",
+                "StartValidity": "2306301126",
+                "EndValidity": "2306301700",
+                "ItemD": "1230-1430 1500-1700",
+                "ItemE": "WESTERN RADAR CLOSED",
+                "Marker": "+",
+                "NotamStoreDate": "300620231129"
+              },
+              {
                 "@Reference": "EGMC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19451,6 +19507,35 @@
                 "ItemE": "CRANE OPR 515359N 0021011W (GLOUCESTER) MAX HGT 79FT AGL/151FT\nAMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "300620231054"
+              },
+              {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3651",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2307010600",
+                "EndValidity": "2307010830",
+                "ItemD": "0600-0630 0800-0830",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "300620231142"
               },
               {
                 "@Reference": "EGYD",
@@ -24809,6 +24894,35 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3342",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5114N00154W",
+                "Radius": "6",
+                "ItemA": "EGTT",
+                "StartValidity": "2307010730",
+                "EndValidity": "2307012259",
+                "ItemE": "THE FOLLOWING LARKHILL DANGER AREAS ARE ACTIVATED:\nEG D125   0730-2259   SFC-23000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "23000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231123"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
                 "Series": "H",
                 "Number": "3761",
                 "Year": "23",
@@ -25221,6 +25335,35 @@
                 "ItemG": "5200FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "290620231332"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "J",
+                "Number": "2070",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RT",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5033N00329W",
+                "Radius": "4",
+                "ItemA": "EGTT",
+                "StartValidity": "2307011100",
+                "EndValidity": "2307011730",
+                "ItemE": "RESTRICTED AREA (TEMPORARY) AT TEIGNMOUTH, DEVON. RESTRICTION\nOF FLYING REGULATIONS HAS BEEN MADE UNDER ARTICLE 239 OF THE AIR \nNAVIGATION ORDER 2016. AIC M038/2023 WHICH INCLUDES A CHART, \nREFERS. NO ACFT IS TO FLY WI AREA BOUNDED BY CIRCLE RADIUS 3.5NM \nCENTRED AT 503235N 0032921W (TEIGNMOUTH SEAFRONT, DEVON), EXCEPT \nACFT FLYING WITH PRIOR PERMISSION OF THE TEIGNMOUTH AIR SHOW \nFLYING DISPLAY DIRECTOR CTC 07894 725340. PILOTS SHOULD BE AWARE \nOF FURTHER RESTRICTIONS FOR A DISPLAY BY A JET FORMATION DISPLAY \nTEAM WHICH WILL BE NOTIFIED SEPARATELY. THIS RESTRICTION OF FLYING \nINCLUDES ANY SMALL BALLOON, ANY KITE, ANY UNMANNED AIRCRAFT AND \nANY PARACHUTE INCLUDING A PARASCENDING PARACHUTE OR PARAMOTOR. \n2022-07-0023/AS6",
+                "ItemF": "SFC",
+                "ItemG": "5500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220520231039"
               }
             ]
           },
@@ -28866,6 +29009,33 @@
                 "NotamStoreDate": "290620231825"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1569",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AN",
+                  "Code45": "LC",
+                  "Traffic": "I",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "255"
+                },
+                "Coordinates": "5511N00003E",
+                "Radius": "152",
+                "ItemA": "EGPX",
+                "StartValidity": "2306301830",
+                "EndValidity": "2306301900",
+                "ItemE": "THE FOLLOWING ATS ROUTES ARE NOT AVBL DUE ATC SECTOR CLOSURE:\nLOWER ROUTES UP TO FL245\nN864 - PIPAR - ASNUD\nP600 - GOSAM - ADN\nY96  - TLA   - NATEB\nN601 - GRICE - TLA\nP18  - NATEB - ADN \nUPPER ROUTES FL245/FL255\nP15  - NATEB - DIGBI\nUP16 - NATEB - ROBEM\nUP17 - TIPTA - DIGBI\nUP18 - ALASO - NATEB\nP600 - GOSAM - ADN\nY96  - TLA   - NATEB\nN97  - TLA   - NATEB\nN110 - UNTAL - INVON\nN610 - VEREX - NATEB\nCDRS FL245/FL255\nUM82 - TIPTA - ROBEM\nM79  - TENDO - NATEB\nM981 - ROXAT - NATEB\nOPERATORS RE-FILE TO AVOID.\nISSUED BY SCOTTISH AREA CONTROL (PRESTWICK), CTC:00441294655300",
+                "Marker": "+",
+                "NotamStoreDate": "300620231124"
+              },
+              {
                 "@Reference": "EGAC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -29635,35 +29805,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3322",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "100",
-                  "Upper": "660"
-                },
-                "Coordinates": "5640N00006E",
-                "Radius": "72",
-                "ItemA": "EGPX",
-                "StartValidity": "2306300930",
-                "EndValidity": "2306301200",
-                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 0930-1200 FL100-FL660\nEG D613B 0930-1200 FL100-FL660\nEG D613C 0930-1200 FL100-FL660\nEG D613D 0930-1200 FL100-FL660",
-                "ItemF": "FL100",
-                "ItemG": "FL660",
-                "Marker": "+",
-                "NotamStoreDate": "290620231214"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "D",
                 "Number": "665",
                 "Year": "23",
@@ -29688,35 +29829,6 @@
                 "ItemG": "15000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "300620230937"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3323",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "245",
-                  "Upper": "660"
-                },
-                "Coordinates": "5814N00358W",
-                "Radius": "70",
-                "ItemA": "EGPX",
-                "StartValidity": "2306301000",
-                "EndValidity": "2306301130",
-                "ItemE": "THE FOLLOWING NORTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D712A 1000-1130 FL245-FL660\nEG D712B 1000-1130 FL245-FL660\nEG D712C 1000-1130 FL245-FL660\nEG D712D 1000-1130 FL245-FL660",
-                "ItemF": "FL245",
-                "ItemG": "FL660",
-                "Marker": "+",
-                "NotamStoreDate": "290620231222"
               },
               {
                 "@OriginalMessage": "false",
