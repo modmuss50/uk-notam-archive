@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062351054",
+    "@PIBId": "400000062353644",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-01T00:00:24+00:00",
-        "ValidTo": "2023-07-02T00:00:00+00:00"
+        "ValidFrom": "2023-07-01T01:00:31+00:00",
+        "ValidTo": "2023-07-02T01:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-01T00:00:24+00:00",
+      "Issued": "2023-07-01T01:00:31+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307010006",
+      "PibUid": "EG712307010027",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -11847,6 +11847,33 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
+                  "Number": "4367",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "31"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2307010016",
+                  "EndValidity": "2307050700",
+                  "ItemE": "RAF LAKENHEATH WILL ONLY PROVIDE ATC SERVICES TO ACFT OPR FOR \nOFFICIAL BUSINESS PURPOSES IN AND OUT OF THE COMBINED MILITARY \nAERODROME TRAFFIC ZONE (CMATZ)",
+                  "Marker": "+",
+                  "NotamStoreDate": "010720230046"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
                   "Number": "4204",
                   "Year": "23",
                   "Type": "N",
@@ -17758,6 +17785,34 @@
                 "ItemE": "AIR TRAFFIC SERVICES COMMUNICATION FACILITIES -  HAWARDEN \nDIRECTOR CALLSIGN CHANGES TO HAWARDEN RADAR.\nUK AIP EGNR AD 2.18 REFERS.",
                 "Marker": "+",
                 "NotamStoreDate": "210620231249"
+              },
+              {
+                "@Reference": "EGUL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4367",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5225N00034E",
+                "Radius": "5",
+                "ItemA": "EGUL",
+                "StartValidity": "2307010016",
+                "EndValidity": "2307050700",
+                "ItemE": "RAF LAKENHEATH WILL ONLY PROVIDE ATC SERVICES TO ACFT OPR FOR \nOFFICIAL BUSINESS PURPOSES IN AND OUT OF THE COMBINED MILITARY \nAERODROME TRAFFIC ZONE (CMATZ)",
+                "Marker": "+",
+                "NotamStoreDate": "010720230046"
               },
               {
                 "@Reference": "EGNM",
@@ -25052,7 +25107,35 @@
           {
             "Code": "EGPC",
             "Name": "WICK",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "1762",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5828N00306W",
+                "Radius": "5",
+                "ItemA": "EGPC",
+                "StartValidity": "2307020000",
+                "EndValidity": "PERM",
+                "ItemE": "AD OPERATIONAL HOURS - AD ADMINISTRATION - AMENDED AS FOLLOWS:\nMON-FRI 0800-2000 (0700-1900)\nSUN     1500-1700 (1400-1600)\nAND BY ARRANGEMENT WITH AD OPERATOR (HIAL).\nEGPC AD 2.3, AD 2.18, AD 2.19 REFERS.",
+                "Marker": "+",
+                "NotamStoreDate": "080620231135"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
