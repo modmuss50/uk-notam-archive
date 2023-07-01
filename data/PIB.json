@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062365173",
+    "@PIBId": "400000062367150",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-01T07:00:44+00:00",
-        "ValidTo": "2023-07-02T07:00:00+00:00"
+        "ValidFrom": "2023-07-01T08:01:07+00:00",
+        "ValidTo": "2023-07-02T08:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-01T07:00:44+00:00",
+      "Issued": "2023-07-01T08:01:07+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307010563",
+      "PibUid": "EG712307010641",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3717,33 +3717,6 @@
                   "ItemG": "1400FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "160620230957"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3669",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "145"
-                  },
-                  "Coordinates": "5225N00152W",
-                  "Radius": "20",
-                  "ItemA": "EGBB",
-                  "StartValidity": "2307010730",
-                  "EndValidity": "2307010800",
-                  "ItemE": "BIRMINGHAM RADAR SERVICES NOT AVBL. ATC CLSD DUE STAFF SICKNESS",
-                  "Marker": "+",
-                  "NotamStoreDate": "010720230604"
                 }
               ]
             },
@@ -5542,6 +5515,33 @@
                   "ItemE": "PAPI RWY 04 U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "300620230937"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3865",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5154N00210W",
+                  "Radius": "5",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2307010800",
+                  "EndValidity": "2307011830",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 2. CAT 3 AVBL BY PRIOR ARRANGEMENT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "010720230757"
                 }
               ]
             },
@@ -6004,33 +6004,62 @@
             "Code": "EGHC",
             "Name": "LAND'S END",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3686",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "HX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3686",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "HX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5006N00540W",
+                  "Radius": "5",
+                  "ItemA": "EGHC",
+                  "StartValidity": "2306231035",
+                  "EndValidity": "2307011730",
+                  "ItemE": "INCREASED BIRD ACTIVITY IN VICINITY OF AD",
+                  "Marker": "+",
+                  "NotamStoreDate": "230620231034"
                 },
-                "Coordinates": "5006N00540W",
-                "Radius": "5",
-                "ItemA": "EGHC",
-                "StartValidity": "2306231035",
-                "EndValidity": "2307011730",
-                "ItemE": "INCREASED BIRD ACTIVITY IN VICINITY OF AD",
-                "Marker": "+",
-                "NotamStoreDate": "230620231034"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3862",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5006N00540W",
+                  "Radius": "5",
+                  "ItemA": "EGHC",
+                  "StartValidity": "2307010657",
+                  "EndValidity": "2307151730",
+                  "ItemE": "GRASS RWY 02/20 AND GRASS RWY 11/29 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "010720230705"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6107,33 +6136,62 @@
             "Code": "EGHF",
             "Name": "LEE-ON-SOLENT",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3691",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "HW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3691",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "HW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2306260800",
+                  "EndValidity": "2307071700",
+                  "ItemE": "WIP ON SOUTHERN END OF TWY E. PILOTS TO EXERCISE CAUTION WHILE\nTAXIING TO/FROM SOUTHEAST APRON.",
+                  "Marker": "+",
+                  "NotamStoreDate": "230620231317"
                 },
-                "Coordinates": "5049N00112W",
-                "Radius": "5",
-                "ItemA": "EGHF",
-                "StartValidity": "2306260800",
-                "EndValidity": "2307071700",
-                "ItemE": "WIP ON SOUTHERN END OF TWY E. PILOTS TO EXERCISE CAUTION WHILE\nTAXIING TO/FROM SOUTHEAST APRON.",
-                "Marker": "+",
-                "NotamStoreDate": "230620231317"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3864",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2307010733",
+                  "EndValidity": "2307011700",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 1",
+                  "Marker": "+",
+                  "NotamStoreDate": "010720230736"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6486,33 +6544,6 @@
                   "ItemE": "RWY 27 DME RADIATING NON ILS ASSOCIATED CODING",
                   "Marker": "+",
                   "NotamStoreDate": "300620231648"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3659",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "IG",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5130N00003E",
-                  "Radius": "5",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2306301700",
-                  "EndValidity": "2307010730",
-                  "ItemE": "ILS GP RWY 27 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "300620231607"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -9895,34 +9926,6 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HOURS:",
                   "Marker": "+",
                   "NotamStoreDate": "270620231842"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "3651",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2307010600",
-                  "EndValidity": "2307010830",
-                  "ItemD": "0600-0630 0800-0830",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "300620231142"
                 }
               ]
             },
@@ -11041,33 +11044,6 @@
                   "ItemE": "OBSTRUCTION LIGHT U/S BY THE FLYING CLUB 530124N 0002851W",
                   "Marker": "+",
                   "NotamStoreDate": "080620230842"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4363",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5302N00030W",
-                  "Radius": "5",
-                  "ItemA": "EGYD",
-                  "StartValidity": "2306301514",
-                  "EndValidity": "2307010800",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "300620231515"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -13319,33 +13295,6 @@
             "Name": "WITTERING",
             "NotamList": {
               "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "7253",
-                  "Year": "22",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5237N00029W",
-                  "Radius": "5",
-                  "ItemA": "EGXT",
-                  "StartValidity": "2212051354",
-                  "EndValidity": "2307010800",
-                  "ItemE": "OBSTRUCTION LIGHTING ON AIR TRAFFIC CONTROL TOWER U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "051220221354"
-                },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
@@ -17975,35 +17924,6 @@
                 "NotamStoreDate": "300620231054"
               },
               {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "3651",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2307010600",
-                "EndValidity": "2307010830",
-                "ItemD": "0600-0630 0800-0830",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "300620231142"
-              },
-              {
                 "@Reference": "EGYD",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18057,34 +17977,6 @@
                 "ItemE": "MARHAM LOWER APPROACH RADAR OPERATING HOURS\n01-02 JUL      CLOSED\n03    JUL      1O00-1600\n04-06 JUL      0700-1600\n07-09 JUL      CLOSED\n10    JUL      1000-1300\n11    JUL      0800-1500\n12-13 JUL      0700-1600\n14    JUL      0700-1300\n15    JUL      1100-1300\n16    JUL      1100-1300\n17    JUL      0700-1600\n18    JUL      0700-1730\n19-21 JUL      0700-1600\n22-23 JUL      CLOSED\n24-26 JUL      0700-1600\n27    JUL      0700-1830\n28    JUL      0700-1600\n29    JUL      1045-1700\n30-31 JUL      CLOSED",
                 "Marker": "+",
                 "NotamStoreDate": "290620230940"
-              },
-              {
-                "@Reference": "EGBB",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "3669",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "145"
-                },
-                "Coordinates": "5225N00152W",
-                "Radius": "20",
-                "ItemA": "EGBB",
-                "StartValidity": "2307010730",
-                "EndValidity": "2307010800",
-                "ItemE": "BIRMINGHAM RADAR SERVICES NOT AVBL. ATC CLSD DUE STAFF SICKNESS",
-                "Marker": "+",
-                "NotamStoreDate": "010720230604"
               },
               {
                 "@Reference": "EGBJ",
@@ -25566,33 +25458,6 @@
                   "ItemE": "RFFS CAT 6 PPR ONLY",
                   "Marker": "+",
                   "NotamStoreDate": "310520230956"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "4892",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "SF",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5953N00118W",
-                  "Radius": "5",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2307010640",
-                  "EndValidity": "2307010800",
-                  "ItemE": "FIS OFFICER TRAINING TAKING PLACE ON 118.255MHZ CALLSIGN SUMBURGH \nINFORMATION. ATC MONITORING AT ALL TIMES.",
-                  "Marker": "+",
-                  "NotamStoreDate": "010720230639"
                 }
               ]
             },
