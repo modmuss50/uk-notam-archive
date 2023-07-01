@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062349661",
+    "@PIBId": "400000062351054",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-06-30T23:00:12+00:00",
-        "ValidTo": "2023-07-01T23:00:00+00:00"
+        "ValidFrom": "2023-07-01T00:00:24+00:00",
+        "ValidTo": "2023-07-02T00:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-06-30T23:00:12+00:00",
+      "Issued": "2023-07-01T00:00:24+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712306301863",
+      "PibUid": "EG712307010006",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4374,66 +4374,37 @@
             "Code": "EGHR",
             "Name": "CHICHESTER/GOODWOOD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3213",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5052N00046W",
-                  "Radius": "5",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2306011011",
-                  "EndValidity": "2306302359",
-                  "ItemE": "RWY 10/28 CLSD",
-                  "Marker": "+",
-                  "NotamStoreDate": "010620231017"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3433",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "3211",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "4"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3433",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "L",
-                  "ReferredNumber": "3211",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "4"
-                  },
-                  "Coordinates": "5052N00044W",
-                  "Radius": "1",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2306121610",
-                  "EndValidity": "2307281630",
-                  "ItemD": "0600-1630",
-                  "ItemE": "MULTIPLE CRANES OPR WI 300M PSN 505219N 0004421W (GOODWOOD HOUSE) \nMAX HGT 368FT AMSL/ 164FT AGL",
-                  "Marker": "+",
-                  "NotamStoreDate": "120620231628"
-                }
-              ]
+                "Coordinates": "5052N00044W",
+                "Radius": "1",
+                "ItemA": "EGHR",
+                "StartValidity": "2306121610",
+                "EndValidity": "2307281630",
+                "ItemD": "0600-1630",
+                "ItemE": "MULTIPLE CRANES OPR WI 300M PSN 505219N 0004421W (GOODWOOD HOUSE) \nMAX HGT 368FT AMSL/ 164FT AGL",
+                "Marker": "+",
+                "NotamStoreDate": "120620231628"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -6200,6 +6171,33 @@
                   "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT \nTO USE TWY ECHO. ATC CLEARANCE MUST BE OBTAINED PRIOR TO RE-ENTERING \nTHE RWY FROM TWY ECHO",
                   "Marker": "+",
                   "NotamStoreDate": "210620231301"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3667",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2307010300",
+                  "EndValidity": "2307010400",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE",
+                  "Marker": "+",
+                  "NotamStoreDate": "300620232338"
                 }
               ]
             },
@@ -10695,36 +10693,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "3549",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "3020",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5145N00135W",
-                  "Radius": "5",
-                  "ItemA": "EGVN",
-                  "StartValidity": "2305310915",
-                  "EndValidity": "2306302359",
-                  "ItemE": "THE 4 OBSTRUCTION LIGHTS ON MASTS 47, 48, 88 AND 89 WHICH SUPPORT \nTHE 70S BAYS AND BAY 35 ARE U/S.",
-                  "Marker": "+",
-                  "NotamStoreDate": "310520230916"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "4159",
                   "Year": "23",
                   "Type": "N",
@@ -10790,38 +10758,7 @@
           {
             "Code": "EGWC",
             "Name": "COSFORD",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "2164",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "U",
-                "ReferredNumber": "1447",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5238N00218W",
-                "Radius": "5",
-                "ItemA": "EGWC",
-                "StartValidity": "2303301011",
-                "EndValidity": "2306302350",
-                "ItemE": "AD CLOSED TO ALL CIVIL FIXED WING ACFT",
-                "Marker": "+",
-                "NotamStoreDate": "300320231011"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -12032,33 +11969,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "3584",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "IC",
-                    "Code45": "XX",
-                    "Traffic": "I",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5222N00029E",
-                  "Radius": "5",
-                  "ItemA": "EGUN",
-                  "StartValidity": "2306011019",
-                  "EndValidity": "2306302359",
-                  "ItemE": "AIRCREW PROCEED WITH CAUTION. RWY 10/28 INSTRUMENT LANDING SYSTEM\n(ILS) UNMONITORED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "010620231023"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "3651",
                   "Year": "23",
                   "Type": "N",
@@ -12508,33 +12418,6 @@
             "Name": "MIDDLE WALLOP",
             "NotamList": {
               "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "3948",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FU",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00134W",
-                  "Radius": "5",
-                  "ItemA": "EGVP",
-                  "StartValidity": "2306151415",
-                  "EndValidity": "2306302359",
-                  "ItemE": "FUEL NOT AVBL TO VISITING ACFT DUE TO FUEL LIMITATIONS",
-                  "Marker": "+",
-                  "NotamStoreDate": "150620231411"
-                },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
@@ -13567,33 +13450,6 @@
                   "ItemE": "ILS RWY 26 SERVICEABLE SUBJECT TO THE FOLLOWING ENVIROMENTAL\nCONDITIONS:\n1. DME UNLOCKS AND FALSE RANGES MAY OCCUR BEYOND 21NM BELOW 3500FT\nQFE.\n2. AIRCREW COULD EXPERIENCE GLIDEPATH DROPOUTS AT 006DEG LEFT OF\nCENTRELINE.\n3. DME UNLOCKS AND FALSE RANGES WERE DETECTED BETWEEN 25NM\nAND 23NM AT 3000FT. UK MIL AIP WILL REFLECT CHANGES IN DUE\nCOURSE.",
                   "Marker": "+",
                   "NotamStoreDate": "090620230830"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "3973",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5100N00239W",
-                  "Radius": "5",
-                  "ItemA": "EGDY",
-                  "StartValidity": "2306190000",
-                  "EndValidity": "2306302359",
-                  "ItemE": "CHANGE TO AD OPERATIONAL HOURS:\nMON TO WED    0800-1600 AND 2130-0200\nTHU           0800-1600\nFRI           0800-1300\nSAT AND SUN   CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "160620230830"
                 }
               ]
             },
@@ -17904,6 +17760,34 @@
                 "NotamStoreDate": "210620231249"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3667",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2307010300",
+                "EndValidity": "2307010400",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE",
+                "Marker": "+",
+                "NotamStoreDate": "300620232338"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19168,35 +19052,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "688",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "8"
-                },
-                "Coordinates": "5101N00224W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2305290001",
-                "EndValidity": "2306302359",
-                "ItemE": "C BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW\nFLYING AREA 2 AND NIGHT ROTARY REGION 2 AT PSN 510031N 0022429W\n(TEMPLECOMBE, SOMERSET) RADIUS 1NM. MAX HEIGHT 333FT AGL. \n23/02/101/LFTP\n \nSAFE DISTANCES\nCIVILIAN ACFT                   0.0645 NM       68FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                        0.0567 NM       20FT AGL\nLOW                             0.0626 NM       56FT AGL\nMEDIUM                          0.0811 NM       169FT AGL\nHIGH                            0.1082 NM       333FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "773FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "210220231335"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "2831",
                 "Year": "23",
                 "Type": "N",
@@ -19857,64 +19712,6 @@
                 "ItemG": "950FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "190620231702"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3408",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "8"
-                },
-                "Coordinates": "5408N00125W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2306210000",
-                "EndValidity": "2306302359",
-                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW \nFLYING AREA 11 AND NIGHT SECTOR 3BE, 3BW AT PSN 540819N 0012459W, \n(RAF DISHFORTH, YORKSHIRE) RADIUS 1NM. MAX HEIGHT 200FT AGL. \n23/06/142/LFC\nSAFE DISTANCES\nCIVILIAN ACFT                    0.5582NM        119FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                         0.5496NM        65FT AGL\nLOW                              0.5681NM        177FT AGL\nMEDIUM                           0.5838NM        272FT AGL\nHIGH                             0.6265NM        530FT AGL\nPULSE LOW                        0.5476NM        53FT AGL\nPULSE MEDIUM                     0.5542NM        93FT AGL\nPULSE HIGH                       0.5674NM        173FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "730FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "190620231536"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3409",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "13"
-                },
-                "Coordinates": "5409N00015W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2306210000",
-                "EndValidity": "2306302359",
-                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW \nFLYING AREA 11 AND NIGHT SECTOR WROA E AT PSN 540927N 0001522W, (RAF \nSPEETON, YORKSHIRE) RADIUS 1NM. MAX HEIGHT 450FT AGL. \n23/06/143/LFC\nSAFE DISTANCES\nCIVILIAN ACFT                    0.5582NM        411FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                         0.5496NM        65FT AGL\nLOW                              0.5681NM        177FT AGL\nMEDIUM                           0.5838NM        272FT AGL\nHIGH                             0.6265NM        530FT AGL\nPULSE LOW                        0.5476NM        211FT AGL\nPULSE MEDIUM                     0.5542NM        411FT AGL\nPULSE HIGH                       0.5674NM        810FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "1260FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "190620231545"
               },
               {
                 "@OriginalMessage": "false",
