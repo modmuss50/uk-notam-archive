@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062415033",
+    "@PIBId": "400000062416987",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-02T10:00:22+00:00",
-        "ValidTo": "2023-07-03T10:00:00+00:00"
+        "ValidFrom": "2023-07-02T11:00:13+00:00",
+        "ValidTo": "2023-07-03T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-02T10:00:22+00:00",
+      "Issued": "2023-07-02T11:00:13+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307020724",
+      "PibUid": "EG712307020761",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4171,7 +4171,35 @@
           {
             "Code": "EGCK",
             "Name": "CAERNARFON",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3879",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5306N00420W",
+                "Radius": "5",
+                "ItemA": "EGCK",
+                "StartValidity": "2307030800",
+                "EndValidity": "2307031545",
+                "ItemE": "UNLICENSED RWY 02/20 CLOSED DUE DRIVER TRAINING.",
+                "Marker": "+",
+                "NotamStoreDate": "020720231022"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -7879,6 +7907,33 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
+                  "Series": "B",
+                  "Number": "1584",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NV",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5321N00216W",
+                  "Radius": "25",
+                  "ItemA": "EGCC",
+                  "StartValidity": "2307021030",
+                  "EndValidity": "2307071700",
+                  "ItemE": "VOR/DME MCT/MANCHESTER 113.55MHZ CH82Y VOR PART U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "020720231014"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
                   "Series": "A",
                   "Number": "4906",
                   "Year": "23",
@@ -8597,7 +8652,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "3878",
+                  "Number": "3881",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8613,11 +8668,11 @@
                   "Coordinates": "5150N00119W",
                   "Radius": "5",
                   "ItemA": "EGTK",
-                  "StartValidity": "2307020930",
-                  "EndValidity": "2307021530",
+                  "StartValidity": "2307021031",
+                  "EndValidity": "2307021230",
                   "ItemE": "RFFS DOWNGRADED TO CAT 5",
                   "Marker": "+",
-                  "NotamStoreDate": "020720230822"
+                  "NotamStoreDate": "020720231031"
                 }
               ]
             },
@@ -9905,33 +9960,63 @@
             "Code": "EGSY",
             "Name": "ST ATHAN",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "2396",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "2396",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00326W",
+                  "Radius": "5",
+                  "ItemA": "EGSY",
+                  "StartValidity": "2304241325",
+                  "EndValidity": "2307311600",
+                  "ItemE": "RWY 07/25 GUARDLIGHTS ON TAXIWAY GOLF U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "240420231325"
                 },
-                "Coordinates": "5124N00326W",
-                "Radius": "5",
-                "ItemA": "EGSY",
-                "StartValidity": "2304241325",
-                "EndValidity": "2307311600",
-                "ItemE": "RWY 07/25 GUARDLIGHTS ON TAXIWAY GOLF U/S",
-                "Marker": "+",
-                "NotamStoreDate": "240420231325"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3863",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00326W",
+                  "Radius": "5",
+                  "ItemA": "EGSY",
+                  "StartValidity": "2307031000",
+                  "EndValidity": "2307041600",
+                  "ItemD": "1000-1030 1230-1300 1500-1600",
+                  "ItemE": "ATC CLOSED.IN THE EVENT OF AN EMERGENCY CTC AD SECURITY ON 01446\n243900",
+                  "Marker": "+",
+                  "NotamStoreDate": "010720230734"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -11355,6 +11440,33 @@
                   "ItemE": "WATCHMAN RADAR OBST LGT U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280620230733"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4347",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5005N00515W",
+                  "Radius": "5",
+                  "ItemA": "EGDR",
+                  "StartValidity": "2307031000",
+                  "EndValidity": "2307031830",
+                  "ItemE": "AD CLOSED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "300620231136"
                 }
               ]
             },
@@ -18247,6 +18359,34 @@
                 "NotamStoreDate": "050620230957"
               },
               {
+                "@Reference": "EGCC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1584",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "NV",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5321N00216W",
+                "Radius": "25",
+                "ItemA": "EGCC",
+                "StartValidity": "2307021030",
+                "EndValidity": "2307071700",
+                "ItemE": "VOR/DME MCT/MANCHESTER 113.55MHZ CH82Y VOR PART U/S",
+                "Marker": "+",
+                "NotamStoreDate": "020720231014"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -22102,35 +22242,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "120420231500"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3863",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "7"
-                },
-                "Coordinates": "5129N00342W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2307020800",
-                "EndValidity": "2307021100",
-                "ItemE": "UAS OPR WI 2.5NM RADIUS OF 512834N 0034223W (PORTHCAWL, \nGLAMORGAN). MAX HGT 400FT AGL. FOR INFO 78863 92559. 2023-07-0185/AS2",
-                "ItemF": "SFC",
-                "ItemG": "700FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "300620231106"
               },
               {
                 "@Reference": "EGXZ",
@@ -27087,6 +27198,35 @@
                 "ItemG": "15000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "290620231328"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3350",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5530N00035W",
+                "Radius": "32",
+                "ItemA": "EGPX",
+                "StartValidity": "2307031045",
+                "EndValidity": "2307031245",
+                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 1045-1245 SFC-FL230\nEG D513B 1045-1245 SFC-FL230\nEG D513C 1045-1245 SFC-FL100",
+                "ItemF": "SFC",
+                "ItemG": "FL230",
+                "Marker": "+",
+                "NotamStoreDate": "300620231129"
               }
             ]
           },
