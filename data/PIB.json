@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062406659",
+    "@PIBId": "400000062408830",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-02T06:00:56+00:00",
-        "ValidTo": "2023-07-03T06:00:00+00:00"
+        "ValidFrom": "2023-07-02T07:00:44+00:00",
+        "ValidTo": "2023-07-03T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-02T06:00:56+00:00",
+      "Issued": "2023-07-02T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307020475",
+      "PibUid": "EG712307020525",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3816,33 +3816,62 @@
             "Code": "EGNH",
             "Name": "BLACKPOOL",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "3622",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "PI",
-                  "Code45": "TT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3622",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PI",
+                    "Code45": "TT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5346N00302W",
+                  "Radius": "5",
+                  "ItemA": "EGNH",
+                  "StartValidity": "2306290000",
+                  "EndValidity": "2307122359",
+                  "ItemE": "TRIGGER NOTAM - AIP SUP 039/23 WEF 29 JUN 2023.\nDIRECT ARRIVAL APPROACHES RWY 28 FROM VOR/DME POL NOT \nAVAILABLE",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620230011"
                 },
-                "Coordinates": "5346N00302W",
-                "Radius": "5",
-                "ItemA": "EGNH",
-                "StartValidity": "2306290000",
-                "EndValidity": "2307122359",
-                "ItemE": "TRIGGER NOTAM - AIP SUP 039/23 WEF 29 JUN 2023.\nDIRECT ARRIVAL APPROACHES RWY 28 FROM VOR/DME POL NOT \nAVAILABLE",
-                "Marker": "+",
-                "NotamStoreDate": "290620230011"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3569",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "IC",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5346N00302W",
+                  "Radius": "5",
+                  "ItemA": "EGNH",
+                  "StartValidity": "2307030600",
+                  "EndValidity": "2307032000",
+                  "ItemE": "ILS RWY 28 U/S DUE MAINT, ALL ASSOCIATED APPROACHES NOT AVBL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620231531"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -3962,6 +3991,33 @@
                   "ItemE": "NO ACCESS TO EAST AND WEST APRONS FROM THE SOUTH FOR ACFT",
                   "Marker": "+",
                   "NotamStoreDate": "090620231048"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3567",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5049N00152W",
+                  "Radius": "1",
+                  "ItemA": "EGHH",
+                  "StartValidity": "2307030630",
+                  "EndValidity": "2308041830",
+                  "ItemE": "CRANE OPR PSN 504844N 0015219W (328T 4108M FM BOURNEMOUTH ARP) \nMAX JIB HGT 115FT AGL, 165FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "260620231453"
                 }
               ]
             },
@@ -4287,6 +4343,36 @@
                   "ItemE": "CRANE OPR WITH A RADIUS OF 0.02NM CENTRED ON PSN 521219N 0000646E\n(WITHIN CAMBRIDGE ATZ) TO MAX HEIGHT OF 99FT AGL/115FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "280620231418"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4609",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "5"
+                  },
+                  "Coordinates": "5212N00010E",
+                  "Radius": "1",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2307030630",
+                  "EndValidity": "2307040800",
+                  "ItemD": "0630-0800",
+                  "ItemE": "UAS OPERATING 0.15NM RADIUS CENTRED ON 521130N 0000942E (WITHIN\nCAMBRIDGE ATZ) SFC TO 418FT AMSL / 400FT AGL",
+                  "ItemF": "SFC",
+                  "ItemG": "418FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "190620231500"
                 }
               ]
             },
@@ -9644,6 +9730,33 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HOURS:",
                   "Marker": "+",
                   "NotamStoreDate": "270620231842"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3684",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "60"
+                  },
+                  "Coordinates": "5432N00123W",
+                  "Radius": "12",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2307020830",
+                  "EndValidity": "2307020900",
+                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020720230644"
                 }
               ]
             },
@@ -12472,6 +12585,33 @@
                   "ItemE": "PAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280620231028"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4323",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5315N00432W",
+                  "Radius": "1",
+                  "ItemA": "EGOV",
+                  "StartValidity": "2307030645",
+                  "EndValidity": "2307031745",
+                  "ItemE": "CRANE OPR AT 531503N 0043204W (RAF VALLEY DETUNER) UP TO 115FT \nAGL 152FT AMSL. FOR MORE INFO CTC 01407 762241 EXT 7404",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620231428"
                 }
               ]
             },
@@ -17549,6 +17689,34 @@
                 "NotamStoreDate": "050620230957"
               },
               {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3684",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2307020830",
+                "EndValidity": "2307020900",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "020720230644"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -17602,6 +17770,62 @@
                 "ItemE": "CRANE OPR WITH A RADIUS OF 0.02NM CENTRED ON PSN 521219N 0000646E\n(WITHIN CAMBRIDGE ATZ) TO MAX HEIGHT OF 99FT AGL/115FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "280620231418"
+              },
+              {
+                "@Reference": "EGHH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3567",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5049N00152W",
+                "Radius": "1",
+                "ItemA": "EGHH",
+                "StartValidity": "2307030630",
+                "EndValidity": "2308041830",
+                "ItemE": "CRANE OPR PSN 504844N 0015219W (328T 4108M FM BOURNEMOUTH ARP) \nMAX JIB HGT 115FT AGL, 165FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260620231453"
+              },
+              {
+                "@Reference": "EGOV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4323",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5315N00432W",
+                "Radius": "1",
+                "ItemA": "EGOV",
+                "StartValidity": "2307030645",
+                "EndValidity": "2307031745",
+                "ItemE": "CRANE OPR AT 531503N 0043204W (RAF VALLEY DETUNER) UP TO 115FT \nAGL 152FT AMSL. FOR MORE INFO CTC 01407 762241 EXT 7404",
+                "Marker": "+",
+                "NotamStoreDate": "290620231428"
               }
             ]
           },
@@ -21796,6 +22020,99 @@
                 "ItemG": "3800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "280620231527"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3881",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "WY",
+                  "Code45": "LW",
+                  "Traffic": "V",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "65"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307030600",
+                "EndValidity": "2307071600",
+                "ItemD": "0600-1600",
+                "ItemE": "PIPELINE INSPECTION NOTIFICATION PROCEDURE SYSTEM (PINS) WILL \nTAKE PLACE IN THE FOLLOWING LOW FLYING AREAS 1, 2, 3, 4, 5, 6, 7N, \n7S, 8, 9, 10, 11S, 18, 19, AND THE THAMES VALLEY AVOIDANCE AREA\nMAX HEIGHT 2000FT AGL. UK AIP ENR 6 (PINS AREAS AND UK DAY LOW \nFLYING SYSTEM (DLFS))REFERS. 23/06/230/LFC",
+                "ItemF": "SFC",
+                "ItemG": "6500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231301"
+              },
+              {
+                "@Reference": "EGSC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4609",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5212N00010E",
+                "Radius": "1",
+                "ItemA": "EGSC",
+                "StartValidity": "2307030630",
+                "EndValidity": "2307040800",
+                "ItemD": "0630-0800",
+                "ItemE": "UAS OPERATING 0.15NM RADIUS CENTRED ON 521130N 0000942E (WITHIN\nCAMBRIDGE ATZ) SFC TO 418FT AMSL / 400FT AGL",
+                "ItemF": "SFC",
+                "ItemG": "418FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "190620231500"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3357",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "285"
+                },
+                "Coordinates": "5237N00426W",
+                "Radius": "50",
+                "ItemA": "EGTT",
+                "StartValidity": "2307030645",
+                "EndValidity": "2307031745",
+                "ItemE": "THE FOLLOWING NORTH WALES MILITARY TRAINING AREAS ACTIVATED:\nNORTH (LOW)  0645-1745 FL195-FL285\nSOUTH (LOW)  0645-1745 FL195-FL285",
+                "ItemF": "FL195",
+                "ItemG": "FL285",
+                "Marker": "+",
+                "NotamStoreDate": "300620231131"
               }
             ]
           },
@@ -25243,6 +25560,40 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "260620231525"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3881",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "WY",
+                  "Code45": "LW",
+                  "Traffic": "V",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "65"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307030600",
+                "EndValidity": "2307071600",
+                "ItemD": "0600-1600",
+                "ItemE": "PIPELINE INSPECTION NOTIFICATION PROCEDURE SYSTEM (PINS) WILL \nTAKE PLACE IN THE FOLLOWING LOW FLYING AREAS 1, 2, 3, 4, 5, 6, 7N, \n7S, 8, 9, 10, 11S, 18, 19, AND THE THAMES VALLEY AVOIDANCE AREA\nMAX HEIGHT 2000FT AGL. UK AIP ENR 6 (PINS AREAS AND UK DAY LOW \nFLYING SYSTEM (DLFS))REFERS. 23/06/230/LFC",
+                "ItemF": "SFC",
+                "ItemG": "6500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231301"
               }
             ]
           },
