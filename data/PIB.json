@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062448018",
+    "@PIBId": "400000062450738",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-03T05:00:07+00:00",
-        "ValidTo": "2023-07-04T05:00:00+00:00"
+        "ValidFrom": "2023-07-03T06:00:56+00:00",
+        "ValidTo": "2023-07-04T06:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-03T05:00:07+00:00",
+      "Issued": "2023-07-03T06:00:56+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307030372",
+      "PibUid": "EG712307030522",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4483,6 +4483,35 @@
                   "ItemE": "CAMBRIDGE, CHANGE TO ATC OPENING HOURS MON-FRI 0800-1600",
                   "Marker": "+",
                   "NotamStoreDate": "220620231401"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "4872",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5212N00010E",
+                  "Radius": "2",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2307040500",
+                  "EndValidity": "2307050800",
+                  "ItemE": "UAS OPERATING 0.95NM RADIUS CENTRED ON PSN 521143N 0000946E \n(WITHIN\nCAMBRIDGE ATZ) SFC TO 295FT AMSL / 230FT AGL",
+                  "ItemF": "SFC",
+                  "ItemG": "295FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "300620231141"
                 }
               ]
             },
@@ -5852,9 +5881,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "3690",
+                  "Number": "3705",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "3690",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "AZ",
@@ -5868,11 +5900,11 @@
                   "Coordinates": "5334N00021W",
                   "Radius": "3",
                   "ItemA": "EGNJ",
-                  "StartValidity": "2307030500",
+                  "StartValidity": "2307030522",
                   "EndValidity": "2307092045",
-                  "ItemE": "REVISED HUMBERSIDE ATZ AND AD OPR HOURS:\nMON 0630-1715  PPR 0500-0530, 1930-2045\nTUE 0630-1715  PPR 0500-0530, 1930-2045\nWED 0630-1715  PPR 0500-0530, 1930-2045\nTHU 0630-1715  PPR 0500-0530\nFRI 0630-1715  PPR 1930-2045\nSAT 0700-1630  PPR 0500-0530, 1930-2045\nSUN 0700-1630  PPR 0500-0700, 1630-1800, 1930-2045\nATS AVBL DURING ABOVE OPR TIMES ONLY. OUTSIDE OF ABOVE TIMES\nHUMBERSIDE ATZ CAN REACTIVATE AT SHORT NOTICE. IN ADDITION,\nHELICOPTERS AND FIXED WING ACFT OPR ON BEHALF OF HM COASTGUARD\nMAY FLY INSTRUMENT APPROACHES FOR TRAINING OR OPERATIONAL\nPURPOSES.PILOTS ARE THEREFORE REQ TO MAKE BLIND CALLS ON\nHUMBERSIDE 124.905MHZ IF TRANSITING WI 8NM AND MONITOR UNTIL\nCLEAR, WITH PARTICULAR ATTENTION TO THE INSTRUMENT APPROACH\nFUNNEL TOWARDS RWY 20. CHECK NOTAM FOR ANY ADDITIONAL\nACTIVITY. USE OF THE AD DURING PPR PERIODS AND OUTSIDE ABOVE\nTIMES IS BY PRIOR ARRANGEMENT,CTC TERMINAL SUPERVISOR ON 07718\n524072.",
+                  "ItemE": "REVISED HUMBERSIDE ATZ AND AD OPR HOURS:\nMON 0630-1715  PPR 0500-0530, 1930-2045\nTUE 0630-1715  PPR 0500-0530, 1930-2045\nWED 0630-1715  PPR 0500-0530, 1930-2045\nTHU 0630-1715  PPR 0500-0530, 1930-2045\nFRI 0630-1715  PPR 0500-0530, 1930-2045\nSAT 0700-1630  PPR 0500-0530, 1930-2045\nSUN 0700-1630  PPR 0500-0700, 1630-1800, 1930-2045\nATS AVBL DURING ABOVE OPR TIMES ONLY. OUTSIDE OF ABOVE TIMES\nHUMBERSIDE ATZ CAN REACTIVATE AT SHORT NOTICE. IN ADDITION,\nHELICOPTERS AND FIXED WING ACFT OPR ON BEHALF OF HM COASTGUARD MAY \nFLY INSTRUMENT APPROACHES FOR TRAINING OR OPERATIONAL \nPURPOSES.PILOTS ARE THEREFORE REQ TO MAKE BLIND CALLS ON HUMBERSIDE \n124.905MHZ IF TRANSITING WI 8NM AND MONITOR UNTIL CLEAR, WITH \nPARTICULAR ATTENTION TO THE INSTRUMENT APPROACH FUNNEL TOWARDS RWY \n20. CHECK NOTAM FOR ANY ADDITIONAL ACTIVITY. USE OF THE AD DURING \nPPR PERIODS AND OUTSIDE ABOVE TIMES IS BY PRIOR ARRANGEMENT, CTC \nTERMINAL SUPERVISOR ON 07718 524072.",
                   "Marker": "+",
-                  "NotamStoreDate": "020720231440"
+                  "NotamStoreDate": "030720230522"
                 }
               ]
             },
@@ -9521,7 +9553,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "4916",
+                  "Number": "4920",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -9537,11 +9569,11 @@
                   "Coordinates": "5134N00042E",
                   "Radius": "5",
                   "ItemA": "EGMC",
-                  "StartValidity": "2307022100",
-                  "EndValidity": "2307030600",
-                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 4",
+                  "StartValidity": "2307030600",
+                  "EndValidity": "2307031800",
+                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 6.",
                   "Marker": "+",
-                  "NotamStoreDate": "020720232100"
+                  "NotamStoreDate": "030720230512"
                 }
               ]
             },
@@ -11050,6 +11082,33 @@
                   "ItemA": "EGVA",
                   "StartValidity": "2307030500",
                   "EndValidity": "2307031700",
+                  "ItemE": "AD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620231238"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4313",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5141N00147W",
+                  "Radius": "5",
+                  "ItemA": "EGVA",
+                  "StartValidity": "2307040500",
+                  "EndValidity": "2307041700",
                   "ItemE": "AD CLOSED",
                   "Marker": "+",
                   "NotamStoreDate": "290620231238"
@@ -17627,9 +17686,12 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "C",
-                "Number": "3690",
+                "Number": "3705",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "C",
+                "ReferredNumber": "3690",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "AZ",
@@ -17643,11 +17705,11 @@
                 "Coordinates": "5334N00021W",
                 "Radius": "3",
                 "ItemA": "EGNJ",
-                "StartValidity": "2307030500",
+                "StartValidity": "2307030522",
                 "EndValidity": "2307092045",
-                "ItemE": "REVISED HUMBERSIDE ATZ AND AD OPR HOURS:\nMON 0630-1715  PPR 0500-0530, 1930-2045\nTUE 0630-1715  PPR 0500-0530, 1930-2045\nWED 0630-1715  PPR 0500-0530, 1930-2045\nTHU 0630-1715  PPR 0500-0530\nFRI 0630-1715  PPR 1930-2045\nSAT 0700-1630  PPR 0500-0530, 1930-2045\nSUN 0700-1630  PPR 0500-0700, 1630-1800, 1930-2045\nATS AVBL DURING ABOVE OPR TIMES ONLY. OUTSIDE OF ABOVE TIMES\nHUMBERSIDE ATZ CAN REACTIVATE AT SHORT NOTICE. IN ADDITION,\nHELICOPTERS AND FIXED WING ACFT OPR ON BEHALF OF HM COASTGUARD\nMAY FLY INSTRUMENT APPROACHES FOR TRAINING OR OPERATIONAL\nPURPOSES.PILOTS ARE THEREFORE REQ TO MAKE BLIND CALLS ON\nHUMBERSIDE 124.905MHZ IF TRANSITING WI 8NM AND MONITOR UNTIL\nCLEAR, WITH PARTICULAR ATTENTION TO THE INSTRUMENT APPROACH\nFUNNEL TOWARDS RWY 20. CHECK NOTAM FOR ANY ADDITIONAL\nACTIVITY. USE OF THE AD DURING PPR PERIODS AND OUTSIDE ABOVE\nTIMES IS BY PRIOR ARRANGEMENT,CTC TERMINAL SUPERVISOR ON 07718\n524072.",
+                "ItemE": "REVISED HUMBERSIDE ATZ AND AD OPR HOURS:\nMON 0630-1715  PPR 0500-0530, 1930-2045\nTUE 0630-1715  PPR 0500-0530, 1930-2045\nWED 0630-1715  PPR 0500-0530, 1930-2045\nTHU 0630-1715  PPR 0500-0530, 1930-2045\nFRI 0630-1715  PPR 0500-0530, 1930-2045\nSAT 0700-1630  PPR 0500-0530, 1930-2045\nSUN 0700-1630  PPR 0500-0700, 1630-1800, 1930-2045\nATS AVBL DURING ABOVE OPR TIMES ONLY. OUTSIDE OF ABOVE TIMES\nHUMBERSIDE ATZ CAN REACTIVATE AT SHORT NOTICE. IN ADDITION,\nHELICOPTERS AND FIXED WING ACFT OPR ON BEHALF OF HM COASTGUARD MAY \nFLY INSTRUMENT APPROACHES FOR TRAINING OR OPERATIONAL \nPURPOSES.PILOTS ARE THEREFORE REQ TO MAKE BLIND CALLS ON HUMBERSIDE \n124.905MHZ IF TRANSITING WI 8NM AND MONITOR UNTIL CLEAR, WITH \nPARTICULAR ATTENTION TO THE INSTRUMENT APPROACH FUNNEL TOWARDS RWY \n20. CHECK NOTAM FOR ANY ADDITIONAL ACTIVITY. USE OF THE AD DURING \nPPR PERIODS AND OUTSIDE ABOVE TIMES IS BY PRIOR ARRANGEMENT, CTC \nTERMINAL SUPERVISOR ON 07718 524072.",
                 "Marker": "+",
-                "NotamStoreDate": "020720231440"
+                "NotamStoreDate": "030720230522"
               },
               {
                 "@Reference": "EGHH",
@@ -21590,6 +21652,36 @@
                 "ItemG": "17000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "300620231024"
+              },
+              {
+                "@Reference": "EGSC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "4872",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5212N00010E",
+                "Radius": "2",
+                "ItemA": "EGSC",
+                "StartValidity": "2307040500",
+                "EndValidity": "2307050800",
+                "ItemE": "UAS OPERATING 0.95NM RADIUS CENTRED ON PSN 521143N 0000946E \n(WITHIN\nCAMBRIDGE ATZ) SFC TO 295FT AMSL / 230FT AGL",
+                "ItemF": "SFC",
+                "ItemG": "295FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231141"
               }
             ]
           },
@@ -22830,33 +22922,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "I",
-                  "Number": "1788",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "6012N00115W",
-                  "Radius": "5",
-                  "ItemA": "EGET",
-                  "StartValidity": "2306121600",
-                  "EndValidity": "2307030600",
-                  "ItemE": "NO OUT OF HOURS ON CALL SERVICE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "120620230928"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
                   "Number": "1876",
                   "Year": "23",
                   "Type": "N",
@@ -22878,33 +22943,6 @@
                   "ItemE": "JET A1 FUEL NOT AVAILABLE.",
                   "Marker": "+",
                   "NotamStoreDate": "200620231306"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "1934",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "HX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "6012N00115W",
-                  "Radius": "5",
-                  "ItemA": "EGET",
-                  "StartValidity": "2306260851",
-                  "EndValidity": "2307030600",
-                  "ItemE": "INCREASED BIRD ACTIVITY AT AD.",
-                  "Marker": "+",
-                  "NotamStoreDate": "260620230856"
                 },
                 {
                   "@OriginalMessage": "false",
