@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062694955",
+    "@PIBId": "400000062697607",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-08T06:01:06+00:00",
-        "ValidTo": "2023-07-09T06:00:00+00:00"
+        "ValidFrom": "2023-07-08T07:00:44+00:00",
+        "ValidTo": "2023-07-09T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-08T06:01:06+00:00",
+      "Issued": "2023-07-08T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307080487",
+      "PibUid": "EG712307080538",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5366,33 +5366,62 @@
             "Code": "EGTF",
             "Name": "FAIROAKS",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3816",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "LP",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3816",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "LP",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5121N00034W",
+                  "Radius": "5",
+                  "ItemA": "EGTF",
+                  "StartValidity": "2306291626",
+                  "EndValidity": "2307301700",
+                  "ItemE": "RWY 24/06 PAPI U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "290620231631"
                 },
-                "Coordinates": "5121N00034W",
-                "Radius": "5",
-                "ItemA": "EGTF",
-                "StartValidity": "2306291626",
-                "EndValidity": "2307301700",
-                "ItemE": "RWY 24/06 PAPI U/S",
-                "Marker": "+",
-                "NotamStoreDate": "290620231631"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4030",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5121N00034W",
+                  "Radius": "2",
+                  "ItemA": "EGTF",
+                  "StartValidity": "2307080700",
+                  "EndValidity": "2307081700",
+                  "ItemE": "FAIROAKS ATS REVISED HOURS:\n0700-0900, 0930-1130, 1200-1400, 1430-1630\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED, CIRCUIT FLYING\nNOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY",
+                  "Marker": "+",
+                  "NotamStoreDate": "080720230659"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6814,6 +6843,36 @@
                   "ItemG": "500FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "060720231047"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "4161",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5131N00006W",
+                  "Radius": "1",
+                  "ItemA": "EGLC",
+                  "StartValidity": "2307090600",
+                  "EndValidity": "2307292100",
+                  "ItemD": "0600-2100",
+                  "ItemE": "UAS OPR WI AREA BOUNDED BY 513039N 0000610W - 513039N 0000555W\n-513035N 0000538W - 513032N 0000519W - 513025N 0000521W - \n513029N 0000541W - 513031N 0000556W - 513031N 0000611W - \n513039N 0000610W (MILLENNIUM BRIDGE TO LONDON BRIDGE, RIVER THAMES, \nLONDON). MAX HGT 400FT AGL. FOR INFO 07532 759150. 2023-07-0480/AS2",
+                  "ItemF": "SFC",
+                  "ItemG": "400FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "070720230806"
                 }
               ]
             },
@@ -7544,12 +7603,9 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "5037",
+                  "Number": "5057",
                   "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "A",
-                  "ReferredNumber": "4564",
-                  "ReferredYear": "23",
+                  "Type": "N",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "OB",
@@ -7563,11 +7619,12 @@
                   "Coordinates": "5128N00024W",
                   "Radius": "1",
                   "ItemA": "EGLL",
-                  "StartValidity": "2307071126",
+                  "StartValidity": "2307080600",
                   "EndValidity": "2308021800",
-                  "ItemE": "LIT CRANE OPR AT PSN 512806N 0002356W (HOUNSLOW, LONDON). MAX HGT\n151FT AGL, 226FT AMSL. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE\nREF 2023060576)",
+                  "ItemD": "0600-1800",
+                  "ItemE": "LIT CRANE OPR AT PSN 512806N 0002356W (HOUNSLOW, LONDON). MAX HGT\n151FT AGL, 226FT AMSL. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE\nREF 2023060576",
                   "Marker": "+",
-                  "NotamStoreDate": "070720231134"
+                  "NotamStoreDate": "080720230656"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -18138,37 +18195,6 @@
                 "NotamStoreDate": "070720230912"
               },
               {
-                "@Reference": "EGLL",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5037",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "A",
-                "ReferredNumber": "4564",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5128N00024W",
-                "Radius": "1",
-                "ItemA": "EGLL",
-                "StartValidity": "2307071126",
-                "EndValidity": "2308021800",
-                "ItemE": "LIT CRANE OPR AT PSN 512806N 0002356W (HOUNSLOW, LONDON). MAX HGT\n151FT AGL, 226FT AMSL. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE\nREF 2023060576)",
-                "Marker": "+",
-                "NotamStoreDate": "070720231134"
-              },
-              {
                 "@Reference": "EGXW",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18253,6 +18279,35 @@
                 "NotamStoreDate": "040720230924"
               },
               {
+                "@Reference": "EGLL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5057",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5128N00024W",
+                "Radius": "1",
+                "ItemA": "EGLL",
+                "StartValidity": "2307080600",
+                "EndValidity": "2308021800",
+                "ItemD": "0600-1800",
+                "ItemE": "LIT CRANE OPR AT PSN 512806N 0002356W (HOUNSLOW, LONDON). MAX HGT\n151FT AGL, 226FT AMSL. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE\nREF 2023060576",
+                "Marker": "+",
+                "NotamStoreDate": "080720230656"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18308,6 +18363,34 @@
                 "ItemE": "CRANE OPR 515358N 0020717W (CHELTENHAM) MAX HGT 184FT AGL/ \n348FT AMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "030720231340"
+              },
+              {
+                "@Reference": "EGTF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4030",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5121N00034W",
+                "Radius": "2",
+                "ItemA": "EGTF",
+                "StartValidity": "2307080700",
+                "EndValidity": "2307081700",
+                "ItemE": "FAIROAKS ATS REVISED HOURS:\n0700-0900, 0930-1130, 1200-1400, 1430-1630\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED, CIRCUIT FLYING\nNOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY",
+                "Marker": "+",
+                "NotamStoreDate": "080720230659"
               },
               {
                 "@Reference": "EGBB",
@@ -24333,6 +24416,37 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "070720230848"
+              },
+              {
+                "@Reference": "EGLC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4161",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5131N00006W",
+                "Radius": "1",
+                "ItemA": "EGLC",
+                "StartValidity": "2307090600",
+                "EndValidity": "2307292100",
+                "ItemD": "0600-2100",
+                "ItemE": "UAS OPR WI AREA BOUNDED BY 513039N 0000610W - 513039N 0000555W\n-513035N 0000538W - 513032N 0000519W - 513025N 0000521W - \n513029N 0000541W - 513031N 0000556W - 513031N 0000611W - \n513039N 0000610W (MILLENNIUM BRIDGE TO LONDON BRIDGE, RIVER THAMES, \nLONDON). MAX HGT 400FT AGL. FOR INFO 07532 759150. 2023-07-0480/AS2",
+                "ItemF": "SFC",
+                "ItemG": "400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "070720230806"
               }
             ]
           },
@@ -24653,7 +24767,35 @@
           {
             "Code": "EGEC",
             "Name": "CAMPBELTOWN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2050",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5526N00541W",
+                "Radius": "5",
+                "ItemA": "EGEC",
+                "StartValidity": "2307090630",
+                "EndValidity": "2307091200",
+                "ItemE": "NO OUT OF HOURS MOVEMENTS EXCEPT FOR AIR AMBULANCE AND SEARCH AND\nRESCUE",
+                "Marker": "+",
+                "NotamStoreDate": "060720230814"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
