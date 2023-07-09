@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062776965",
+    "@PIBId": "400000062778359",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-09T22:00:55+00:00",
-        "ValidTo": "2023-07-10T22:00:00+00:00"
+        "ValidFrom": "2023-07-09T23:00:12+00:00",
+        "ValidTo": "2023-07-10T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-09T22:00:55+00:00",
+      "Issued": "2023-07-09T23:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307091227",
+      "PibUid": "EG712307091245",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8549,63 +8549,34 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5083",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2307092200",
-                  "EndValidity": "2307092330",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "090720231835"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5032",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "HW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5032",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "HW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2307102130",
-                  "EndValidity": "2307150430",
-                  "ItemD": "MON-THU 2130-0430, FRI 2200-0430",
-                  "ItemE": "RWY 09/27 REMEDIAL WORKS WILL TAKE PLACE WHEN THE AD IS\nCLOSED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "070720230553"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2307102130",
+                "EndValidity": "2307150430",
+                "ItemD": "MON-THU 2130-0430, FRI 2200-0430",
+                "ItemE": "RWY 09/27 REMEDIAL WORKS WILL TAKE PLACE WHEN THE AD IS\nCLOSED.",
+                "Marker": "+",
+                "NotamStoreDate": "070720230553"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -18076,34 +18047,6 @@
                 "NotamStoreDate": "080720231134"
               },
               {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5083",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2307092200",
-                "EndValidity": "2307092330",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "090720231835"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -18473,6 +18416,68 @@
                 "ItemE": "LANDS END RADIO MANDATORY ZONE AND ATZ DEACTIVATED. ATS AND AD \nCLSD",
                 "Marker": "+",
                 "NotamStoreDate": "010720231708"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3825",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307101510",
+                "EndValidity": "2307102030",
+                "ItemD": "1510-1540 1730-1800 2000-2030",
+                "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFFING",
+                "Marker": "+",
+                "NotamStoreDate": "090720232249"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3827",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307101510",
+                "EndValidity": "2307102030",
+                "ItemD": "1510-1540 1730-1800 2000-2030",
+                "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI NEWCASTLE AIRSPACE \nDURING THESE PERIODS SHOULD MONITOR NEWCASTLE TOWER ON 119.705MHZ \nAND SQUAWK EITHER 3737, ANY DISCRETE TASK SPECIFIC CODE, OR ANY \nDISCRETE CODE ALLOCATED BY ANOTHER UNIT",
+                "Marker": "+",
+                "NotamStoreDate": "090720232251"
               },
               {
                 "@OriginalMessage": "false",
@@ -20600,36 +20605,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "3967",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5253N00049W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2307052000",
-                "EndValidity": "2307092259",
-                "ItemD": "05-08 2000-0300, 09 2000-2259",
-                "ItemE": "SEARCHLIGHT DISPLAY WI 1NM RADIUS 525257N 0004903W (KNIPTON,\nLEICESTERSHIRE) FOR INFO 07779 661483. 2023-07-0317/ AS2.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "040720231108"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "4003",
                 "Year": "23",
                 "Type": "N",
@@ -20743,36 +20718,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "060720230829"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4016",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5213N00053W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2307061700",
-                "EndValidity": "2307092259",
-                "ItemD": "1700-2259",
-                "ItemE": "LASER DISPLAY WI 1NM RADIUS 521328N 0005327W (NORTHAMPTON,\nNORTHAMPTONSHIRE). FOR INFO 07805 005035. 2023-06-0862/AS2.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "050720230920"
               },
               {
                 "@OriginalMessage": "false",
@@ -21077,35 +21022,6 @@
                 "ItemG": "400FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "070720230806"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3470",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "230"
-                },
-                "Coordinates": "5114N00154W",
-                "Radius": "6",
-                "ItemA": "EGTT",
-                "StartValidity": "2307090700",
-                "EndValidity": "2307092259",
-                "ItemE": "THE FOLLOWING LARKHILL DANGER AREAS ARE ACTIVATED:\nEG D125   0700-2259  SFC-23000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "23000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "070720231033"
               },
               {
                 "@Reference": "EGSS",
@@ -23676,9 +23592,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "5084",
+                  "Number": "5087",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "A",
+                  "ReferredNumber": "5084",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGPX",
                     "Code23": "LC",
@@ -23692,11 +23611,11 @@
                   "Coordinates": "5552N00426W",
                   "Radius": "5",
                   "ItemA": "EGPF",
-                  "StartValidity": "2307091950",
-                  "EndValidity": "2307100900",
-                  "ItemE": "EVERY THIRD LIGHT OF RWY 05/23 CL IS REDUCED BRILLIANCY",
+                  "StartValidity": "2307092255",
+                  "EndValidity": "2307101800",
+                  "ItemE": "EVERY THIRD LIGHT OF RWY 05/23 C/L IS REDUCED BRILLIANCY",
                   "Marker": "+",
-                  "NotamStoreDate": "090720231954"
+                  "NotamStoreDate": "090720232255"
                 }
               ]
             },
@@ -24350,6 +24269,34 @@
                   "ItemE": "ARRIVING AND DEPARTING ROUTES VIA ERKIT/BAVDO/OTR/TENDO NOT AVBL. \nOTBED DCT EGNT/EGNT DCT OTBED NOT AVBL. ALL OPERATORS SHOULD REFILE \nVIA AN ALTERNATIVE ROUTE.",
                   "Marker": "+",
                   "NotamStoreDate": "200620231743"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3828",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5502N00141W",
+                  "Radius": "5",
+                  "ItemA": "EGNT",
+                  "StartValidity": "2307101510",
+                  "EndValidity": "2307102030",
+                  "ItemD": "1510-1540 1730-1800 2000-2030",
+                  "ItemE": "AD CLOSED DUE STAFFING",
+                  "Marker": "+",
+                  "NotamStoreDate": "090720232251"
                 }
               ]
             },
@@ -26140,6 +26087,70 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3825",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307101510",
+                "EndValidity": "2307102030",
+                "ItemD": "1510-1540 1730-1800 2000-2030",
+                "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFFING",
+                "Marker": "+",
+                "NotamStoreDate": "090720232249"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3827",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307101510",
+                "EndValidity": "2307102030",
+                "ItemD": "1510-1540 1730-1800 2000-2030",
+                "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI NEWCASTLE AIRSPACE \nDURING THESE PERIODS SHOULD MONITOR NEWCASTLE TOWER ON 119.705MHZ \nAND SQUAWK EITHER 3737, ANY DISCRETE TASK SPECIFIC CODE, OR ANY \nDISCRETE CODE ALLOCATED BY ANOTHER UNIT",
+                "Marker": "+",
+                "NotamStoreDate": "090720232251"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
                 "Series": "B",
                 "Number": "1634",
                 "Year": "23",
@@ -26610,36 +26621,6 @@
                 "ItemG": "1950FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "060720230938"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "J",
-                "Number": "2631",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RT",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "10"
-                },
-                "Coordinates": "5551N00414W",
-                "Radius": "2",
-                "ItemA": "EGPX",
-                "StartValidity": "2307070900",
-                "EndValidity": "2307092300",
-                "ItemD": "0900-2300",
-                "ItemE": "RESTRICTED AREA (TEMPORARY) FOR TRNSMT MUSIC FESTIVAL (GLASGOW\nGREEN, GLASGOW) FOR UNMANNED ACFT ONLY. RESTRICTION OF FLYING \nREGULATIONS MADE UNDER ARTICLE 239 OF THE AIR NAVIGATION ORDER 2016. \nA BRIEFING SHEET WILL REFER. NO UAS IS TO FLY WITHIN AREA BOUNDED BY \nCIRCLE RADIUS 1NM CENTRED AT 555105N 0041426W EXCEPT UAS OPERATED BY \nPOLICE SCOTLAND OR WITH A PERMISSION ISSUED BY THE POLICE SCOTLAND \nAVIATION SAFETY AND SECURITY UNIT WHO MAY BE CONTACTED AT \nOSDAVIATIONSAFETY(AT) SCOTLAND.POLICE.UK OR IF URGENT \nON TELEPHONE NUMBER 01786 895840. 2023-07-0082 AS6",
-                "ItemF": "SFC",
-                "ItemG": "1000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "050720231347"
               },
               {
                 "@OriginalMessage": "false",
