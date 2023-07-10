@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000062802696",
+    "@PIBId": "400000062804810",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-10T10:00:22+00:00",
-        "ValidTo": "2023-07-11T10:00:00+00:00"
+        "ValidFrom": "2023-07-10T11:00:13+00:00",
+        "ValidTo": "2023-07-11T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-10T10:00:22+00:00",
+      "Issued": "2023-07-10T11:00:13+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307100560",
+      "PibUid": "EG712307100630",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6570,9 +6570,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "3812",
+                  "Number": "3830",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "3812",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "IC",
@@ -6586,11 +6589,11 @@
                   "Coordinates": "5352N00140W",
                   "Radius": "5",
                   "ItemA": "EGNM",
-                  "StartValidity": "2307100500",
+                  "StartValidity": "2307101029",
                   "EndValidity": "2307131700",
-                  "ItemE": "ILS RWY 14 U/S",
+                  "ItemE": "ILS RWY 14 U/S. NO INS/CIRCUIT TRAINING",
                   "Marker": "+",
-                  "NotamStoreDate": "090720230852"
+                  "NotamStoreDate": "100720231029"
                 }
               ]
             },
@@ -6667,36 +6670,6 @@
                   "ItemE": "LIT CRANES OPR PSN 532051N 0024957W (1926 M FM LIVERPOOL ARP).\nMAX HGT 171FT AGL/ 248FT AMSL. CRANES PENETRATE THE INNER\nHORIZONTAL SURFACE BY 41FT.",
                   "Marker": "+",
                   "NotamStoreDate": "070620231547"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5077",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "A",
-                  "ReferredNumber": "5062",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "NL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00244W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2307091046",
-                  "EndValidity": "2307101800",
-                  "ItemE": "LOCATOR LPL/LIVERPOOL 349.5KHZ U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "090720231046"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -10386,9 +10359,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "4064",
+                  "Number": "4068",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "4064",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "MR",
@@ -10402,11 +10378,11 @@
                   "Coordinates": "5136N00404W",
                   "Radius": "5",
                   "ItemA": "EGFH",
-                  "StartValidity": "2307100845",
+                  "StartValidity": "2307101017",
                   "EndValidity": "2307120800",
-                  "ItemE": "RWY 22 CLSD DUE WIP",
+                  "ItemE": "RWY 04/22 CLSD DUE WIP",
                   "Marker": "+",
-                  "NotamStoreDate": "100720230854"
+                  "NotamStoreDate": "100720231030"
                 }
               ]
             },
@@ -18395,6 +18371,36 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1638",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2307101500",
+                "EndValidity": "2307101600",
+                "ItemE": "SCOTTISH INFORMATION SER ON FREQ 119.875MHZ NOT AVBL. 119.875MHZ \nWILL NOT BE MONITORED. PILOTS ARE TO USE THE ALTN FREQ DETAILED IN \nCHART UK AIP ENR 6-33. AREA G 123.775MHZ, AREA H 124.5MHZ, AREA E \n127.275MHZ. ALERTING AND DISTRESS SER ARE AVBL ON 121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "100720231037"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
                 "Series": "C",
                 "Number": "3825",
                 "Year": "23",
@@ -18660,6 +18666,33 @@
                 "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED\nAIRSPACE REVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI\nNEWCASTLE AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nNEWCASTLE TOWER ON 119.705MHZ AND SQUAWK EITHER 3737, ANY\nDISCRETE TASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY\nANOTHER UNIT.",
                 "Marker": "+",
                 "NotamStoreDate": "070720231459"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "219",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5339N00147W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2307110600",
+                "EndValidity": "2309072359",
+                "ItemE": "LIT CRANE AT PSN 533843N 0014643W (KINGSGATE, WEST YORKSHIRE)\nIN LOW FLYING AREA 8, NIGHT SECTOR 3A AND LEEDS BRADFORD \nAVOIDANCE AREA. HGT 1000FT AMSL (250FT AGL). 23/07/047/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "100720231035"
               },
               {
                 "@OriginalMessage": "false",
@@ -24631,34 +24664,64 @@
             "Code": "EGPE",
             "Name": "INVERNESS",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5018",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "SP",
-                  "Code45": "AH",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5018",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "SP",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5733N00403W",
+                  "Radius": "3",
+                  "ItemA": "EGPE",
+                  "StartValidity": "2307070145",
+                  "EndValidity": "2308312130",
+                  "Estimation": "EST",
+                  "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
+                  "Marker": "+",
+                  "NotamStoreDate": "060720231348"
                 },
-                "Coordinates": "5733N00403W",
-                "Radius": "3",
-                "ItemA": "EGPE",
-                "StartValidity": "2307070145",
-                "EndValidity": "2308312130",
-                "Estimation": "EST",
-                "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
-                "Marker": "+",
-                "NotamStoreDate": "060720231348"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5097",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5733N00403W",
+                  "Radius": "5",
+                  "ItemA": "EGPE",
+                  "StartValidity": "2307101530",
+                  "EndValidity": "2307112100",
+                  "ItemD": "1530-1600, 1800-1830, 2030-2100",
+                  "ItemE": "INVERNESS ATC CLOSED DUE STAFF SICKNESS. ALL DEPARTING ACFT MUST \nBE AIRBOURNE AT LEAST 15 MINUTES PRIOR TO CLOSING TIME.",
+                  "Marker": "+",
+                  "NotamStoreDate": "100720231030"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -27088,6 +27151,37 @@
                 "ItemE": "BENBECULA ATZ DEACTIVATED. AD CLOSED FOR MANDATORY AIR TRAFFIC\nCONTROL OFFICER REST PERIODS.",
                 "Marker": "+",
                 "NotamStoreDate": "060720231402"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1638",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2307101500",
+                "EndValidity": "2307101600",
+                "ItemE": "SCOTTISH INFORMATION SER ON FREQ 119.875MHZ NOT AVBL. 119.875MHZ \nWILL NOT BE MONITORED. PILOTS ARE TO USE THE ALTN FREQ DETAILED IN \nCHART UK AIP ENR 6-33. AREA G 123.775MHZ, AREA H 124.5MHZ, AREA E \n127.275MHZ. ALERTING AND DISTRESS SER ARE AVBL ON 121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "100720231037"
               },
               {
                 "@Reference": "EGTT",
