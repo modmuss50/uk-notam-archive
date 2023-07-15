@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063039452",
+    "@PIBId": "400000063041696",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-15T06:00:57+00:00",
-        "ValidTo": "2023-07-16T06:00:00+00:00"
+        "ValidFrom": "2023-07-15T07:00:44+00:00",
+        "ValidTo": "2023-07-16T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-15T06:00:57+00:00",
+      "Issued": "2023-07-15T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307150213",
+      "PibUid": "EG712307150264",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6496,6 +6496,33 @@
                   "ItemE": "NDB(L) LPL/LIVERPOOL 349.5KHZ U/S",
                   "Marker": "+",
                   "NotamStoreDate": "140720230953"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5179",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AC",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "35"
+                  },
+                  "Coordinates": "5321N00258W",
+                  "Radius": "16",
+                  "ItemA": "EGGP",
+                  "StartValidity": "2307160600",
+                  "EndValidity": "2307231800",
+                  "ItemE": "LIVERPOOL ZONE TRANSITS MAY EXPIERECNE DELAYS DUE TO INCREASED \nTRAFFIC OPERATING WITHIN THE LIVERPOOL CTR",
+                  "Marker": "+",
+                  "NotamStoreDate": "120720231343"
                 }
               ]
             },
@@ -8626,35 +8653,7 @@
           {
             "Code": "EGCF",
             "Name": "SANDTOFT",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3869",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MK",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5334N00052W",
-                "Radius": "5",
-                "ItemA": "EGCF",
-                "StartValidity": "2307011000",
-                "EndValidity": "2307150700",
-                "ItemE": "PARKING AREA ECHO AND STARTER EXTENSION IMMEDIATELY ADJACENT \nCLOSED FOR AIRCRAFT MOVEMENTS.",
-                "Marker": "+",
-                "NotamStoreDate": "010720230946"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -12387,33 +12386,6 @@
                   "ItemE": "PRECISION APPROACH RADAR (PAR) U/S",
                   "Marker": "+",
                   "NotamStoreDate": "110720231621"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4668",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2307141900",
-                  "EndValidity": "2307150700",
-                  "ItemE": "RFFS DOWNGRADED TO ICAO CAT 4",
-                  "Marker": "+",
-                  "NotamStoreDate": "140720231907"
                 }
               ]
             },
@@ -17246,6 +17218,34 @@
                 "ItemE": "LIT FLOODLIGHTS OPR PSN 531018N 0025858W 735M 203 DEG MAG FROM\nHAWARDEN ARP. MAX HGT 78FT AMSL, 50FT AGL.",
                 "Marker": "+",
                 "NotamStoreDate": "060720231439"
+              },
+              {
+                "@Reference": "EGGP",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5179",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AC",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "35"
+                },
+                "Coordinates": "5321N00258W",
+                "Radius": "16",
+                "ItemA": "EGGP",
+                "StartValidity": "2307160600",
+                "EndValidity": "2307231800",
+                "ItemE": "LIVERPOOL ZONE TRANSITS MAY EXPIERECNE DELAYS DUE TO INCREASED \nTRAFFIC OPERATING WITHIN THE LIVERPOOL CTR",
+                "Marker": "+",
+                "NotamStoreDate": "120720231343"
               }
             ]
           },
