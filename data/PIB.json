@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063096081",
+    "@PIBId": "400000063097960",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-16T12:00:19+00:00",
-        "ValidTo": "2023-07-17T12:00:00+00:00"
+        "ValidFrom": "2023-07-16T13:00:03+00:00",
+        "ValidTo": "2023-07-17T13:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-16T12:00:19+00:00",
+      "Issued": "2023-07-16T13:00:03+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307160527",
+      "PibUid": "EG712307160556",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5033,7 +5033,35 @@
           {
             "Code": "EGNX",
             "Name": "EAST MIDLANDS",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3961",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OL",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "6"
+                },
+                "Coordinates": "5249N00121W",
+                "Radius": "1",
+                "ItemA": "EGNX",
+                "StartValidity": "2307161200",
+                "EndValidity": "2307171600",
+                "ItemE": "OBSTRUCTION LIGHT ON WIND TURBINE OUT OF SERVICE PSN \n524928N 0012032W EAST MIDLANDS AIRPORT 545FT AMSL 148FT AGL",
+                "Marker": "+",
+                "NotamStoreDate": "160720231213"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -10175,6 +10203,33 @@
                   "ItemE": "AD CLSD DUE TO LOCAL CYCLING EVENT. STAFF UNABLE TO ACCESS SITE.",
                   "Marker": "+",
                   "NotamStoreDate": "160720231116"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4215",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2307170800",
+                  "EndValidity": "2307190800",
+                  "ItemE": "RWY 04/22 CLSD FOR INSPECTION AND MAINTENANCE",
+                  "Marker": "+",
+                  "NotamStoreDate": "160720231213"
                 }
               ]
             },
@@ -17814,6 +17869,34 @@
                 "NotamStoreDate": "150720231123"
               },
               {
+                "@Reference": "EGNX",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "3961",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OL",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "6"
+                },
+                "Coordinates": "5249N00121W",
+                "Radius": "1",
+                "ItemA": "EGNX",
+                "StartValidity": "2307161200",
+                "EndValidity": "2307171600",
+                "ItemE": "OBSTRUCTION LIGHT ON WIND TURBINE OUT OF SERVICE PSN \n524928N 0012032W EAST MIDLANDS AIRPORT 545FT AMSL 148FT AGL",
+                "Marker": "+",
+                "NotamStoreDate": "160720231213"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -17839,6 +17922,36 @@
                 "ItemE": "WESTERN RADAR CLOSED",
                 "Marker": "+",
                 "NotamStoreDate": "230620231714"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1686",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2307161700",
+                "EndValidity": "2307161900",
+                "ItemE": "SCOTTISH INFORMATION SER ON FREQ 119.875MHZ NOT AVBL. 119.875MHZ \nWILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ DETAILED IN THE \nCHART UK AIP ENR 6-33. AREA G 123.775MHZ, AREA H 124.5MHZ, AREA E \n127.275MHZ. ALERTING AND DISTRESS SER ARE AVBL ON 121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "160720231220"
               },
               {
                 "@Reference": "EGNV",
@@ -26566,6 +26679,37 @@
                 "NotamStoreDate": "160720230840"
               },
               {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1686",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2307161700",
+                "EndValidity": "2307161900",
+                "ItemE": "SCOTTISH INFORMATION SER ON FREQ 119.875MHZ NOT AVBL. 119.875MHZ \nWILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ DETAILED IN THE \nCHART UK AIP ENR 6-33. AREA G 123.775MHZ, AREA H 124.5MHZ, AREA E \n127.275MHZ. ALERTING AND DISTRESS SER ARE AVBL ON 121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "160720231220"
+              },
+              {
                 "@Reference": "EGPH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -27432,6 +27576,64 @@
                 "ItemG": "FL120",
                 "Marker": "+",
                 "NotamStoreDate": "120720230820"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3593",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "550"
+                },
+                "Coordinates": "5837N00204W",
+                "Radius": "49",
+                "ItemA": "EGPX",
+                "StartValidity": "2307171200",
+                "EndValidity": "2307171430",
+                "ItemE": "THE FOLLOWING MORAY FIRTH DANGER AREAS ARE ACTIVATED:\nEG D809N 1200-1330 SFC-55000FT AMSL\nEG D809N 1330-1430 SFC-55000FT AMSL\nEG D809C 1200-1330 SFC-55000FT AMSL\nEG D809C 1330-1430 SFC-55000FT AMSL\nEG D809S 1200-1330 SFC-55000FT AMSL\nEG D809S 1330-1430 SFC-55000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "55000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "140720231024"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3602",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "100",
+                  "Upper": "660"
+                },
+                "Coordinates": "5640N00006E",
+                "Radius": "72",
+                "ItemA": "EGPX",
+                "StartValidity": "2307171230",
+                "EndValidity": "2307171800",
+                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 1230-1500 FL100-FL660\nEG D613A 1500-1800 FL100-FL660\nEG D613B 1230-1500 FL100-FL660\nEG D613B 1500-1800 FL100-FL660\nEG D613C 1230-1500 FL100-FL660\nEG D613C 1500-1800 FL100-FL660\nEG D613D 1230-1500 FL100-FL660\nEG D613D 1500-1800 FL100-FL660",
+                "ItemF": "FL100",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "140720231208"
               }
             ]
           },
