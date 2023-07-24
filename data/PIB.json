@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063434697",
+    "@PIBId": "400000063436668",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-24T04:00:43+00:00",
-        "ValidTo": "2023-07-25T04:00:00+00:00"
+        "ValidFrom": "2023-07-24T05:00:07+00:00",
+        "ValidTo": "2023-07-25T05:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-24T04:00:43+00:00",
+      "Issued": "2023-07-24T05:00:07+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307240077",
+      "PibUid": "EG712307240120",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6186,9 +6186,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "5392",
+                  "Number": "5399",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "A",
+                  "ReferredNumber": "5392",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "MX",
@@ -6202,11 +6205,11 @@
                   "Coordinates": "5320N00251W",
                   "Radius": "5",
                   "ItemA": "EGGP",
-                  "StartValidity": "2307232022",
-                  "EndValidity": "2307240630",
+                  "StartValidity": "2307240442",
+                  "EndValidity": "2307240800",
                   "ItemE": "HOLDING POINT G CLOSED",
                   "Marker": "+",
-                  "NotamStoreDate": "230720232024"
+                  "NotamStoreDate": "240720230444"
                 }
               ]
             },
@@ -23021,6 +23024,33 @@
                   "ItemE": "SUMBURGH PRIMARY RADAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "050720230704"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5398",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5953N00118W",
+                  "Radius": "2",
+                  "ItemA": "EGPB",
+                  "StartValidity": "2307240350",
+                  "EndValidity": "2307240515",
+                  "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "240720230406"
                 }
               ]
             },
@@ -24207,6 +24237,34 @@
                 "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFF SICKNESS.",
                 "Marker": "+",
                 "NotamStoreDate": "210720231743"
+              },
+              {
+                "@Reference": "EGPB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5398",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5953N00118W",
+                "Radius": "2",
+                "ItemA": "EGPB",
+                "StartValidity": "2307240350",
+                "EndValidity": "2307240515",
+                "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
+                "Marker": "+",
+                "NotamStoreDate": "240720230406"
               },
               {
                 "@Reference": "EGPO",
