@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063493650",
+    "@PIBId": "400000063496706",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-25T09:00:52+00:00",
-        "ValidTo": "2023-07-26T09:00:00+00:00"
+        "ValidFrom": "2023-07-25T10:00:22+00:00",
+        "ValidTo": "2023-07-26T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-25T09:00:52+00:00",
+      "Issued": "2023-07-25T10:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307250624",
+      "PibUid": "EG712307250735",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6278,7 +6278,35 @@
           {
             "Code": "EGCM",
             "Name": "LEEDS EAST",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4402",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5350N00112W",
+                "Radius": "1",
+                "ItemA": "EGCM",
+                "StartValidity": "2307250910",
+                "EndValidity": "2307252359",
+                "ItemE": "CRANE OPR PSN 535020N 0011156W (LEEDS EAST AIRPORT DISPLACED\nTHRESHOLD OF DISUSED RWY 16) MAX HGT 129FT AMSL, 100FT AGL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230915"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -8331,33 +8359,62 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5433",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5433",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5239N00115E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2307250810",
+                  "EndValidity": "2307251500",
+                  "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (HELLESDON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720230810"
                 },
-                "Coordinates": "5239N00115E",
-                "Radius": "1",
-                "ItemA": "EGSH",
-                "StartValidity": "2307250810",
-                "EndValidity": "2307251500",
-                "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (HELLESDON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "250720230810"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5434",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "5",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2307250900",
+                  "EndValidity": "2307251100",
+                  "ItemE": "PERSONNEL INSIDE RWY 09/27 INSTRUMENT STRIP. RWY 09 MET MAST \nSERVICING IN PROGRESS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720230904"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -12313,6 +12370,33 @@
                   "ItemE": "MOWING OPERATIONS IN PROGRESS. INCREASED BIRD ACTIVITY MAY EXIST",
                   "Marker": "+",
                   "NotamStoreDate": "250720230718"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4879",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2307250922",
+                  "EndValidity": "2307312359",
+                  "ItemE": "AIRCRAFT RESCUE FIREFIGHTER CAPIBILTY REDUCED LEVEL OF SERVICE\nINCREASED RISK/LOSS POTENTIAL DUE TO LACK OF EMERGENCY RESPONSE\nCAPABILITIES TO PREFORM RESCUE AND MITIGATION TACTICS FOR THE\nFOLLOWING AIRCRAFT C-5, KC-10, VC25A (747, AIRFORCE 1, E4, KC-135,\nC-17, B-52, B-2, B-1, KC-46.",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720230941"
                 }
               ]
             },
@@ -13670,6 +13754,34 @@
                   "ItemE": "AD OPERATIONAL HOURS:\nMON AND TUE  0800-1600 AND 2100-0130\nWED          0800-1600 AND 2100-2259\nTHU          0800-1345\nFRI          0800-1300",
                   "Marker": "+",
                   "NotamStoreDate": "210720230853"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4877",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5102N00235W",
+                  "Radius": "1",
+                  "ItemA": "EGDY",
+                  "StartValidity": "2307260630",
+                  "EndValidity": "2307281600",
+                  "ItemD": "26 28 0630-1600",
+                  "ItemE": "MOBILE CRANE OPERATING TO THE 3NM NORTH EAST OF YEOVILTON AD IN\nPOSITION 510149N 0023437W. MAX HGT 65FT AGL/233FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720230912"
                 }
               ]
             },
@@ -17972,6 +18084,34 @@
                 "NotamStoreDate": "250720230810"
               },
               {
+                "@Reference": "EGCM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4402",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5350N00112W",
+                "Radius": "1",
+                "ItemA": "EGCM",
+                "StartValidity": "2307250910",
+                "EndValidity": "2307252359",
+                "ItemE": "CRANE OPR PSN 535020N 0011156W (LEEDS EAST AIRPORT DISPLACED\nTHRESHOLD OF DISUSED RWY 16) MAX HGT 129FT AMSL, 100FT AGL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230915"
+              },
+              {
                 "@Reference": "EGYM",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18081,6 +18221,35 @@
                 "ItemE": "CRANE OPR PSN 511627N 0004934W (VELMEAD SCHOOL, CHURCH CROOKHAM, \nVCY FARNBOROUGH AD). HGT 121FT AGL/378FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "200720231131"
+              },
+              {
+                "@Reference": "EGDY",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4877",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5102N00235W",
+                "Radius": "1",
+                "ItemA": "EGDY",
+                "StartValidity": "2307260630",
+                "EndValidity": "2307281600",
+                "ItemD": "26 28 0630-1600",
+                "ItemE": "MOBILE CRANE OPERATING TO THE 3NM NORTH EAST OF YEOVILTON AD IN\nPOSITION 510149N 0023437W. MAX HGT 65FT AGL/233FT AMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "250720230912"
               },
               {
                 "@Reference": "EGKA",
@@ -18193,6 +18362,33 @@
                 "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
                 "Marker": "+",
                 "NotamStoreDate": "250720230848"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1718",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "ND",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5147N00203W",
+                "Radius": "25",
+                "ItemA": "EGTT",
+                "StartValidity": "2307260900",
+                "EndValidity": "2307261400",
+                "ItemE": "DME WIN/WINSTONE CH104Y U/S",
+                "Marker": "+",
+                "NotamStoreDate": "200720231045"
               }
             ]
           },
@@ -21986,6 +22182,38 @@
                 "NotamStoreDate": "240720231313"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4682",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "WY",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "65"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307250900",
+                "EndValidity": "2307251600",
+                "ItemE": "PIPELINE INSPECTION NOTIFICATION PROCEDURE SYSTEM (PINS)\nWILL TAKE PLACE IN THE FOLLOWING LOW FLYING AREAS -\n2,3,4,5,6,7N,7S,8,9,10,11N,11S,12,13,14E,16,17\nAND THE THAMES VALLEY AVOIDANCE AREA. MAX HEIGHT 2000FT AGL. \nUK AIP ENR 6 (PINS AREAS AND UK DAY LOW FLYING SYSTEM (DLFS))\nREFERS. 23/07/169/LFC",
+                "ItemF": "SFC",
+                "ItemG": "6500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230909"
+              },
+              {
                 "@Reference": "EGXT",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22725,6 +22953,35 @@
                 "NotamStoreDate": "210720231544"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4685",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5022N00509W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2307260330",
+                "EndValidity": "2307262030",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 3 WI 2NM RADIUS \nOF PSN 502141N 0050853W (PERRAN SANDS, CORNWALL). \n2000FT AGL. CTC 07789 593559. 23/07/172/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230950"
+              },
+              {
                 "@Reference": "EGSC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22812,6 +23069,66 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "240720231141"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1463",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5000N00514W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2307260900",
+                "EndValidity": "2307261500",
+                "ItemD": "0900-1100 1200-1500",
+                "ItemE": "DANGER AREA EG D005A PREDANNACK ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240720230951"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1464",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "4957N00515W",
+                "Radius": "7",
+                "ItemA": "EGTT",
+                "StartValidity": "2307260900",
+                "EndValidity": "2307261500",
+                "ItemD": "0900-1100 1200-1500",
+                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240720230954"
               }
             ]
           },
@@ -24094,65 +24411,33 @@
             "Code": "EGPA",
             "Name": "KIRKWALL",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2212",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MR",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5857N00254W",
-                  "Radius": "5",
-                  "ItemA": "EGPA",
-                  "StartValidity": "2307190739",
-                  "EndValidity": "2307311200",
-                  "ItemE": "RWY 09/27, WIGWAGS AT W5 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "190720230745"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2212",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "MR",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2242",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "I",
-                  "ReferredNumber": "2167",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "NL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5858N00254W",
-                  "Radius": "5",
-                  "ItemA": "EGPA",
-                  "StartValidity": "2307211651",
-                  "EndValidity": "2307281900",
-                  "ItemE": "LOCATOR KW/KIRKWALL 395KHZ U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "210720231651"
-                }
-              ]
+                "Coordinates": "5857N00254W",
+                "Radius": "5",
+                "ItemA": "EGPA",
+                "StartValidity": "2307190739",
+                "EndValidity": "2307311200",
+                "ItemE": "RWY 09/27, WIGWAGS AT W5 U/S",
+                "Marker": "+",
+                "NotamStoreDate": "190720230745"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -27272,6 +27557,39 @@
                 "ItemG": "1000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "240720231156"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4682",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "WY",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "65"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2307250900",
+                "EndValidity": "2307251600",
+                "ItemE": "PIPELINE INSPECTION NOTIFICATION PROCEDURE SYSTEM (PINS)\nWILL TAKE PLACE IN THE FOLLOWING LOW FLYING AREAS -\n2,3,4,5,6,7N,7S,8,9,10,11N,11S,12,13,14E,16,17\nAND THE THAMES VALLEY AVOIDANCE AREA. MAX HEIGHT 2000FT AGL. \nUK AIP ENR 6 (PINS AREAS AND UK DAY LOW FLYING SYSTEM (DLFS))\nREFERS. 23/07/169/LFC",
+                "ItemF": "SFC",
+                "ItemG": "6500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230909"
               },
               {
                 "@Reference": "EGTT",
