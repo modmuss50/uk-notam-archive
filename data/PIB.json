@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063520355",
+    "@PIBId": "400000063521899",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-25T23:00:12+00:00",
-        "ValidTo": "2023-07-26T23:00:00+00:00"
+        "ValidFrom": "2023-07-26T00:00:24+00:00",
+        "ValidTo": "2023-07-27T00:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-25T23:00:12+00:00",
+      "Issued": "2023-07-26T00:00:24+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307251377",
+      "PibUid": "EG712307260006",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6087,35 +6087,7 @@
           {
             "Code": "EGCM",
             "Name": "LEEDS EAST",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "4402",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
-                },
-                "Coordinates": "5350N00112W",
-                "Radius": "1",
-                "ItemA": "EGCM",
-                "StartValidity": "2307250910",
-                "EndValidity": "2307252359",
-                "ItemE": "CRANE OPR PSN 535020N 0011156W (LEEDS EAST AIRPORT DISPLACED\nTHRESHOLD OF DISUSED RWY 16) MAX HGT 129FT AMSL, 100FT AGL",
-                "Marker": "+",
-                "NotamStoreDate": "250720230915"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -6730,33 +6702,6 @@
                   "ItemE": "TWY LIMA CLSD BTN STAND 553 AND STAND 102 DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "250720230108"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5449",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00011W",
-                  "Radius": "5",
-                  "ItemA": "EGKK",
-                  "StartValidity": "2307252230",
-                  "EndValidity": "2307260400",
-                  "ItemE": "TWY LIMA CLOSED BTN TWY QUEBEC ALPHA AND TWY PAPA",
-                  "Marker": "+",
-                  "NotamStoreDate": "250720231619"
                 }
               ]
             },
@@ -13300,36 +13245,65 @@
             "Code": "EGFD",
             "Name": "LLANBEDR",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4200",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "16"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "4200",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "16"
+                  },
+                  "Coordinates": "5249N00408W",
+                  "Radius": "2",
+                  "ItemA": "EGFD",
+                  "StartValidity": "2307110600",
+                  "EndValidity": "2308052000",
+                  "ItemD": "0600-2000",
+                  "ItemE": "UAS OPR WI 1NM RADIUS OF 524835N 0040734W (LLANBDER AD). MAX\nHGT 1500FT AGL. FOR INFO 07375 905933. 2023-07-0509/AS2",
+                  "ItemF": "SFC",
+                  "ItemG": "1550FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "100720230751"
                 },
-                "Coordinates": "5249N00408W",
-                "Radius": "2",
-                "ItemA": "EGFD",
-                "StartValidity": "2307110600",
-                "EndValidity": "2308052000",
-                "ItemD": "0600-2000",
-                "ItemE": "UAS OPR WI 1NM RADIUS OF 524835N 0040734W (LLANBDER AD). MAX\nHGT 1500FT AGL. FOR INFO 07375 905933. 2023-07-0509/AS2",
-                "ItemF": "SFC",
-                "ItemG": "1550FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "100720230751"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "E",
+                  "Number": "131",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5248N00408W",
+                  "Radius": "5",
+                  "ItemA": "EGFD",
+                  "StartValidity": "2307260500",
+                  "EndValidity": "2307291700",
+                  "ItemE": "AD CLSD DUE UAS FLYING. FLYING SCHOOL AND COMPANY TRAFFIC WITH\nPERMISSION. CONTACT AD MANAGER 07836 591596",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720232330"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -17190,34 +17164,6 @@
                 "ItemE": "HAWARDEN APPROACH RADAR SER NOT AVBL DUE TO RADAR MAINT. ALL ACFT \nWILL BE PROVIDED WITH A BASIC SER FROM THE AD CONTROLLER. ALL ACFT\nMUST ARRIVE AND DEPART VFR",
                 "Marker": "+",
                 "NotamStoreDate": "120720231411"
-              },
-              {
-                "@Reference": "EGCM",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "4402",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
-                },
-                "Coordinates": "5350N00112W",
-                "Radius": "1",
-                "ItemA": "EGCM",
-                "StartValidity": "2307250910",
-                "EndValidity": "2307252359",
-                "ItemE": "CRANE OPR PSN 535020N 0011156W (LEEDS EAST AIRPORT DISPLACED\nTHRESHOLD OF DISUSED RWY 16) MAX HGT 129FT AMSL, 100FT AGL",
-                "Marker": "+",
-                "NotamStoreDate": "250720230915"
               },
               {
                 "@Reference": "EGYM",
@@ -25980,35 +25926,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "4636",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5536N00205W",
-                "Radius": "2",
-                "ItemA": "EGPX",
-                "StartValidity": "2307250001",
-                "EndValidity": "2307252359",
-                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW\nFLYING AREA 12 AT PSN 553540N 0020510W, (MILFIELD, NORTHUMBERLAND)\nRADIUS 1NM. MAX HEIGHT 263FT AGL. 23/07/147/LFC\nSAFE DISTANCES\nCIVILIAN ACFT                    0.0627NM        63FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                         0.0582NM        35FT AGL\nLOW                              0/0672NM        90FT AGL\nMEDIUM                           0.0749NM       136FT AGL\nHIGH                             0.0959NM       263FT AGL\nPULSE LOW                        0.0606NM        49FT AGL\nPULSE MEDIUM                     0.0672NM        89FT AGL\nPULSE HIGH                       0.0804NM       169FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "280FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "240720230922"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "4640",
                 "Year": "23",
                 "Type": "N",
@@ -26032,35 +25949,6 @@
                 "ItemG": "1280FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "240720230941"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4641",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RO",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "12"
-                },
-                "Coordinates": "5517N00143W",
-                "Radius": "2",
-                "ItemA": "EGPX",
-                "StartValidity": "2307250001",
-                "EndValidity": "2307252359",
-                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW\nFLYING AREA 12 AT PSN 551700N 0014249W, (AMBLE, NORTHUMBERLAND)\nRADIUS 1NM. MAX HEIGHT 1150FT AGL. 23/07/151/LFC\nSAFE DISTANCES\nCIVILIAN ACFT                    0.5235NM       1150FT AGL\nMIL ACFT SUSCEPTIBILITY \nVERY LOW                         0.3471NM         77FT AGL\nLOW                              0.3715NM        225FT AGL\nMEDIUM                           0.3902NM        338FT AGL\nHIGH                             0.4439NM        665FT AGL\nPULSE LOW                        0.3832NM        296FT AGL\nPULSE MEDIUM                     0.4301NM        581FT AGL\nPULSE HIGH                       0.5238NM       1150FT AGL",
-                "ItemF": "SFC",
-                "ItemG": "1170FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "240720230944"
               },
               {
                 "@OriginalMessage": "false",
