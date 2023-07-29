@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063697287",
+    "@PIBId": "400000063699009",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-29T12:00:19+00:00",
-        "ValidTo": "2023-07-30T12:00:00+00:00"
+        "ValidFrom": "2023-07-29T13:00:03+00:00",
+        "ValidTo": "2023-07-30T13:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-29T12:00:19+00:00",
+      "Issued": "2023-07-29T13:00:03+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307290601",
+      "PibUid": "EG712307290671",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3573,64 +3573,33 @@
             "Code": "EGKB",
             "Name": "BIGGIN HILL",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4147",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FT",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5120N00002E",
-                  "Radius": "5",
-                  "ItemA": "EGKB",
-                  "StartValidity": "2307251815",
-                  "EndValidity": "2310232200",
-                  "ItemE": "INSTR RVR RWY 03/21 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "250720231816"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4147",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FT",
+                  "Code45": "AS",
+                  "Traffic": "I",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4222",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "10"
-                  },
-                  "Coordinates": "5120N00002E",
-                  "Radius": "1",
-                  "ItemA": "EGKB",
-                  "StartValidity": "2307300700",
-                  "EndValidity": "2307301100",
-                  "ItemE": "UAS OPR WI 100M RADIUS OF PSN 511939N 0000155E (BIGGIN HILL AD \nTWY CHARLIE) HGT 400FT AGL/984FT AMSL",
-                  "ItemF": "SFC",
-                  "ItemG": "984FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "280720231439"
-                }
-              ]
+                "Coordinates": "5120N00002E",
+                "Radius": "5",
+                "ItemA": "EGKB",
+                "StartValidity": "2307251815",
+                "EndValidity": "2310232200",
+                "ItemE": "INSTR RVR RWY 03/21 U/S",
+                "Marker": "+",
+                "NotamStoreDate": "250720231816"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -7155,6 +7124,36 @@
                   "ItemE": "LIT CRANE OPR AT PSN \n512744N 0002333W - 512744N 0002330W - 512743N 0002330W - \n512742N 0002332W - 512744N 0002333W (HAYES).MAX HGT 151FT AGL/226FT \nAMSL. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE REF 2023071017.0",
                   "Marker": "+",
                   "NotamStoreDate": "150720230650"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "830",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "RO",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5130N00006W",
+                  "Radius": "2",
+                  "ItemA": "EGLL",
+                  "StartValidity": "2307301200",
+                  "EndValidity": "2307312130",
+                  "ItemD": "30 1200-1500 1730-2030, 31 1830-2130",
+                  "ItemE": "PILOTS ARE REQUESTED NOT TO OVERFLY FILMING WI 1NM RADIUS\n513029N 0000549W (GLOBE THEATRE, SOUTHBANK, CENTRAL LONDON). FOR \nINFO 02079 021466. 2023-03-0018/AS7",
+                  "ItemF": "SFC",
+                  "ItemG": "2100FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "010320231158"
                 }
               ]
             },
@@ -9738,6 +9737,60 @@
                   "ItemE": "TRIGGER NOTAM - AIP SUP 053/23 WEF 27 JUL 23.\nSWANSEA AIRPORT (EGFH): AD LICENCE SUSPENDED",
                   "Marker": "+",
                   "NotamStoreDate": "270720230024"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4496",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2307291330",
+                  "EndValidity": "2308012359",
+                  "ItemE": "RWY 04/22 CLSD DUE TO INSPECTION AND MAINTENANCE",
+                  "Marker": "+",
+                  "NotamStoreDate": "290720231225"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4497",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2307291330",
+                  "EndValidity": "2307292359",
+                  "ItemE": "AD CLSD DUE TO WX",
+                  "Marker": "+",
+                  "NotamStoreDate": "290720231228"
                 }
               ]
             },
@@ -16935,37 +16988,6 @@
                 "NotamStoreDate": "020720231559"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "1836",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "OA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5218N01451W",
-                "Radius": "999",
-                "ItemA": [
-                  "EGTT",
-                  "EGPX",
-                  "EGGX"
-                ],
-                "StartValidity": "2307291128",
-                "EndValidity": "2307301200",
-                "ItemE": "THE NOTAM BRIEFING SITE ON THE AIS WEBSITE IS CURRENTLY \nUNAVAILABLE. USER ARE ADVISED TO CHECK NOTAM VIA THE NATS AERO \nWEBSITE AT\nWWW.NATS.AERO/DO-IT-ONLINE/PRE-FLIGHT-INFORMATION-BULLETINS)",
-                "Marker": "+",
-                "NotamStoreDate": "290720231130"
-              },
-              {
                 "@Reference": "EGHI",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -20498,35 +20520,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "4529",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5202N00113E",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2307291142",
-                "EndValidity": "2307291212",
-                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n520201N 0011322E (IPSWICH, SUFFOLK). FOR OPERATIONAL CALLS ONLY \nCTC 01526 347716. 2023-07-0825/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2200FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "190720230729"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "4545",
                 "Year": "23",
                 "Type": "N",
@@ -21606,34 +21599,35 @@
                 "NotamStoreDate": "270720231043"
               },
               {
-                "@Reference": "EGKB",
+                "@Reference": "EGLL",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4222",
+                "Series": "H",
+                "Number": "830",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
                   "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
+                  "Code23": "RO",
+                  "Code45": "XX",
                   "Traffic": "IV",
-                  "Purpose": "BO",
+                  "Purpose": "NBO",
                   "Scope": "AW",
                   "Lower": "0",
-                  "Upper": "10"
+                  "Upper": "21"
                 },
-                "Coordinates": "5120N00002E",
-                "Radius": "1",
-                "ItemA": "EGKB",
-                "StartValidity": "2307300700",
-                "EndValidity": "2307301100",
-                "ItemE": "UAS OPR WI 100M RADIUS OF PSN 511939N 0000155E (BIGGIN HILL AD \nTWY CHARLIE) HGT 400FT AGL/984FT AMSL",
+                "Coordinates": "5130N00006W",
+                "Radius": "2",
+                "ItemA": "EGLL",
+                "StartValidity": "2307301200",
+                "EndValidity": "2307312130",
+                "ItemD": "30 1200-1500 1730-2030, 31 1830-2130",
+                "ItemE": "PILOTS ARE REQUESTED NOT TO OVERFLY FILMING WI 1NM RADIUS\n513029N 0000549W (GLOBE THEATRE, SOUTHBANK, CENTRAL LONDON). FOR \nINFO 02079 021466. 2023-03-0018/AS7",
                 "ItemF": "SFC",
-                "ItemG": "984FT AMSL",
+                "ItemG": "2100FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "280720231439"
+                "NotamStoreDate": "010320231158"
               }
             ]
           },
@@ -21968,6 +21962,33 @@
                   "ItemE": "CLOUD BASE RECORDER U/S. AUTO METAR CLOUD BASE INFORMATION\nSHOULD BE DISREGARDED.",
                   "Marker": "+",
                   "NotamStoreDate": "300620231549"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "2291",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5729N00722W",
+                  "Radius": "5",
+                  "ItemA": "EGPL",
+                  "StartValidity": "2307301200",
+                  "EndValidity": "2310281145",
+                  "ItemE": "REVISED AD OPR HRS\nMON WED FRI 0700-1530\nTUE THU 0700-1645\nSAT 0700-0730, 0915-1045, 1115-1145\nSUN 1215-1330",
+                  "Marker": "+",
+                  "NotamStoreDate": "270720231453"
                 }
               ]
             },
@@ -22341,6 +22362,33 @@
                   "ItemE": "CRANE OPR PSN 555728N 0031828W (MAYBURY, EDINBURGH) MAX HGT 295FT \nAMSL AND 164FT AGL. CRANE WILL BE LOWERED DURING LVP",
                   "Marker": "+",
                   "NotamStoreDate": "030720231011"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5601",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FU",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5557N00322W",
+                  "Radius": "5",
+                  "ItemA": "EGPH",
+                  "StartValidity": "2307291215",
+                  "EndValidity": "2307292300",
+                  "ItemE": "DUE TO EXTERNAL FUEL SUPPLY ISSUES, ALL AIRLINES TO MAXIMISE \nINBOUND TANKERING.",
+                  "Marker": "+",
+                  "NotamStoreDate": "290720231212"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -25195,38 +25243,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "B",
-                "Number": "1836",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "OA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5218N01451W",
-                "Radius": "999",
-                "ItemA": [
-                  "EGTT",
-                  "EGPX",
-                  "EGGX"
-                ],
-                "StartValidity": "2307291128",
-                "EndValidity": "2307301200",
-                "ItemE": "THE NOTAM BRIEFING SITE ON THE AIS WEBSITE IS CURRENTLY \nUNAVAILABLE. USER ARE ADVISED TO CHECK NOTAM VIA THE NATS AERO \nWEBSITE AT\nWWW.NATS.AERO/DO-IT-ONLINE/PRE-FLIGHT-INFORMATION-BULLETINS)",
-                "Marker": "+",
-                "NotamStoreDate": "290720231130"
-              },
-              {
-                "@Reference": "EGTT",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
                 "Series": "C",
                 "Number": "4132",
                 "Year": "23",
@@ -26030,40 +26046,7 @@
         "ICAO": "EGGX",
         "Name": "SHANWICK OCEANIC FIR",
         "En-route": {
-          "NotamList": {
-            "Notam": {
-              "@Reference": "EGTT",
-              "@OriginalMessage": "false",
-              "@PIBSection": "FIR",
-              "NOF": "EGGN",
-              "Series": "B",
-              "Number": "1836",
-              "Year": "23",
-              "Type": "N",
-              "QLine": {
-                "FIR": "EGXX",
-                "Code23": "OA",
-                "Code45": "XX",
-                "Traffic": "IV",
-                "Purpose": "BO",
-                "Scope": "E",
-                "Lower": "0",
-                "Upper": "999"
-              },
-              "Coordinates": "5218N01451W",
-              "Radius": "999",
-              "ItemA": [
-                "EGTT",
-                "EGPX",
-                "EGGX"
-              ],
-              "StartValidity": "2307291128",
-              "EndValidity": "2307301200",
-              "ItemE": "THE NOTAM BRIEFING SITE ON THE AIS WEBSITE IS CURRENTLY \nUNAVAILABLE. USER ARE ADVISED TO CHECK NOTAM VIA THE NATS AERO \nWEBSITE AT\nWWW.NATS.AERO/DO-IT-ONLINE/PRE-FLIGHT-INFORMATION-BULLETINS)",
-              "Marker": "+",
-              "NotamStoreDate": "290720231130"
-            }
-          },
+          "NotamList": null,
           "ObsoleteNotamList": null
         },
         "Warnings": {
