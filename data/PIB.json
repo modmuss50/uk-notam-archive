@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063703430",
+    "@PIBId": "400000063705075",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-29T15:00:55+00:00",
-        "ValidTo": "2023-07-30T15:00:00+00:00"
+        "ValidFrom": "2023-07-29T16:00:04+00:00",
+        "ValidTo": "2023-07-30T16:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-29T15:00:55+00:00",
+      "Issued": "2023-07-29T16:00:04+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307290752",
+      "PibUid": "EG712307290776",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4362,6 +4362,34 @@
                   "ItemE": "DUE TO ATC STAFFING, REQUESTS TO CROSS THE CARDIFF CTA/CTR MAY BE\nREFUSED OR DELAYED. PILOTS SHOULD PLAN TO REMAIN CLEAR OF CARDIFF\nCONTROLLED AIRSPACE AND USE THE LISTENING SSR CODE 3636",
                   "Marker": "+",
                   "NotamStoreDate": "270720231205"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5605",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2307292230",
+                  "EndValidity": "2307300400",
+                  "ItemD": "29 2230-2300, 30 0100-0400",
+                  "ItemE": "AERODROME CLOSED. IN THE EVENT OF EMERGENCY CONTACT AIRPORT FIRE \nSERVICE ON 01446 712505",
+                  "Marker": "+",
+                  "NotamStoreDate": "290720231559"
                 }
               ]
             },
@@ -7548,6 +7576,33 @@
                   "ItemE": "NEWQUAY ATZ ACTIVATION AND AD HOURS.\nMON-FRI 0545-2100\nSAT     0545-1900\nSUN     0545-2100\nDURING OPENING TIMES RFFS CAT 6 UNLESS STATED. OUTSIDE OF THESE HOURS\nSAR AND AIR AMBULANCE FLIGHTS MAY TAKE PLACE.",
                   "Marker": "+",
                   "NotamStoreDate": "200520230851"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4250",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AZ",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "24"
+                  },
+                  "Coordinates": "5026N00500W",
+                  "Radius": "3",
+                  "ItemA": "EGHQ",
+                  "StartValidity": "2307291800",
+                  "EndValidity": "2307291900",
+                  "ItemE": "NEWQUAY ATZ DEACTIVATED. AD CLOSED. ATC/RFFS UNAVAILABLE. SAR AND\nHELIMED FLIGHTS MAY BE TAKING PLACE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "290720231541"
                 }
               ]
             },
@@ -8081,7 +8136,37 @@
           {
             "Code": "EGCF",
             "Name": "SANDTOFT",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4548",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5334N00052W",
+                "Radius": "2",
+                "ItemA": "EGCF",
+                "StartValidity": "2307301518",
+                "EndValidity": "2307301548",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n533353N 0005219W (SANDTOFT AD, LINCOLNSHIRE). FOR OPERATIONAL \nCALLS ONLY CTC 01526 347716. 2023-07-0831/AS1.",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "190720231017"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -17044,6 +17129,34 @@
                 "NotamStoreDate": "290720231020"
               },
               {
+                "@Reference": "EGHQ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4250",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AZ",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5026N00500W",
+                "Radius": "3",
+                "ItemA": "EGHQ",
+                "StartValidity": "2307291800",
+                "EndValidity": "2307291900",
+                "ItemE": "NEWQUAY ATZ DEACTIVATED. AD CLOSED. ATC/RFFS UNAVAILABLE. SAR AND\nHELIMED FLIGHTS MAY BE TAKING PLACE.",
+                "Marker": "+",
+                "NotamStoreDate": "290720231541"
+              },
+              {
                 "@Reference": "EGTK",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17246,6 +17359,33 @@
                 "ItemE": "SOLENT CTA, SOUTHAMPTON CTR/ATZ DEACTIVATED. ACFT TO CALL\nSOUTHAMPTON TOWER ON 118.205MHZ FOR EMERGENCY RESPONSE ONLY. )",
                 "Marker": "+",
                 "NotamStoreDate": "290720231359"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1504",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "100",
+                  "Upper": "245"
+                },
+                "Coordinates": "5122N00440W",
+                "Radius": "130",
+                "ItemA": "EGTT",
+                "StartValidity": "2307301530",
+                "EndValidity": "2307301600",
+                "ItemE": "WESTERN RADAR CLOSED",
+                "Marker": "+",
+                "NotamStoreDate": "230620231715"
               }
             ]
           },
@@ -21220,6 +21360,36 @@
                 "ItemG": "4000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "180720231452"
+              },
+              {
+                "@Reference": "EGCF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4548",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5334N00052W",
+                "Radius": "2",
+                "ItemA": "EGCF",
+                "StartValidity": "2307301518",
+                "EndValidity": "2307301548",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n533353N 0005219W (SANDTOFT AD, LINCOLNSHIRE). FOR OPERATIONAL \nCALLS ONLY CTC 01526 347716. 2023-07-0831/AS1.",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "190720231017"
               }
             ]
           },
@@ -23438,33 +23608,6 @@
                   "ItemE": "VOR/DME SUM/SUMBURGH 117.35MHZ CH120Y VOR PART U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280720231008"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5602",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "100"
-                  },
-                  "Coordinates": "5950N00118W",
-                  "Radius": "19",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2307291515",
-                  "EndValidity": "2307291615",
-                  "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "290720231309"
                 }
               ]
             },
@@ -24832,34 +24975,6 @@
                 "ItemE": "EMERGENCY MANDATORY TRANSPONDER ZONE EXTABLISHED IN A PORTION OF\nTHE SCOTTISH TMA/CONTROLLED AIRSPACE DUE TO LOWTHER HILL PRIMARY\nRADAR ON MAINTENANCE. AFFECTED AREA IS DEFINED BY COORD \n551137N 0040215W - 550606N 0040838W - 550312N 0040022W - \n550858N 0035443W - 551137N 0040215W, BTN SFC/FL195.  ALL ACFT OPR WI \nCONTROLLED AIRSPACE IN THIS AREA ARE REQUIRED TO OPERATE A \nSERVICEABLE TRANPONDER.",
                 "Marker": "+",
                 "NotamStoreDate": "280720232121"
-              },
-              {
-                "@Reference": "EGPB",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5602",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5950N00118W",
-                "Radius": "19",
-                "ItemA": "EGPB",
-                "StartValidity": "2307291515",
-                "EndValidity": "2307291615",
-                "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
-                "Marker": "+",
-                "NotamStoreDate": "290720231309"
               },
               {
                 "@Reference": "EGTT",
