@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063744072",
+    "@PIBId": "400000063746541",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-07-30T09:00:52+00:00",
-        "ValidTo": "2023-07-31T09:00:00+00:00"
+        "ValidFrom": "2023-07-30T10:00:22+00:00",
+        "ValidTo": "2023-07-31T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-07-30T09:00:52+00:00",
+      "Issued": "2023-07-30T10:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712307300403",
+      "PibUid": "EG712307300465",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6276,6 +6276,33 @@
                   "ItemE": "LIVERPOOL CTA/CTR/ATZ DEACTIVATED. LIVERPOOL CONTROLLED\nAIRSPACE REVERTS TO CLASS G. SUITABLY EQUIPPED AIRCRAFT WI\nLIVERPOOL AIRSPACE SHOULD MONITOR LIVERPOOL RADAR 119.855MHZ\nAND SQUAWK EITHER 5060, ANY DISCREET TASK SPECIFIC CODE OR ANY\nDISCRETE CODE ISSUED BY ANOTHER ATC UNIT. MET OBS UNVERIFIED\nDURING PERIODS OF CLOSURE.",
                   "Marker": "+",
                   "NotamStoreDate": "290720231832"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5617",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "35"
+                  },
+                  "Coordinates": "5321N00258W",
+                  "Radius": "16",
+                  "ItemA": "EGGP",
+                  "StartValidity": "2307310200",
+                  "EndValidity": "2307310300",
+                  "ItemE": "LIVERPOOL CTA/CTR/ATZ DEACTIVATED. LIVERPOOL CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI LIVERPOOL AIRSPACE \nSHOULD MONITOR LIVERPOOL RADAR 119.855MHZ AND SQUAWK EITHER 5060, \nANY DISCREET TASK SPECIFIC CODE OR ANY DISCRETE CODE ISSUED BY \nANOTHER ATC UNIT. MET OBS UNVERIFIED DURING PERIODS OF CLOSURE",
+                  "Marker": "+",
+                  "NotamStoreDate": "300720230951"
                 }
               ]
             },
@@ -7405,33 +7432,64 @@
             "Code": "EGMD",
             "Name": "LYDD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "3022",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "LA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "3022",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "LA",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00056E",
+                  "Radius": "5",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2306010805",
+                  "EndValidity": "2307311800",
+                  "ItemE": "RWY 21 APCH LIGHTS 50 PERCENT U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "010620230809"
                 },
-                "Coordinates": "5057N00056E",
-                "Radius": "5",
-                "ItemA": "EGMD",
-                "StartValidity": "2306010805",
-                "EndValidity": "2307311800",
-                "ItemE": "RWY 21 APCH LIGHTS 50 PERCENT U/S",
-                "Marker": "+",
-                "NotamStoreDate": "010620230809"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4129",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5057N00055E",
+                  "Radius": "1",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2307310930",
+                  "EndValidity": "2307311200",
+                  "ItemE": "UAS OPR WI 150M RADIUS OF PSN 505724N 0005502E (WEST QUADRANT OF\nLYDD ATZ) MAX HGT 387FT AGL/400FT AMSL.",
+                  "ItemF": "SFC",
+                  "ItemG": "400FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "250720230811"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -9519,6 +9577,33 @@
                   "ItemE": "INCREASED BIRD ACTIVITY ON AD.",
                   "Marker": "+",
                   "NotamStoreDate": "270720231347"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4512",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00326W",
+                  "Radius": "5",
+                  "ItemA": "EGSY",
+                  "StartValidity": "2307301000",
+                  "EndValidity": "2307301600",
+                  "ItemE": "ATC CLOSED IN THE EVENT OF AN EMERGENCY CTC AD SECURITY ON 01446\n243900",
+                  "Marker": "+",
+                  "NotamStoreDate": "300720230907"
                 }
               ]
             },
@@ -17415,6 +17500,34 @@
                 "NotamStoreDate": "260720230914"
               },
               {
+                "@Reference": "EGGP",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5617",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "35"
+                },
+                "Coordinates": "5321N00258W",
+                "Radius": "16",
+                "ItemA": "EGGP",
+                "StartValidity": "2307310200",
+                "EndValidity": "2307310300",
+                "ItemE": "LIVERPOOL CTA/CTR/ATZ DEACTIVATED. LIVERPOOL CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI LIVERPOOL AIRSPACE \nSHOULD MONITOR LIVERPOOL RADAR 119.855MHZ AND SQUAWK EITHER 5060, \nANY DISCREET TASK SPECIFIC CODE OR ANY DISCRETE CODE ISSUED BY \nANOTHER ATC UNIT. MET OBS UNVERIFIED DURING PERIODS OF CLOSURE",
+                "Marker": "+",
+                "NotamStoreDate": "300720230951"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -22672,6 +22785,36 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "280720231053"
+              },
+              {
+                "@Reference": "EGMD",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4129",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5057N00055E",
+                "Radius": "1",
+                "ItemA": "EGMD",
+                "StartValidity": "2307310930",
+                "EndValidity": "2307311200",
+                "ItemE": "UAS OPR WI 150M RADIUS OF PSN 505724N 0005502E (WEST QUADRANT OF\nLYDD ATZ) MAX HGT 387FT AGL/400FT AMSL.",
+                "ItemF": "SFC",
+                "ItemG": "400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "250720230811"
               }
             ]
           },
@@ -26452,6 +26595,34 @@
                 "ItemE": "CRANE OPR PSN 553110N 0043652W (PRESTWICK) HGT 42FT AGL 75FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "210720231035"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1745",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "GW",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5503N00233W",
+                "Radius": "31",
+                "ItemA": "EGPX",
+                "StartValidity": "2307310900",
+                "EndValidity": "2308041800",
+                "ItemD": "0900-1800",
+                "ItemE": "GNSS(GPS)SIGNAL AND RADIO FREQUENCY JAMMING (L1 AND G1). JAMMERS \nLOCATED WI 2NM RADIUS: 550310N 0023300W (SPADEADAM, CUMBRIA). \nACTIVITY MAY AFFECT ACFT WI 30NM SFC TO 40000FT AMSL OR ABOVE (ALL \nDIRECTIONS). MAY ALSO AFFECT AIRBORNE ELECTRONIC SITUATIONAL \nAWARENESS DEVICES AND UAS CONTROL. NOT TO EXCEED 2 MIN DURATION. \nGNSS(GPS) RECEIVERS MAY SUFFER INTERMITTENT / TOTAL FAILURE OR GIVE \nINCORRECT POSITION INFO. 121.5/243.0 MHZ MONITORED THROUGHOUT FOR \nINFO/CEASE JAMMING 016977 47321 EXTENSION 6386/6375/6388.\n2023-07-0889/AS4.",
+                "Marker": "+",
+                "NotamStoreDate": "240720231541"
               }
             ]
           },
@@ -27404,6 +27575,35 @@
                 "ItemG": "FL230",
                 "Marker": "+",
                 "NotamStoreDate": "280720231029"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "3829",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "100",
+                  "Upper": "660"
+                },
+                "Coordinates": "5640N00006E",
+                "Radius": "72",
+                "ItemA": "EGPX",
+                "StartValidity": "2307310930",
+                "EndValidity": "2307311630",
+                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 0930-1130 FL100-FL660\nEG D613A 1130-1330 FL100-FL660\nEG D613B 0930-1130 FL100-FL660\nEG D613B 1130-1330 FL100-FL660\nEG D613C 0930-1130 FL100-FL660\nEG D613C 1130-1330 FL100-FL660\nEG D613D 0930-1130 FL100-FL660\nEG D613D 1130-1330 FL100-FL660\nEG D613D 1345-1630 FL100-FL660",
+                "ItemF": "FL100",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "280720231031"
               }
             ]
           },
