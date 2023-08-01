@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063864706",
+    "@PIBId": "400000063871056",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-01T06:00:56+00:00",
-        "ValidTo": "2023-08-02T06:00:00+00:00"
+        "ValidFrom": "2023-08-01T07:00:44+00:00",
+        "ValidTo": "2023-08-02T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-01T06:00:56+00:00",
+      "Issued": "2023-08-01T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308010248",
+      "PibUid": "EG712308010351",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3916,14 +3916,14 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "C",
-                "Number": "4288",
+                "Number": "4303",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
                   "FIR": "EGTT",
-                  "Code23": "PI",
-                  "Code45": "AU",
-                  "Traffic": "I",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
                   "Purpose": "NBO",
                   "Scope": "A",
                   "Lower": "0",
@@ -3932,11 +3932,11 @@
                 "Coordinates": "5346N00302W",
                 "Radius": "5",
                 "ItemA": "EGNH",
-                "StartValidity": "2308010700",
-                "EndValidity": "2308011200",
-                "ItemE": "NO INSTRUMENT APPROACHES OR INSTRUMENT TRAINING DUE TO FLIGHT\nCALIBRATION.",
+                "StartValidity": "2308010930",
+                "EndValidity": "2308011500",
+                "ItemE": "NO INSTRUMENT TRAINING DUE FLIGHT CALIBRATION",
                 "Marker": "+",
-                "NotamStoreDate": "310720231303"
+                "NotamStoreDate": "010820230657"
               }
             },
             "ObsoleteNotamList": null
@@ -8076,62 +8076,33 @@
             "Code": "EGNE",
             "Name": "RETFORD/GAMSTON",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "2728",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5317N00057W",
-                  "Radius": "5",
-                  "ItemA": "EGNE",
-                  "StartValidity": "2305091332",
-                  "EndValidity": "PERM",
-                  "ItemE": "RESCUE AND FIRE FIGHTING SERVICES - AMEND RFFS CAT TO READ:\nRFF CATEGORY 1.\nRFF CATEGORY 2 ON REQUEST.\nRFF CATEGORY 3 UNDER REMISSION.\nUK AIP EGNE AD 2.6. REFERS",
-                  "Marker": "+",
-                  "NotamStoreDate": "090520231333"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "2728",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FF",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3356",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AP",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5317N00057W",
-                  "Radius": "5",
-                  "ItemA": "EGNE",
-                  "StartValidity": "2306080912",
-                  "EndValidity": "2308010700",
-                  "ItemE": "AIRBORNE PPR NOT ACCEPTED. OPERATORS SHOULD PPR ON \n+44 01777 838 521.",
-                  "Marker": "+",
-                  "NotamStoreDate": "080620230919"
-                }
-              ]
+                "Coordinates": "5317N00057W",
+                "Radius": "5",
+                "ItemA": "EGNE",
+                "StartValidity": "2305091332",
+                "EndValidity": "PERM",
+                "ItemE": "RESCUE AND FIRE FIGHTING SERVICES - AMEND RFFS CAT TO READ:\nRFF CATEGORY 1.\nRFF CATEGORY 2 ON REQUEST.\nRFF CATEGORY 3 UNDER REMISSION.\nUK AIP EGNE AD 2.6. REFERS",
+                "Marker": "+",
+                "NotamStoreDate": "090520231333"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -9295,33 +9266,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "4295",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2308010630",
-                  "EndValidity": "2308010700",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "310720231600"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "4263",
                   "Year": "23",
                   "Type": "N",
@@ -9343,6 +9287,33 @@
                   "ItemE": "RFFS CAT CHANGES:\nTUE 0710-0850 CAT 7, 1130-1410 CAT 7\nWED 1615-1755 CAT 7\nTHU 0550-0855 CAT 7\nFRI 0605-0745 CAT 7\nSAT 0605-0955 CAT 7, 1015-1240 CAT 7, 1750-1930 CAT 7\nSUN 0600-0825 CAT 7",
                   "Marker": "+",
                   "NotamStoreDate": "300720231356"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4201",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5431N00125W",
+                  "Radius": "1",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2308020630",
+                  "EndValidity": "2308020800",
+                  "ItemE": "CRANE OPR PSN 543041N 0012511W (TEESSIDE AD) MAX HEIGHT 26FT AGL/ \n146FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "270720231517"
                 }
               ]
             },
@@ -11562,6 +11533,33 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
+                  "Number": "5034",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2308010557",
+                  "EndValidity": "2308082359",
+                  "ItemE": "TWY CHARLIE NORTH RESTRICTED TO PARTICIPATING ACFT ONLY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820230602"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
                   "Number": "4921",
                   "Year": "23",
                   "Type": "N",
@@ -12502,33 +12500,6 @@
                   "ItemE": "PAR UNRELIABLE",
                   "Marker": "+",
                   "NotamStoreDate": "210720231023"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4991",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5237N00029W",
-                  "Radius": "5",
-                  "ItemA": "EGXT",
-                  "StartValidity": "2307281546",
-                  "EndValidity": "2308010700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "280720231548"
                 }
               ]
             },
@@ -16915,34 +16886,6 @@
                 "NotamStoreDate": "190720230935"
               },
               {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4295",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2308010630",
-                "EndValidity": "2308010700",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS\nTRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE\nSUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10\nMINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "310720231600"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -17195,6 +17138,34 @@
                 "ItemE": "SERVICES OUTSIDE CONTROLLED AIRSPACE FROM SOLENT RADAR WILL NOT \nBE AVBL DUE STAFFING. MAINTAIN A LISTENING WATCH AND SQUAWK 7011",
                 "Marker": "+",
                 "NotamStoreDate": "310720230707"
+              },
+              {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4201",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5431N00125W",
+                "Radius": "1",
+                "ItemA": "EGNV",
+                "StartValidity": "2308020630",
+                "EndValidity": "2308020800",
+                "ItemE": "CRANE OPR PSN 543041N 0012511W (TEESSIDE AD) MAX HEIGHT 26FT AGL/ \n146FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "270720231517"
               }
             ]
           },
@@ -23574,6 +23545,33 @@
                   "ItemE": "VOR/DME SUM/SUMBURGH 117.35MHZ CH120Y VOR PART U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280720231008"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5656",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5953N00118W",
+                  "Radius": "5",
+                  "ItemA": "EGPB",
+                  "StartValidity": "2308010633",
+                  "EndValidity": "2308011900",
+                  "ItemE": "WIG WAGS AT HOLDING POINT CHARLIE FOR RWY 15 U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820230640"
                 }
               ]
             },
