@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063883544",
+    "@PIBId": "400000063885656",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-01T09:00:52+00:00",
-        "ValidTo": "2023-08-02T09:00:00+00:00"
+        "ValidFrom": "2023-08-01T10:00:22+00:00",
+        "ValidTo": "2023-08-02T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-01T09:00:52+00:00",
+      "Issued": "2023-08-01T10:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308010540",
+      "PibUid": "EG712308010625",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4945,33 +4945,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "4044",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "ID",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5250N00120W",
-                  "Radius": "5",
-                  "ItemA": "EGNX",
-                  "StartValidity": "2308010800",
-                  "EndValidity": "2308011000",
-                  "ItemE": "DME ASSOCIATED WITH ILS RWY 09/27 U/S DUE MAINT",
-                  "Marker": "+",
-                  "NotamStoreDate": "210720231232"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "4045",
                   "Year": "23",
                   "Type": "N",
@@ -8153,33 +8126,62 @@
             "Code": "EGNE",
             "Name": "RETFORD/GAMSTON",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "2728",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FF",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "2728",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "5",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2305091332",
+                  "EndValidity": "PERM",
+                  "ItemE": "RESCUE AND FIRE FIGHTING SERVICES - AMEND RFFS CAT TO READ:\nRFF CATEGORY 1.\nRFF CATEGORY 2 ON REQUEST.\nRFF CATEGORY 3 UNDER REMISSION.\nUK AIP EGNE AD 2.6. REFERS",
+                  "Marker": "+",
+                  "NotamStoreDate": "090520231333"
                 },
-                "Coordinates": "5317N00057W",
-                "Radius": "5",
-                "ItemA": "EGNE",
-                "StartValidity": "2305091332",
-                "EndValidity": "PERM",
-                "ItemE": "RESCUE AND FIRE FIGHTING SERVICES - AMEND RFFS CAT TO READ:\nRFF CATEGORY 1.\nRFF CATEGORY 2 ON REQUEST.\nRFF CATEGORY 3 UNDER REMISSION.\nUK AIP EGNE AD 2.6. REFERS",
-                "Marker": "+",
-                "NotamStoreDate": "090520231333"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4548",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MN",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "5",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2308011000",
+                  "EndValidity": "2308011700",
+                  "ItemE": "SOUTHERN APRON NOT AVBL TO ACFT UNDER THEIR OWN POWER. CLOSURE\nDEMARKED BY RED AND WHITE BARRIERS. GRASS PARKING AND\nHOLDING POINTS ARE AVBL. MORE INFORMATION ON +44 01777 838521",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820230900"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -12333,6 +12335,35 @@
                   "ItemE": "TOPCLIFFE ATZ ACTIVE",
                   "Marker": "+",
                   "NotamStoreDate": "010820230802"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4982",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5413N00121W",
+                  "Radius": "1",
+                  "ItemA": "EGXZ",
+                  "StartValidity": "2308020900",
+                  "EndValidity": "2308021300",
+                  "ItemE": "UAS OPR WI 400M RADIUS OF PSN 541242N 0012112W (SOWERBY, NEAR\nTHIRSK, WI TOPCLIFFE FLIGHT RESTRICTION ZONE). HGT 230FT AGL/\n340FT AMSL",
+                  "ItemF": "SFC",
+                  "ItemG": "340FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "280720231046"
                 }
               ]
             },
@@ -12592,33 +12623,6 @@
                   "ItemE": "SRA NOT AVBL TO CAT A AND B ACFT (EXCEPT PHENOMS OR SIMILAR TYPE))",
                   "Marker": "+",
                   "NotamStoreDate": "270720231235"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5031",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MH",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5310N00031W",
-                  "Radius": "5",
-                  "ItemA": "EGXW",
-                  "StartValidity": "2307311639",
-                  "EndValidity": "2308282259",
-                  "ItemE": "ROTARY HYDRAULIC ARRESTOR GEAR RWY 02 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "310720231647"
                 }
               ]
             },
@@ -21291,59 +21295,31 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3847",
+                "Series": "H",
+                "Number": "4862",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
                   "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
+                  "Code23": "WE",
+                  "Code45": "LW",
                   "Traffic": "IV",
                   "Purpose": "BO",
                   "Scope": "W",
                   "Lower": "0",
-                  "Upper": "125"
+                  "Upper": "23"
                 },
-                "Coordinates": "5206N00430W",
-                "Radius": "10",
+                "Coordinates": "5452N00242W",
+                "Radius": "3",
                 "ItemA": "EGTT",
-                "StartValidity": "2308011000",
-                "EndValidity": "2308011600",
-                "ItemE": "THE FOLLOWING WEST WALES DANGER AREAS ARE ACTIVATED:\nEG D202D  1000-1600  SFC-FL125",
+                "StartValidity": "2308010910",
+                "EndValidity": "2308041900",
+                "ItemD": "0500-1900",
+                "ItemE": "CIVIL AVIATION NOTIFICATION PROCEDURE - CROP SPRAYING WILL TAKE\nPLACE IN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 545155N 0024158W \n(CROGLIN, CUMBRIA) MAX HEIGHT 500FT AGL. \nACFT MAY NOT COMPLY WITH RAC.\n23/08/005/LFC",
                 "ItemF": "SFC",
-                "ItemG": "FL125",
+                "ItemG": "2300FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "310720231212"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3852",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "170"
-                },
-                "Coordinates": "5221N00447W",
-                "Radius": "24",
-                "ItemA": "EGTT",
-                "StartValidity": "2308011000",
-                "EndValidity": "2308011600",
-                "ItemE": "THE FOLLOWING ABERPORTH DANGER AREAS ARE ACTIVATED:\nEG D201F  1000-1600   SFC-FL050\nEG D201H  1000-1600   SFC-FL170",
-                "ItemF": "SFC",
-                "ItemG": "FL170",
-                "Marker": "+",
-                "NotamStoreDate": "310720231249"
+                "NotamStoreDate": "010820230915"
               },
               {
                 "@OriginalMessage": "false",
@@ -21845,6 +21821,36 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "270720231443"
+              },
+              {
+                "@Reference": "EGXZ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4982",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5413N00121W",
+                "Radius": "1",
+                "ItemA": "EGXZ",
+                "StartValidity": "2308020900",
+                "EndValidity": "2308021300",
+                "ItemE": "UAS OPR WI 400M RADIUS OF PSN 541242N 0012112W (SOWERBY, NEAR\nTHIRSK, WI TOPCLIFFE FLIGHT RESTRICTION ZONE). HGT 230FT AGL/\n340FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "340FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "280720231046"
               }
             ]
           },
@@ -26556,9 +26562,12 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "M",
-                "Number": "3841",
+                "Number": "3859",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "M",
+                "ReferredNumber": "3841",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGPX",
                   "Code23": "RD",
@@ -26572,42 +26581,13 @@
                 "Coordinates": "5640N00006E",
                 "Radius": "72",
                 "ItemA": "EGPX",
-                "StartValidity": "2308010900",
-                "EndValidity": "2308011630",
-                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 0900-1300 FL100-FL660\nEG D613B 0900-1300 FL100-FL660\nEG D613C 0900-1300 FL100-FL660\nEG D613D 0900-1300 FL100-FL660\nEG D613D 1345-1630 FL100-FL660",
+                "StartValidity": "2308010941",
+                "EndValidity": "2308011300",
+                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 0941-1300 FL100-FL660\nEG D613B 0941-1300 FL100-FL660\nEG D613C 0941-1300 FL100-FL660\nEG D613D 0941-1300 FL100-FL660",
                 "ItemF": "FL100",
                 "ItemG": "FL660",
                 "Marker": "+",
-                "NotamStoreDate": "310720231204"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3840",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "230"
-                },
-                "Coordinates": "5530N00035W",
-                "Radius": "32",
-                "ItemA": "EGPX",
-                "StartValidity": "2308011345",
-                "EndValidity": "2308011630",
-                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 1345-1630 SFC-FL230\nEG D513B 1345-1630 SFC-FL230\nEG D513C 1345-1630 SFC-FL100",
-                "ItemF": "SFC",
-                "ItemG": "FL230",
-                "Marker": "+",
-                "NotamStoreDate": "310720231202"
+                "NotamStoreDate": "010820230942"
               },
               {
                 "@OriginalMessage": "false",
@@ -26666,6 +26646,35 @@
                 "ItemG": "1300FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "250720231726"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "794",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5730N00555W",
+                "Radius": "9",
+                "ItemA": "EGPX",
+                "StartValidity": "2308020900",
+                "EndValidity": "2308021500",
+                "ItemE": "DANGER AREA EG D710 RAASAY ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "310720231039"
               }
             ]
           },
