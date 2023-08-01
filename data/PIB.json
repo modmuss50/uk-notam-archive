@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063910274",
+    "@PIBId": "400000063911612",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-01T22:00:56+00:00",
-        "ValidTo": "2023-08-02T22:00:00+00:00"
+        "ValidFrom": "2023-08-01T23:00:12+00:00",
+        "ValidTo": "2023-08-02T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-01T22:00:56+00:00",
+      "Issued": "2023-08-01T23:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308011151",
+      "PibUid": "EG712308011167",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5909,33 +5909,62 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4226",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4226",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2307310700",
+                  "EndValidity": "2308031600",
+                  "ItemE": "TWY ALPHA CLSD BTN A1 AND WEST OF LINK BRAVO. LINK BRAVO REMAINS \nAVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "280720231842"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2307310700",
-                "EndValidity": "2308031600",
-                "ItemE": "TWY ALPHA CLSD BTN A1 AND WEST OF LINK BRAVO. LINK BRAVO REMAINS \nAVBL",
-                "Marker": "+",
-                "NotamStoreDate": "280720231842"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4322",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308020245",
+                  "EndValidity": "2308020400",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLSD, NO ATC SER \nAVBL. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G. \nSUITABLY EQUIPPED ACFT WI LEEDS BRADFORD AIRSPACE SHOULD MONITOR \nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK \nSPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET \nOBSERVATIONS UNVERIFIED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820232209"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -17182,6 +17211,34 @@
                 "NotamStoreDate": "010820231515"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4322",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2308020245",
+                "EndValidity": "2308020400",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLSD, NO ATC SER \nAVBL. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G. \nSUITABLY EQUIPPED ACFT WI LEEDS BRADFORD AIRSPACE SHOULD MONITOR \nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK \nSPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET \nOBSERVATIONS UNVERIFIED.",
+                "Marker": "+",
+                "NotamStoreDate": "010820232209"
+              },
+              {
                 "@Reference": "EGFF",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -21600,33 +21657,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "5633",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5439N00613W",
-                  "Radius": "5",
-                  "ItemA": "EGAA",
-                  "StartValidity": "2307311315",
-                  "EndValidity": "2308101600",
-                  "ItemE": "TWO ADJACENT STEEL PLATES ON NORTHSIDE OF TWY ALPHA. 1 STEEL PLATE\nSOUTHSIDE OF TWY ALPHA. ALL STEEL PLATES EAST OF GENERAL AVIATION\nTERMINAL.",
-                  "Marker": "+",
-                  "NotamStoreDate": "310720231319"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "5639",
                   "Year": "23",
                   "Type": "N",
@@ -22228,6 +22258,33 @@
                   "ItemG": "2950FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "280720231202"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5685",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5557N00322W",
+                  "Radius": "5",
+                  "ItemA": "EGPH",
+                  "StartValidity": "2308012220",
+                  "EndValidity": "2308020900",
+                  "ItemE": "STEEL PLATE ON TWY ALPHA 50M WEST OF A12",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820232217"
                 }
               ]
             },
@@ -22369,63 +22426,34 @@
             "Code": "EGPE",
             "Name": "INVERNESS",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5018",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "SP",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5733N00403W",
-                  "Radius": "3",
-                  "ItemA": "EGPE",
-                  "StartValidity": "2307070145",
-                  "EndValidity": "2308312130",
-                  "Estimation": "EST",
-                  "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060720231348"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5018",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5683",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5733N00403W",
-                  "Radius": "3",
-                  "ItemA": "EGPE",
-                  "StartValidity": "2308012151",
-                  "EndValidity": "2308012230",
-                  "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, RFFS HR OF OPR EXTENDED. \nAIRPORT REMAINS PPR. RADAR SERVICE AVBL",
-                  "Marker": "+",
-                  "NotamStoreDate": "010820232151"
-                }
-              ]
+                "Coordinates": "5733N00403W",
+                "Radius": "3",
+                "ItemA": "EGPE",
+                "StartValidity": "2307070145",
+                "EndValidity": "2308312130",
+                "Estimation": "EST",
+                "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
+                "Marker": "+",
+                "NotamStoreDate": "060720231348"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -24974,34 +25002,6 @@
                 "ItemE": "SWANWICK MIL HAS REDUCED PRIMARY COVERAGE IN THE FOLLOWING AREA\n5525N 00538W RADIAL 180-360. SFC-UNL",
                 "Marker": "+",
                 "NotamStoreDate": "010820231304"
-              },
-              {
-                "@Reference": "EGPE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5683",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5733N00403W",
-                "Radius": "3",
-                "ItemA": "EGPE",
-                "StartValidity": "2308012151",
-                "EndValidity": "2308012230",
-                "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, RFFS HR OF OPR EXTENDED. \nAIRPORT REMAINS PPR. RADAR SERVICE AVBL",
-                "Marker": "+",
-                "NotamStoreDate": "010820232151"
               },
               {
                 "@OriginalMessage": "false",
