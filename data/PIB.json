@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063908803",
+    "@PIBId": "400000063910274",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-01T21:00:52+00:00",
-        "ValidTo": "2023-08-02T21:00:00+00:00"
+        "ValidFrom": "2023-08-01T22:00:56+00:00",
+        "ValidTo": "2023-08-02T22:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-01T21:00:52+00:00",
+      "Issued": "2023-08-01T22:00:56+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308011120",
+      "PibUid": "EG712308011151",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6446,6 +6446,34 @@
                   "ItemE": "TWY LIMA CLSD EAST OF STAND 35",
                   "Marker": "+",
                   "NotamStoreDate": "010820231749"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5677",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2308022130",
+                  "EndValidity": "2308050430",
+                  "ItemD": "2130-0430",
+                  "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FROM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR 08L/26R WILL BE AVBL TO ALLOW\nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MINS BEFORE CHANGEOVER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820231753"
                 }
               ]
             },
@@ -19389,36 +19417,6 @@
                 "NotamStoreDate": "240720230956"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4744",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "10"
-                },
-                "Coordinates": "5250N00407W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2307290800",
-                "EndValidity": "2308012200",
-                "ItemD": "0800-2200",
-                "ItemE": "UAS OPR WI 1.1NM RADIUS OF 524945N 0040726W (PENSARN HARBOUR,\nLLANBEDR). MAX HGT 500FT AGL. FOR INFO 07832 964289. 2023-07-0913/AS2",
-                "ItemF": "SFC",
-                "ItemG": "1000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "270720230816"
-              },
-              {
                 "@Reference": "EGBP",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22371,34 +22369,63 @@
             "Code": "EGPE",
             "Name": "INVERNESS",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5018",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "SP",
-                  "Code45": "AH",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5018",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "SP",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5733N00403W",
+                  "Radius": "3",
+                  "ItemA": "EGPE",
+                  "StartValidity": "2307070145",
+                  "EndValidity": "2308312130",
+                  "Estimation": "EST",
+                  "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
+                  "Marker": "+",
+                  "NotamStoreDate": "060720231348"
                 },
-                "Coordinates": "5733N00403W",
-                "Radius": "3",
-                "ItemA": "EGPE",
-                "StartValidity": "2307070145",
-                "EndValidity": "2308312130",
-                "Estimation": "EST",
-                "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
-                "Marker": "+",
-                "NotamStoreDate": "060720231348"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5683",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5733N00403W",
+                  "Radius": "3",
+                  "ItemA": "EGPE",
+                  "StartValidity": "2308012151",
+                  "EndValidity": "2308012230",
+                  "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, RFFS HR OF OPR EXTENDED. \nAIRPORT REMAINS PPR. RADAR SERVICE AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "010820232151"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -23337,33 +23364,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "I",
-                  "Number": "2367",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5813N00620W",
-                  "Radius": "3",
-                  "ItemA": "EGPO",
-                  "StartValidity": "2308012019",
-                  "EndValidity": "2308012300",
-                  "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT 3 AVBL. \nAD REMAINS PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "010820232019"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
                   "Number": "2311",
                   "Year": "23",
                   "Type": "N",
@@ -23487,33 +23487,6 @@
                   "ItemE": "VOR/DME SUM/SUMBURGH 117.35MHZ CH120Y VOR PART U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280720231008"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5681",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5953N00118W",
-                  "Radius": "2",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2308012045",
-                  "EndValidity": "2308012215",
-                  "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY",
-                  "Marker": "+",
-                  "NotamStoreDate": "010820232042"
                 }
               ]
             },
@@ -25003,40 +24976,12 @@
                 "NotamStoreDate": "010820231304"
               },
               {
-                "@Reference": "EGPO",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2367",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5813N00620W",
-                "Radius": "3",
-                "ItemA": "EGPO",
-                "StartValidity": "2308012019",
-                "EndValidity": "2308012300",
-                "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT 3 AVBL. \nAD REMAINS PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "010820232019"
-              },
-              {
-                "@Reference": "EGPB",
+                "@Reference": "EGPE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "A",
-                "Number": "5681",
+                "Number": "5683",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -25049,14 +24994,14 @@
                   "Lower": "0",
                   "Upper": "21"
                 },
-                "Coordinates": "5953N00118W",
-                "Radius": "2",
-                "ItemA": "EGPB",
-                "StartValidity": "2308012045",
-                "EndValidity": "2308012215",
-                "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY",
+                "Coordinates": "5733N00403W",
+                "Radius": "3",
+                "ItemA": "EGPE",
+                "StartValidity": "2308012151",
+                "EndValidity": "2308012230",
+                "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, RFFS HR OF OPR EXTENDED. \nAIRPORT REMAINS PPR. RADAR SERVICE AVBL",
                 "Marker": "+",
-                "NotamStoreDate": "010820232042"
+                "NotamStoreDate": "010820232151"
               },
               {
                 "@OriginalMessage": "false",
