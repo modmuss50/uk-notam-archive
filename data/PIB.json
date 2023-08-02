@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000063970021",
+    "@PIBId": "400000063972568",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-02T20:00:21+00:00",
-        "ValidTo": "2023-08-03T20:00:00+00:00"
+        "ValidFrom": "2023-08-02T21:00:52+00:00",
+        "ValidTo": "2023-08-03T21:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-02T20:00:21+00:00",
+      "Issued": "2023-08-02T21:00:52+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308021051",
+      "PibUid": "EG712308021079",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6438,6 +6438,33 @@
                   "ItemE": "INCREASE CLIMB GRADIENT FOR RWY 09 DEPARTURES TO 8 PERCENT DUE TO \nCRANE ACTIVITY.\nUK AIP AD 2.EGLC-6-1, AD 2.EGLC-6-3, AD 2.EGLC-6-4 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "240720230754"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4334",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5130N00003E",
+                  "Radius": "5",
+                  "ItemA": "EGLC",
+                  "StartValidity": "2308022100",
+                  "EndValidity": "2308022130",
+                  "ItemE": "AERODROME OPENING HOURS EXTENDED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020820232018"
                 }
               ]
             },
@@ -11292,9 +11319,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "5066",
+                  "Number": "5074",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "U",
+                  "ReferredNumber": "5066",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "MR",
@@ -11308,11 +11338,38 @@
                   "Coordinates": "5225N00034E",
                   "Radius": "5",
                   "ItemA": "EGUL",
-                  "StartValidity": "2308021337",
-                  "EndValidity": "2308022100",
-                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE DRY ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
+                  "StartValidity": "2308022044",
+                  "EndValidity": "2308022200",
+                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
                   "Marker": "+",
-                  "NotamStoreDate": "020820231339"
+                  "NotamStoreDate": "020820232044"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5073",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2308022100",
+                  "EndValidity": "2308022200",
+                  "ItemE": "AD OPEN FOR OFFICIAL BUSINESS ONLY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020820232011"
                 }
               ]
             },
@@ -20698,35 +20755,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "4832",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RO",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "23"
-                },
-                "Coordinates": "5452N00428W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2308020428",
-                "EndValidity": "2308022019",
-                "ItemE": "A CULTURAL EVENT WILL TAKE PLACE IN LOW FLYING AREA 16\nAND NIGHT SECTOR 2B WI 2NM RADIUS OF PSN 545139N 0042740W\n(WIGTOWN, DUMFRIES AND GALLOWAY). MILITARY AIRCRAFT SHALL AVOID\nTHE AREA BETWEEN SFC TO 2000FT AGL. 23/08/222/LFC",
-                "ItemF": "SFC",
-                "ItemG": "2210FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310720231211"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "4797",
                 "Year": "23",
                 "Type": "N",
@@ -22796,6 +22824,35 @@
                   "ItemG": "1000FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "270720231211"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "4804",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "WM",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "7"
+                  },
+                  "Coordinates": "5558N00325W",
+                  "Radius": "1",
+                  "ItemA": "EGPH",
+                  "StartValidity": "2308032045",
+                  "EndValidity": "2308032200",
+                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS \nCASTLE, MIDLOTHIAN) FOR INFO 07967 115590. 2023-08-0151/AS5.",
+                  "ItemF": "SFC",
+                  "ItemG": "680FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "280720231513"
                 }
               ]
             },
@@ -25126,33 +25183,6 @@
                 "NotamStoreDate": "280720231008"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "1833",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "195"
-                },
-                "Coordinates": "5507N00402W",
-                "Radius": "5",
-                "ItemA": "EGPX",
-                "StartValidity": "2307282115",
-                "EndValidity": "2308022359",
-                "ItemE": "EMERGENCY MANDATORY TRANSPONDER ZONE EXTABLISHED IN A PORTION OF\nTHE SCOTTISH TMA/CONTROLLED AIRSPACE DUE TO LOWTHER HILL PRIMARY\nRADAR ON MAINTENANCE. AFFECTED AREA IS DEFINED BY COORD \n551137N 0040215W - 550606N 0040838W - 550312N 0040022W - \n550858N 0035443W - 551137N 0040215W, BTN SFC/FL195.  ALL ACFT OPR WI \nCONTROLLED AIRSPACE IN THIS AREA ARE REQUIRED TO OPERATE A \nSERVICEABLE TRANPONDER.",
-                "Marker": "+",
-                "NotamStoreDate": "280720232121"
-              },
-              {
                 "@Reference": "EGQS",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -25650,6 +25680,36 @@
                 "ItemE": "PRESTWICK PSR U/S, SERVICE WITH SSR ONLY AVBL.",
                 "Marker": "+",
                 "NotamStoreDate": "020820231908"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1877",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "B",
+                "ReferredNumber": "1833",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AT",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "195"
+                },
+                "Coordinates": "5507N00402W",
+                "Radius": "5",
+                "ItemA": "EGPX",
+                "StartValidity": "2308022025",
+                "EndValidity": "2308112359",
+                "ItemE": "EMERGENCY MANDATORY TRANSPONDER ZONE ESTABLISHED IN A PORTION OF\nTHE SCOTTISH TMA/CONTROLLED AIRSPACE DUE TO LOWTHER HILL PRIMARY\nRADAR ON MAINTENANCE.  AFFECTED AREA IS DEFINED BY COORD \n551137N 0040215W - 550606N 0040838W - 550312N 0040022W - \n550858N 0035443W - 551137N 0040215W. BTN SFC/FL195.  ALL ACFT OPR WI \nCONTROLLED AIRSPACE IN THIS AREA ARE REQUIRED TO OPERATE A \nSERVICEABLE TRANSPONDER.",
+                "Marker": "+",
+                "NotamStoreDate": "020820232025"
               },
               {
                 "@Reference": "EGAE",
@@ -26780,6 +26840,36 @@
                 "ItemG": "FL245",
                 "Marker": "+",
                 "NotamStoreDate": "020820231153"
+              },
+              {
+                "@Reference": "EGPH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "4804",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WM",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5558N00325W",
+                "Radius": "1",
+                "ItemA": "EGPH",
+                "StartValidity": "2308032045",
+                "EndValidity": "2308032200",
+                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS \nCASTLE, MIDLOTHIAN) FOR INFO 07967 115590. 2023-08-0151/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "680FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "280720231513"
               }
             ]
           },
