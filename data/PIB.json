@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064046184",
+    "@PIBId": "400000064048172",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-03T22:00:56+00:00",
-        "ValidTo": "2023-08-04T22:00:00+00:00"
+        "ValidFrom": "2023-08-03T23:00:12+00:00",
+        "ValidTo": "2023-08-04T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-03T22:00:56+00:00",
+      "Issued": "2023-08-03T23:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308031224",
+      "PibUid": "EG712308031247",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3782,33 +3782,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "4338",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MO",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5227N00145W",
-                  "Radius": "5",
-                  "ItemA": "EGBB",
-                  "StartValidity": "2308030500",
-                  "EndValidity": "2308032300",
-                  "ItemE": "STOP BAR TWY YANKEE (Y1) PERMANENTLY ILLUMINATED",
-                  "Marker": "+",
-                  "NotamStoreDate": "030820230458"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "4356",
                   "Year": "23",
                   "Type": "N",
@@ -6217,36 +6190,65 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "1895",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "B",
-                "ReferredNumber": "1878",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "NV",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "B",
+                  "Number": "1895",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "B",
+                  "ReferredNumber": "1878",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NV",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308031723",
+                  "EndValidity": "2308151800",
+                  "ItemE": "VOR/DME GAM/GAMSTON FREQ 112.8MHZ CH75X. VOR PART U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820231727"
                 },
-                "Coordinates": "5317N00057W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2308031723",
-                "EndValidity": "2308151800",
-                "ItemE": "VOR/DME GAM/GAMSTON FREQ 112.8MHZ CH75X. VOR PART U/S",
-                "Marker": "+",
-                "NotamStoreDate": "030820231727"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4368",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308040020",
+                  "EndValidity": "2308040120",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820232227"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6761,6 +6763,60 @@
                   "ItemE": "TWY KILO CLSD BETWEEN TWY PAPA AND TWY KILO ALPHA DUE TO WIP",
                   "Marker": "+",
                   "NotamStoreDate": "030820232033"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5734",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2308042230",
+                  "EndValidity": "2308050400",
+                  "ItemE": "TWY KILO CLSD BETWEEN TWY PAPA AND TWY KILO ALPHA DUE TO WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820232252"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5735",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2308042230",
+                  "EndValidity": "2308050400",
+                  "ItemE": "TWY LIMA CLSD BTN STAND 113 AND TWY KILO DUE TO WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820232256"
                 }
               ]
             },
@@ -17337,6 +17393,94 @@
                 "NotamStoreDate": "030820231452"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4368",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2308040020",
+                "EndValidity": "2308040120",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "030820232227"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1897",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5502N00141W",
+                "Radius": "40",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308040530",
+                "EndValidity": "2308041330",
+                "ItemE": "NEWCASTLE LOWER AIRSPACE RADAR SERVICE MAY BE WITHDRAWN OR\nRESTRICTED DUE ATC STAFF SICKNESS.",
+                "Marker": "+",
+                "NotamStoreDate": "030820232203"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4367",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2308040530",
+                "EndValidity": "2308041330",
+                "ItemE": "REQUESTS TO CROSS THE NEWCASTLE CTA/CTR MAY BE DECLINED OR\nDELAYED DUE ATC STAFF SICKNESS. PILOTS SHOULD PLAN TO REMAIN\nCLEAR OF NEWCASTLE CAS AND UTILISE THE FREQUENCY MONITORING\nCODE 3737.",
+                "Marker": "+",
+                "NotamStoreDate": "030820232206"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -20306,36 +20450,6 @@
                 "NotamStoreDate": "240720231142"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4802",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5251N00046E",
-                "Radius": "6",
-                "ItemA": "EGTT",
-                "StartValidity": "2307311930",
-                "EndValidity": "2308032259",
-                "ItemD": "1930-2259",
-                "ItemE": "ARTICLE DROPS WI 5NM RADIUS: 525053N 0004545E (SCULTHORPE, \nNORFOLK). FOR INFO 01638 545012. 2023-07-0936/AS3.",
-                "ItemF": "SFC",
-                "ItemG": "3500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "280720231419"
-              },
-              {
                 "@Reference": "EGBE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22671,33 +22785,6 @@
                   "ItemG": "1000FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "270720231211"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5727",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2308032100",
-                  "EndValidity": "2308032300",
-                  "ItemE": "TWY ALPHA CLSD A13 - A14 FOR WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "030820231619"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -25502,6 +25589,68 @@
                 "ItemE": "LONDONDERRY/EGLINTON CTA, ATZ,ATS,ATIS,AD,RFFS HRS OF OPS EXTENDED\nALL MOVEMENTS STRICTLY PPR. CONTACT ATC ON +44 2871 813314",
                 "Marker": "+",
                 "NotamStoreDate": "030820232025"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "1897",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5502N00141W",
+                "Radius": "40",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308040530",
+                "EndValidity": "2308041330",
+                "ItemE": "NEWCASTLE LOWER AIRSPACE RADAR SERVICE MAY BE WITHDRAWN OR\nRESTRICTED DUE ATC STAFF SICKNESS.",
+                "Marker": "+",
+                "NotamStoreDate": "030820232203"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4367",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2308040530",
+                "EndValidity": "2308041330",
+                "ItemE": "REQUESTS TO CROSS THE NEWCASTLE CTA/CTR MAY BE DECLINED OR\nDELAYED DUE ATC STAFF SICKNESS. PILOTS SHOULD PLAN TO REMAIN\nCLEAR OF NEWCASTLE CAS AND UTILISE THE FREQUENCY MONITORING\nCODE 3737.",
+                "Marker": "+",
+                "NotamStoreDate": "030820232206"
               },
               {
                 "@Reference": "EGTT",
