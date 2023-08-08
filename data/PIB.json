@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064282402",
+    "@PIBId": "400000064284540",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-08T19:00:26+00:00",
-        "ValidTo": "2023-08-09T19:00:00+00:00"
+        "ValidFrom": "2023-08-08T20:00:21+00:00",
+        "ValidTo": "2023-08-09T20:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-08T19:00:26+00:00",
+      "Issued": "2023-08-08T20:00:21+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308081048",
+      "PibUid": "EG712308081118",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5774,33 +5774,6 @@
                   "ItemE": "STOPBARS AND ASSOCIATED LEAD ON/OFF LIGHTING AT HOLDING POINTS \nA1, C1, D1, G1, N1 ARE U/S",
                   "Marker": "+",
                   "NotamStoreDate": "120720231318"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "4660",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "45"
-                  },
-                  "Coordinates": "5307N00301W",
-                  "Radius": "8",
-                  "ItemA": "EGNR",
-                  "StartValidity": "2308081600",
-                  "EndValidity": "2308082000",
-                  "ItemE": "DUE TO STAFF SHORTAGE HAWARDEN RADAR SERVICE WILL BE\nAVAILABLE FOR PRE BOOKED IFR TRAFFIC ONLY.\nFOR ALL OTHER TRAFFIC HAWARDEN RADAR FREQUENCY WILL BE BAND-BOXED\nWITH HAWARDEN TOWER PROVIDING A BASIC SERVICE ONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "070820231845"
                 }
               ]
             },
@@ -6786,34 +6759,6 @@
                   "ItemE": "TWY JULIET CLSD BTN TWY ROMEO AND TWY CHARLIE DUE TO WIP",
                   "Marker": "+",
                   "NotamStoreDate": "080820231558"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5801",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00011W",
-                  "Radius": "5",
-                  "ItemA": "EGKK",
-                  "StartValidity": "2308082130",
-                  "EndValidity": "2308110430",
-                  "ItemD": "2130-0430",
-                  "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR 08L/26R WILL BE AVBL TO ALLOW\nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MIN BEFORE CHANGEOVER.",
-                  "Marker": "+",
-                  "NotamStoreDate": "070820230541"
                 }
               ]
             },
@@ -8130,7 +8075,35 @@
           {
             "Code": "EGSH",
             "Name": "NORWICH",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5841",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "40"
+                },
+                "Coordinates": "5241N00117E",
+                "Radius": "14",
+                "ItemA": "EGSH",
+                "StartValidity": "2308082130",
+                "EndValidity": "2308082200",
+                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
+                "Marker": "+",
+                "NotamStoreDate": "080820231909"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9619,34 +9592,6 @@
                   "ItemE": "RFFS CAT CHANGES:\nTUE 1130-1410 CAT 7, 2100-2245 CAT 3\nWED 0535-0800 CAT 4, 1615-1755 CAT 7, 2100-2245 CAT 3\nTHU 0430-0550 CAT 4, 0550-0855 CAT 7, 1300-1425 CAT 4, 1540-2000 \n    CAT 4, 2100-2245 CAT 3\nFRI 0605-0745 CAT 7\nSAT 0605-0955 CAT 7, 1015-1255 CAT 7, 1750-1930 CAT 7\nSUN 0600-0825 CAT 7",
                   "Marker": "+",
                   "NotamStoreDate": "080820231029"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4472",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2308081700",
-                  "EndValidity": "2308081930",
-                  "ItemD": "1700-1730, 1900-1930",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "080820231530"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11660,6 +11605,33 @@
                   "ItemE": "HOT CARGO PARKING LIMITED. HOTEL SPOTS H5, H6,\nKILO AND PAPA RAMP CLOSED. AIRCREW MUST CONTACT AIRFIELD MANAGEMENT",
                   "Marker": "+",
                   "NotamStoreDate": "070820231656"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5198",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2308081930",
+                  "EndValidity": "2308082100",
+                  "ItemE": "AIR TRAFFIC CONTROL TOWER CLOSED. FLIGHTS DURING THIS PERIOD MUST\nHAVE AN OPERATIONAL NECESSITY OR BE A HIGHER HEADQUARTERS DIRECTORS\nMISSION AND MUST BE APPROVED BY 48 OPERATIONS GROUP COMMANDER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "080820231930"
                 }
               ]
             },
@@ -17529,63 +17501,6 @@
                 "NotamStoreDate": "080820231521"
               },
               {
-                "@Reference": "EGNR",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "4660",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "45"
-                },
-                "Coordinates": "5307N00301W",
-                "Radius": "8",
-                "ItemA": "EGNR",
-                "StartValidity": "2308081600",
-                "EndValidity": "2308082000",
-                "ItemE": "DUE TO STAFF SHORTAGE HAWARDEN RADAR SERVICE WILL BE\nAVAILABLE FOR PRE BOOKED IFR TRAFFIC ONLY.\nFOR ALL OTHER TRAFFIC HAWARDEN RADAR FREQUENCY WILL BE BAND-BOXED\nWITH HAWARDEN TOWER PROVIDING A BASIC SERVICE ONLY.",
-                "Marker": "+",
-                "NotamStoreDate": "070820231845"
-              },
-              {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4472",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2308081700",
-                "EndValidity": "2308081930",
-                "ItemD": "1700-1730, 1900-1930",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "080820231530"
-              },
-              {
                 "@Reference": "EGXW",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17643,6 +17558,34 @@
                 "ItemE": "NEWQUAY ATZ DEACTIVATED. AD CLOSED. ATC/RFFS UNAVAILABLE. SAR AND\nHELIMED FLIGHTS MAY BE TAKING PLACE.",
                 "Marker": "+",
                 "NotamStoreDate": "080820231727"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5841",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "40"
+                },
+                "Coordinates": "5241N00117E",
+                "Radius": "14",
+                "ItemA": "EGSH",
+                "StartValidity": "2308082130",
+                "EndValidity": "2308082200",
+                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
+                "Marker": "+",
+                "NotamStoreDate": "080820231909"
               },
               {
                 "@Reference": "EGSS",
@@ -20286,36 +20229,6 @@
                 "NotamStoreDate": "020820230753"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "4949",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WC",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "31"
-                },
-                "Coordinates": "5317N00019E",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308070424",
-                "EndValidity": "2308081942",
-                "ItemD": "SR-SS",
-                "ItemE": "KITE FLYING WI 1NM RADIUS 531700N 0001836E (SKEGNESS,\nLINCOLNSHIRE). MAX HGT 3000FT AGL. FOR INFO 07872 935741 / 07380 \n272742. 2023-08-0287/AS7",
-                "ItemF": "SFC",
-                "ItemG": "3100FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "030820231349"
-              },
-              {
                 "@Reference": "EGBE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -20592,64 +20505,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "5007",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "50"
-                },
-                "Coordinates": "5436N00302W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2308080430",
-                "EndValidity": "2308081930",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 543554N 0030229W (CLOUGH \nHEAD, CUMBRIA). 2000FT AGL. CTC 07854697775. 23/08/041/LFC",
-                "ItemF": "SFC",
-                "ItemG": "5000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "070820230832"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5012",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "28"
-                },
-                "Coordinates": "5110N00412W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2308080430",
-                "EndValidity": "2308081930",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 510943N 0041224W \n(WOOLACOMBE, DEVON). 2000FT AGL. CTC 07875 247389 . 23/08/047/LFC",
-                "ItemF": "SFC",
-                "ItemG": "2800FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "070820231015"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "4948",
                 "Year": "23",
                 "Type": "N",
@@ -20674,35 +20529,6 @@
                 "ItemG": "7000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "030820231114"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "3989",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "150"
-                },
-                "Coordinates": "5440N00403W",
-                "Radius": "10",
-                "ItemA": "EGTT",
-                "StartValidity": "2308080800",
-                "EndValidity": "2308082000",
-                "ItemE": "THE FOLLOWING KIRKCUDBRIGHT DANGER AREA IS ACTIVATED:\nEG D405 0800-2000 SFC-15000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "15000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "070820231209"
               },
               {
                 "@Reference": "EGLL",
