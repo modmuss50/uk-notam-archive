@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064298463",
+    "@PIBId": "400000064300403",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-09T04:00:43+00:00",
-        "ValidTo": "2023-08-10T04:00:00+00:00"
+        "ValidFrom": "2023-08-09T05:00:07+00:00",
+        "ValidTo": "2023-08-10T05:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-09T04:00:43+00:00",
+      "Issued": "2023-08-09T05:00:07+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308090081",
+      "PibUid": "EG712308090124",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7597,63 +7597,33 @@
             "Code": "EGSS",
             "Name": "LONDON STANSTED",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5013",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SA",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5153N00014E",
-                  "Radius": "5",
-                  "ItemA": "EGSS",
-                  "StartValidity": "2307060900",
-                  "EndValidity": "2308151200",
-                  "ItemE": "ATIS FREQ 114.550MHZ U/S. ATIS FREQ 127.180MHZ IS UNAFFECTED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "060720230910"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5013",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SA",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5846",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "35"
-                  },
-                  "Coordinates": "5153N00014E",
-                  "Radius": "14",
-                  "ItemA": "EGSS",
-                  "StartValidity": "2308090115",
-                  "EndValidity": "2308090500",
-                  "ItemD": "0115-0215 0400-0500",
-                  "ItemE": "LONDON STANSTED APPROACH SER NOT AVBL DUE TO ATC STAFF SICKNESS\nFOR FURTHER DETAILS CONTACT UK FLOW MANAGEMENT POSITION\nON 00 44 (0)1489 588150.",
-                  "Marker": "+",
-                  "NotamStoreDate": "080820232042"
-                }
-              ]
+                "Coordinates": "5153N00014E",
+                "Radius": "5",
+                "ItemA": "EGSS",
+                "StartValidity": "2307060900",
+                "EndValidity": "2308151200",
+                "ItemE": "ATIS FREQ 114.550MHZ U/S. ATIS FREQ 127.180MHZ IS UNAFFECTED.",
+                "Marker": "+",
+                "NotamStoreDate": "060720230910"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -17592,35 +17562,6 @@
                 "NotamStoreDate": "090820230013"
               },
               {
-                "@Reference": "EGSS",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5846",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5153N00014E",
-                "Radius": "14",
-                "ItemA": "EGSS",
-                "StartValidity": "2308090115",
-                "EndValidity": "2308090500",
-                "ItemD": "0115-0215 0400-0500",
-                "ItemE": "LONDON STANSTED APPROACH SER NOT AVBL DUE TO ATC STAFF SICKNESS\nFOR FURTHER DETAILS CONTACT UK FLOW MANAGEMENT POSITION\nON 00 44 (0)1489 588150.",
-                "Marker": "+",
-                "NotamStoreDate": "080820232042"
-              },
-              {
                 "@Reference": "EGNL",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -22724,6 +22665,125 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "040820230928"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5034",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5148N00055E",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308100430",
+                "EndValidity": "2308101930",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 10 WI 2NM RADIUS OF PSN 514734N 0005529E (MERSEA \nISLAND, ESSEX). 2000FT AGL. CTC 07957 870837. 23/08/059/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080820230733"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5067",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "27"
+                },
+                "Coordinates": "5116N00049W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308100441",
+                "EndValidity": "2308121932",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 6 WI 2NM\nRADIUS OF PSN 511540N 0004903W (TWESELDOWN, HAMPSHIRE) MILITARY\nACFT SHALL AVOID THE AREA FM SFC TO 2000FT AGL. 23/08/064/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2700FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080820230908"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5065",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5155N00218W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308100445",
+                "EndValidity": "2308131938",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 4 WI 2NM \nRADIUS OF PSN 515520N 0021752W (HARTPURY, GLOUCESTERSHIRE) \nMILITARY ACFT SHALL AVOID THE AREA FM SFC TO 2000FT AGL. \n23/08/063/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080820230852"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5037",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "28"
+                },
+                "Coordinates": "5242N00310W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308100446",
+                "EndValidity": "2308101950",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 9 WI 2NM \nRADIUS OF PSN 524140N 0031008W (GUILSFIELD, POWYS) MILITARY ACFT \nSHALL AVOID THE AREA FM SFC TO 2000FT AGL. EVENT CTC 07375 930965. \n23/08/062/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080820230758"
               }
             ]
           },
