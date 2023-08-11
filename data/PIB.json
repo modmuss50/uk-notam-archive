@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064447653",
+    "@PIBId": "400000064449178",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-11T21:00:52+00:00",
-        "ValidTo": "2023-08-12T21:00:00+00:00"
+        "ValidFrom": "2023-08-11T22:00:55+00:00",
+        "ValidTo": "2023-08-12T22:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-11T21:00:52+00:00",
+      "Issued": "2023-08-11T22:00:55+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308111075",
+      "PibUid": "EG712308111098",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6665,33 +6665,6 @@
                   "ItemE": "LONDON CITY OBSTACLE\nADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: CRANES\nPOSITION: 513116.1N 0000149.0E\nELEVATION/HEIGHT: 322FT AMSL/284FT AGL\nLIGHTING: YES - RED\nREMARKS: WOOLWICH. END ESTIMATED JANUARY 2025.\nUK AIP EGLC AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "110820231020"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4550",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5130N00003E",
-                  "Radius": "5",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2308112100",
-                  "EndValidity": "2308112130",
-                  "ItemE": "AERODROME OPENING HOURS EXTENDED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "110820231951"
                 }
               ]
             },
@@ -8305,62 +8278,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5924",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2308112030",
-                  "EndValidity": "2308112115",
-                  "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS TO \nCLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPR. PILOTS TRANSITING THE AREA \nARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "110820232011"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "5923",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "40"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "5923",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2308112200",
-                  "EndValidity": "2308112220",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "110820232008"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "14",
+                "ItemA": "EGSH",
+                "StartValidity": "2308112200",
+                "EndValidity": "2308112220",
+                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
+                "Marker": "+",
+                "NotamStoreDate": "110820232008"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -17271,34 +17215,6 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "A",
-                "Number": "5924",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2308112030",
-                "EndValidity": "2308112115",
-                "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS TO \nCLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPR. PILOTS TRANSITING THE AREA \nARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
-                "Marker": "+",
-                "NotamStoreDate": "110820232011"
-              },
-              {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
                 "Number": "5923",
                 "Year": "23",
                 "Type": "N",
@@ -20676,35 +20592,6 @@
                 "ItemG": "2500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "080820231005"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5088",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5146N00012W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308111900",
-                "EndValidity": "2308112200",
-                "ItemE": "LASER AND SEARCHLIGHT DISPLAY WI 1NM RADIUS: 514553N 0001216W\n(HATFIELD). FOR INFO 07799 540118 / 07831 462029. 2023-08-0301/AS5.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "080820231332"
               },
               {
                 "@OriginalMessage": "false",
