@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064477920",
+    "@PIBId": "400000064479745",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-12T10:00:23+00:00",
-        "ValidTo": "2023-08-13T10:00:00+00:00"
+        "ValidFrom": "2023-08-12T11:00:13+00:00",
+        "ValidTo": "2023-08-13T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-12T10:00:23+00:00",
+      "Issued": "2023-08-12T11:00:13+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308120465",
+      "PibUid": "EG712308120498",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5792,6 +5792,33 @@
                   "ItemE": "LIT FLOODLIGHTS OPR PSN 531018N 0025858W (735M 203 DEG MAG FROM\nHAWARDEN ARP). MAX HGT 78FT AMSL, 50FT AGL.",
                   "Marker": "+",
                   "NotamStoreDate": "030820230938"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4587",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "1"
+                  },
+                  "Coordinates": "5310N00259W",
+                  "Radius": "1",
+                  "ItemA": "EGNR",
+                  "StartValidity": "2308131000",
+                  "EndValidity": "2308132000",
+                  "ItemE": "LIT FLOODLIGHTS OPR PSN 531018N 0025858W (735M 203 DEG MAG FROM\nHAWARDEN ARP). MAX HGT 78FT AMSL, 50FT AGL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820230940"
                 }
               ]
             },
@@ -6092,7 +6119,35 @@
           {
             "Code": "EGBP",
             "Name": "KEMBLE",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4793",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5140N00203W",
+                "Radius": "5",
+                "ItemA": "EGBP",
+                "StartValidity": "2308130800",
+                "EndValidity": "2308141600",
+                "ItemE": "AD NOT AVBL TO VISITING AIRCRAFT",
+                "Marker": "+",
+                "NotamStoreDate": "120820231013"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -6785,33 +6840,62 @@
             "Code": "EGKK",
             "Name": "LONDON GATWICK",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "5330",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5330",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2307200320",
+                  "EndValidity": "2308242200",
+                  "ItemE": "TWY QUEBEC CLSD BTN TWY JULIET AND TWY KILO DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "200720230402"
                 },
-                "Coordinates": "5109N00011W",
-                "Radius": "5",
-                "ItemA": "EGKK",
-                "StartValidity": "2307200320",
-                "EndValidity": "2308242200",
-                "ItemE": "TWY QUEBEC CLSD BTN TWY JULIET AND TWY KILO DUE WIP",
-                "Marker": "+",
-                "NotamStoreDate": "200720230402"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5933",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2308121330",
+                  "EndValidity": "2308121730",
+                  "ItemE": "RWY 08L/26R BTN TWY CHARLIE AND TWY TANGO CLSD DUE TO WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "120820231005"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -17553,6 +17637,34 @@
                 "ItemE": "NEWQUAY ATZ ACTIVE, AD OPR HOURS EXTENDED",
                 "Marker": "+",
                 "NotamStoreDate": "110820231310"
+              },
+              {
+                "@Reference": "EGNR",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4587",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "1"
+                },
+                "Coordinates": "5310N00259W",
+                "Radius": "1",
+                "ItemA": "EGNR",
+                "StartValidity": "2308131000",
+                "EndValidity": "2308132000",
+                "ItemE": "LIT FLOODLIGHTS OPR PSN 531018N 0025858W (735M 203 DEG MAG FROM\nHAWARDEN ARP). MAX HGT 78FT AMSL, 50FT AGL.",
+                "Marker": "+",
+                "NotamStoreDate": "030820230940"
               }
             ]
           },
@@ -20986,94 +21098,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "5047",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "24"
-                },
-                "Coordinates": "5249N00153W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308121006",
-                "EndValidity": "2308121036",
-                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n524856N 0015309W (ABBOTS BROMLEY, STAFFORDSHIRE). FOR OPERATIONAL \nCALLS ONLY CTC 01526 347716. 2023-08-0176/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2400FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "080820230810"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5040",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "23"
-                },
-                "Coordinates": "5242N00246W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308121019",
-                "EndValidity": "2308121049",
-                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n524228N 0024544W (SHREWSBURY, SHROPSHIRE). FOR OPERATIONAL CALLS \nONLY CTC 01526 347716. 2023-08-0194/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2300FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "080820230802"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5046",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "23"
-                },
-                "Coordinates": "5227N00222W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308121027",
-                "EndValidity": "2308131433",
-                "ItemD": "12 1027-1057, 13 1403-1433",
-                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n522634N 0022214W (HIGHLEY, WORCESTERSHIRE). FOR OPERATIONAL CALLS \nONLY CTC 01526 347716. 2023-08-0177/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2300FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "080820230806"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "5048",
                 "Year": "23",
                 "Type": "N",
@@ -22733,6 +22757,65 @@
                 "ItemG": "550FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "110820230847"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5139",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5343N00003E",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308131045",
+                "EndValidity": "2308131515",
+                "ItemD": "1045-1115 1445-1515",
+                "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 534329N 0000245E (WITHERNSEA,\nEAST RIDING OF YORKSHIRE) DROP HGT SUBJ ATC CLR. FOR INFO 07811 \n356827. 2023-08-0384/AS3.",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "090820231321"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5038",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5258N00004E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2308131049",
+                "EndValidity": "2308131119",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n525731N 0000429E (FREISTON, LINCOLNSHIRE). FOR OPERATIONAL CALLS \nONLY CTC 01526 347716. 2023-08-0212/AS1.",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080820230759"
               }
             ]
           },
@@ -22946,6 +23029,33 @@
                   "ItemE": "RUNWAY 17/35 AVBL FOR TAXI ONLY. NO MOVEMENTS SOUTH OF JULIET TWY.",
                   "Marker": "+",
                   "NotamStoreDate": "120820230746"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5934",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2308121018",
+                  "EndValidity": "2308310000",
+                  "ItemE": "STEEL PLATE ON NORTHSIDE OF TWY ALPHA EAST OF GENERAL AVIATION\nTERMINAL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120820231025"
                 }
               ]
             },
@@ -23124,6 +23234,33 @@
                   "ItemE": "FUEL NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "310720231553"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "2469",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5729N00722W",
+                  "Radius": "2",
+                  "ItemA": "EGPL",
+                  "StartValidity": "2308121045",
+                  "EndValidity": "2308121105",
+                  "ItemE": "BENBECULA ATZ ACTIVE. AD/ATS/ATIS/MET ADDITIONAL OPS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120820231047"
                 }
               ]
             },
@@ -26013,6 +26150,34 @@
                 "ItemE": "REQUESTS TO CROSS THE NEWCASTLE CTA/CTR MAY BE DECLINED OR \nDELAYED DUE ATC STAFFING. PILOTS SHOULD PLAN TO REMAIN CLEAR OF \nNEWCASTLE CONTROLLED AIRSPACE AND UTILISE THE FREQUENCY MONITORING \nCODE 3737.",
                 "Marker": "+",
                 "NotamStoreDate": "090820230614"
+              },
+              {
+                "@Reference": "EGPL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2469",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5729N00722W",
+                "Radius": "2",
+                "ItemA": "EGPL",
+                "StartValidity": "2308121045",
+                "EndValidity": "2308121105",
+                "ItemE": "BENBECULA ATZ ACTIVE. AD/ATS/ATIS/MET ADDITIONAL OPS.",
+                "Marker": "+",
+                "NotamStoreDate": "120820231047"
               },
               {
                 "@Reference": "EGTT",
