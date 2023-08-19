@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000064838691",
+    "@PIBId": "400000064840220",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-19T21:00:53+00:00",
-        "ValidTo": "2023-08-20T21:00:00+00:00"
+        "ValidFrom": "2023-08-19T22:00:56+00:00",
+        "ValidTo": "2023-08-20T22:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-19T21:00:53+00:00",
+      "Issued": "2023-08-19T22:00:56+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308190896",
+      "PibUid": "EG712308190925",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3772,6 +3772,35 @@
                   "ItemE": "TAXIWAY W STOP BAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "190820231714"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "5184",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WM",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "10"
+                  },
+                  "Coordinates": "5227N00142W",
+                  "Radius": "1",
+                  "ItemA": "EGBB",
+                  "StartValidity": "2308202115",
+                  "EndValidity": "2308202155",
+                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 522640N 0014222W (BICKENHILL). \nFOR INFO 07899 752600. 2023-08-0369/AS5.",
+                  "ItemF": "SFC",
+                  "ItemG": "950FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "100820231157"
                 }
               ]
             },
@@ -10085,33 +10114,65 @@
             "Code": "EGWC",
             "Name": "COSFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "4380",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4380",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5238N00218W",
+                  "Radius": "5",
+                  "ItemA": "EGWC",
+                  "StartValidity": "2307030817",
+                  "EndValidity": "2310032350",
+                  "ItemE": "AD NOT AVBL TO ALL CIVIL FIXED WING AND ROTARY ACFT",
+                  "Marker": "+",
+                  "NotamStoreDate": "030720230817"
                 },
-                "Coordinates": "5238N00218W",
-                "Radius": "5",
-                "ItemA": "EGWC",
-                "StartValidity": "2307030817",
-                "EndValidity": "2310032350",
-                "ItemE": "AD NOT AVBL TO ALL CIVIL FIXED WING AND ROTARY ACFT",
-                "Marker": "+",
-                "NotamStoreDate": "030720230817"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "5365",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WP",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "80"
+                  },
+                  "Coordinates": "5241N00217W",
+                  "Radius": "3",
+                  "ItemA": "EGWC",
+                  "StartValidity": "2308190915",
+                  "EndValidity": "2308202135",
+                  "ItemD": "19 0915-0945, 20 2105-2135",
+                  "ItemE": "PARACHUTE DISPLAY WI 1.5NM RADIUS: 524128N 0021727W\n(WESTON-UNDER-LIZARD, STAFFORDSHIRE). DROP HGT SUBJ ATC CLR. FOR \nINFO 07885 665057. 2023-08-0506/AS3.",
+                  "ItemF": "SFC",
+                  "ItemG": "8000FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "150820231316"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -19846,6 +19907,37 @@
                 "NotamStoreDate": "080520232124"
               },
               {
+                "@Reference": "EGWC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5365",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5241N00217W",
+                "Radius": "3",
+                "ItemA": "EGWC",
+                "StartValidity": "2308190915",
+                "EndValidity": "2308202135",
+                "ItemD": "19 0915-0945, 20 2105-2135",
+                "ItemE": "PARACHUTE DISPLAY WI 1.5NM RADIUS: 524128N 0021727W\n(WESTON-UNDER-LIZARD, STAFFORDSHIRE). DROP HGT SUBJ ATC CLR. FOR \nINFO 07885 665057. 2023-08-0506/AS3.",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "150820231316"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -20139,64 +20231,6 @@
                 "ItemG": "3800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "180820231526"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5089",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5146N00012W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308191900",
-                "EndValidity": "2308192200",
-                "ItemE": "LASER AND SEARCHLIGHT DISPLAY WI 1NM RADIUS: 514553N 0001216W\n(HATFIELD, HERTFORDSHIRE). FOR INFO 07799 540118 / 07831 462029. \n2023-08-0301/AS2.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "080820231333"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5291",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "25"
-                },
-                "Coordinates": "5210N00009W",
-                "Radius": "3",
-                "ItemA": "EGMJ",
-                "StartValidity": "2308191917",
-                "EndValidity": "2308192147",
-                "ItemE": "AIR DISPLAY WITH ARTICLE DROP WI 2NM: 520953N 0000908W (LITTLE\nGRANSDEN, CAMBRIDGESHIRE). FOR INFO CONTACT 07785 538317. \n2023-08-0432/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "140820231452"
               },
               {
                 "@OriginalMessage": "false",
@@ -21746,6 +21780,36 @@
                 "ItemG": "600FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "150820231035"
+              },
+              {
+                "@Reference": "EGBB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5184",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WM",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5227N00142W",
+                "Radius": "1",
+                "ItemA": "EGBB",
+                "StartValidity": "2308202115",
+                "EndValidity": "2308202155",
+                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 522640N 0014222W (BICKENHILL). \nFOR INFO 07899 752600. 2023-08-0369/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "950FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "100820231157"
               }
             ]
           },
@@ -22574,30 +22638,28 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "5168",
+                  "Series": "A",
+                  "Number": "6134",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
                     "FIR": "EGPX",
-                    "Code23": "WM",
-                    "Code45": "LW",
+                    "Code23": "MX",
+                    "Code45": "XX",
                     "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
+                    "Purpose": "M",
+                    "Scope": "A",
                     "Lower": "0",
-                    "Upper": "5"
+                    "Upper": "999"
                   },
                   "Coordinates": "5557N00322W",
-                  "Radius": "1",
+                  "Radius": "5",
                   "ItemA": "EGPH",
-                  "StartValidity": "2308192045",
-                  "EndValidity": "2308192200",
-                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555716N 0032224W (CARLOWRIE\nCASTLE) FOR INFO 07549 383878. 2023-08-0362/AS5.",
-                  "ItemF": "SFC",
-                  "ItemG": "500FT AMSL",
+                  "StartValidity": "2308192132",
+                  "EndValidity": "2309192132",
+                  "ItemE": "STEEL PLATE TWY ALPHA 60 METERS WEST A12",
                   "Marker": "+",
-                  "NotamStoreDate": "100820230912"
+                  "NotamStoreDate": "190820232135"
                 }
               ]
             },
@@ -23826,27 +23888,27 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6129",
+                  "Number": "6133",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
                     "FIR": "EGPX",
-                    "Code23": "NL",
-                    "Code45": "AS",
+                    "Code23": "AZ",
+                    "Code45": "CA",
                     "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
                     "Lower": "0",
-                    "Upper": "999"
+                    "Upper": "21"
                   },
                   "Coordinates": "5953N00118W",
-                  "Radius": "5",
+                  "Radius": "2",
                   "ItemA": "EGPB",
-                  "StartValidity": "2308191059",
-                  "EndValidity": "2308201200",
-                  "ItemE": "LOCATOR SBH/SUMBURGH 351KHZ U/S",
+                  "StartValidity": "2308192121",
+                  "EndValidity": "2308200200",
+                  "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY.",
                   "Marker": "+",
-                  "NotamStoreDate": "190820231059"
+                  "NotamStoreDate": "190820232129"
                 }
               ]
             },
@@ -25185,6 +25247,34 @@
                 "NotamStoreDate": "190820231120"
               },
               {
+                "@Reference": "EGPB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6133",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5953N00118W",
+                "Radius": "2",
+                "ItemA": "EGPB",
+                "StartValidity": "2308192121",
+                "EndValidity": "2308200200",
+                "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY.",
+                "Marker": "+",
+                "NotamStoreDate": "190820232129"
+              },
+              {
                 "@Reference": "EGTT",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -25754,36 +25844,6 @@
                 "ItemG": "550FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "150820231100"
-              },
-              {
-                "@Reference": "EGPH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5168",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WM",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "5"
-                },
-                "Coordinates": "5557N00322W",
-                "Radius": "1",
-                "ItemA": "EGPH",
-                "StartValidity": "2308192045",
-                "EndValidity": "2308192200",
-                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555716N 0032224W (CARLOWRIE\nCASTLE) FOR INFO 07549 383878. 2023-08-0362/AS5.",
-                "ItemF": "SFC",
-                "ItemG": "500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "100820230912"
               },
               {
                 "@OriginalMessage": "false",
