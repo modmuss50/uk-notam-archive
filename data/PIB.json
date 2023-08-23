@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065008865",
+    "@PIBId": "400000065010719",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-23T10:00:22+00:00",
-        "ValidTo": "2023-08-24T10:00:00+00:00"
+        "ValidFrom": "2023-08-23T11:00:13+00:00",
+        "ValidTo": "2023-08-24T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-23T10:00:22+00:00",
+      "Issued": "2023-08-23T11:00:13+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308230651",
+      "PibUid": "EG712308230711",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4917,7 +4917,37 @@
           {
             "Code": "EGSU",
             "Name": "DUXFORD",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4991",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5205N00008E",
+                "Radius": "1",
+                "ItemA": "EGSU",
+                "StartValidity": "2308241000",
+                "EndValidity": "2308241200",
+                "ItemE": "UAS OPR WI 0.2NM RADIUS OF PSN 520450N 0000814E (DUXFORD) SFC TO \n60FT AGL 186FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "186FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220820230915"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -6359,33 +6389,6 @@
                   "ItemE": "UP TO TWO CRANES OPERATING AT PSN: 532438N 0025956W (LIVERPOOL).\nUP TO 400FT AGL/420FT AMSL. FOR INFO CONTACT 07378 474400. ON\nEXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR\n5.4. AR-2023-304/01.",
                   "Marker": "+",
                   "NotamStoreDate": "160820231447"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6223",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "IC",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00251W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2308230007",
-                  "EndValidity": "2308231030",
-                  "ItemE": "ILS RWY 27 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "230820230035"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11273,6 +11276,33 @@
                   "ItemE": "CULDROSE AD HRS DURING SUMMER REDUCED OPERATIONAL PERIOD.\n31 JUL-04 AUG AD CLOSED\n07-10 AUG 0800-1100, 1230-1500\n11 AUG 0800-1100\n14-17 AUG 1100-1600\n18 AUG 0800-1100\n21-24 AUG 1100-1600\n25 AUG 0800-1100\n28 AUG AD CLOSED",
                   "Marker": "+",
                   "NotamStoreDate": "260720231601"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5514",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "CP",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5005N00515W",
+                  "Radius": "5",
+                  "ItemA": "EGDR",
+                  "StartValidity": "2308240700",
+                  "EndValidity": "2308241100",
+                  "ItemE": "PAR U/S DUE MAINT",
+                  "Marker": "+",
+                  "NotamStoreDate": "230820231006"
                 }
               ]
             },
@@ -18495,9 +18525,12 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "K",
-                "Number": "271",
+                "Number": "273",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "K",
+                "ReferredNumber": "271",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "OB",
@@ -18506,16 +18539,16 @@
                   "Purpose": "M",
                   "Scope": "E",
                   "Lower": "0",
-                  "Upper": "7"
+                  "Upper": "5"
                 },
                 "Coordinates": "5156N00102W",
                 "Radius": "1",
                 "ItemA": "EGTT",
                 "StartValidity": "2308230920",
                 "EndValidity": "2308302359",
-                "ItemE": "UNLIT CRANE AT PSN 515602N 0010205W (TWYFORD, BUCKINGHAMSHIRE)\nIN LOW FLYING AREA 4, 1C AND NIGHT ROTARY REGION 4A\nHGT 625FT AMSL (125FT AGL). 23/08/254/LFC",
+                "ItemE": "UNLIT CRANE AT PSN 515602N 0010205W (TWYFORD, BUCKINGHAMSHIRE) IN \nLOW FLYING AREA 4, 1C AND NIGHT ROTARY REGION 4A HGT 403FT AMSL \n(125FT AGL). 23/08/254/LFC",
                 "Marker": "+",
-                "NotamStoreDate": "230820230924"
+                "NotamStoreDate": "230820231016"
               },
               {
                 "@OriginalMessage": "false",
@@ -18571,6 +18604,33 @@
                 "ItemE": "UNLIT OBST AT PSN 512416N 0032711W (CHURCHILL BARRACKS, \nBOVERTON). MAX HGT 120FT AGL, 283FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "230820230950"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "272",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5124N00030E",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2308231010",
+                "EndValidity": "2311022359",
+                "ItemE": "LIT CRANE AT PSN 512414N 0003026E (FINDSBURY HILL, ROCHESTER) IN \nTHE THAMES VALLEY AVOIDANCE AREA HGT 220FT AMSL (102FT AGL). \n23/08/255/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "230820231010"
               },
               {
                 "@Reference": "EGHR",
@@ -18657,6 +18717,34 @@
                 "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
                 "Marker": "+",
                 "NotamStoreDate": "230820230937"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2033",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "195"
+                },
+                "Coordinates": "5206N00157W",
+                "Radius": "999",
+                "ItemA": "EGTT",
+                "StartValidity": "2308232300",
+                "EndValidity": "2308240330",
+                "ItemD": "2300-2330 0130-0330",
+                "ItemE": "THE FIS PROVIDED BY LONDON ACC ON FREQ 124.600MHZ, 124.750MHZ AND\n125.475MHZ WILL NOT BE AVBL. PILOTS REQUESTING FLT INFO DURING\nTHIS PERIOD MAY CTC LONDON CTL ON THE NOTIFIED H24 FREQ IN THE AIP\nPAGE ENR 2.1",
+                "Marker": "+",
+                "NotamStoreDate": "230820231045"
               },
               {
                 "@OriginalMessage": "false",
@@ -23984,6 +24072,36 @@
                 "ItemG": "542FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "210820231031"
+              },
+              {
+                "@Reference": "EGSU",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4991",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5205N00008E",
+                "Radius": "1",
+                "ItemA": "EGSU",
+                "StartValidity": "2308241000",
+                "EndValidity": "2308241200",
+                "ItemE": "UAS OPR WI 0.2NM RADIUS OF PSN 520450N 0000814E (DUXFORD) SFC TO \n60FT AGL 186FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "186FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220820230915"
               }
             ]
           },
@@ -28976,35 +29094,6 @@
                 "ItemG": "1500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220820230946"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5629",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WF",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "180",
-                  "Upper": "240"
-                },
-                "Coordinates": "5636N00711W",
-                "Radius": "51",
-                "ItemA": "EGPX",
-                "StartValidity": "2308230900",
-                "EndValidity": "2308231030",
-                "ItemE": "AIR TO AIR REFUELLING WILL TAKE PLACE IN THE FOLLOWING AREAS:\nAREA 14  0900-1030 FL180-FL240",
-                "ItemF": "FL180",
-                "ItemG": "FL240",
-                "Marker": "+",
-                "NotamStoreDate": "220820231214"
               },
               {
                 "@Reference": "EGTT",
