@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065043002",
+    "@PIBId": "400000065045712",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-24T05:00:07+00:00",
-        "ValidTo": "2023-08-25T05:00:00+00:00"
+        "ValidFrom": "2023-08-24T06:00:56+00:00",
+        "ValidTo": "2023-08-25T06:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-24T05:00:07+00:00",
+      "Issued": "2023-08-24T06:00:56+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308240113",
+      "PibUid": "EG712308240244",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5693,33 +5693,63 @@
             "Code": "EGHF",
             "Name": "LEE-ON-SOLENT",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "4862",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4421",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2307280500",
+                  "EndValidity": "2310270730",
+                  "ItemD": "FRI 0500-0730",
+                  "ItemE": "RESIDENTS OUT OF HOURS MOVEMENT NOT PERMITTED DUE TO SCHEDULED\nAIRPORT AND RUNWAY SWEEPING. COASTGUARD SAR IS EXCLUDED FROM THIS\nRESTRICTION",
+                  "Marker": "+",
+                  "NotamStoreDate": "260720231335"
                 },
-                "Coordinates": "5100N00112W",
-                "Radius": "1",
-                "ItemA": "EGHF",
-                "StartValidity": "2308220700",
-                "EndValidity": "2308241530",
-                "ItemE": "MOBILE CRANE OPR PSN 505933N 0011150W (FAREHAM). MAX HGT 82FT AGL \n/ 114FT AMSL.",
-                "Marker": "+",
-                "NotamStoreDate": "160820230938"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4862",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5100N00112W",
+                  "Radius": "1",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2308220700",
+                  "EndValidity": "2308241530",
+                  "ItemE": "MOBILE CRANE OPR PSN 505933N 0011150W (FAREHAM). MAX HGT 82FT AGL \n/ 114FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "160820230938"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -5914,6 +5944,33 @@
                   "ItemG": "UNL",
                   "Marker": "+",
                   "NotamStoreDate": "160820231338"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6265",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "HX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5320N00251W",
+                  "Radius": "5",
+                  "ItemA": "EGGP",
+                  "StartValidity": "2308240503",
+                  "EndValidity": "2308242000",
+                  "ItemE": "INCREASED BIRD ACTIVITY",
+                  "Marker": "+",
+                  "NotamStoreDate": "240820230503"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -7546,6 +7603,33 @@
                   "ItemE": "RWY 09/27 WIP WILL TAKE PLACE WHEN THE AD IS CLOSED.",
                   "Marker": "+",
                   "NotamStoreDate": "200820231730"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6266",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "40"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "14",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2308241630",
+                  "EndValidity": "2308241700",
+                  "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE\nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "240820230513"
                 }
               ]
             },
@@ -8712,7 +8796,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6243",
+                  "Number": "6267",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8728,11 +8812,11 @@
                   "Coordinates": "5134N00042E",
                   "Radius": "5",
                   "ItemA": "EGMC",
-                  "StartValidity": "2308231800",
-                  "EndValidity": "2308240600",
-                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 4",
+                  "StartValidity": "2308240600",
+                  "EndValidity": "2308241800",
+                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 6.",
                   "Marker": "+",
-                  "NotamStoreDate": "230820231752"
+                  "NotamStoreDate": "240820230532"
                 }
               ]
             },
@@ -8956,6 +9040,33 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE\nAREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE\nCLOSURE.",
                   "Marker": "+",
                   "NotamStoreDate": "230820231353"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4789",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "60"
+                  },
+                  "Coordinates": "5432N00123W",
+                  "Radius": "12",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2308242100",
+                  "EndValidity": "2308242245",
+                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ ACTIVATED. AD HOURS EXTENDED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "240820230505"
                 }
               ]
             },
@@ -16431,41 +16542,6 @@
               {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
-                "NOF": "EHAM",
-                "Series": "B",
-                "Number": "614",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "B",
-                "ReferredNumber": "609",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EHXX",
-                  "Code23": "CB",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "55"
-                },
-                "Coordinates": "5432N00304E",
-                "Radius": "97",
-                "ItemA": [
-                  "EHAA",
-                  "EGTT",
-                  "EGPX"
-                ],
-                "StartValidity": "2308220858",
-                "EndValidity": "2308241200",
-                "Estimation": "EST",
-                "ItemE": "LIMITED SURVEILLANCE COVERAGE OVER THE NORTH SEA BELOW FL055.",
-                "Marker": "+",
-                "NotamStoreDate": "220820230902"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "B",
                 "Number": "2022",
@@ -16957,6 +17033,41 @@
                 "NotamStoreDate": "240820230000"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EHAM",
+                "Series": "B",
+                "Number": "625",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "B",
+                "ReferredNumber": "614",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EHXX",
+                  "Code23": "CB",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5432N00304E",
+                "Radius": "97",
+                "ItemA": [
+                  "EHAA",
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2308240534",
+                "EndValidity": "2308281200",
+                "Estimation": "EST",
+                "ItemE": "LIMITED SURVEILLANCE COVERAGE OVER THE NORTH SEA BELOW FL055.",
+                "Marker": "+",
+                "NotamStoreDate": "240820230534"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17155,6 +17266,62 @@
                 "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
                 "Marker": "+",
                 "NotamStoreDate": "230820230700"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6266",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "40"
+                },
+                "Coordinates": "5241N00117E",
+                "Radius": "14",
+                "ItemA": "EGSH",
+                "StartValidity": "2308241630",
+                "EndValidity": "2308241700",
+                "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE\nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
+                "Marker": "+",
+                "NotamStoreDate": "240820230513"
+              },
+              {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4789",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2308242100",
+                "EndValidity": "2308242245",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ ACTIVATED. AD HOURS EXTENDED.",
+                "Marker": "+",
+                "NotamStoreDate": "240820230505"
               },
               {
                 "@OriginalMessage": "false",
@@ -22263,6 +22430,66 @@
                 "ItemG": "1500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220820231259"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5599",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5120N00058W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2308250505",
+                "EndValidity": "2308281859",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREAS 1B AND \nTHAMES VALLEY AVOIDANCE AREA WI 2NM RADIUS OF PSN 512027N 0005748W \n(HIGHFIELD FARM,HAMPSHIRE) MILITARY ACFT SHALL AVOID THE AREA FM \nSFC TO 2000FT AGL. 23/08/230/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220820230839"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5424",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WL",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "63"
+                },
+                "Coordinates": "5407N00054W",
+                "Radius": "16",
+                "ItemA": "EGTT",
+                "StartValidity": "2308250530",
+                "EndValidity": "2308281830",
+                "ItemD": "0530-0730 1630-1830",
+                "ItemE": "HOT AIR BALLOON FESTIVAL AT: 540707N 0005417W (CASTLE HOWARD,\nNORTH YORKSHIRE) UP TO 50 HOT AIR BALLOONS MAY PARTICIPATE DURING \nEACH PERIOD AND MAY BE FOUND UP TO 15NM DOWNWIND OF THE LAUNCH \nSITE. PILOTS ARE REQUESTED TO EXERCISE CAUTION IN THE VICINITY. \nCONTROLLED AIRSPACE WILL BE AVOIDED. FOR INFO 07530 067845. \n2023-08-0549/AS5.",
+                "ItemF": "SFC",
+                "ItemG": "6300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "160820231028"
               }
             ]
           },
@@ -23625,33 +23852,6 @@
                   "ItemE": "ACFT REFUELING HOURS\nMON - FRI  0430-1715\nSAT   0430-1545\nSUN   0715-1800\nTIMES MAY CHANGE AT SHORT NOTICE AND WILL BE BASED AROUND\nSCHEDULED AND PREBOOKED REFUELS. FUEL TEL +44 28 71813338. FLIGHT OPS\nTEL +44 28 71813336.",
                   "Marker": "+",
                   "NotamStoreDate": "290720231237"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2561",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "75"
-                  },
-                  "Coordinates": "5502N00720W",
-                  "Radius": "14",
-                  "ItemA": "EGAE",
-                  "StartValidity": "2308240520",
-                  "EndValidity": "2308240530",
-                  "ItemE": "LONDONDERRY/EGLINTON  CTA ATZ DEACTIVATED ATC NOT AVAILABLE DUE\nMANDATORY ATC CONTROLLER HOURS RESTRICTION",
-                  "Marker": "+",
-                  "NotamStoreDate": "230820231111"
                 }
               ]
             },
@@ -25579,42 +25779,6 @@
                 "@Reference": "EGTT",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
-                "NOF": "EHAM",
-                "Series": "B",
-                "Number": "614",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "B",
-                "ReferredNumber": "609",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EHXX",
-                  "Code23": "CB",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "55"
-                },
-                "Coordinates": "5432N00304E",
-                "Radius": "97",
-                "ItemA": [
-                  "EHAA",
-                  "EGTT",
-                  "EGPX"
-                ],
-                "StartValidity": "2308220858",
-                "EndValidity": "2308241200",
-                "Estimation": "EST",
-                "ItemE": "LIMITED SURVEILLANCE COVERAGE OVER THE NORTH SEA BELOW FL055.",
-                "Marker": "+",
-                "NotamStoreDate": "220820230902"
-              },
-              {
-                "@Reference": "EGTT",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "B",
                 "Number": "2022",
@@ -25790,32 +25954,40 @@
                 "NotamStoreDate": "240820230000"
               },
               {
-                "@Reference": "EGAE",
+                "@Reference": "EGTT",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2561",
+                "NOF": "EHAM",
+                "Series": "B",
+                "Number": "625",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "B",
+                "ReferredNumber": "614",
+                "ReferredYear": "23",
                 "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CD",
+                  "FIR": "EHXX",
+                  "Code23": "CB",
+                  "Code45": "LT",
                   "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
+                  "Purpose": "BO",
+                  "Scope": "E",
                   "Lower": "0",
-                  "Upper": "75"
+                  "Upper": "55"
                 },
-                "Coordinates": "5502N00720W",
-                "Radius": "14",
-                "ItemA": "EGAE",
-                "StartValidity": "2308240520",
-                "EndValidity": "2308240530",
-                "ItemE": "LONDONDERRY/EGLINTON  CTA ATZ DEACTIVATED ATC NOT AVAILABLE DUE\nMANDATORY ATC CONTROLLER HOURS RESTRICTION",
+                "Coordinates": "5432N00304E",
+                "Radius": "97",
+                "ItemA": [
+                  "EHAA",
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2308240534",
+                "EndValidity": "2308281200",
+                "Estimation": "EST",
+                "ItemE": "LIMITED SURVEILLANCE COVERAGE OVER THE NORTH SEA BELOW FL055.",
                 "Marker": "+",
-                "NotamStoreDate": "230820231111"
+                "NotamStoreDate": "240820230534"
               },
               {
                 "@Reference": "EGPK",
