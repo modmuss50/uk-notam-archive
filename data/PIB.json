@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065142781",
+    "@PIBId": "400000065144903",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-26T09:00:52+00:00",
-        "ValidTo": "2023-08-27T09:00:00+00:00"
+        "ValidFrom": "2023-08-26T10:00:22+00:00",
+        "ValidTo": "2023-08-27T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-26T09:00:52+00:00",
+      "Issued": "2023-08-26T10:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308260679",
+      "PibUid": "EG712308260751",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5452,6 +5452,33 @@
                   "ItemE": "LIT FLOODLIGHTS OPR PSN 531018N 0025858W 735M 203 DEG MAG FROM\nHAWARDEN ARP. MAX HGT 78FT AMSL, 50FT AGL.",
                   "Marker": "+",
                   "NotamStoreDate": "170820231107"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5092",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "45"
+                  },
+                  "Coordinates": "5307N00301W",
+                  "Radius": "9",
+                  "ItemA": "EGNR",
+                  "StartValidity": "2308261700",
+                  "EndValidity": "2308261800",
+                  "ItemE": "HAWARDEN RADIO MANDATORY ZONE 1-3 AND ATZ ACTIVE. AD OPEN. ALL \nATS AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820230952"
                 }
               ]
             },
@@ -5807,33 +5834,64 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4745",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4745",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308220948",
+                  "EndValidity": "2311162359",
+                  "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
+                  "Marker": "+",
+                  "NotamStoreDate": "220820230956"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2308220948",
-                "EndValidity": "2311162359",
-                "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
-                "Marker": "+",
-                "NotamStoreDate": "220820230956"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "5755",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "7"
+                  },
+                  "Coordinates": "5349N00132W",
+                  "Radius": "1",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308270900",
+                  "EndValidity": "2308290300",
+                  "ItemE": "UAS OPR WI 0.5NM RADIUS OF 534855N 0013140W (LEEDS, WEST\nYORKSHIRE). MAX HGT 400FT AGL. FOR INFO 07595 012131. \n2023-08-0719/AU2",
+                  "ItemF": "SFC",
+                  "ItemG": "700FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "240820231425"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8712,6 +8770,33 @@
                   "ItemE": "CRANE OPR PSN 505815N 0012041W (EASTLEIGH) MAX HGT 130FT AGL \n171FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "070820231333"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4827",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00121W",
+                  "Radius": "5",
+                  "ItemA": "EGHI",
+                  "StartValidity": "2308261000",
+                  "EndValidity": "2308261100",
+                  "ItemE": "TWY ALPHA NORTH OF ABEAM HANGAR 1 IS NOW OPR AS PART OF NORTHERN \nAPRON.",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820230943"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -17099,6 +17184,34 @@
                 "NotamStoreDate": "170820231107"
               },
               {
+                "@Reference": "EGNR",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5092",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "45"
+                },
+                "Coordinates": "5307N00301W",
+                "Radius": "9",
+                "ItemA": "EGNR",
+                "StartValidity": "2308261700",
+                "EndValidity": "2308261800",
+                "ItemE": "HAWARDEN RADIO MANDATORY ZONE 1-3 AND ATZ ACTIVE. AD OPEN. ALL \nATS AVBL",
+                "Marker": "+",
+                "NotamStoreDate": "260820230952"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -21321,6 +21434,35 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
+                "Number": "5829",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5218N00033W",
+                "Radius": "20",
+                "ItemA": "EGTT",
+                "StartValidity": "2308261100",
+                "EndValidity": "2308261600",
+                "ItemE": "GLIDING COMPETITION ACFT ROUTING:\n521523N 0000723W (PAPWORTH)\n521643N 0004258E (BURY ST EDMUNDS N)\n522050N 0005848E (HINDERCLAY MEADOWS AIR-STRIP)\n520623N 0004729E (LAVENHAM)\n521750N 0001057E (WATERBEACH N)\n521110N 0000640W (GRANSDEN LODGE)\n50 GLIDERS TRANSITING AT 1000-5000FT AGL WI 5NM OF ROUTE. TIMINGS, \nHGT AND ROUTE ARE APRX AND MAY CHANGE DUE TO WX OR OTHER \nREQUIREMENTS. GLIDERS MAY MONITOR COMPETITION FREQ 130.405MHZ. FOR \nLATEST INFO WWW.GLIDINGTASKS.CO.UK OR 07758 880359.",
+                "ItemF": "SFC",
+                "ItemG": "6000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260820230900"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
                 "Number": "5644",
                 "Year": "23",
                 "Type": "N",
@@ -22580,6 +22722,65 @@
                 "ItemG": "3000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "250820231237"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5674",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "150"
+                },
+                "Coordinates": "5251N00054W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2308270900",
+                "EndValidity": "2308271100",
+                "ItemE": "PARACHUTE DISPLAY WI 1NM RADIUS: 525119N 0005412W (HOSE,\nLEICESTERSHIRE). DROP HGT SUBJ ATC CLR. FOR INFO 07936 295682 OR \nCTC 129.905MHZ. 2023-08-0725/AU3",
+                "ItemF": "SFC",
+                "ItemG": "FL150",
+                "Marker": "+",
+                "NotamStoreDate": "230820231126"
+              },
+              {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5755",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5349N00132W",
+                "Radius": "1",
+                "ItemA": "EGNM",
+                "StartValidity": "2308270900",
+                "EndValidity": "2308290300",
+                "ItemE": "UAS OPR WI 0.5NM RADIUS OF 534855N 0013140W (LEEDS, WEST\nYORKSHIRE). MAX HGT 400FT AGL. FOR INFO 07595 012131. \n2023-08-0719/AU2",
+                "ItemF": "SFC",
+                "ItemG": "700FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240820231425"
               }
             ]
           },
@@ -26704,6 +26905,35 @@
                 "ItemG": "3700FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "240820230703"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EKCH",
+                "Series": "D",
+                "Number": "1207",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5629N00455E",
+                "Radius": "5",
+                "ItemA": "EKSI",
+                "StartValidity": "2308270700",
+                "EndValidity": "2308271900",
+                "ItemE": "UAV (DRONE) FLYING WILL TAKE PLACE AROUND THE SIRI PLATFORM UP TO\n200M.\nIF YOU NEED TO LAND AT HELIPORT EKSI PLEASE ADVISE AT LEAST 15 MIN\nPRIOR.",
+                "ItemF": "SFC",
+                "ItemG": "700FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260820230953"
               }
             ]
           },
