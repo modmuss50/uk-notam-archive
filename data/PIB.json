@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065151900",
+    "@PIBId": "400000065154405",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-26T14:00:02+00:00",
-        "ValidTo": "2023-08-27T14:00:00+00:00"
+        "ValidFrom": "2023-08-26T15:00:55+00:00",
+        "ValidTo": "2023-08-27T15:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-26T14:00:02+00:00",
+      "Issued": "2023-08-26T15:00:55+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308260894",
+      "PibUid": "EG712308260978",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4277,6 +4277,34 @@
                   "ItemE": "AUTOMET OBSERVATIONS UNVERIFIED",
                   "Marker": "+",
                   "NotamStoreDate": "260820231305"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6369",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2308262350",
+                  "EndValidity": "2308270425",
+                  "ItemD": "2350-0110 0155-0425",
+                  "ItemE": "CARDIFF AERODROME CLOSED.IN THE EVENT OF EMERGENCY CONTACT CARDIFF\nAIRPORT FIRE SERVICE ON 01446 712505",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820231411"
                 }
               ]
             },
@@ -8107,64 +8135,33 @@
             "Code": "EGCJ",
             "Name": "SHERBURN-IN-ELMET",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5061",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5347N00113W",
-                  "Radius": "5",
-                  "ItemA": "EGCJ",
-                  "StartValidity": "2308260600",
-                  "EndValidity": "2308271600",
-                  "ItemE": "RWY 24/06 AND 01/19 CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "250820231014"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5061",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "5802",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WA",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "30"
-                  },
-                  "Coordinates": "5347N00113W",
-                  "Radius": "3",
-                  "ItemA": "EGCJ",
-                  "StartValidity": "2308261245",
-                  "EndValidity": "2308261415",
-                  "ItemE": "AIR DISPLAY WI 2NM RADIUS: 534720N 0011233W (SHERBURN-IN-ELMET\nAD). DISPLAY WILL HAVE NO IMPACT ON LEEDS EAST ATZ. FOR INFO \n07921 656671. 2023-08-0574/AU1.",
-                  "ItemF": "SFC",
-                  "ItemG": "3000FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "250820231232"
-                }
-              ]
+                "Coordinates": "5347N00113W",
+                "Radius": "5",
+                "ItemA": "EGCJ",
+                "StartValidity": "2308260600",
+                "EndValidity": "2308271600",
+                "ItemE": "RWY 24/06 AND 01/19 CLOSED",
+                "Marker": "+",
+                "NotamStoreDate": "250820231014"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -9053,33 +9050,6 @@
                   "ItemE": "RFFS DOWNGRADED TO CAT 6.",
                   "Marker": "+",
                   "NotamStoreDate": "260820230540"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6362",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "ST",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5134N00042E",
-                  "Radius": "5",
-                  "ItemA": "EGMC",
-                  "StartValidity": "2308260721",
-                  "EndValidity": "2308261500",
-                  "ItemE": "PHONE LINE U/S CTC ATC ON 01702544592 OR EMAIL \nLSAAIRTRAFFIC(AT)SOUTHENDAIRPORT.COM",
-                  "Marker": "+",
-                  "NotamStoreDate": "260820230721"
                 }
               ]
             },
@@ -11099,6 +11069,33 @@
                   "ItemE": "GRASS CUTTING AND WEED SPRAYING OPERATIONS IN PROGRESS WITHIN THE\nCONTROLLED MOVEMENT AREA",
                   "Marker": "+",
                   "NotamStoreDate": "260820230611"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5592",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2308261444",
+                  "EndValidity": "2308272359",
+                  "ItemE": "RUNWAY 10/28 SURFACE CONDITION IS WET-WET WITH NO STANDING WATER",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820231446"
                 }
               ]
             },
@@ -21575,36 +21572,6 @@
                 "NotamStoreDate": "160820231239"
               },
               {
-                "@Reference": "EGCJ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5802",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "30"
-                },
-                "Coordinates": "5347N00113W",
-                "Radius": "3",
-                "ItemA": "EGCJ",
-                "StartValidity": "2308261245",
-                "EndValidity": "2308261415",
-                "ItemE": "AIR DISPLAY WI 2NM RADIUS: 534720N 0011233W (SHERBURN-IN-ELMET\nAD). DISPLAY WILL HAVE NO IMPACT ON LEEDS EAST ATZ. FOR INFO \n07921 656671. 2023-08-0574/AU1.",
-                "ItemF": "SFC",
-                "ItemG": "3000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "250820231232"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -21633,35 +21600,6 @@
                 "ItemG": "2400FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "080820230823"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5625",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WA",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5059N00221W",
-                "Radius": "2",
-                "ItemA": "EGHS",
-                "StartValidity": "2308261423",
-                "EndValidity": "2308261453",
-                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n505911N 0022115W (HENSTRIDGE AD, SOMERSET). FOR OPERATIONAL CALLS \nONLY CTC 01526 347716. 2023-08-0616/AS1.",
-                "ItemF": "SFC",
-                "ItemG": "2200FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "220820231109"
               },
               {
                 "@OriginalMessage": "false",
@@ -22956,6 +22894,64 @@
                 "ItemG": "2250FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220820231056"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5504",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5336N00026W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2308271447",
+                "EndValidity": "2308271517",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n533628N 0002609W (ELSHAM, LINCOLNSHIRE). FOR OPERATIONAL CALLS \nONLY CTC 01526 347716. 2023-08-0620/AS1.",
+                "ItemF": "SFC",
+                "ItemG": "2300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "180820230806"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5505",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5330N00003W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2308271456",
+                "EndValidity": "2308271526",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n533025N 0000316W (NEW WALTHAM, LINCOLNSHIRE). FOR OPERATIONAL \nCALLS ONLY CTC 01526 347716. 2023-08-0621/AS1.",
+                "ItemF": "SFC",
+                "ItemG": "2100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "180820230808"
               }
             ]
           },
@@ -24875,6 +24871,33 @@
                   "ItemE": "RESCUE AND FIRE FIGHTING SERVICES TO READ RFF CATEGORY A5. \nRFF CATEGORY 6 ACCEPTED UNDER REMISSION. 24 HOURS NOTICE PERIOD\nREQUIRED. UK AIP EGPB AD 2.6 REFERS",
                   "Marker": "+",
                   "NotamStoreDate": "140820230911"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6370",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "100"
+                  },
+                  "Coordinates": "5950N00118W",
+                  "Radius": "19",
+                  "ItemA": "EGPB",
+                  "StartValidity": "2308261455",
+                  "EndValidity": "2308261515",
+                  "ItemE": "SUMBURGH CTR, CTA, ATZ DEACTIVATED. AD, TWR CLOSED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820231459"
                 }
               ]
             },
@@ -26182,6 +26205,34 @@
                 "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI NEWCASTLE AIRSPACE \nDURING THESE PERIODS SHOULD MONITOR NEWCASTLE TOWER ON 119.705MHZ \nAND SQUAWK EITHER 3737, ANY DISCRETE TASK SPECIFIC CODE, OR ANY \nDISCRETE CODE ALLOCATED BY ANOTHER UNIT",
                 "Marker": "+",
                 "NotamStoreDate": "230820231802"
+              },
+              {
+                "@Reference": "EGPB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6370",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5950N00118W",
+                "Radius": "19",
+                "ItemA": "EGPB",
+                "StartValidity": "2308261455",
+                "EndValidity": "2308261515",
+                "ItemE": "SUMBURGH CTR, CTA, ATZ DEACTIVATED. AD, TWR CLOSED.",
+                "Marker": "+",
+                "NotamStoreDate": "260820231459"
               },
               {
                 "@Reference": "EGPK",
