@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065186354",
+    "@PIBId": "400000065188064",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-27T10:00:22+00:00",
-        "ValidTo": "2023-08-28T10:00:00+00:00"
+        "ValidFrom": "2023-08-27T11:00:13+00:00",
+        "ValidTo": "2023-08-28T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-27T10:00:22+00:00",
+      "Issued": "2023-08-27T11:00:13+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308270759",
+      "PibUid": "EG712308270807",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7933,7 +7933,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6371",
+                  "Number": "6397",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -7949,11 +7949,11 @@
                   "Coordinates": "5241N00117E",
                   "Radius": "14",
                   "ItemA": "EGSH",
-                  "StartValidity": "2308271430",
-                  "EndValidity": "2308271500",
-                  "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE\nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
+                  "StartValidity": "2308271445",
+                  "EndValidity": "2308271515",
+                  "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE REVERTS TO \nCLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER \nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE \nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE.",
                   "Marker": "+",
-                  "NotamStoreDate": "260820231614"
+                  "NotamStoreDate": "270820231027"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -8250,35 +8250,7 @@
           {
             "Code": "EGCJ",
             "Name": "SHERBURN-IN-ELMET",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5061",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5347N00113W",
-                "Radius": "5",
-                "ItemA": "EGCJ",
-                "StartValidity": "2308260600",
-                "EndValidity": "2308271600",
-                "ItemE": "RWY 24/06 AND 01/19 CLOSED",
-                "Marker": "+",
-                "NotamStoreDate": "250820231014"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -17442,12 +17414,42 @@
                 "NotamStoreDate": "270820230530"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2069",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308271200",
+                "EndValidity": "2308271230",
+                "ItemE": "SCOTTISH INFORMATION SERVICE ON FREQ 119.875MHZ NOT AVBL. FREQ \n119.875MHZ WILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ \nDETAILED IN THE CHART AT UK AIP ENR 6-33.. AREA G 123.775MHZ, AREA H \n124.5MHZ, AREA E 127.275MHZ. ALERTING AND DISTRESS SERVICES AVBL ON \n121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "270820231032"
+              },
+              {
                 "@Reference": "EGSH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "A",
-                "Number": "6371",
+                "Number": "6397",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -17463,11 +17465,41 @@
                 "Coordinates": "5241N00117E",
                 "Radius": "14",
                 "ItemA": "EGSH",
-                "StartValidity": "2308271430",
-                "EndValidity": "2308271500",
-                "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLOSED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER\nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE\nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE.",
+                "StartValidity": "2308271445",
+                "EndValidity": "2308271515",
+                "ItemE": "NORWICH CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE REVERTS TO \nCLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER \nEMERGENCY MEDICAL SERVICE MAY STILL OPERATE. PILOTS TRANSITING THE \nAREA ARE ADVISED TO MONITOR 119.355MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE.",
                 "Marker": "+",
-                "NotamStoreDate": "260820231614"
+                "NotamStoreDate": "270820231027"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2070",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308271530",
+                "EndValidity": "2308271630",
+                "ItemE": "SCOTTISH INFORMATION SERVICE ON FREQ 119.875MHZ NOT AVBL. FREQ \n119.875MHZ WILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ \nDETAILED IN THE CHART AT UK AIP ENR 6-33.. AREA G 123.775MHZ, AREA H \n124.5MHZ, AREA E 127.275MHZ. ALERTING AND DISTRESS SERVICES AVBL ON \n121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "270820231032"
               },
               {
                 "@Reference": "EGSH",
@@ -22160,35 +22192,6 @@
                 "ItemG": "3000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "250820231237"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5674",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "150"
-                },
-                "Coordinates": "5251N00054W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308270900",
-                "EndValidity": "2308271100",
-                "ItemE": "PARACHUTE DISPLAY WI 1NM RADIUS: 525119N 0005412W (HOSE,\nLEICESTERSHIRE). DROP HGT SUBJ ATC CLR. FOR INFO 07936 295682 OR \nCTC 129.905MHZ. 2023-08-0725/AU3",
-                "ItemF": "SFC",
-                "ItemG": "FL150",
-                "Marker": "+",
-                "NotamStoreDate": "230820231126"
               },
               {
                 "@Reference": "EGNM",
@@ -26929,6 +26932,68 @@
                 "ItemE": "VFR EDINBURGH ZONE TRANSITS MAY NOT BE PERMITTED DUE TO ATC \nSTAFFING",
                 "Marker": "+",
                 "NotamStoreDate": "270820230821"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2069",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308271200",
+                "EndValidity": "2308271230",
+                "ItemE": "SCOTTISH INFORMATION SERVICE ON FREQ 119.875MHZ NOT AVBL. FREQ \n119.875MHZ WILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ \nDETAILED IN THE CHART AT UK AIP ENR 6-33.. AREA G 123.775MHZ, AREA H \n124.5MHZ, AREA E 127.275MHZ. ALERTING AND DISTRESS SERVICES AVBL ON \n121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "270820231032"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2070",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "245"
+                },
+                "Coordinates": "5531N00406W",
+                "Radius": "125",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2308271530",
+                "EndValidity": "2308271630",
+                "ItemE": "SCOTTISH INFORMATION SERVICE ON FREQ 119.875MHZ NOT AVBL. FREQ \n119.875MHZ WILL NOT BE MONITORED. PILOTS ARE TO USE ALTN FREQ \nDETAILED IN THE CHART AT UK AIP ENR 6-33.. AREA G 123.775MHZ, AREA H \n124.5MHZ, AREA E 127.275MHZ. ALERTING AND DISTRESS SERVICES AVBL ON \n121.5MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "270820231032"
               },
               {
                 "@Reference": "EGPB",
