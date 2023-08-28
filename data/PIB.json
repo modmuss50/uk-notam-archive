@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065222321",
+    "@PIBId": "400000065224732",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-28T06:01:01+00:00",
-        "ValidTo": "2023-08-29T06:00:00+00:00"
+        "ValidFrom": "2023-08-28T07:00:44+00:00",
+        "ValidTo": "2023-08-29T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-28T06:01:01+00:00",
+      "Issued": "2023-08-28T07:00:44+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308280492",
+      "PibUid": "EG712308280572",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4050,33 +4050,62 @@
             "Code": "EGSC",
             "Name": "CAMBRIDGE",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "3669",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "PA",
-                  "Code45": "AW",
-                  "Traffic": "I",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "3669",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PA",
+                    "Code45": "AW",
+                    "Traffic": "I",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2305150830",
+                  "EndValidity": "PERM",
+                  "ItemE": "SURVEILLANCE RADAR APPROACH RWY 05 AND RWY 23 WITHDRAWN.\nUK AIP AD 2.EGSC-8-1 AND AD 2.EGSC-8-6 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120520231300"
                 },
-                "Coordinates": "5212N00011E",
-                "Radius": "5",
-                "ItemA": "EGSC",
-                "StartValidity": "2305150830",
-                "EndValidity": "PERM",
-                "ItemE": "SURVEILLANCE RADAR APPROACH RWY 05 AND RWY 23 WITHDRAWN.\nUK AIP AD 2.EGSC-8-1 AND AD 2.EGSC-8-6 REFERS.",
-                "Marker": "+",
-                "NotamStoreDate": "120520231300"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6407",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NL",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5213N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2308280657",
+                  "EndValidity": "2308280900",
+                  "ItemE": "NDB(L) CAM 332.500 KHZ OUT OF SERVICE\nCAM/NDB/ILS/DME/NDB(L) RWY 23\nLOC/DME/NDB(L) RWY 23\nNDB(L) DME RWY 23\nPILOTS TO EXPECT RNP RWY 05 OR RNP RWY 23 IN THE EVENT OF A LOSS OF \nCOMMUNICATIONS PILOTS SHOULD CONTINUE VISUALLY OR DIVERT TO THEIR \nALTERNATE AERODROME",
+                  "Marker": "+",
+                  "NotamStoreDate": "280820230657"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -7795,7 +7824,35 @@
           {
             "Code": "EGCJ",
             "Name": "SHERBURN-IN-ELMET",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5029",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5347N00113W",
+                "Radius": "1",
+                "ItemA": "EGCJ",
+                "StartValidity": "2308290600",
+                "EndValidity": "2308291430",
+                "ItemE": "CRANE IN USE AT 534729N 0011304W (SHERBURN INDUSTRIAL ESTATE).\nMAX HGT 99FT AGL, 125FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240820230840"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -11318,33 +11375,6 @@
                   "ItemE": "PAR NOT AVBL OUTSIDE PUBLISHED COMMERCIAL FLYING HOURS",
                   "Marker": "+",
                   "NotamStoreDate": "180720230905"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5599",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2308271925",
-                  "EndValidity": "2308280700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "270820231928"
                 }
               ]
             },
@@ -11617,6 +11647,33 @@
                   "ItemE": "REVISED AD OPENING HR 0730-1200 AND 1900-2100",
                   "Marker": "+",
                   "NotamStoreDate": "220820231253"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5484",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5315N00432W",
+                  "Radius": "5",
+                  "ItemA": "EGOV",
+                  "StartValidity": "2308290600",
+                  "EndValidity": "2308292100",
+                  "ItemE": "REVISED AD OPENING HOURS",
+                  "Marker": "+",
+                  "NotamStoreDate": "220820231315"
                 }
               ]
             },
@@ -16836,6 +16893,61 @@
                 "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFF SICKNESS.",
                 "Marker": "+",
                 "NotamStoreDate": "260820231526"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "263",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5146N00113W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2308290600",
+                "EndValidity": "2310232359",
+                "ItemE": "LIT CRANE AT PSN 514549N 0011258W (HEADINGTON, OXFORD) IN LOW \nFLYING AREA 1C AND NIGHT ROTARY REGION 1 HGT 477FT AMSL (136FT AGL). \n23/08/183/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "160820231007"
+              },
+              {
+                "@Reference": "EGCJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5029",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5347N00113W",
+                "Radius": "1",
+                "ItemA": "EGCJ",
+                "StartValidity": "2308290600",
+                "EndValidity": "2308291430",
+                "ItemE": "CRANE IN USE AT 534729N 0011304W (SHERBURN INDUSTRIAL ESTATE).\nMAX HGT 99FT AGL, 125FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "240820230840"
               }
             ]
           },
@@ -21138,6 +21250,35 @@
                 "ItemG": "1500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "240820231134"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4311",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "285"
+                },
+                "Coordinates": "5237N00426W",
+                "Radius": "50",
+                "ItemA": "EGTT",
+                "StartValidity": "2308290645",
+                "EndValidity": "2308291745",
+                "ItemE": "THE FOLLOWING NORTH WALES MILITARY TRAINING AREAS ACTIVATED:\nNORTH (LOW)  0645-1745 FL195-FL285\nSOUTH (LOW)  0645-1745 FL195-FL285",
+                "ItemF": "FL195",
+                "ItemG": "FL285",
+                "Marker": "+",
+                "NotamStoreDate": "250820231157"
               }
             ]
           },
@@ -22461,6 +22602,35 @@
                   "ItemG": "730FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "250820231457"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "2578",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "8"
+                  },
+                  "Coordinates": "6011N00113W",
+                  "Radius": "2",
+                  "ItemA": "EGET",
+                  "StartValidity": "2308290600",
+                  "EndValidity": "2308291930",
+                  "ItemE": "UAS OPR WI 1.4NM RADIUS OF 601059N 0011305W (VEENSGARTH,\nSHETLAND). MAX HEIGHT 400FT AGL.",
+                  "ItemF": "SFC",
+                  "ItemG": "730FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "250820231455"
                 }
               ]
             },
@@ -25510,6 +25680,36 @@
                 "ItemG": "15000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "260820231337"
+              },
+              {
+                "@Reference": "EGET",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2578",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "8"
+                },
+                "Coordinates": "6011N00113W",
+                "Radius": "2",
+                "ItemA": "EGET",
+                "StartValidity": "2308290600",
+                "EndValidity": "2308291930",
+                "ItemE": "UAS OPR WI 1.4NM RADIUS OF 601059N 0011305W (VEENSGARTH,\nSHETLAND). MAX HEIGHT 400FT AGL.",
+                "ItemF": "SFC",
+                "ItemG": "730FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "250820231455"
               }
             ]
           },
