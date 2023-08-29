@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065303917",
+    "@PIBId": "400000065305254",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-29T22:00:55+00:00",
-        "ValidTo": "2023-08-30T22:00:00+00:00"
+        "ValidFrom": "2023-08-29T23:00:12+00:00",
+        "ValidTo": "2023-08-30T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-29T22:00:55+00:00",
+      "Issued": "2023-08-29T23:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308291697",
+      "PibUid": "EG712308291716",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7709,62 +7709,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6094",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2308181800",
-                  "EndValidity": "2309182200",
-                  "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
-                  "Marker": "+",
-                  "NotamStoreDate": "180820231128"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6094",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6448",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2308292200",
-                  "EndValidity": "2308292300",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "290820231633"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2308181800",
+                "EndValidity": "2309182200",
+                "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
+                "Marker": "+",
+                "NotamStoreDate": "180820231128"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -11492,36 +11463,6 @@
                   "ItemE": "PAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "250820231317"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5612",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "5484",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5315N00432W",
-                  "Radius": "5",
-                  "ItemA": "EGOV",
-                  "StartValidity": "2308290713",
-                  "EndValidity": "2308292300",
-                  "ItemE": "REVISED AD OPENING HOURS",
-                  "Marker": "+",
-                  "NotamStoreDate": "290820230713"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -16647,34 +16588,6 @@
                 "NotamStoreDate": "240820231243"
               },
               {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "6448",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2308292200",
-                "EndValidity": "2308292300",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR\nPRE-ARANGED ACFT MOVEMENTS. RFFS CAT 7. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "290820231633"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -19325,36 +19238,6 @@
                 "ItemG": "6200FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220820231231"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5492",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "8"
-                },
-                "Coordinates": "5407N00054W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2308271900",
-                "EndValidity": "2308292230",
-                "ItemD": "1900-2230",
-                "ItemE": "UAS SWARM OPR WI 1NM RADIUS OF 540656N 0005350W (CASTLE HOWARD,\nNORTH YORKSHIRE). SWARM COMPRISED 150 UAS. MAX HGT 500FT AGL. FOR \nINFO 07970 017256. 2023-08-0617/AS2",
-                "ItemF": "SFC",
-                "ItemG": "800FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "170820231448"
               },
               {
                 "@OriginalMessage": "false",
@@ -23116,33 +22999,6 @@
                   "ItemE": "CRANE OPERATING AT POSITION 582727N 0030619W (WICK BUSINESS PARK)\n40FT AGL, 142FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "270720230930"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2634",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "22"
-                  },
-                  "Coordinates": "5828N00306W",
-                  "Radius": "2",
-                  "ItemA": "EGPC",
-                  "StartValidity": "2308292105",
-                  "EndValidity": "2308292210",
-                  "ItemE": "WICK ATZ ACTIVATED. AD AND AFIS ADDITIONAL HOURS OF OPERATION, OUT\nOF HOURS INDEMNITIES SUSPENDED",
-                  "Marker": "+",
-                  "NotamStoreDate": "290820232040"
                 }
               ]
             },
@@ -24494,34 +24350,6 @@
                 "NotamStoreDate": "290820231151"
               },
               {
-                "@Reference": "EGPC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2634",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5828N00306W",
-                "Radius": "2",
-                "ItemA": "EGPC",
-                "StartValidity": "2308292105",
-                "EndValidity": "2308292210",
-                "ItemE": "WICK ATZ ACTIVATED. AD AND AFIS ADDITIONAL HOURS OF OPERATION, OUT\nOF HOURS INDEMNITIES SUSPENDED",
-                "Marker": "+",
-                "NotamStoreDate": "290820232040"
-              },
-              {
                 "@Reference": "EGPK",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -25262,64 +25090,6 @@
                 "ItemG": "413FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "280820231744"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4318",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "550"
-                },
-                "Coordinates": "5837N00204W",
-                "Radius": "49",
-                "ItemA": "EGPX",
-                "StartValidity": "2308291615",
-                "EndValidity": "2308292215",
-                "ItemE": "THE FOLLOWING MORAY FIRTH DANGER AREAS ARE ACTIVATED:\nEG D809N 1615-1745 SFC-55000FT AMSL\nEG D809N 1945-2215 SFC-55000FT AMSL\nEG D809C 1615-1745 SFC-55000FT AMSL\nEG D809C 1945-2215 SFC-55000FT AMSL\nEG D809S 1615-1745 SFC-55000FT AMSL\nEG D809S 1945-2215 SFC-55000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "55000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "250820231204"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4303",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RM",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "195",
-                  "Upper": "245"
-                },
-                "Coordinates": "5715N00240W",
-                "Radius": "191",
-                "ItemA": "EGPX",
-                "StartValidity": "2308291700",
-                "EndValidity": "2308292300",
-                "ItemE": "THE FOLLOWING TRA ARE ACTIVATED:\nTRA 007A 1700-2300 FL195-FL245\nTRA 007B 1700-2300 FL195-FL245\nTRA 008A 1700-2300 FL195-FL245\nTRA 008B 1700-2300 FL195-FL245\nTRA 008C 1700-2300 FL195-FL245",
-                "ItemF": "FL195",
-                "ItemG": "FL245",
-                "Marker": "+",
-                "NotamStoreDate": "250820231150"
               },
               {
                 "@Reference": "EGET",
