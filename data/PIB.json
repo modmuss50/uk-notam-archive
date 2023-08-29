@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065261511",
+    "@PIBId": "400000065262997",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-08-29T02:00:28+00:00",
-        "ValidTo": "2023-08-30T02:00:00+00:00"
+        "ValidFrom": "2023-08-29T03:00:06+00:00",
+        "ValidTo": "2023-08-30T03:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-08-29T02:00:28+00:00",
+      "Issued": "2023-08-29T03:00:06+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712308290038",
+      "PibUid": "EG712308290060",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5688,64 +5688,33 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4745",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5352N00140W",
-                  "Radius": "5",
-                  "ItemA": "EGNM",
-                  "StartValidity": "2308220948",
-                  "EndValidity": "2311162359",
-                  "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
-                  "Marker": "+",
-                  "NotamStoreDate": "220820230956"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4745",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "5755",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "7"
-                  },
-                  "Coordinates": "5349N00132W",
-                  "Radius": "1",
-                  "ItemA": "EGNM",
-                  "StartValidity": "2308270900",
-                  "EndValidity": "2308290300",
-                  "ItemE": "UAS OPR WI 0.5NM RADIUS OF 534855N 0013140W (LEEDS, WEST\nYORKSHIRE). MAX HGT 400FT AGL. FOR INFO 07595 012131. \n2023-08-0719/AU2",
-                  "ItemF": "SFC",
-                  "ItemG": "700FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "240820231425"
-                }
-              ]
+                "Coordinates": "5352N00140W",
+                "Radius": "5",
+                "ItemA": "EGNM",
+                "StartValidity": "2308220948",
+                "EndValidity": "2311162359",
+                "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
+                "Marker": "+",
+                "NotamStoreDate": "220820230956"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -19322,36 +19291,6 @@
                 "NotamStoreDate": "220820231231"
               },
               {
-                "@Reference": "EGNM",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5755",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "7"
-                },
-                "Coordinates": "5349N00132W",
-                "Radius": "1",
-                "ItemA": "EGNM",
-                "StartValidity": "2308270900",
-                "EndValidity": "2308290300",
-                "ItemE": "UAS OPR WI 0.5NM RADIUS OF 534855N 0013140W (LEEDS, WEST\nYORKSHIRE). MAX HGT 400FT AGL. FOR INFO 07595 012131. \n2023-08-0719/AU2",
-                "ItemF": "SFC",
-                "ItemG": "700FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "240820231425"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -21644,33 +21583,6 @@
                   "ItemE": "AD NOT AVBL FOR ACFT DIVERSIONS",
                   "Marker": "+",
                   "NotamStoreDate": "280820231355"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6410",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2308290200",
-                  "EndValidity": "2308290415",
-                  "ItemE": "RWY 06/24 CLSD DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "280820230904"
                 },
                 {
                   "@OriginalMessage": "false",
