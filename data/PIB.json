@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065484956",
+    "@PIBId": "400000065486397",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-02T19:00:27+00:00",
-        "ValidTo": "2023-09-03T19:00:00+00:00"
+        "ValidFrom": "2023-09-02T20:00:22+00:00",
+        "ValidTo": "2023-09-03T20:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-02T19:00:27+00:00",
+      "Issued": "2023-09-02T20:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309021357",
+      "PibUid": "EG712309021423",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7675,33 +7675,62 @@
             "Code": "EGTK",
             "Name": "OXFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3231",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "4"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3231",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5150N00119W",
+                  "Radius": "1",
+                  "ItemA": "EGTK",
+                  "StartValidity": "2306050000",
+                  "EndValidity": "PERM",
+                  "ItemE": "ADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: MOBILE CRANE\nPOSITION: 514938.65N 0011836.26W\nELEVATION/HEIGHT: 393FT AMSL/165FT AGL\nLIGHTING: YES - RED\nREMARKS: OXFORD TECHNOLOGY PARK, LANGFORD LANE. NOT PRESENT ALL THE \nTIME. OPERATING WITHIN RADIUS 150 M FROM POSITION. END ESTIMATED DEC \n2023.\nUK AIP EGTK AD 2.10 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020620231114"
                 },
-                "Coordinates": "5150N00119W",
-                "Radius": "1",
-                "ItemA": "EGTK",
-                "StartValidity": "2306050000",
-                "EndValidity": "PERM",
-                "ItemE": "ADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: MOBILE CRANE\nPOSITION: 514938.65N 0011836.26W\nELEVATION/HEIGHT: 393FT AMSL/165FT AGL\nLIGHTING: YES - RED\nREMARKS: OXFORD TECHNOLOGY PARK, LANGFORD LANE. NOT PRESENT ALL THE \nTIME. OPERATING WITHIN RADIUS 150 M FROM POSITION. END ESTIMATED DEC \n2023.\nUK AIP EGTK AD 2.10 REFERS.",
-                "Marker": "+",
-                "NotamStoreDate": "020620231114"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5220",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "23"
+                  },
+                  "Coordinates": "5150N00119W",
+                  "Radius": "2",
+                  "ItemA": "EGTK",
+                  "StartValidity": "2309022015",
+                  "EndValidity": "2309022045",
+                  "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE",
+                  "Marker": "+",
+                  "NotamStoreDate": "020920231959"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8304,33 +8333,6 @@
                   "ItemE": "DECLARED DISTANCES\nRWY 02 TORA 1745M TODA 1805M ASDA 1745M LDA 1673M\nRWY 20 TORA 1814M TODA 1874M ASDA 1814M LDA 1605M",
                   "Marker": "+",
                   "NotamStoreDate": "170820231514"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4926",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5057N00121W",
-                  "Radius": "5",
-                  "ItemA": "EGHI",
-                  "StartValidity": "2308311730",
-                  "EndValidity": "2309022100",
-                  "ItemE": "TWY ALPHA NORTH OF ABEAM HANGAR 1 IS NOW OPERATING AS NORTHERN\nAPRON.",
-                  "Marker": "+",
-                  "NotamStoreDate": "310820231711"
                 }
               ]
             },
@@ -8531,6 +8533,33 @@
                   "ItemE": "RFFS DOWNGRADED TO CATEGORY 6",
                   "Marker": "+",
                   "NotamStoreDate": "020920231753"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6574",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5135N00056E",
+                  "Radius": "22",
+                  "ItemA": "EGMC",
+                  "StartValidity": "2309030530",
+                  "EndValidity": "2309030659",
+                  "ItemE": "SOUTHEND CTA, CTR, ATZ DEACTIVATED. AD CLOSED. NO ATS AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "020920231941"
                 }
               ]
             },
@@ -16534,6 +16563,62 @@
                 "NotamStoreDate": "250820231447"
               },
               {
+                "@Reference": "EGTK",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5220",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5150N00119W",
+                "Radius": "2",
+                "ItemA": "EGTK",
+                "StartValidity": "2309022015",
+                "EndValidity": "2309022045",
+                "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE",
+                "Marker": "+",
+                "NotamStoreDate": "020920231959"
+              },
+              {
+                "@Reference": "EGMC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6574",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5135N00056E",
+                "Radius": "22",
+                "ItemA": "EGMC",
+                "StartValidity": "2309030530",
+                "EndValidity": "2309030659",
+                "ItemE": "SOUTHEND CTA, CTR, ATZ DEACTIVATED. AD CLOSED. NO ATS AVBL",
+                "Marker": "+",
+                "NotamStoreDate": "020920231941"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19593,64 +19678,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "5974",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "41"
-                },
-                "Coordinates": "5153N00335W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2309020430",
-                "EndValidity": "2309021930",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 7 WI 2NM RADIUS \nOF PSN 515322N 0033451W (HEOL SENNI, POWYS).\n2000FT AGL. CTC 07575280508. 23/08/349/LFC",
-                "ItemF": "SFC",
-                "ItemG": "4100FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820231322"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5975",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5143N00318W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2309020430",
-                "EndValidity": "2309021930",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 7 WI 2NM RADIUS \nOF PSN 514323N 0031816W (BEDLINOG, CAERPHILLY). \n2000FT AGL. CTC 07575280508. 23/08/350/LFC",
-                "ItemF": "SFC",
-                "ItemG": "3500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820231323"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "5880",
                 "Year": "23",
                 "Type": "N",
@@ -19855,64 +19882,6 @@
                 "ItemG": "3900FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "310820231304"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5977",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "47"
-                },
-                "Coordinates": "5152N00322W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2309020800",
-                "EndValidity": "2309022000",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nWI LOW FLYING AREA 7 WI 2NM RADIUS OF PSN 515145N 0032210W \n(TALYBONT, POWYS). 2000FT AGL. CTC 07575 280508. 23/08/351/LFC",
-                "ItemF": "SFC",
-                "ItemG": "4700FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820231325"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5979",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "38"
-                },
-                "Coordinates": "5138N00332W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2309020800",
-                "EndValidity": "2309022000",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 7 WI 2NM RADIUS \nOF PSN 513759N 0033138W (NANT-Y-MOEL, BRIDGEND). \n2000FT AGL. CTC 07575280508. 23/08/354/LFC",
-                "ItemF": "SFC",
-                "ItemG": "3800FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820231433"
               },
               {
                 "@OriginalMessage": "false",
@@ -22405,9 +22374,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6570",
+                  "Number": "6573",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "A",
+                  "ReferredNumber": "6570",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGPX",
                     "Code23": "MR",
@@ -22421,11 +22393,11 @@
                   "Coordinates": "5552N00426W",
                   "Radius": "5",
                   "ItemA": "EGPF",
-                  "StartValidity": "2309021630",
+                  "StartValidity": "2309021900",
                   "EndValidity": "2309091630",
-                  "ItemE": "LEFT HAND SIDE RWY 05/23 GUARD LIGHT AT ALPHA ONE, TWY ALPA U/S.",
+                  "ItemE": "LEFT HAND SIDE RWY 05/23 GUARD LIGHT AT ALPHA ONE, TWY ALPHA U/S.",
                   "Marker": "+",
-                  "NotamStoreDate": "020920231627"
+                  "NotamStoreDate": "020920231902"
                 }
               ]
             },
@@ -23088,6 +23060,33 @@
                   "ItemE": "CRANE OPERATING APRX PSN 581122N 0062244W (STORNOWAY HARBOUR).\nMAX HGT 237FT AMSL, 222FT AGL.",
                   "Marker": "+",
                   "NotamStoreDate": "010920230542"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "2681",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5813N00620W",
+                  "Radius": "3",
+                  "ItemA": "EGPO",
+                  "StartValidity": "2309021953",
+                  "EndValidity": "2309022145",
+                  "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020920231956"
                 }
               ]
             },
@@ -24536,32 +24535,32 @@
                 "NotamStoreDate": "240820231625"
               },
               {
+                "@Reference": "EGPO",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "K",
-                "Number": "282",
+                "Series": "I",
+                "Number": "2681",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
                   "FIR": "EGPX",
-                  "Code23": "OB",
-                  "Code45": "CE",
+                  "Code23": "AZ",
+                  "Code45": "CA",
                   "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "E",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
                   "Lower": "0",
-                  "Upper": "4"
+                  "Upper": "21"
                 },
-                "Coordinates": "5504N00340W",
-                "Radius": "1",
-                "ItemA": "EGPX",
-                "StartValidity": "2309020522",
-                "EndValidity": "2309021906",
-                "ItemD": "SR-SS",
-                "ItemE": "LIT CRANE OPR PSN 550334N 0033931W (DUMFRIES, SCOTLAND) IN LOW \nFLYING AREA 16 AND NIGHT SECTOR 2B HGT 370FT AMSL (300FT AGL). \n23/09/314/LFC",
+                "Coordinates": "5813N00620W",
+                "Radius": "3",
+                "ItemA": "EGPO",
+                "StartValidity": "2309021953",
+                "EndValidity": "2309022145",
+                "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
                 "Marker": "+",
-                "NotamStoreDate": "290820231029"
+                "NotamStoreDate": "020920231956"
               },
               {
                 "@Reference": "EGPK",
@@ -25093,36 +25092,6 @@
                 "ItemG": "2100FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "300820231142"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6014",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WG",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "38"
-                },
-                "Coordinates": "5531N00300W",
-                "Radius": "3",
-                "ItemA": "EGPX",
-                "StartValidity": "2309020518",
-                "EndValidity": "2309021904",
-                "ItemD": "SR-SS",
-                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 16 AND 20T WI 2NM RADIUS \nOF PSN 553119N 0030004W (WITCHIE KNOWE, SCOTTISH BORDERS). \n2000FT AGL. CTC 07419986204. 23/09/012/LFC",
-                "ItemF": "SFC",
-                "ItemG": "3800FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "010920231320"
               },
               {
                 "@Reference": "EGAB",
