@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065512827",
+    "@PIBId": "400000065514603",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-03T11:00:14+00:00",
-        "ValidTo": "2023-09-04T11:00:00+00:00"
+        "ValidFrom": "2023-09-03T12:00:21+00:00",
+        "ValidTo": "2023-09-04T12:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-03T11:00:14+00:00",
+      "Issued": "2023-09-03T12:00:21+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309030812",
+      "PibUid": "EG712309030862",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -10163,6 +10163,33 @@
                   "ItemE": "HIGH FREQUENCY DIRECTION FINDER OBSTRUCTION LIGHT U/S",
                   "Marker": "+",
                   "NotamStoreDate": "300820231547"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5721",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "35"
+                  },
+                  "Coordinates": "5109N00145W",
+                  "Radius": "5",
+                  "ItemA": "EGDM",
+                  "StartValidity": "2309041100",
+                  "EndValidity": "2309061630",
+                  "ItemE": "BOSCOMBE DOWN WATCHMAN RADAR U/S DUE MAINT",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920230757"
                 }
               ]
             },
@@ -11778,65 +11805,34 @@
             "Code": "EGOQ",
             "Name": "MONA",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5684",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5314N00424W",
-                  "Radius": "1",
-                  "ItemA": "EGOQ",
-                  "StartValidity": "2309030800",
-                  "EndValidity": "2309031200",
-                  "ItemE": "UAS OPR 531403N 0042359W (WI MONA ATZ) WI 0.2NM RADIUS. UP TO \n180FT AGL, 240FT AMSL CTC 07916 118256",
-                  "ItemF": "SFC",
-                  "ItemG": "240FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "310820230939"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5574",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5574",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5315N00419W",
-                  "Radius": "1",
-                  "ItemA": "EGOQ",
-                  "StartValidity": "2309040700",
-                  "EndValidity": "2309051530",
-                  "ItemD": "0700-1530",
-                  "ItemE": "CRANE OPR 531455N 0041843W (LLANGEFNI) UPTO 170FT AGL/ 230FT AMSL \nCTC 07387 314240",
-                  "Marker": "+",
-                  "NotamStoreDate": "250820231310"
-                }
-              ]
+                "Coordinates": "5315N00419W",
+                "Radius": "1",
+                "ItemA": "EGOQ",
+                "StartValidity": "2309040700",
+                "EndValidity": "2309051530",
+                "ItemD": "0700-1530",
+                "ItemE": "CRANE OPR 531455N 0041843W (LLANGEFNI) UPTO 170FT AGL/ 230FT AMSL \nCTC 07387 314240",
+                "Marker": "+",
+                "NotamStoreDate": "250820231310"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -12478,6 +12474,36 @@
                   "ItemG": "2250FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "250820230923"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "5994",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WE",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "83"
+                  },
+                  "Coordinates": "5309N00032W",
+                  "Radius": "6",
+                  "ItemA": "EGXW",
+                  "StartValidity": "2309041115",
+                  "EndValidity": "2309051055",
+                  "ItemD": "04 1115-1215 1345-1445, 05 0645-0745 0955-1055",
+                  "ItemE": "AIRCRAFT CONDUCTING HIGH ENERGY MANOUVERES WI 5NM RADIUS:\n530900N 0003143W (WADDINGTON AD). FOR INFO 01522 726707. \n2023-09-0203/AU1.",
+                  "ItemF": "SFC",
+                  "ItemG": "8300FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920230843"
                 }
               ]
             },
@@ -18302,6 +18328,34 @@
                 "ItemE": "RADAR JAMMING. JAMMERS LOCATED WI 40NM RADIUS: 552506N 0014603W \n(NORTH SEA). ACTIVITY MAY AFFECT ACFT WI 40NM SFC TO \n25000FT AMSL OR ABOVE ALL DIRECTIONS). MAY ALSO AFFECT AIRBORNE \nELECTRONIC SITUATIONAL AWARENESS DEVICES AND UAS CONTROL. FOR \nINFO/CEASE JAMMING 01665 572 312. 2023-08-0245/AU4.",
                 "Marker": "+",
                 "NotamStoreDate": "300820231544"
+              },
+              {
+                "@Reference": "EGDM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5721",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "35"
+                },
+                "Coordinates": "5109N00145W",
+                "Radius": "5",
+                "ItemA": "EGDM",
+                "StartValidity": "2309041100",
+                "EndValidity": "2309061630",
+                "ItemE": "BOSCOMBE DOWN WATCHMAN RADAR U/S DUE MAINT",
+                "Marker": "+",
+                "NotamStoreDate": "010920230757"
               }
             ]
           },
@@ -20985,36 +21039,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "5792",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "55"
-                },
-                "Coordinates": "5314N00137W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2309011100",
-                "EndValidity": "2309031130",
-                "ItemD": "01 1100-1130 1645-1730, 02 1100-1130 1645-1745, 03 1100-1130",
-                "ItemE": "PARACHUTE DISPLAY WI 1.5NM RADIUS: 531348N 0013647W (BAKEWELL,\nDERBYSHIRE) DROP HGT SUBJ ATC CLR. FOR INFO 07766 203104. \n2023-09-0132/AU3.",
-                "ItemF": "SFC",
-                "ItemG": "5500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "250820230929"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "5733",
                 "Year": "23",
                 "Type": "N",
@@ -21930,36 +21954,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "120420231501"
-              },
-              {
-                "@Reference": "EGOQ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "5684",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5314N00424W",
-                "Radius": "1",
-                "ItemA": "EGOQ",
-                "StartValidity": "2309030800",
-                "EndValidity": "2309031200",
-                "ItemE": "UAS OPR 531403N 0042359W (WI MONA ATZ) WI 0.2NM RADIUS. UP TO \n180FT AGL, 240FT AMSL CTC 07916 118256",
-                "ItemF": "SFC",
-                "ItemG": "240FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820230939"
               },
               {
                 "@OriginalMessage": "false",
@@ -23495,6 +23489,37 @@
                 "ItemG": "234FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "300820231217"
+              },
+              {
+                "@Reference": "EGXW",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5994",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WE",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "83"
+                },
+                "Coordinates": "5309N00032W",
+                "Radius": "6",
+                "ItemA": "EGXW",
+                "StartValidity": "2309041115",
+                "EndValidity": "2309051055",
+                "ItemD": "04 1115-1215 1345-1445, 05 0645-0745 0955-1055",
+                "ItemE": "AIRCRAFT CONDUCTING HIGH ENERGY MANOUVERES WI 5NM RADIUS:\n530900N 0003143W (WADDINGTON AD). FOR INFO 01522 726707. \n2023-09-0203/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "8300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "010920230843"
               }
             ]
           },
@@ -27854,6 +27879,35 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "010920231218"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4395",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "550"
+                },
+                "Coordinates": "5837N00204W",
+                "Radius": "49",
+                "ItemA": "EGPX",
+                "StartValidity": "2309041115",
+                "EndValidity": "2309041645",
+                "ItemE": "THE FOLLOWING MORAY FIRTH DANGER AREAS ARE ACTIVATED:\nEG D809N 1115-1300 SFC-55000FT AMSL\nEG D809N 1500-1645 SFC-55000FT AMSL\nEG D809C 1115-1300 SFC-55000FT AMSL\nEG D809C 1500-1645 SFC-55000FT AMSL\nEG D809S 1115-1300 SFC-55000FT AMSL\nEG D809S 1500-1645 SFC-55000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "55000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "010920231204"
               }
             ]
           },
