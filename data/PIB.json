@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065492004",
+    "@PIBId": "400000065494299",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-03T00:00:25+00:00",
-        "ValidTo": "2023-09-04T00:00:00+00:00"
+        "ValidFrom": "2023-09-03T01:00:32+00:00",
+        "ValidTo": "2023-09-04T01:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-03T00:00:25+00:00",
+      "Issued": "2023-09-03T01:00:32+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309030006",
+      "PibUid": "EG712309030018",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3443,33 +3443,62 @@
             "Code": "EGSL",
             "Name": "ANDREWSFIELD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5090",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5090",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5154N00027E",
+                  "Radius": "5",
+                  "ItemA": "EGSL",
+                  "StartValidity": "2308270001",
+                  "EndValidity": "2309090800",
+                  "ItemE": "AD NOT AVBL FOR ACFT REQUIRING THE USE OF A LICENSED AD DUE \nLIMITED RFFS",
+                  "Marker": "+",
+                  "NotamStoreDate": "260820230801"
                 },
-                "Coordinates": "5154N00027E",
-                "Radius": "5",
-                "ItemA": "EGSL",
-                "StartValidity": "2308270001",
-                "EndValidity": "2309090800",
-                "ItemE": "AD NOT AVBL FOR ACFT REQUIRING THE USE OF A LICENSED AD DUE \nLIMITED RFFS",
-                "Marker": "+",
-                "NotamStoreDate": "260820230801"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5156",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5154N00027E",
+                  "Radius": "5",
+                  "ItemA": "EGSL",
+                  "StartValidity": "2309040001",
+                  "EndValidity": "2309050800",
+                  "ItemE": "AD CLOSED DUE TO RUNWAY MAINTAINANCE",
+                  "Marker": "+",
+                  "NotamStoreDate": "300820231329"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -4172,6 +4201,33 @@
                   "ItemG": "440FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "300820231430"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "5835",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2309040000",
+                  "EndValidity": "PERM",
+                  "ItemE": "AD OPERATIONAL HOURS - AD ADMINISTRATION - AMEND AS FOLLOWS:\nMON-FRI 0800-1730 (0700-1630).\nEGSC AD 2.3,  AD 2.18,  AD 2.19 REFER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "080820231621"
                 }
               ]
             },
@@ -6337,6 +6393,33 @@
                   "ItemE": "UP TO 3 CRANES OPERATING AT PSN: 513200N 0000337W (BETHNAL GREEN,\nEAST LONDON). UP TO 400FT AGL/450FT AMSL. FOR INFO CONTACT 07989\n227509. ON EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE\nUK AIP ENR 5.4. AR-2023-385/AOPS1.",
                   "Marker": "+",
                   "NotamStoreDate": "290820231111"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "N",
+                  "Number": "252",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5130N00003E",
+                  "Radius": "1",
+                  "ItemA": "EGLC",
+                  "StartValidity": "2309040000",
+                  "EndValidity": "2311032359",
+                  "ItemE": "CRANE OPERATING AT PSN: 512930N 0000253E (GREENWICH, LONDON) UP\nTO 334.642FT AGL/334.642FT AMSL. FOR INFO CONTACT 07824 867437.\nON EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP\nENR 5.4. AR-2023-277/AOPS1",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920231529"
                 }
               ]
             },
@@ -9234,6 +9317,33 @@
                   "ItemG": "2200FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "240820231209"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5728",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5137N00106W",
+                  "Radius": "5",
+                  "ItemA": "EGUB",
+                  "StartValidity": "2309040000",
+                  "EndValidity": "2309102359",
+                  "ItemE": "REVISED AD OPENING HR\nMON - 0800-0030\nTUE - 0800-0030\nWED - 0800-0030\nTHU - 0800-0100\nFRI - 0800-1615\nSAT - CLOSED\nSUN - CLOSED\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT)",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920231146"
                 }
               ]
             },
@@ -10681,33 +10791,6 @@
                   "ItemE": "AD OPENING HOURS\n01 1200-0200\n02 1300-0100\n03 1500-0700\n04 1100-2300\n05 0900-2300\n06 1100-0100\n07 1100-0100\n08 0700-2100\n09 0700-2100\n10 1330-2200\n11 0300-1700\n12 1200-0200\n13 1400-0200\n14 1500-0700\n15 1100-2300\n16 0600-1800\n17 0800-1600",
                   "Marker": "+",
                   "NotamStoreDate": "010920231646"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5739",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5418N00132W",
-                  "Radius": "5",
-                  "ItemA": "EGXE",
-                  "StartValidity": "2309022305",
-                  "EndValidity": "2309030100",
-                  "ItemE": "AIRFIELD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "020920232305"
                 }
               ]
             },
@@ -10842,7 +10925,35 @@
           {
             "Code": "EGDI",
             "Name": "MERRYFIELD",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5722",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5058N00256W",
+                "Radius": "5",
+                "ItemA": "EGDI",
+                "StartValidity": "2309040000",
+                "EndValidity": "2309292359",
+                "ItemE": "AD CLOSED DUE NO FIRE COVER",
+                "Marker": "+",
+                "NotamStoreDate": "010920230937"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -11862,6 +11973,33 @@
                   "ItemE": "DUE TO ATC STAFFING , VISITING ACFT AND PRACTICE\nDIVERSIONS CAN ONLY BE ACCEPTED MON-THU 1200-1600.",
                   "Marker": "+",
                   "NotamStoreDate": "110820230910"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5723",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5100N00239W",
+                  "Radius": "5",
+                  "ItemA": "EGDY",
+                  "StartValidity": "2309040000",
+                  "EndValidity": "2309082359",
+                  "ItemE": "CHANGE TO AD OPR HR:\nMON TO WED  0900-1600 AND 1930-2359\nTHU         0900-1600\nFRI         0900-1300",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920230943"
                 }
               ]
             },
@@ -16754,6 +16892,34 @@
                 "ItemE": "LIT CRANE OPR PSN 532056.8691N 0021226.1611W (097 DEG MAG 4534M FM\nMANCHESTER ARP). MAX HGT 557FT AMSL, 305FT AGL.",
                 "Marker": "+",
                 "NotamStoreDate": "310820230658"
+              },
+              {
+                "@Reference": "EGLC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "N",
+                "Number": "252",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5130N00003E",
+                "Radius": "1",
+                "ItemA": "EGLC",
+                "StartValidity": "2309040000",
+                "EndValidity": "2311032359",
+                "ItemE": "CRANE OPERATING AT PSN: 512930N 0000253E (GREENWICH, LONDON) UP\nTO 334.642FT AGL/334.642FT AMSL. FOR INFO CONTACT 07824 867437.\nON EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP\nENR 5.4. AR-2023-277/AOPS1",
+                "Marker": "+",
+                "NotamStoreDate": "010920231529"
               }
             ]
           },
@@ -21144,6 +21310,38 @@
                 "ItemG": "3000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "310820230908"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "LFFA",
+                "Series": "R",
+                "Number": "2489",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "LFXX",
+                  "Code23": "RT",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5048N00140E",
+                "Radius": "32",
+                "ItemA": [
+                  "LFFF",
+                  "EGTT"
+                ],
+                "StartValidity": "2309040000",
+                "EndValidity": "2309071600",
+                "ItemE": "TEMPO AREAS OVER ENGLISH CHANNEL - AIP SUP 130/23\nSUBJECT : AREAS ACTIVATION\nMON 04 SEP 2023 : 0600-1200 : LF-R400 A DEP GRIS-NEZ AND LF-R401\nMANCHE 1 ACT (SCENARIO SOUTH ACT)\nMON 04 SEP 2023 : 1200-1600 : LF-R400 A DEP GRIS-NEZ AND LF-R402\nMANCHE 2 ACT (SCENARIO NORTH GRIS-NEZ ACT)\nTUE 05 SEP 2023 : 0600-1200 : LF-R400 A DEP GRIS-NEZ AND LF-R401\nMANCHE 1 ACT (SCENARIO SOUTH ACT)\nTUE 05 SEP 2023 : 1200-1600 : LF-R400 A DEP GRIS-NEZ AND LF-R402\nMANCHE 2 ACT (SCENARIO NORTH GRIS-NEZ ACT)\nWED 06 SEP 2023 : 0600-1200 : LF-R400 A DEP GRIS-NEZ AND LF-R401\nMANCHE 1 ACT (SCENARIO SOUTH ACT)\nWED 06 SEP 2023 : 1200-1600 : LF-R400 A DEP GRIS-NEZ AND LF-R402\nMANCHE 2 ACT (SCENARIO NORTH GRIS-NEZ ACT)\nTHU 07 SEP 2023 : 0600-1200 : LF-R400 A DEP GRIS-NEZ AND LF-R401\nMANCHE 1 ACT (SCENARIO SOUTH ACT)\nTHU 07 SEP 2023 : 1200-1600 : LF-R400 A DEP GRIS-NEZ AND LF-R402\nMANCHE 2 ACT (SCENARIO NORTH GRIS-NEZ ACT)\nAIP SUP IS AVBL ON WWW.SIA.AVIATION-CIVILE.GOUV.FR",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "010920230915"
               }
             ]
           },
