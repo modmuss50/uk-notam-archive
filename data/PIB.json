@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065631741",
+    "@PIBId": "400000065633214",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-05T22:00:59+00:00",
-        "ValidTo": "2023-09-06T22:00:00+00:00"
+        "ValidFrom": "2023-09-05T23:00:14+00:00",
+        "ValidTo": "2023-09-06T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-05T22:00:59+00:00",
+      "Issued": "2023-09-05T23:00:14+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309051867",
+      "PibUid": "EG712309051889",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5903,33 +5903,62 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4745",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4745",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308220948",
+                  "EndValidity": "2311162359",
+                  "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
+                  "Marker": "+",
+                  "NotamStoreDate": "220820230956"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2308220948",
-                "EndValidity": "2311162359",
-                "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
-                "Marker": "+",
-                "NotamStoreDate": "220820230956"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5053",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2309060315",
+                  "EndValidity": "2309060415",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLSD, NO ATC SER \nAVBL. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G DURING \nPERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT WI LEEDS BRADFORD \nAIRSPACE DURING THESE PERIODS SHOULD MONITOR LEEDS RADAR ON \n134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK SPECIFIC CODE, \nOR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET OBSERVATIONS \nUNVERIFIED DURING PERIODS OF CLOSURE",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920232253"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6648,33 +6677,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6643",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "LA",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00011W",
-                  "Radius": "5",
-                  "ItemA": "EGKK",
-                  "StartValidity": "2309051108",
-                  "EndValidity": "2310151700",
-                  "ItemE": "RWY 35 FINAL APPROACH LIGHT CROSSBAR AND RWY 35 WINGBARS U/S.",
-                  "Marker": "+",
-                  "NotamStoreDate": "050920231108"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "6663",
                   "Year": "23",
                   "Type": "N",
@@ -6723,6 +6725,61 @@
                   "ItemE": "TWY KILO CLSD BTN TWY QUEBEC AND STAND 133 DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "050920230431"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6677",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2309061200",
+                  "EndValidity": "2309061600",
+                  "ItemE": "TWY PAPA CLSD BTN TWY JULIET AND TWY KILO DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920232231"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6676",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2309062130",
+                  "EndValidity": "2309090430",
+                  "ItemD": "2130-0430",
+                  "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FROM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR RWY 08L/26R WILL BE AVBL TO ALLOW\nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MIN BEFORE CHANGEOVER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920232228"
                 }
               ]
             },
@@ -7257,6 +7314,33 @@
                   "ItemE": "AD UNAVAILABLE DUE WIP. RWY 09L/27R CAN BE MADE AVBL FOR EMERG \nTRAFFIC AT 30 MIN NOTICE. FOR FLT PLANNING AIRLINES ARE REQUESTED \nNOT TO USE EGLL AS AN ALTN. START OF AD UNAVAILABLE WILL BE DELAYED \nFOR SCHEDULED MOVEMENTS TO ARR/DEP",
                   "Marker": "+",
                   "NotamStoreDate": "020920231550"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6569",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5129N00028W",
+                  "Radius": "5",
+                  "ItemA": "EGLL",
+                  "StartValidity": "2309062230",
+                  "EndValidity": "2309070330",
+                  "ItemE": "AD CLSD DUE WIP. START OF AD CLSD WILL BE DELAYED FOR SCHEDULED\nMOVEMENTS TO ARR/DEP PRIOR TO START OF AD CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "020920231601"
                 }
               ]
             },
@@ -11006,33 +11090,6 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5779",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5418N00132W",
-                  "Radius": "5",
-                  "ItemA": "EGXE",
-                  "StartValidity": "2309051853",
-                  "EndValidity": "2309052300",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "050920231858"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
                   "Series": "H",
                   "Number": "6070",
                   "Year": "23",
@@ -11931,33 +11988,6 @@
                   "ItemE": "NO VISITORS OR DIVERSIONS DUE TO LIMITED VISITING AIRCRAFT \nHANDLING SECTION",
                   "Marker": "+",
                   "NotamStoreDate": "140820231445"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5781",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5310N00031W",
-                  "Radius": "5",
-                  "ItemA": "EGXW",
-                  "StartValidity": "2309052111",
-                  "EndValidity": "2309052259",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "050920232111"
                 }
               ]
             },
@@ -17399,33 +17429,6 @@
                 "NotamStoreDate": "050920231634"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2143",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SE",
-                  "Code45": "AU",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5418N00132W",
-                "Radius": "30",
-                "ItemA": "EGTT",
-                "StartValidity": "2309051853",
-                "EndValidity": "2309052300",
-                "ItemE": "LEEMING LOWER AIRSPACE RADAR SERVICE NOT AVAILABLE",
-                "Marker": "+",
-                "NotamStoreDate": "050920231859"
-              },
-              {
                 "@Reference": "EGHQ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17509,6 +17512,34 @@
                 "ItemE": "OBST CRANE UK30159157F AMEND HGT 513127.00N 0001449.00W (OLD\nOAK COMMON, W LONDON). UP TO 356FT AGL/436FT AMSL. ON EXPIRY OF \nTHIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4. \n2022-06-1040/AS8.",
                 "Marker": "+",
                 "NotamStoreDate": "140820231016"
+              },
+              {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5053",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2309060315",
+                "EndValidity": "2309060415",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLSD, NO ATC SER \nAVBL. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G DURING \nPERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT WI LEEDS BRADFORD \nAIRSPACE DURING THESE PERIODS SHOULD MONITOR LEEDS RADAR ON \n134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK SPECIFIC CODE, \nOR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET OBSERVATIONS \nUNVERIFIED DURING PERIODS OF CLOSURE",
+                "Marker": "+",
+                "NotamStoreDate": "050920232253"
               },
               {
                 "@Reference": "EGNH",
@@ -20258,35 +20289,6 @@
                 "NotamStoreDate": "310820231453"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4416",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5134N00506W",
-                "Radius": "12",
-                "ItemA": "EGTT",
-                "StartValidity": "2309050730",
-                "EndValidity": "2309052259",
-                "ItemE": "THE FOLLOWING CASTLEMARTIN DANGER AREAS ARE ACTIVATED:\nEG D113A   0730-1600   SFC-4000FT AMSL\nEG D113A   1700-2259   SFC-4000FT AMSL\nEG D113B   0730-1600   SFC-4000FT AMSL\nEG D113B   1700-2259   SFC-4000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "4000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "040920231135"
-              },
-              {
                 "@Reference": "EGDM",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22382,6 +22384,33 @@
                   "ItemE": "WIP ON APRON. NON-STANDARD PARKING WITH FOLLOW-ME VEHICLE TO\nSTANDS 21, 22 AND 24",
                   "Marker": "+",
                   "NotamStoreDate": "050920232005"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6674",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "LA",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2309052216",
+                  "EndValidity": "2310151700",
+                  "ItemE": "RWY 35 FINAL APPROACH LIGHT CROSSBAR AND RWY 35 WINGBARS U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920232222"
                 }
               ]
             },
@@ -23599,33 +23628,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "4399",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MO",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5502N00141W",
-                  "Radius": "5",
-                  "ItemA": "EGNT",
-                  "StartValidity": "2308042030",
-                  "EndValidity": "2309301200",
-                  "ItemE": "D3 STOPBAR U/S. DURING LVP FOLLOW ME VEHICLE REQUIRED FOR RWY\n25 TAXI BETWEEN D5 AND D1. RWY 07 ARRIVALS TAXI BETWEEN D1 AND\nD4.",
-                  "Marker": "+",
-                  "NotamStoreDate": "040820232048"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "4831",
                   "Year": "23",
                   "Type": "N",
@@ -23703,6 +23705,33 @@
                   "ItemE": "AD CLOSED DUE STAFF SICKNESS",
                   "Marker": "+",
                   "NotamStoreDate": "010920231944"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5052",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MO",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5502N00141W",
+                  "Radius": "5",
+                  "ItemA": "EGNT",
+                  "StartValidity": "2309052204",
+                  "EndValidity": "2309301600",
+                  "ItemE": "D3 STOPBAR U/S. DURING LVP FOLLOW ME VEHICLE REQUIRED FOR\nRWY 25 TAXI BETWEEN D5 AND D1.",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920232214"
                 }
               ]
             },
