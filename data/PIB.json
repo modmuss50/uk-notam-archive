@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065601493",
+    "@PIBId": "400000065603602",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-05T07:00:46+00:00",
-        "ValidTo": "2023-09-06T07:00:00+00:00"
+        "ValidFrom": "2023-09-05T08:00:08+00:00",
+        "ValidTo": "2023-09-06T08:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-05T07:00:46+00:00",
+      "Issued": "2023-09-05T08:00:08+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309050612",
+      "PibUid": "EG712309050729",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3443,62 +3443,33 @@
             "Code": "EGSL",
             "Name": "ANDREWSFIELD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5090",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5154N00027E",
-                  "Radius": "5",
-                  "ItemA": "EGSL",
-                  "StartValidity": "2308270001",
-                  "EndValidity": "2309090800",
-                  "ItemE": "AD NOT AVBL FOR ACFT REQUIRING THE USE OF A LICENSED AD DUE \nLIMITED RFFS",
-                  "Marker": "+",
-                  "NotamStoreDate": "260820230801"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5090",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5156",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5154N00027E",
-                  "Radius": "5",
-                  "ItemA": "EGSL",
-                  "StartValidity": "2309040001",
-                  "EndValidity": "2309050800",
-                  "ItemE": "AD CLOSED DUE TO RUNWAY MAINTAINANCE",
-                  "Marker": "+",
-                  "NotamStoreDate": "300820231329"
-                }
-              ]
+                "Coordinates": "5154N00027E",
+                "Radius": "5",
+                "ItemA": "EGSL",
+                "StartValidity": "2308270001",
+                "EndValidity": "2309090800",
+                "ItemE": "AD NOT AVBL FOR ACFT REQUIRING THE USE OF A LICENSED AD DUE \nLIMITED RFFS",
+                "Marker": "+",
+                "NotamStoreDate": "260820230801"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -3887,7 +3858,35 @@
           {
             "Code": "EGNH",
             "Name": "BLACKPOOL",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4829",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5347N00302W",
+                "Radius": "1",
+                "ItemA": "EGNH",
+                "StartValidity": "2309060700",
+                "EndValidity": "2309201700",
+                "ItemE": "CRANE OPR PSN 534639.4N 0030159.4W (0.42NM 331.2 DEG MAG FM\nBLACKPOOL ARP). MAX HGT 110FT AGL/146FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260820230954"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -5506,6 +5505,33 @@
                   "ItemE": "CRANE OPR 515337N 0020748W, (CHELTENHAM) MAX HGT 76FT AGL, 213FT\nAMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "300820231821"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5250",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5154N00210W",
+                  "Radius": "5",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2309050730",
+                  "EndValidity": "2309051830",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 2. CAT 3 AVBL BY PRIOR ARRANGEMENT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920230743"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -7933,33 +7959,62 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "6094",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6094",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "5",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2308181800",
+                  "EndValidity": "2309182200",
+                  "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
+                  "Marker": "+",
+                  "NotamStoreDate": "180820231128"
                 },
-                "Coordinates": "5241N00117E",
-                "Radius": "5",
-                "ItemA": "EGSH",
-                "StartValidity": "2308181800",
-                "EndValidity": "2309182200",
-                "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
-                "Marker": "+",
-                "NotamStoreDate": "180820231128"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6639",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5240N00122E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2309050700",
+                  "EndValidity": "2309051400",
+                  "ItemE": "MOBILE CRANE OPR 523950N 0012210E (NEW RACKHEATH) HGT 115FT\nAGL/218FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920230730"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -9242,34 +9297,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "5025",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2309050615",
-                  "EndValidity": "2309050800",
-                  "ItemD": "0615-0645, 0730-0800",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HELS EMERG SERVICES BASE. PILOTS TRANSITING\nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO\nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES\nBEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "040920231712"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "5014",
                   "Year": "23",
                   "Type": "N",
@@ -9628,6 +9655,33 @@
                   "ItemE": "REVISED AD OPENING HR\nMON - 0800-0030\nTUE - 0800-0030\nWED - 0800-0030\nTHU - 0800-0100\nFRI - 0800-1615\nSAT - CLOSED\nSUN - CLOSED\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT)",
                   "Marker": "+",
                   "NotamStoreDate": "010920231146"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5752",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "6"
+                  },
+                  "Coordinates": "5137N00106W",
+                  "Radius": "1",
+                  "ItemA": "EGUB",
+                  "StartValidity": "2309060700",
+                  "EndValidity": "2309061700",
+                  "ItemE": "CRANE OPR AT PSN 513633N 0010612W (BENSON). HGT 394FT AGL, 561FT \nAMSL. CTC 07974 124222",
+                  "Marker": "+",
+                  "NotamStoreDate": "040920231119"
                 }
               ]
             },
@@ -9871,6 +9925,34 @@
             "Name": "BRIZE NORTON",
             "NotamList": {
               "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "4556",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "4"
+                  },
+                  "Coordinates": "5146N00136W",
+                  "Radius": "1",
+                  "ItemA": "EGVN",
+                  "StartValidity": "2308090700",
+                  "EndValidity": "2310251530",
+                  "ItemD": "WED 0700-1530",
+                  "ItemE": "CRANE OPR PSN 514627N 0013553W (MILLAR HOMES, CARTERTON)\nSFC TO 72FT AGL 359FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "110720231202"
+                },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
@@ -10722,6 +10804,33 @@
                   "ItemE": "BASH PHASE 2 IN EFFECT. SIGNIFICANT BIRD ACTIVITY 1 HOUR \nPLUS/MINUS\nSUNRISE AND SUNSET.",
                   "Marker": "+",
                   "NotamStoreDate": "300820230524"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5767",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "HW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2309050730",
+                  "EndValidity": "2309051630",
+                  "ItemE": "USE CAUTION MEN AND EQUIPMENT WORKING WITHIN 500FT FROM TWY\nWHISKEY CENTERLINE, 1050FT NORTH OF RWY 06/24 CENTERLINE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920230716"
                 }
               ]
             },
@@ -12165,62 +12274,33 @@
             "Code": "EGOW",
             "Name": "WOODVALE",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "4025",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5335N00303W",
-                  "Radius": "2",
-                  "ItemA": "EGOW",
-                  "StartValidity": "2306241646",
-                  "EndValidity": "2309081916",
-                  "ItemE": "WOODVALE ATC OPENING HOURS\nMON TO FRI 0800-SS PLUS30 OR 1645\nSAT AND SUN CLOSED, ATZ REMIANS ACTIVE",
-                  "Marker": "+",
-                  "NotamStoreDate": "190620230824"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4025",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5762",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5335N00303W",
-                  "Radius": "2",
-                  "ItemA": "EGOW",
-                  "StartValidity": "2309041417",
-                  "EndValidity": "2309050800",
-                  "ItemE": "WOODVALE ATC AND ATS CLOSED, ATZ REMAINS ACTIVE",
-                  "Marker": "+",
-                  "NotamStoreDate": "040920231422"
-                }
-              ]
+                "Coordinates": "5335N00303W",
+                "Radius": "2",
+                "ItemA": "EGOW",
+                "StartValidity": "2306241646",
+                "EndValidity": "2309081916",
+                "ItemE": "WOODVALE ATC OPENING HOURS\nMON TO FRI 0800-SS PLUS30 OR 1645\nSAT AND SUN CLOSED, ATZ REMIANS ACTIVE",
+                "Marker": "+",
+                "NotamStoreDate": "190620230824"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -14599,6 +14679,35 @@
                 "ItemE": "WADDINGTON ATZ IS ACTIVE H24",
                 "Marker": "+",
                 "NotamStoreDate": "080820231843"
+              },
+              {
+                "@Reference": "EGVN",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "4556",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5146N00136W",
+                "Radius": "1",
+                "ItemA": "EGVN",
+                "StartValidity": "2308090700",
+                "EndValidity": "2310251530",
+                "ItemD": "WED 0700-1530",
+                "ItemE": "CRANE OPR PSN 514627N 0013553W (MILLAR HOMES, CARTERTON)\nSFC TO 72FT AGL 359FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "110720231202"
               },
               {
                 "@Reference": "EGLL",
@@ -17123,34 +17232,6 @@
                 "NotamStoreDate": "040920231342"
               },
               {
-                "@Reference": "EGOW",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "5762",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5335N00303W",
-                "Radius": "2",
-                "ItemA": "EGOW",
-                "StartValidity": "2309041417",
-                "EndValidity": "2309050800",
-                "ItemE": "WOODVALE ATC AND ATS CLOSED, ATZ REMAINS ACTIVE",
-                "Marker": "+",
-                "NotamStoreDate": "040920231422"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -17296,35 +17377,6 @@
                 "ItemE": "CRANE OPR 541753N 0013134W (LEEMING AD) HGT 65FT AGL/ 175FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "040920231318"
-              },
-              {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5025",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2309050615",
-                "EndValidity": "2309050800",
-                "ItemD": "0615-0645, 0730-0800",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HELS EMERG SERVICES BASE. PILOTS TRANSITING\nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO\nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES\nBEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "040920231712"
               },
               {
                 "@OriginalMessage": "false",
@@ -17497,6 +17549,61 @@
                 "NotamStoreDate": "040920230745"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "295",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5121N00007W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309050700",
+                "EndValidity": "2311022359",
+                "ItemE": "LIT CRANE AT PSN 512056N 0000702W (PURLEY, LONDON)\nIN LOW FLYING AREA AND NIGHT SECTOR THAMES VALLEY AVOIDANCE AREA\nHGT 450FT AMSL (137FT AGL). 23/09/044/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "050920230717"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6639",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5240N00122E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2309050700",
+                "EndValidity": "2309051400",
+                "ItemE": "MOBILE CRANE OPR 523950N 0012210E (NEW RACKHEATH) HGT 115FT\nAGL/218FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "050920230730"
+              },
+              {
                 "@Reference": "EGBJ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17606,6 +17713,62 @@
                 "ItemE": "OBST CRANE UK30159157F AMEND HGT 513127.00N 0001449.00W (OLD\nOAK COMMON, W LONDON). UP TO 356FT AGL/436FT AMSL. ON EXPIRY OF \nTHIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4. \n2022-06-1040/AS8.",
                 "Marker": "+",
                 "NotamStoreDate": "140820231016"
+              },
+              {
+                "@Reference": "EGNH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4829",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5347N00302W",
+                "Radius": "1",
+                "ItemA": "EGNH",
+                "StartValidity": "2309060700",
+                "EndValidity": "2309201700",
+                "ItemE": "CRANE OPR PSN 534639.4N 0030159.4W (0.42NM 331.2 DEG MAG FM\nBLACKPOOL ARP). MAX HGT 110FT AGL/146FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "260820230954"
+              },
+              {
+                "@Reference": "EGUB",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5752",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "6"
+                },
+                "Coordinates": "5137N00106W",
+                "Radius": "1",
+                "ItemA": "EGUB",
+                "StartValidity": "2309060700",
+                "EndValidity": "2309061700",
+                "ItemE": "CRANE OPR AT PSN 513633N 0010612W (BENSON). HGT 394FT AGL, 561FT \nAMSL. CTC 07974 124222",
+                "Marker": "+",
+                "NotamStoreDate": "040920231119"
               }
             ]
           },
@@ -20750,6 +20913,64 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6076",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "48"
+                },
+                "Coordinates": "5439N00300W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309050710",
+                "EndValidity": "2309051830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 17 WI 2NM RADIUS \nOF PSN 543910N 0030004W (SOUTHER FELL,CUMBRIA). \n2000FT AGL. CTC 07503 148118. 23/09/045/LFC",
+                "ItemF": "SFC",
+                "ItemG": "4800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "050920230712"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6077",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "39"
+                },
+                "Coordinates": "5155N00259W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309050710",
+                "EndValidity": "2309051830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 7 WI 2NM RADIUS \nOF PSN 515446N 0025929W (PANDY, MONMOUTHSHIRE). \n2000FT AGL. CTC 07738 094898. 23/09/046/LFC",
+                "ItemF": "SFC",
+                "ItemG": "3900FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "050920230714"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
                 "Series": "M",
                 "Number": "4416",
                 "Year": "23",
@@ -21130,66 +21351,6 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "040920231142"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "F",
-                "Number": "1623",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "80"
-                },
-                "Coordinates": "4957N00515W",
-                "Radius": "7",
-                "ItemA": "EGTT",
-                "StartValidity": "2309050900",
-                "EndValidity": "2309051830",
-                "ItemD": "0900-1100 1300-1830",
-                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "8000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "040920231422"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "F",
-                "Number": "1622",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "80"
-                },
-                "Coordinates": "5000N00514W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2309050900",
-                "EndValidity": "2309051830",
-                "ItemD": "0900-1100 1300-1830",
-                "ItemE": "DANGER AREA EG D005A PREDANNACK ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "8000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "040920231421"
               },
               {
                 "@OriginalMessage": "false",
@@ -21579,6 +21740,64 @@
                 "ItemG": "250FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "310820231524"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1631",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5000N00514W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309051300",
+                "EndValidity": "2309051830",
+                "ItemE": "DANGER AREA EG D005A PREDANNACK ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "050920230718"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1632",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "4957N00515W",
+                "Radius": "7",
+                "ItemA": "EGTT",
+                "StartValidity": "2309051300",
+                "EndValidity": "2309051830",
+                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "050920230719"
               },
               {
                 "@OriginalMessage": "false",
@@ -22026,6 +22245,64 @@
                 "ItemG": "3700FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "040920230854"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1625",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5000N00514W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309060730",
+                "EndValidity": "2309061500",
+                "ItemE": "DANGER AREA EG D005A PREDANNACK ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "040920231424"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1626",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "4957N00515W",
+                "Radius": "7",
+                "ItemA": "EGTT",
+                "StartValidity": "2309060730",
+                "EndValidity": "2309061500",
+                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "040920231424"
               }
             ]
           },
