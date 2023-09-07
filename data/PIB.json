@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065707465",
+    "@PIBId": "400000065709739",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-07T11:00:16+00:00",
-        "ValidTo": "2023-09-08T11:00:00+00:00"
+        "ValidFrom": "2023-09-07T12:00:21+00:00",
+        "ValidTo": "2023-09-08T12:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-07T11:00:16+00:00",
+      "Issued": "2023-09-07T12:00:21+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309070878",
+      "PibUid": "EG712309070943",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5348,33 +5348,62 @@
             "Code": "EGSU",
             "Name": "DUXFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5256",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MN",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5256",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MN",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5205N00008E",
+                  "Radius": "5",
+                  "ItemA": "EGSU",
+                  "StartValidity": "2309070900",
+                  "EndValidity": "2309211700",
+                  "ItemE": "WESTERN APRON REDUCED IN SIZE",
+                  "Marker": "+",
+                  "NotamStoreDate": "050920231340"
                 },
-                "Coordinates": "5205N00008E",
-                "Radius": "5",
-                "ItemA": "EGSU",
-                "StartValidity": "2309070900",
-                "EndValidity": "2309211700",
-                "ItemE": "WESTERN APRON REDUCED IN SIZE",
-                "Marker": "+",
-                "NotamStoreDate": "050920231340"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5298",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5205N00008E",
+                  "Radius": "5",
+                  "ItemA": "EGSU",
+                  "StartValidity": "2309071116",
+                  "EndValidity": "2309101700",
+                  "ItemE": "ATC PHONE NUMBER 01223 833376 U/S. USE 01223 497236 OR 07792 \n580872",
+                  "Marker": "+",
+                  "NotamStoreDate": "070920231116"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -10657,6 +10686,33 @@
                   "ItemE": "RADAR MONITORING OF ILS FOR RWY 07 WILL NOW BE ON REQUEST ONLY\nMIL AIP EGVN AD 2.19 AND 2.22 REFER",
                   "Marker": "+",
                   "NotamStoreDate": "060920231410"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5446",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5145N00135W",
+                  "Radius": "5",
+                  "ItemA": "EGVN",
+                  "StartValidity": "2309081100",
+                  "EndValidity": "2309081500",
+                  "ItemE": "AD CLOSED DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "210820231033"
                 }
               ]
             },
@@ -11007,33 +11063,6 @@
                   "ItemE": "FIRE FIGHTING AND RESCUE CAPABILITY HAS BEEN REDUCED TO CRITICAL\nLEVEL OF SERVICE FOR C-5, B-747, MD-11.\nFIRE FIGHTING AND RESCUE CAPABILITY HAS BEEN DOWNGRADED TO REDUCED\nLEVEL OF SERVICE FOR C-17, B-1, B-52, KC-135, RC-135.\nREDUCED LEVEL OF SERVICE PROVIDES SUFFICIENT CAPABILITY FOR INITIAL\nRESPONSE, SCENE ASSESSMENT, AND IMPLEMENTATION OF MITIGATION \nTACTICS. (RLS) REDUCED LEVEL OF SERVICE REPRESENTS INCREASED \nRISK/LOSS POTENTIAL DUE TO LACK OF EMERGENCY RESPONSE CAPABILITY TO \nPERFORM RESCUE AND SUFFICENT MITIGATION TACTICS SIMULTANEOUSLY. \nOBJECTIVES MAY NOT BE SUCCESSFUL DURING SITUATIONS WHERE \nSIMULTANEOUS RESCUE AND FIREFIGHTING ACTIVITIES ARE REQUIRED",
                   "Marker": "+",
                   "NotamStoreDate": "050920230644"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5774",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "NN",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5141N00147W",
-                  "Radius": "25",
-                  "ItemA": "EGVA",
-                  "StartValidity": "2309051509",
-                  "EndValidity": "2309081700",
-                  "ItemE": "TACAN FFA/FAIRFORD FREQ 113.4MHZ CH81X U/S.",
-                  "Marker": "+",
-                  "NotamStoreDate": "050920231509"
                 }
               ]
             },
@@ -18028,34 +18057,6 @@
                 "NotamStoreDate": "050920231216"
               },
               {
-                "@Reference": "EGVA",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "5774",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "NN",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5141N00147W",
-                "Radius": "25",
-                "ItemA": "EGVA",
-                "StartValidity": "2309051509",
-                "EndValidity": "2309081700",
-                "ItemE": "TACAN FFA/FAIRFORD FREQ 113.4MHZ CH81X U/S.",
-                "Marker": "+",
-                "NotamStoreDate": "050920231509"
-              },
-              {
                 "@Reference": "EGOW",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18790,6 +18791,33 @@
                 "ItemE": "SHOREHAM ATC SERVICE DOWNGRADED TO AIR/GROUND SERVICE",
                 "Marker": "+",
                 "NotamStoreDate": "020920231751"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2148",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5145N00135W",
+                "Radius": "40",
+                "ItemA": "EGTT",
+                "StartValidity": "2309081100",
+                "EndValidity": "2309081500",
+                "ItemE": "BRIZE NORTON LOWER AIRSPACE RADAR SER PROVIDED VFR ONLY DUE TO \nMAINT",
+                "Marker": "+",
+                "NotamStoreDate": "060920231420"
               }
             ]
           },
@@ -23792,6 +23820,36 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
+                "Number": "6224",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "25"
+                },
+                "Coordinates": "5238N00036W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309080524",
+                "EndValidity": "2309081835",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 6 WI 2NM RADIUS OF \nPSN 523748N 0003629W (NORTH LUFFENHAM, RUTLAND).\n2000FT AGL. CTC 07762 908104. 23/09/094/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "070920231152"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
                 "Number": "6201",
                 "Year": "23",
                 "Type": "N",
@@ -28266,35 +28324,6 @@
                 "ItemG": "FL195",
                 "Marker": "+",
                 "NotamStoreDate": "060920231812"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4471",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "245",
-                  "Upper": "660"
-                },
-                "Coordinates": "5814N00358W",
-                "Radius": "70",
-                "ItemA": "EGPX",
-                "StartValidity": "2309070930",
-                "EndValidity": "2309071145",
-                "ItemE": "THE FOLLOWING NORTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D712A 0930-1145 FL245-FL660\nEG D712B 0930-1145 FL245-FL660\nEG D712C 0930-1145 FL245-FL660\nEG D712D 0930-1145 FL245-FL660",
-                "ItemF": "FL245",
-                "ItemG": "FL660",
-                "Marker": "+",
-                "NotamStoreDate": "060920231223"
               },
               {
                 "@OriginalMessage": "false",
