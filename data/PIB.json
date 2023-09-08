@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000065778654",
+    "@PIBId": "400000065780157",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-08T22:00:59+00:00",
-        "ValidTo": "2023-09-09T22:00:00+00:00"
+        "ValidFrom": "2023-09-08T23:00:15+00:00",
+        "ValidTo": "2023-09-09T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-08T22:00:59+00:00",
+      "Issued": "2023-09-08T23:00:15+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309081780",
+      "PibUid": "EG712309081794",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6197,33 +6197,62 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4745",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4745",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2308220948",
+                  "EndValidity": "2311162359",
+                  "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
+                  "Marker": "+",
+                  "NotamStoreDate": "220820230956"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2308220948",
-                "EndValidity": "2311162359",
-                "ItemE": "AFTER LANDING RWY 32, ACFT REQUIRING TO BACKTRACK SHOULD EXPECT\nTO USE TWY ECHO .ATC CLEARANCE MUST BE OBTAINED PRIOR TO\nRE-ENTERING THE RWY FROM TWY ECHO.",
-                "Marker": "+",
-                "NotamStoreDate": "220820230956"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5111",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2309090230",
+                  "EndValidity": "2309090400",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "080920232237"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -6880,6 +6909,33 @@
                   "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FROM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR RWY 08L/26R WILL BE AVBL TO ALLOW \nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MINS BEFORE CHANGEOVER.",
                   "Marker": "+",
                   "NotamStoreDate": "060920231130"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6757",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "LT",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2309082211",
+                  "EndValidity": "2309100430",
+                  "ItemE": "RWY 26R THRESHOLD INDICATOR LIGHTS U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "080920232217"
                 }
               ]
             },
@@ -11817,33 +11873,6 @@
                   "ItemE": "PAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "080920231429"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5816",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5315N00432W",
-                  "Radius": "5",
-                  "ItemA": "EGOV",
-                  "StartValidity": "2309082100",
-                  "EndValidity": "2309082300",
-                  "ItemE": "AD CLOSED, CLOSED FIELD OPERATIONS IN PROGRESS",
-                  "Marker": "+",
-                  "NotamStoreDate": "070920231229"
                 }
               ]
             },
@@ -16789,6 +16818,34 @@
                 "NotamStoreDate": "080920231514"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5111",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2309090230",
+                "EndValidity": "2309090400",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "080920232237"
+              },
+              {
                 "@Reference": "EGLL",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -16986,6 +17043,68 @@
                 "ItemE": "GLOUCESTERSHIRE APPROACH SERVICES NOT AVBL DUE STAFF SHORTAGE.\nAERODROME CONTROL SERVICE ONLY AND NO IAP AVBL.",
                 "Marker": "+",
                 "NotamStoreDate": "240720230940"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4965",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2309092250",
+                "EndValidity": "2309110430",
+                "ItemD": "09 2250-2320, 10 0120-0150 0330-0400 2300-2330, 11 0130-0200 \n0400-0430",
+                "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFF SICKNESS",
+                "Marker": "+",
+                "NotamStoreDate": "010920231959"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4966",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2309092250",
+                "EndValidity": "2309110430",
+                "ItemD": "09 2250-2320, 10 0120-0150 0330-0400 2300-2330, 11 0130-0200 \n0400-0430",
+                "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED\nAIRSPACE REVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI\nNEWCASTLE AIRSPACE DURING THESE PERIODS SHOULD\nMONITOR NEWCASTLE TOWER ON 119.705MHZ AND SQUAWK EITHER 3737,\nANY DISCRETE TASK SPECIFIC CODE, OR ANY DISCRETE CODE\nALLOCATED BY ANOTHER UNIT",
+                "Marker": "+",
+                "NotamStoreDate": "010920232000"
               }
             ]
           },
@@ -22760,6 +22879,34 @@
                   "ItemE": "RNAV1 STANDARD INSTRUMENT DEPARTURE GIRLI1T/1Y/3X SHOULD BE\nFLOWN WITH REFERENCE TO GNSS, DME/DME SHOULD NOT BE USED DUE\nTLA VOR OUT OF SERVICE.",
                   "Marker": "+",
                   "NotamStoreDate": "060920230713"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4967",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5502N00141W",
+                  "Radius": "5",
+                  "ItemA": "EGNT",
+                  "StartValidity": "2309092250",
+                  "EndValidity": "2309110430",
+                  "ItemD": "09 2250-2320, 10 0120-0150 0330-0400 2300-2330, 11 0130-0200 \n0400-0430",
+                  "ItemE": "AD CLOSED DUE STAFF SICKNESS",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920232000"
                 }
               ]
             },
@@ -24796,6 +24943,70 @@
                 "ItemE": "CRANE OPR 555618N 0032355W, GLASGOW ROAD, EDINBURGH\nMAX HGT 234FT AMSL, 99FT AGL. CRANE WILL BE LOWERED DURING LVP",
                 "Marker": "+",
                 "NotamStoreDate": "210820231359"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4965",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2309092250",
+                "EndValidity": "2309110430",
+                "ItemD": "09 2250-2320, 10 0120-0150 0330-0400 2300-2330, 11 0130-0200 \n0400-0430",
+                "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFF SICKNESS",
+                "Marker": "+",
+                "NotamStoreDate": "010920231959"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "4966",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5456N00142W",
+                "Radius": "22",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2309092250",
+                "EndValidity": "2309110430",
+                "ItemD": "09 2250-2320, 10 0120-0150 0330-0400 2300-2330, 11 0130-0200 \n0400-0430",
+                "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED\nAIRSPACE REVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI\nNEWCASTLE AIRSPACE DURING THESE PERIODS SHOULD\nMONITOR NEWCASTLE TOWER ON 119.705MHZ AND SQUAWK EITHER 3737,\nANY DISCRETE TASK SPECIFIC CODE, OR ANY DISCRETE CODE\nALLOCATED BY ANOTHER UNIT",
+                "Marker": "+",
+                "NotamStoreDate": "010920232000"
               }
             ]
           },
@@ -25238,36 +25449,6 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "310820231523"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "D",
-                "Number": "890",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5736N00403W",
-                "Radius": "2",
-                "ItemA": "EGPX",
-                "StartValidity": "2309011500",
-                "EndValidity": "2309082259",
-                "ItemD": "1500-2259",
-                "ItemE": "DANGER AREA EG D702 FORT GEORGE ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "2100FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "300820231142"
               },
               {
                 "@OriginalMessage": "false",
