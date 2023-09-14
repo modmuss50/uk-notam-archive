@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066027233",
+    "@PIBId": "400000066029245",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-14T05:00:40+00:00",
-        "ValidTo": "2023-09-15T05:00:00+00:00"
+        "ValidFrom": "2023-09-14T06:00:04+00:00",
+        "ValidTo": "2023-09-15T06:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-14T05:00:40+00:00",
+      "Issued": "2023-09-14T06:00:04+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309140391",
+      "PibUid": "EG712309140501",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4315,6 +4315,33 @@
                   "ItemE": "BASIC SERVICE, TRAFFIC SERVICE AND DECONFLICTION SERVICE NOT\nAVBL FROM CARDIFF ATS. PILOTS ARE ENCOURAGED TO USE THE CARDIFF\nLISTENING SQUAWK 3636",
                   "Marker": "+",
                   "NotamStoreDate": "100920230920"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6835",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SE",
+                    "Code45": "AU",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "10",
+                    "Upper": "195"
+                  },
+                  "Coordinates": "5126N00250W",
+                  "Radius": "53",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2309150500",
+                  "EndValidity": "2309150600",
+                  "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
+                  "Marker": "+",
+                  "NotamStoreDate": "110920231218"
                 }
               ]
             },
@@ -6025,34 +6052,64 @@
             "Code": "EGHF",
             "Name": "LEE-ON-SOLENT",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5202",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4421",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5049N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2307280500",
+                  "EndValidity": "2310270730",
+                  "ItemD": "FRI 0500-0730",
+                  "ItemE": "RESIDENTS OUT OF HOURS MOVEMENT NOT PERMITTED DUE TO SCHEDULED\nAIRPORT AND RUNWAY SWEEPING. COASTGUARD SAR IS EXCLUDED FROM THIS\nRESTRICTION",
+                  "Marker": "+",
+                  "NotamStoreDate": "260720231335"
                 },
-                "Coordinates": "5050N00112W",
-                "Radius": "1",
-                "ItemA": "EGHF",
-                "StartValidity": "2309120700",
-                "EndValidity": "2309151600",
-                "ItemD": "0700-1600",
-                "ItemE": "MOBILE CRANE OPR PSN 504936N 0011146W (FAREHAM).\nMAX HGT 100FT AGL, 132FT AMSL.",
-                "Marker": "+",
-                "NotamStoreDate": "010920231211"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5202",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5050N00112W",
+                  "Radius": "1",
+                  "ItemA": "EGHF",
+                  "StartValidity": "2309120700",
+                  "EndValidity": "2309151600",
+                  "ItemD": "0700-1600",
+                  "ItemE": "MOBILE CRANE OPR PSN 504936N 0011146W (FAREHAM).\nMAX HGT 100FT AGL, 132FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920231211"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -7774,6 +7831,33 @@
                   "ItemE": "NEWQUAY SSR U/S DUE MAINT, PRIMARY RADAR ONLY.",
                   "Marker": "+",
                   "NotamStoreDate": "130920231400"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5102",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "24"
+                  },
+                  "Coordinates": "5026N00500W",
+                  "Radius": "3",
+                  "ItemA": "EGHQ",
+                  "StartValidity": "2309150545",
+                  "EndValidity": "2309152100",
+                  "ItemE": "NEWQUAY RADAR MAY BE UNAVAILABLE AT TIMES DUE MAINT",
+                  "Marker": "+",
+                  "NotamStoreDate": "080920231145"
                 }
               ]
             },
@@ -8873,7 +8957,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6919",
+                  "Number": "6921",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8889,11 +8973,11 @@
                   "Coordinates": "5134N00042E",
                   "Radius": "5",
                   "ItemA": "EGMC",
-                  "StartValidity": "2309132200",
-                  "EndValidity": "2309140600",
-                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 5",
+                  "StartValidity": "2309140601",
+                  "EndValidity": "2309141800",
+                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 6. CAT 7 AVBL ON REQUEST.",
                   "Marker": "+",
-                  "NotamStoreDate": "130920232143"
+                  "NotamStoreDate": "140920230532"
                 }
               ]
             },
@@ -11016,33 +11100,6 @@
                   "ItemE": "BASH PHASE 2 IN EFFECT. SIGNIFICANT BIRD ACTIVITY 1 HOUR \nPLUS/MINUS\nSUNRISE AND SUNSET.",
                   "Marker": "+",
                   "NotamStoreDate": "300820230524"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5858",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2309081300",
-                  "EndValidity": "2312081300",
-                  "ItemE": "FIRE CRASH CAPABILITY: 2 VEHICLES/6000 GALLONS OF AGENT REDUCING\nLEVEL OF SERVICE. REDUCED CAPABILITY OF PROVIDING SUFFICIENT AGENT\nTO PERFORM FIRE CONTROL, FIRE SUPPRESSION, INTERIOR/FIREFIGHTING\nAND RESCUE FOR ALL NATIONAL FIRE PROTECTION ASSOCIATION (NFPA).\nCRITICAL LEVEL OF SERVICE FOR CATEGORY 9 AND 10 AIRCRAFT WHICH\nINCLUDES BUT NOT LIMITED TO C-5, 787-8I, VC-25, KC-10, E-4 (747),\nMD-11 ACFT. REDUCED LEVEL OF SERVICE FOR CATIGORY 7 THROUGH 8 WHICH\nINCLUDES BUT IS NOT LIMITED TO, C-17, B-1, B-2, B-52, KC-135, KC46\nACFT.",
-                  "Marker": "+",
-                  "NotamStoreDate": "080920231322"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -18168,6 +18225,62 @@
                 "ItemE": "LIT CRANE AT PSN 513143N 0000708W (LONDON BOROUGH OF CAMDEN, \nLONDON)\nIN LOW FLYING THAMES VALLEY AVOIDANCE AREA DAY AND NIGHT. HGT 327FT \nAMSL (262FT AGL). 23/09/124/LFC",
                 "Marker": "+",
                 "NotamStoreDate": "110920230956"
+              },
+              {
+                "@Reference": "EGFF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6835",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "10",
+                  "Upper": "195"
+                },
+                "Coordinates": "5126N00250W",
+                "Radius": "53",
+                "ItemA": "EGFF",
+                "StartValidity": "2309150500",
+                "EndValidity": "2309150600",
+                "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
+                "Marker": "+",
+                "NotamStoreDate": "110920231218"
+              },
+              {
+                "@Reference": "EGHQ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5102",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5026N00500W",
+                "Radius": "3",
+                "ItemA": "EGHQ",
+                "StartValidity": "2309150545",
+                "EndValidity": "2309152100",
+                "ItemE": "NEWQUAY RADAR MAY BE UNAVAILABLE AT TIMES DUE MAINT",
+                "Marker": "+",
+                "NotamStoreDate": "080920231145"
               }
             ]
           },
@@ -22918,6 +23031,66 @@
                 "ItemG": "1500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "110920231108"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6427",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5148N00055E",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309150530",
+                "EndValidity": "2309161830",
+                "ItemD": "0530-1830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 10 WI 2NM RADIUS OF PSN 514734N 0005529E (MERSEA \nISLAND, ESSEX). 2000FT AGL. CTC 07957 870837. 23/09/154/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130920231031"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6446",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "30"
+                },
+                "Coordinates": "5122N00151W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309150542",
+                "EndValidity": "2309151823",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 512220N 0015128W \n(MILK HILL, DEVIZES, WILTSHIRE). 2000FT AGL. CTC 07545 139330. \n23/09/165/LFC",
+                "ItemF": "SFC",
+                "ItemG": "3000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130920231708"
               }
             ]
           },
@@ -24365,33 +24538,6 @@
                   "ItemE": "ACFT REFUELING HOURS\nMON - FRI  0430-1715\nSAT   0430-1545\nSUN   0715-1800\nTIMES MAY CHANGE AT SHORT NOTICE AND WILL BE BASED AROUND\nSCHEDULED AND PREBOOKED REFUELS. FUEL TEL +44 28 71813338. FLIGHT OPS\nTEL +44 28 71813336.",
                   "Marker": "+",
                   "NotamStoreDate": "290720231237"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2769",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "75"
-                  },
-                  "Coordinates": "5502N00720W",
-                  "Radius": "14",
-                  "ItemA": "EGAE",
-                  "StartValidity": "2309140520",
-                  "EndValidity": "2309140530",
-                  "ItemE": "LONDONDERRY/EGLINTON CTA ATZ DEACTIVATED ATC NOT AVAILABLE DUE\nMANDATORY ATC CONTROLLER HOURS RESTRICTION",
-                  "Marker": "+",
-                  "NotamStoreDate": "120920230617"
                 }
               ]
             },
@@ -26370,34 +26516,6 @@
                 "NotamStoreDate": "130920231807"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EKCH",
-                "Series": "B",
-                "Number": "3764",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "195"
-                },
-                "Coordinates": "5543N00448E",
-                "Radius": "50",
-                "ItemA": "EKTE",
-                "StartValidity": "2309131810",
-                "EndValidity": "2309141200",
-                "Estimation": "EST",
-                "ItemE": "TYRA INFORMATION FREQ 118.425 MHZ IS OUT OF SERVICE",
-                "Marker": "+",
-                "NotamStoreDate": "130920231810"
-              },
-              {
                 "@Reference": "EGPK",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -26454,34 +26572,6 @@
                 "ItemE": "PRESTWICK ATS NOT AVAILABLE DUE STAFFING",
                 "Marker": "+",
                 "NotamStoreDate": "100920231527"
-              },
-              {
-                "@Reference": "EGAE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2769",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "75"
-                },
-                "Coordinates": "5502N00720W",
-                "Radius": "14",
-                "ItemA": "EGAE",
-                "StartValidity": "2309140520",
-                "EndValidity": "2309140530",
-                "ItemE": "LONDONDERRY/EGLINTON CTA ATZ DEACTIVATED ATC NOT AVAILABLE DUE\nMANDATORY ATC CONTROLLER HOURS RESTRICTION",
-                "Marker": "+",
-                "NotamStoreDate": "120920230617"
               },
               {
                 "@Reference": "EGPL",
