@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066038603",
+    "@PIBId": "400000066040559",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-14T10:00:27+00:00",
-        "ValidTo": "2023-09-15T10:00:00+00:00"
+        "ValidFrom": "2023-09-14T11:00:17+00:00",
+        "ValidTo": "2023-09-15T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-14T10:00:27+00:00",
+      "Issued": "2023-09-14T11:00:17+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309140909",
+      "PibUid": "EG712309140981",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8116,33 +8116,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "5192",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "CS",
-                    "Code45": "AS",
-                    "Traffic": "I",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "24"
-                  },
-                  "Coordinates": "5026N00500W",
-                  "Radius": "3",
-                  "ItemA": "EGHQ",
-                  "StartValidity": "2309140700",
-                  "EndValidity": "2309141100",
-                  "ItemE": "NEWQUAY SSR U/S DUE MAINT, PRIMARY RADAR ONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "130920231400"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "5102",
                   "Year": "23",
                   "Type": "N",
@@ -9726,37 +9699,66 @@
             "Code": "EGFH",
             "Name": "SWANSEA",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "3519",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "L",
-                "ReferredNumber": "2878",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "3519",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "2878",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2306161455",
+                  "EndValidity": "2309162359",
+                  "Estimation": "EST",
+                  "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENCED AD DUE\nSUSPENSION OF AD LICENCE. 2023-02-0189/AS7.",
+                  "Marker": "+",
+                  "NotamStoreDate": "160620231456"
                 },
-                "Coordinates": "5136N00404W",
-                "Radius": "5",
-                "ItemA": "EGFH",
-                "StartValidity": "2306161455",
-                "EndValidity": "2309162359",
-                "Estimation": "EST",
-                "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENCED AD DUE\nSUSPENSION OF AD LICENCE. 2023-02-0189/AS7.",
-                "Marker": "+",
-                "NotamStoreDate": "160620231456"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5423",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5136N00404W",
+                  "Radius": "5",
+                  "ItemA": "EGFH",
+                  "StartValidity": "2309141032",
+                  "EndValidity": "2309150800",
+                  "ItemE": "AD CLSD DUE WX",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920231041"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -11006,15 +11008,15 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "5944",
+                  "Number": "5810",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
                     "FIR": "EGTT",
-                    "Code23": "CP",
+                    "Code23": "IC",
                     "Code45": "AS",
                     "Traffic": "I",
-                    "Purpose": "BO",
+                    "Purpose": "NBO",
                     "Scope": "A",
                     "Lower": "0",
                     "Upper": "999"
@@ -11022,11 +11024,11 @@
                   "Coordinates": "5302N00030W",
                   "Radius": "5",
                   "ItemA": "EGYD",
-                  "StartValidity": "2309141000",
-                  "EndValidity": "2309141100",
-                  "ItemE": "PAR NOT AVBL",
+                  "StartValidity": "2309151000",
+                  "EndValidity": "2309151500",
+                  "ItemE": "ILS RWY 26 UNAVAILABLE DUE TO MAINTENANCE.",
                   "Marker": "+",
-                  "NotamStoreDate": "130920231346"
+                  "NotamStoreDate": "070920230940"
                 }
               ]
             },
@@ -11665,6 +11667,33 @@
                   "ItemE": "CRANE OPR PSN 522409N 0003352E (2500FT FM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 115FT AGL/147FT AMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "120920231618"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5969",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MN",
+                    "Code45": "HW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2309150630",
+                  "EndValidity": "2309151100",
+                  "ItemE": "USE CAUTION: MEN AND EQUIPMENT LOCATED ON CHARLIE RAMP, WORKING\nWITHIN 100FT OF TWY CENTERLINE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920231037"
                 }
               ]
             },
@@ -18659,34 +18688,6 @@
                 "NotamStoreDate": "130920231342"
               },
               {
-                "@Reference": "EGHQ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5192",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "CS",
-                  "Code45": "AS",
-                  "Traffic": "I",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "24"
-                },
-                "Coordinates": "5026N00500W",
-                "Radius": "3",
-                "ItemA": "EGHQ",
-                "StartValidity": "2309140700",
-                "EndValidity": "2309141100",
-                "ItemE": "NEWQUAY SSR U/S DUE MAINT, PRIMARY RADAR ONLY.",
-                "Marker": "+",
-                "NotamStoreDate": "130920231400"
-              },
-              {
                 "@Reference": "EGSH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -24258,6 +24259,35 @@
                 "NotamStoreDate": "140920230802"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "959",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "120"
+                },
+                "Coordinates": "5143N00422W",
+                "Radius": "4",
+                "ItemA": "EGTT",
+                "StartValidity": "2309150800",
+                "EndValidity": "2309151300",
+                "ItemE": "DANGER AREA EG D118 PEMBREY DEACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "12000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "140920231043"
+              },
+              {
                 "@Reference": "EGLC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -27588,33 +27618,6 @@
                 "NotamStoreDate": "270720230026"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2169",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "NV",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5519N00447W",
-                "Radius": "25",
-                "ItemA": "EGPX",
-                "StartValidity": "2309080815",
-                "EndValidity": "2309151700",
-                "ItemE": "VOR/DME TRN/TURNBERRY 117.5MHZ CH122X VOR U/S",
-                "Marker": "+",
-                "NotamStoreDate": "080920230808"
-              },
-              {
                 "@Reference": "EGPC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -27876,6 +27879,36 @@
                 "ItemE": "STORNOWAY ATZ DEACTIVTED. AD/ATS CLOSED. LATEST DEPARTURE TIME\n15 MINUTES PRIOR TO CLOSE TIME. AFIS SERV AVBL FOR AIR \nAMBULANCE AND SAR FLIGHTS.",
                 "Marker": "+",
                 "NotamStoreDate": "050920230732"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2241",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "B",
+                "ReferredNumber": "2240",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "NV",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5519N00447W",
+                "Radius": "25",
+                "ItemA": "EGPX",
+                "StartValidity": "2309141059",
+                "EndValidity": "2309301700",
+                "ItemE": "VOR/DME TRN/TURNBERRY 117.5MHZ CH122X VOR PART U/S",
+                "Marker": "+",
+                "NotamStoreDate": "140920231059"
               },
               {
                 "@Reference": "EGPK",
