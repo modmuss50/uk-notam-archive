@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066029245",
+    "@PIBId": "400000066032106",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-14T06:00:04+00:00",
-        "ValidTo": "2023-09-15T06:00:00+00:00"
+        "ValidFrom": "2023-09-14T07:00:47+00:00",
+        "ValidTo": "2023-09-15T07:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-14T06:00:04+00:00",
+      "Issued": "2023-09-14T07:00:47+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309140501",
+      "PibUid": "EG712309140600",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5639,6 +5639,33 @@
                   "ItemE": "CRANE OPR 515349N 0021032W, (GLOUCESTER) MAX HGT 89FT AGL, 158FT\nAMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "050920230957"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5381",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5154N00211W",
+                  "Radius": "1",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2309150630",
+                  "EndValidity": "2309151630",
+                  "ItemE": "CRANE OPR 515350N 0021032W, (STAVERTON) MAX HGT 105FT AGL, 174FT\nAMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920230902"
                 }
               ]
             },
@@ -7931,33 +7958,89 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "6094",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6094",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "5",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2308181800",
+                  "EndValidity": "2309182200",
+                  "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
+                  "Marker": "+",
+                  "NotamStoreDate": "180820231128"
                 },
-                "Coordinates": "5241N00117E",
-                "Radius": "5",
-                "ItemA": "EGSH",
-                "StartValidity": "2308181800",
-                "EndValidity": "2309182200",
-                "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
-                "Marker": "+",
-                "NotamStoreDate": "180820231128"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6923",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5240N00119E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2309140700",
+                  "EndValidity": "2309141500",
+                  "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT AGL \n/209FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920230654"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6924",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5239N00115E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2309140700",
+                  "EndValidity": "2309141500",
+                  "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (DRAYTON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL)",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920230657"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -10526,7 +10609,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "5942",
+                  "Number": "5962",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -10544,9 +10627,9 @@
                   "ItemA": "EGYD",
                   "StartValidity": "2309140800",
                   "EndValidity": "2309140900",
-                  "ItemE": "PAR U/S",
+                  "ItemE": "PAR NOT AVAILABLE",
                   "Marker": "+",
-                  "NotamStoreDate": "130920231344"
+                  "NotamStoreDate": "140920230700"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11128,6 +11211,33 @@
                   "ItemE": "GNSS(GPS)SIGNAL AND RADIO FREQUENCY JAMMING. JAMMERS LOCATED WI\n1NM RADIUS: 522701N 0004912E (THETFORD, NORFOLK). ACTIVITY MAY \nAFFECT ACFT WI 6NM SFC TO 40000FT AMSL OR ABOVE (ALL DIRECTIONS). \nMAY ALSO AFFECT AIRBORNE ELECTRONIC SITUATIONAL AWARENESS DEVICES \nAND UAS CONTROL. NOT TO EXCEED 30 SECONDS DURATION. GNSS(GPS) \nRECEIVERS MAY SUFFER INTERMITTENT / TOTAL FAILURE OR GIVE \nINCORRECT POSITION INFO. FOR INFO/CEASE JAMMING 07860 134605/07525 \n434311. 2023-09-0094/AU4.",
                   "Marker": "+",
                   "NotamStoreDate": "050920231457"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5922",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5224N00034E",
+                  "Radius": "1",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2309150600",
+                  "EndValidity": "2309151600",
+                  "ItemE": "CRANE OPR PSN 522409N 0003352E (2500FT FM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 115FT AGL/147FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920231618"
                 }
               ]
             },
@@ -11928,33 +12038,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "5957",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2309131829",
-                  "EndValidity": "2309140700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "130920231833"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "5693",
                   "Year": "23",
                   "Type": "N",
@@ -12033,6 +12116,33 @@
                   "ItemE": "NO FIXED WING ARRIVALS OR DEPARTURES DUE RUNWAY EMBARGO",
                   "Marker": "+",
                   "NotamStoreDate": "130920231418"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5960",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5133N00025W",
+                  "Radius": "5",
+                  "ItemA": "EGWU",
+                  "StartValidity": "2309141315",
+                  "EndValidity": "2309141345",
+                  "ItemE": "RUNWAY 25/07 EMBARGO. NO FIXED WING ARRIVALS OR DEPARTURES",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920230647"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -18173,6 +18283,62 @@
                 "NotamStoreDate": "130920231628"
               },
               {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6923",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5240N00119E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2309140700",
+                "EndValidity": "2309141500",
+                "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT AGL \n/209FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "140920230654"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6924",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5239N00115E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2309140700",
+                "EndValidity": "2309141500",
+                "ItemE": "MOBILE CRANE OPR PSN 523924N 0011527E (DRAYTON NORWICH) MAX\nHGT 108FT AGL / 194FT AMSL)",
+                "Marker": "+",
+                "NotamStoreDate": "140920230657"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -18281,6 +18447,62 @@
                 "ItemE": "NEWQUAY RADAR MAY BE UNAVAILABLE AT TIMES DUE MAINT",
                 "Marker": "+",
                 "NotamStoreDate": "080920231145"
+              },
+              {
+                "@Reference": "EGUL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5922",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5224N00034E",
+                "Radius": "1",
+                "ItemA": "EGUL",
+                "StartValidity": "2309150600",
+                "EndValidity": "2309151600",
+                "ItemE": "CRANE OPR PSN 522409N 0003352E (2500FT FM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 115FT AGL/147FT AMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "120920231618"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5381",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5154N00211W",
+                "Radius": "1",
+                "ItemA": "EGBJ",
+                "StartValidity": "2309150630",
+                "EndValidity": "2309151630",
+                "ItemE": "CRANE OPR 515350N 0021032W, (STAVERTON) MAX HGT 105FT AGL, 174FT\nAMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "120920230902"
               }
             ]
           },
@@ -25064,6 +25286,33 @@
                   "ItemE": "SUMBURGH PRIMARY RADAR U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "300820231259"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6922",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "NL",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5953N00118W",
+                  "Radius": "5",
+                  "ItemA": "EGPB",
+                  "StartValidity": "2309140615",
+                  "EndValidity": "2309141900",
+                  "ItemE": "LOCATOR SBH/SUMBURGH 351KHZ U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920230618"
                 }
               ]
             },
@@ -26458,62 +26707,6 @@
                 "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI NEWCASTLE AIRSPACE \nDURING THESE PERIODS SHOULD MONITOR NEWCASTLE TOWER ON 119.705MHZ \nAND SQUAWK EITHER 3737, ANY DISCRETE TASK SPECIFIC CODE, OR ANY \nDISCRETE CODE ALLOCATED BY ANOTHER UNIT",
                 "Marker": "+",
                 "NotamStoreDate": "090920230627"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EKCH",
-                "Series": "B",
-                "Number": "3762",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "195"
-                },
-                "Coordinates": "5629N00455E",
-                "Radius": "50",
-                "ItemA": "EKSI",
-                "StartValidity": "2309131806",
-                "EndValidity": "2309141200",
-                "Estimation": "EST",
-                "ItemE": "COPENHAGEN INFORMATION FREQ 125.200 MHZ IS OUT OF SERVICE.",
-                "Marker": "+",
-                "NotamStoreDate": "130920231806"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EKCH",
-                "Series": "B",
-                "Number": "3763",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "195"
-                },
-                "Coordinates": "5543N00448E",
-                "Radius": "50",
-                "ItemA": "EKTE",
-                "StartValidity": "2309131807",
-                "EndValidity": "2309141200",
-                "Estimation": "EST",
-                "ItemE": "COPENHAGEN INFORMATION FREQ 134.025 MHZ IS OUT OF SERVICE.",
-                "Marker": "+",
-                "NotamStoreDate": "130920231807"
               },
               {
                 "@Reference": "EGPK",
