@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066083487",
+    "@PIBId": "400000066085509",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-15T11:00:17+00:00",
-        "ValidTo": "2023-09-16T11:00:00+00:00"
+        "ValidFrom": "2023-09-15T12:00:22+00:00",
+        "ValidTo": "2023-09-16T12:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-15T11:00:17+00:00",
+      "Issued": "2023-09-15T12:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309150928",
+      "PibUid": "EG712309150985",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5109,6 +5109,36 @@
                   "ItemE": "AD CLOSED TO NON DUXFORD BASED TRAFFIC. BASED OPERATORS AND\nAIRSHOW RELATED MOVEMENTS ONLY PERMITTED. INFO CONTACT DUXFORD\n01223 833376",
                   "Marker": "+",
                   "NotamStoreDate": "060920231532"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "J",
+                  "Number": "2948",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "RT",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "45"
+                  },
+                  "Coordinates": "5205N00008E",
+                  "Radius": "3",
+                  "ItemA": "EGSU",
+                  "StartValidity": "2309161100",
+                  "EndValidity": "2309171700",
+                  "ItemD": "1100-1700",
+                  "ItemE": "RESTRICTED AREA (TEMPORARY) AT DUXFORD AD, CAMBRIDGESHIRE.\nRESTRICTION OF FLYING REGULATIONS MADE UNDER ARTICLE 239 OF THE \nAIR NAVIGATION ORDER 2016. AIC M 101/2023 WHICH INCLUDES A CHART \nWILL REFER. NO AIRCRAFT IS TO FLY WI 2.2NM RADIUS OF\n520528N 0000758E EXCEPT AIRCRAFT FLYING IN ACCORDANCE WITH A \nPERMISSION ISSUED BY THE FLYING DISPLAY DIRECTOR AT DUXFORD \nAERODROME CTC 01223 497987 / 07888 667843 / 122.080MHZ (DUXFORD \nTWR). 2023-09-0025/AS6",
+                  "ItemF": "SFC",
+                  "ItemG": "4500FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "030820230908"
                 }
               ]
             },
@@ -6419,62 +6449,33 @@
             "Code": "EGCM",
             "Name": "LEEDS EAST",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5439",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5350N00112W",
-                  "Radius": "5",
-                  "ItemA": "EGCM",
-                  "StartValidity": "2309151033",
-                  "EndValidity": "2309151200",
-                  "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENSED AD DUE NO\nRFFS COVER.",
-                  "Marker": "+",
-                  "NotamStoreDate": "150920231037"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5440",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FF",
+                  "Code45": "CG",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5440",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5350N00112W",
-                  "Radius": "5",
-                  "ItemA": "EGCM",
-                  "StartValidity": "2309151200",
-                  "EndValidity": "2309151700",
-                  "ItemE": "RFFS DOWNGRADED TO CAT 1",
-                  "Marker": "+",
-                  "NotamStoreDate": "150920231038"
-                }
-              ]
+                "Coordinates": "5350N00112W",
+                "Radius": "5",
+                "ItemA": "EGCM",
+                "StartValidity": "2309151200",
+                "EndValidity": "2309151700",
+                "ItemE": "RFFS DOWNGRADED TO CAT 1",
+                "Marker": "+",
+                "NotamStoreDate": "150920231038"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -8182,33 +8183,6 @@
                   "ItemE": "UNLIT CRANE OPR PSN 502442N 0050610W PENTIRE CRESCENT, NEWQUAY.\nMAX HGT 295FT AGL 436FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "130820231554"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "5204",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "24"
-                  },
-                  "Coordinates": "5026N00500W",
-                  "Radius": "3",
-                  "ItemA": "EGHQ",
-                  "StartValidity": "2309150700",
-                  "EndValidity": "2309151400",
-                  "ItemE": "NEWQUAY RADAR SERVICES NOT AVBL DUE MAINT. NO EXTERNAL TRAINING",
-                  "Marker": "+",
-                  "NotamStoreDate": "140920231124"
                 }
               ]
             },
@@ -8419,7 +8393,7 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "3864",
+                "Number": "6484",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -8438,11 +8412,11 @@
                 "StartValidity": "2309160900",
                 "EndValidity": "2309171600",
                 "ItemD": "0900-1600",
-                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705MHZ / \n01767-627918. 2023-09-0006/AS2.",
+                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705 / 07875 \n028876. 2023-09-0006/AU1.",
                 "ItemF": "SFC",
                 "ItemG": "2200FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "300620231109"
+                "NotamStoreDate": "150920231135"
               }
             },
             "ObsoleteNotamList": null
@@ -18536,61 +18510,6 @@
                 "NotamStoreDate": "120920231326"
               },
               {
-                "@Reference": "EGHQ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5204",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "24"
-                },
-                "Coordinates": "5026N00500W",
-                "Radius": "3",
-                "ItemA": "EGHQ",
-                "StartValidity": "2309150700",
-                "EndValidity": "2309151400",
-                "ItemE": "NEWQUAY RADAR SERVICES NOT AVBL DUE MAINT. NO EXTERNAL TRAINING",
-                "Marker": "+",
-                "NotamStoreDate": "140920231124"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2242",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SE",
-                  "Code45": "AU",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5026N00500W",
-                "Radius": "60",
-                "ItemA": "EGTT",
-                "StartValidity": "2309150700",
-                "EndValidity": "2309151400",
-                "ItemE": "NEWQUAY LOWER AIRSPACE RADAR SERVICES NOT AVBL DUE MAINT",
-                "Marker": "+",
-                "NotamStoreDate": "140920231124"
-              },
-              {
                 "@Reference": "EGXE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -24078,37 +23997,6 @@
                 "NotamStoreDate": "140920230638"
               },
               {
-                "@Reference": "EGTH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "3864",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5205N00019W",
-                "Radius": "2",
-                "ItemA": "EGTH",
-                "StartValidity": "2309160900",
-                "EndValidity": "2309171600",
-                "ItemD": "0900-1600",
-                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705MHZ / \n01767-627918. 2023-09-0006/AS2.",
-                "ItemF": "SFC",
-                "ItemG": "2200FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "300620231109"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -24170,6 +24058,37 @@
                 "NotamStoreDate": "130920231303"
               },
               {
+                "@Reference": "EGTH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6484",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5205N00019W",
+                "Radius": "2",
+                "ItemA": "EGTH",
+                "StartValidity": "2309160900",
+                "EndValidity": "2309171600",
+                "ItemD": "0900-1600",
+                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705 / 07875 \n028876. 2023-09-0006/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "150920231135"
+              },
+              {
                 "@Reference": "EGHH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -24198,6 +24117,67 @@
                 "ItemG": "8000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "230820231359"
+              },
+              {
+                "@Reference": "EGSU",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "J",
+                "Number": "2948",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RT",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "45"
+                },
+                "Coordinates": "5205N00008E",
+                "Radius": "3",
+                "ItemA": "EGSU",
+                "StartValidity": "2309161100",
+                "EndValidity": "2309171700",
+                "ItemD": "1100-1700",
+                "ItemE": "RESTRICTED AREA (TEMPORARY) AT DUXFORD AD, CAMBRIDGESHIRE.\nRESTRICTION OF FLYING REGULATIONS MADE UNDER ARTICLE 239 OF THE \nAIR NAVIGATION ORDER 2016. AIC M 101/2023 WHICH INCLUDES A CHART \nWILL REFER. NO AIRCRAFT IS TO FLY WI 2.2NM RADIUS OF\n520528N 0000758E EXCEPT AIRCRAFT FLYING IN ACCORDANCE WITH A \nPERMISSION ISSUED BY THE FLYING DISPLAY DIRECTOR AT DUXFORD \nAERODROME CTC 01223 497987 / 07888 667843 / 122.080MHZ (DUXFORD \nTWR). 2023-09-0025/AS6",
+                "ItemF": "SFC",
+                "ItemG": "4500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "030820230908"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6308",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5257N00113E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2309161136",
+                "EndValidity": "2309171132",
+                "ItemD": "16 1136-1206, 17 1102-1132",
+                "ItemE": "BATTLE OF BRITAIN MEMORIAL FLIGHT FLYPAST WI 1NM RADIUS:\n525631N 0011234E (SHERINGHAM, NORFOLK). FOR OPERATIONAL CALLS ONLY \nCTC 01526 347716. 2023-09-0397/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "2300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "080920231158"
               }
             ]
           },
@@ -24994,60 +24974,6 @@
                   "ItemE": "CRANE OPR 555520N 0032332W (RATHO, EDINBURGH) MAX HGT 378FT AMSL/ \n98FT AGL. CRANE WILL BE LOWERED DURING LVP",
                   "Marker": "+",
                   "NotamStoreDate": "080920231151"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6889",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2309122036",
-                  "EndValidity": "2309190500",
-                  "ItemE": "STEEL PLATE TAXIWAY A12 HOLDBAR NORTH OF CENTERLINE",
-                  "Marker": "+",
-                  "NotamStoreDate": "120920232046"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6888",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2309122039",
-                  "EndValidity": "2309190500",
-                  "ItemE": "STEEL PLATE TAXIWAY ALPHA, 30 METERS WEST A15",
-                  "Marker": "+",
-                  "NotamStoreDate": "120920232043"
                 }
               ]
             },
@@ -28850,6 +28776,35 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "140920231145"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "973",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5506N00238W",
+                "Radius": "14",
+                "ItemA": "EGPX",
+                "StartValidity": "2309151200",
+                "EndValidity": "2309151500",
+                "ItemE": "THE FOLLOWING DANGER AREAS ARE DEACTIVATED\nEG D510A SPADEADAM\nEG D510B SPADEADAM",
+                "ItemF": "SFC",
+                "ItemG": "5500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "150920231200"
               },
               {
                 "@Reference": "EGTT",
