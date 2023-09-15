@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066079647",
+    "@PIBId": "400000066081630",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-15T09:00:55+00:00",
-        "ValidTo": "2023-09-16T09:00:00+00:00"
+        "ValidFrom": "2023-09-15T10:00:27+00:00",
+        "ValidTo": "2023-09-16T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-15T09:00:55+00:00",
+      "Issued": "2023-09-15T10:00:27+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309150757",
+      "PibUid": "EG712309150860",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -88,7 +88,7 @@
           },
           {
             "Id": "1661282446",
-            "Vid": "800000377493092",
+            "Vid": "400005079433320",
             "Code": "EGBF",
             "Name": "BEDFORD",
             "CityName": "BEDFORD",
@@ -6924,35 +6924,6 @@
                   "ItemE": "RWY 09/27 FLIGHT CHECK IN PROGRESS",
                   "Marker": "+",
                   "NotamStoreDate": "140920231859"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "6370",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "4",
-                    "Upper": "5"
-                  },
-                  "Coordinates": "5132N00002E",
-                  "Radius": "1",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2309150900",
-                  "EndValidity": "2309150930",
-                  "ItemE": "UAS OPR WI 0.2NM RADIUS OF 513153N 0000216E (WEST HAM, LONDON).\nMAX HGT 430FT AGL. FOR INFO 07711 631870. 2023-09-0455/AU2",
-                  "ItemF": "420FT AMSL",
-                  "ItemG": "450FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "110920231424"
                 }
               ]
             },
@@ -8355,7 +8326,38 @@
           {
             "Code": "EGTH",
             "Name": "OLD WARDEN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3864",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5205N00019W",
+                "Radius": "2",
+                "ItemA": "EGTH",
+                "StartValidity": "2309160900",
+                "EndValidity": "2309171600",
+                "ItemD": "0900-1600",
+                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705MHZ / \n01767-627918. 2023-09-0006/AS2.",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231109"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -12653,6 +12655,36 @@
                   "ItemG": "6000FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "230820231130"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "6439",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "18"
+                  },
+                  "Coordinates": "5409N00125W",
+                  "Radius": "1",
+                  "ItemA": "EGXZ",
+                  "StartValidity": "2309160900",
+                  "EndValidity": "2309301600",
+                  "ItemD": "16 20 23 27 30 0900-1600",
+                  "ItemE": "FLYING OF MODEL ACFT WI 0.5NM RADIUS 540839N 0012446W (DISHFORTH \nAD, NORTH YORKSHIRE) FOR INFO CTC 07749 736802 / 07809 897005. \n2023-09-0478/AU4.",
+                  "ItemF": "SFC",
+                  "ItemG": "1750FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "130920231303"
                 }
               ]
             },
@@ -18611,6 +18643,60 @@
                 "NotamStoreDate": "150920230724"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "309",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5101N00307W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309150905",
+                "EndValidity": "2311022359",
+                "ItemE": "LIT CRANE AT PSN 510045N 0030715W (GALMINGTON, SOMERSET) IN LOW \nFLYING AREA 2 AND NIGHT ROTARY REGION 2 HGT 373FT AMSL (302FT AGL). \n23/09/176/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "150920230911"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "310",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5101N00307W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309150915",
+                "EndValidity": "2311022359",
+                "ItemE": "LIT CRANE AT PSN 510047N 0030716W (GALMINGTON, SOMERSET)\nIN LOW FLYING AREA 2 AND NIGHT ROTARY REGION 2\nHGT 371FT AMSL (302FT AGL). 23/09/177/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "150920230917"
+              },
+              {
                 "@Reference": "EGOV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -22477,35 +22563,6 @@
                 "NotamStoreDate": "140920231141"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4647",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "500"
-                },
-                "Coordinates": "5418N00343W",
-                "Radius": "12",
-                "ItemA": "EGTT",
-                "StartValidity": "2309150700",
-                "EndValidity": "2309151600",
-                "ItemE": "THE FOLLOWING ESKMEALS DANGER AREAS ARE ACTIVATED:\nEG D406A  0700-1600  SFC-50000FT AMSL\nEG D406B  0700-1600  SFC-50000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "50000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "140920231143"
-              },
-              {
                 "@Reference": "EGXE",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22592,35 +22649,6 @@
                 "ItemE": "THE FOLLOWING CASTLEMARTIN DANGER AREAS ARE ACTIVATED:\nEG D113A   0730-1600   SFC-5000FT AMSL\nEG D113B   0730-1600   SFC-5000FT AMSL",
                 "ItemF": "SFC",
                 "ItemG": "5000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "140920231142"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "4646",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5135N00100E",
-                "Radius": "9",
-                "ItemA": "EGTT",
-                "StartValidity": "2309150730",
-                "EndValidity": "2309151700",
-                "ItemE": "THE FOLLOWING SHOEBURYNESS DANGER AREAS ARE ACTIVATED:\nEG D138C  0730-1700   SFC-6000FT AMSL\nEG D138D  0730-1700   SFC-6000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "6000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "140920231142"
               },
@@ -22770,36 +22798,6 @@
                 "ItemG": "12000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "140920231043"
-              },
-              {
-                "@Reference": "EGLC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6370",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "4",
-                  "Upper": "5"
-                },
-                "Coordinates": "5132N00002E",
-                "Radius": "1",
-                "ItemA": "EGLC",
-                "StartValidity": "2309150900",
-                "EndValidity": "2309150930",
-                "ItemE": "UAS OPR WI 0.2NM RADIUS OF 513153N 0000216E (WEST HAM, LONDON).\nMAX HGT 430FT AGL. FOR INFO 07711 631870. 2023-09-0455/AU2",
-                "ItemF": "420FT AMSL",
-                "ItemG": "450FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "110920231424"
               },
               {
                 "@OriginalMessage": "false",
@@ -24019,6 +24017,98 @@
                 "ItemG": "2500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "140920230638"
+              },
+              {
+                "@Reference": "EGTH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "3864",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5205N00019W",
+                "Radius": "2",
+                "ItemA": "EGTH",
+                "StartValidity": "2309160900",
+                "EndValidity": "2309171600",
+                "ItemD": "0900-1600",
+                "ItemE": "FLYING OF LARGE MODEL ACFT. PILOTS ARE REQUESTED NOT TO OVERFLY\nACTIVITY WI 1NM RADIUS OF 520512N 0001907W (OLD WARDEN AD). AD \nCLOSED TO NON-PARTICIPATING ACFT. FOR INFO CTC 130.705MHZ / \n01767-627918. 2023-09-0006/AS2.",
+                "ItemF": "SFC",
+                "ItemG": "2200FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300620231109"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6215",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "14"
+                },
+                "Coordinates": "5140N00038E",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309160900",
+                "EndValidity": "2309171500",
+                "ItemD": "0900-1500",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.5NM RADIUS 514014N 0003753E (STOW\nMARIES AD). FOR INFO CONTACT 07710 803052. 2023-09-0366/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "1400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "070920230918"
+              },
+              {
+                "@Reference": "EGXZ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6439",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "18"
+                },
+                "Coordinates": "5409N00125W",
+                "Radius": "1",
+                "ItemA": "EGXZ",
+                "StartValidity": "2309160900",
+                "EndValidity": "2309301600",
+                "ItemD": "16 20 23 27 30 0900-1600",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.5NM RADIUS 540839N 0012446W (DISHFORTH \nAD, NORTH YORKSHIRE) FOR INFO CTC 07749 736802 / 07809 897005. \n2023-09-0478/AU4.",
+                "ItemF": "SFC",
+                "ItemG": "1750FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "130920231303"
               }
             ]
           },
