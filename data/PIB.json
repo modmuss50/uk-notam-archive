@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066081630",
+    "@PIBId": "400000066083487",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-15T10:00:27+00:00",
-        "ValidTo": "2023-09-16T10:00:00+00:00"
+        "ValidFrom": "2023-09-15T11:00:17+00:00",
+        "ValidTo": "2023-09-16T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-15T10:00:27+00:00",
+      "Issued": "2023-09-15T11:00:17+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309150860",
+      "PibUid": "EG712309150928",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3946,33 +3946,64 @@
             "Code": "EGHH",
             "Name": "BOURNEMOUTH",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5169",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5169",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5047N00151W",
+                  "Radius": "5",
+                  "ItemA": "EGHH",
+                  "StartValidity": "2309160815",
+                  "EndValidity": "2309160845",
+                  "ItemE": "RWY 08/26 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920231501"
                 },
-                "Coordinates": "5047N00151W",
-                "Radius": "5",
-                "ItemA": "EGHH",
-                "StartValidity": "2309160815",
-                "EndValidity": "2309160845",
-                "ItemE": "RWY 08/26 CLSD",
-                "Marker": "+",
-                "NotamStoreDate": "120920231501"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "5697",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WP",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "80"
+                  },
+                  "Coordinates": "5043N00201W",
+                  "Radius": "3",
+                  "ItemA": "EGHH",
+                  "StartValidity": "2309161045",
+                  "EndValidity": "2309161115",
+                  "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 504306N 0020123W (HAMWORTHY\nBARRACKS, POOLE, DORSET). DROP HGT SUBJ ATC CLR. FOR INFO 07811 \n356827. 2023-09-0048/AU3.",
+                  "ItemF": "SFC",
+                  "ItemG": "8000FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "230820231359"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -4309,6 +4340,33 @@
                   "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
                   "Marker": "+",
                   "NotamStoreDate": "130920230855"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6952",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SE",
+                    "Code45": "AU",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "55",
+                    "Upper": "195"
+                  },
+                  "Coordinates": "5126N00250W",
+                  "Radius": "53",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2309160500",
+                  "EndValidity": "2309160600",
+                  "ItemE": "DUE TO STAFF ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED TO  \nLONDON AREA CONTROL (LAC). CTC THE APPROPRIATE LAC SECTOR OR \nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL:\nCARDIFF CTA 1-8 (ABOVE 6000FT)",
+                  "Marker": "+",
+                  "NotamStoreDate": "150920231056"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -4878,33 +4936,6 @@
                   "ItemE": "CRANE OPR PSN 520428N 0003720W CRANFIELD UNIVERSITY TO HGT\n100FT AGL/458FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "110920231010"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5398",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "5"
-                  },
-                  "Coordinates": "5205N00036W",
-                  "Radius": "1",
-                  "ItemA": "EGTC",
-                  "StartValidity": "2309150700",
-                  "EndValidity": "2309151100",
-                  "ItemE": "CRANE OPR PSN 520435N 0003620W (CRANFIELD VILLAGE) HGT 83FT AGL, \n446FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "130920230749"
                 }
               ]
             },
@@ -5822,6 +5853,33 @@
                   "ItemE": "RESCUE AND FIRE FIGHTING SERVICES DOWNGRADED TO CAT 2. CAT 3 AVBL\nBY PRIOR ARRANGEMENT.",
                   "Marker": "+",
                   "NotamStoreDate": "150920230735"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5437",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "22"
+                  },
+                  "Coordinates": "5154N00210W",
+                  "Radius": "2",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2309160830",
+                  "EndValidity": "2309160900",
+                  "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT\nAPPROACHES NOT AVBL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "150920231003"
                 }
               ]
             },
@@ -6361,33 +6419,62 @@
             "Code": "EGCM",
             "Name": "LEEDS EAST",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5433",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FF",
-                  "Code45": "CG",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5439",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5350N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGCM",
+                  "StartValidity": "2309151033",
+                  "EndValidity": "2309151200",
+                  "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENSED AD DUE NO\nRFFS COVER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "150920231037"
                 },
-                "Coordinates": "5350N00112W",
-                "Radius": "5",
-                "ItemA": "EGCM",
-                "StartValidity": "2309150710",
-                "EndValidity": "2309151700",
-                "ItemE": "AD RFFS DOWNGRADED TO CAT 1",
-                "Marker": "+",
-                "NotamStoreDate": "150920230713"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5440",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5350N00112W",
+                  "Radius": "5",
+                  "ItemA": "EGCM",
+                  "StartValidity": "2309151200",
+                  "EndValidity": "2309151700",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 1",
+                  "Marker": "+",
+                  "NotamStoreDate": "150920231038"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -11518,33 +11605,6 @@
                   "ItemE": "CRANE OPR PSN 522409N 0003352E (2500FT FM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 115FT AGL/147FT AMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "120920231618"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "5969",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MN",
-                    "Code45": "HW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2309150630",
-                  "EndValidity": "2309151100",
-                  "ItemE": "USE CAUTION: MEN AND EQUIPMENT LOCATED ON CHARLIE RAMP, WORKING\nWITHIN 100FT OF TWY CENTERLINE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "140920231037"
                 }
               ]
             },
@@ -18476,34 +18536,6 @@
                 "NotamStoreDate": "120920231326"
               },
               {
-                "@Reference": "EGTC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5398",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "5"
-                },
-                "Coordinates": "5205N00036W",
-                "Radius": "1",
-                "ItemA": "EGTC",
-                "StartValidity": "2309150700",
-                "EndValidity": "2309151100",
-                "ItemE": "CRANE OPR PSN 520435N 0003620W (CRANFIELD VILLAGE) HGT 83FT AGL, \n446FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "130920230749"
-              },
-              {
                 "@Reference": "EGHQ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19000,6 +19032,34 @@
                 "NotamStoreDate": "130920230855"
               },
               {
+                "@Reference": "EGFF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6952",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "55",
+                  "Upper": "195"
+                },
+                "Coordinates": "5126N00250W",
+                "Radius": "53",
+                "ItemA": "EGFF",
+                "StartValidity": "2309160500",
+                "EndValidity": "2309160600",
+                "ItemE": "DUE TO STAFF ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED TO  \nLONDON AREA CONTROL (LAC). CTC THE APPROPRIATE LAC SECTOR OR \nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL:\nCARDIFF CTA 1-8 (ABOVE 6000FT)",
+                "Marker": "+",
+                "NotamStoreDate": "150920231056"
+              },
+              {
                 "@Reference": "EGMC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19196,6 +19256,34 @@
                 "ItemE": "DUE TO ATC STAFFING, REQUESTS TO CROSS THE CARDIFF CTA/CTR MAY BE\nREFUSED OR DELAYED. PILOTS SHOULD PLAN TO REMAIN CLEAR OF CARDIFF\nCONTROLLED AIRSPACE AND USE THE LISTENING SSR CODE 3636",
                 "Marker": "+",
                 "NotamStoreDate": "150920230727"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5437",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5154N00210W",
+                "Radius": "2",
+                "ItemA": "EGBJ",
+                "StartValidity": "2309160830",
+                "EndValidity": "2309160900",
+                "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT\nAPPROACHES NOT AVBL.",
+                "Marker": "+",
+                "NotamStoreDate": "150920231003"
               }
             ]
           },
@@ -22803,35 +22891,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6388",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "7"
-                },
-                "Coordinates": "5205N00011E",
-                "Radius": "1",
-                "ItemA": "EGTT",
-                "StartValidity": "2309150900",
-                "EndValidity": "2309151100",
-                "ItemE": "UAS OPR WI 0.6NM RADIUS OF 520458N 0001128E (HINXTON,\nCAMBRIDGESHIRE). MAX HGT 400FT AGL. FOR INFO 07913 819283. \n2023-09-0458/AU2",
-                "ItemF": "SFC",
-                "ItemG": "700FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "120920230952"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "M",
                 "Number": "4642",
                 "Year": "23",
@@ -24109,6 +24168,36 @@
                 "ItemG": "1750FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "130920231303"
+              },
+              {
+                "@Reference": "EGHH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "5697",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "80"
+                },
+                "Coordinates": "5043N00201W",
+                "Radius": "3",
+                "ItemA": "EGHH",
+                "StartValidity": "2309161045",
+                "EndValidity": "2309161115",
+                "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 504306N 0020123W (HAMWORTHY\nBARRACKS, POOLE, DORSET). DROP HGT SUBJ ATC CLR. FOR INFO 07811 \n356827. 2023-09-0048/AU3.",
+                "ItemF": "SFC",
+                "ItemG": "8000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "230820231359"
               }
             ]
           },
@@ -28915,6 +29004,35 @@
                 "ItemG": "10000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "120920231432"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6482",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "58"
+                },
+                "Coordinates": "5638N00450W",
+                "Radius": "3",
+                "ItemA": "EGPX",
+                "StartValidity": "2309160530",
+                "EndValidity": "2309161830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 14 WI 2NM RADIUS \nOF PSN 563742N 0045029W (GLENCOE, ARGYLL AND BUTE). 2000FT AGL. \nCTC 07807652806. 23/09/178/LFC",
+                "ItemF": "SFC",
+                "ItemG": "5800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "150920231003"
               }
             ]
           },
