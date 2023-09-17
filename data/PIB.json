@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066154673",
+    "@PIBId": "400000066156674",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-17T05:00:30+00:00",
-        "ValidTo": "2023-09-18T05:00:00+00:00"
+        "ValidFrom": "2023-09-17T06:00:20+00:00",
+        "ValidTo": "2023-09-18T06:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-17T05:00:30+00:00",
+      "Issued": "2023-09-17T06:00:20+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309170351",
+      "PibUid": "EG712309170458",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3847,6 +3847,33 @@
                   "ItemE": "OVERNIGHT PARKING ON APRON NOT AVBL DUE EVENT",
                   "Marker": "+",
                   "NotamStoreDate": "040920230712"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5477",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5119N00051W",
+                  "Radius": "5",
+                  "ItemA": "EGLK",
+                  "StartValidity": "2309170600",
+                  "EndValidity": "2309170830",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 1.",
+                  "Marker": "+",
+                  "NotamStoreDate": "170920230556"
                 }
               ]
             },
@@ -3945,7 +3972,35 @@
           {
             "Code": "EGHH",
             "Name": "BOURNEMOUTH",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5251",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5047N00151W",
+                "Radius": "5",
+                "ItemA": "EGHH",
+                "StartValidity": "2309171930",
+                "EndValidity": "2309172000",
+                "ItemE": "AD CLOSED",
+                "Marker": "+",
+                "NotamStoreDate": "170920230529"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -4142,33 +4197,62 @@
             "Code": "EGFF",
             "Name": "CARDIFF",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "6862",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "HX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6862",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "HX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2309120908",
+                  "EndValidity": "2309301800",
+                  "ItemE": "INCREASED BIRD ACTIVITY IN THE VCY OF THE AD",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920230908"
                 },
-                "Coordinates": "5124N00321W",
-                "Radius": "5",
-                "ItemA": "EGFF",
-                "StartValidity": "2309120908",
-                "EndValidity": "2309301800",
-                "ItemE": "INCREASED BIRD ACTIVITY IN THE VCY OF THE AD",
-                "Marker": "+",
-                "NotamStoreDate": "120920230908"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6901",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SE",
+                    "Code45": "AU",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "55",
+                    "Upper": "195"
+                  },
+                  "Coordinates": "5126N00250W",
+                  "Radius": "53",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2309180500",
+                  "EndValidity": "2309180600",
+                  "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
+                  "Marker": "+",
+                  "NotamStoreDate": "130920230958"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8483,7 +8567,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "6993",
+                  "Number": "7001",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8499,11 +8583,11 @@
                   "Coordinates": "5134N00042E",
                   "Radius": "5",
                   "ItemA": "EGMC",
-                  "StartValidity": "2309161800",
-                  "EndValidity": "2309170600",
-                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 5.",
+                  "StartValidity": "2309170600",
+                  "EndValidity": "2309171800",
+                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 6.",
                   "Marker": "+",
-                  "NotamStoreDate": "160920231746"
+                  "NotamStoreDate": "170920230550"
                 }
               ]
             },
@@ -9899,6 +9983,33 @@
                   "ItemE": "FIRE FIGHTING AND RESCUE CAPABILITY HAS BEEN REDUCED TO CRITICAL\nLEVEL OF SERVICE FOR C-5, B-747, MD-11.\nFIRE FIGHTING AND RESCUE CAPABILITY HAS BEEN DOWNGRADED TO REDUCED\nLEVEL OF SERVICE FOR C-17, B-1, B-52, KC-135, RC-135.\nREDUCED LEVEL OF SERVICE PROVIDES SUFFICIENT CAPABILITY FOR INITIAL\nRESPONSE, SCENE ASSESSMENT, AND IMPLEMENTATION OF MITIGATION \nTACTICS. (RLS) REDUCED LEVEL OF SERVICE REPRESENTS INCREASED \nRISK/LOSS POTENTIAL DUE TO LACK OF EMERGENCY RESPONSE CAPABILITY TO \nPERFORM RESCUE AND SUFFICENT MITIGATION TACTICS SIMULTANEOUSLY. \nOBJECTIVES MAY NOT BE SUCCESSFUL DURING SITUATIONS WHERE \nSIMULTANEOUS RESCUE AND FIREFIGHTING ACTIVITIES ARE REQUIRED",
                   "Marker": "+",
                   "NotamStoreDate": "050920230644"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5930",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MP",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5141N00147W",
+                  "Radius": "5",
+                  "ItemA": "EGVA",
+                  "StartValidity": "2309180500",
+                  "EndValidity": "2309181700",
+                  "ItemE": "HARD STAND 46 AND 54 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "130920230609"
                 }
               ]
             },
@@ -10266,6 +10377,33 @@
                   "ItemE": "FIRE CRASH CAPABILITY: 2 VEHICLES/6000 GALLONS OF AGENT REDUCING\nLEVEL OF SERVICE. REDUCED CAPABILITY OF PROVIDING SUFFICIENT AGENT\nTO PERFORM FIRE CONTROL, FIRE SUPPRESSION, INTERIOR/FIREFIGHTING\nAND RESCUE FOR ALL NATIONAL FIRE PROTECTION ASSOCIATION (NFPA).\nCRITICAL LEVEL OF SERVICE FOR CATEGORY 9 AND 10 AIRCRAFT WHICH\nINCLUDES BUT NOT LIMITED TO C-5, 787-8I, VC-25, KC-10, E-4 (747),\nMD-11 ACFT. REDUCED LEVEL OF SERVICE FOR CATEGORY 7 THROUGH 8 WHICH\nINCLUDES BUT IS NOT LIMITED TO, C-17, B-1, B-2, B-52, KC-135, KC46\nACFT.",
                   "Marker": "+",
                   "NotamStoreDate": "150920230538"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5989",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5224N00032E",
+                  "Radius": "1",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2309180500",
+                  "EndValidity": "2309251900",
+                  "ItemE": "CRANE OPR PSN 522340N 0003221E (3000FT FROM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 150FT AGL/173FT AMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920231755"
                 }
               ]
             },
@@ -16696,6 +16834,62 @@
                 "ItemE": "LIT CRANE AT PSN 501558N 0050704W (KENWYN, CORNWALL)\nIN LOW FLYING AREA 3 AND NIGHT ROTARY REGION 3\nHGT 497FT AMSL (164FT AGL). 23/09/170/LFC",
                 "Marker": "+",
                 "NotamStoreDate": "140920231333"
+              },
+              {
+                "@Reference": "EGFF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6901",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "55",
+                  "Upper": "195"
+                },
+                "Coordinates": "5126N00250W",
+                "Radius": "53",
+                "ItemA": "EGFF",
+                "StartValidity": "2309180500",
+                "EndValidity": "2309180600",
+                "ItemE": "DUE TO STAFFING ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED\nTO LONDON AREA CONTROL (LAC). CTC VIA THE APPROPRIATE LAC SECTOROR\nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL\nCARDIFF CTA 1-8 ABOVE 6000FT",
+                "Marker": "+",
+                "NotamStoreDate": "130920230958"
+              },
+              {
+                "@Reference": "EGUL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "5989",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5224N00032E",
+                "Radius": "1",
+                "ItemA": "EGUL",
+                "StartValidity": "2309180500",
+                "EndValidity": "2309251900",
+                "ItemE": "CRANE OPR PSN 522340N 0003221E (3000FT FROM LAKENHEATH RWY 06/24 \nCENTERLINE) MAX HGT 150FT AGL/173FT AMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "140920231755"
               }
             ]
           },
@@ -22879,33 +23073,6 @@
                   "ItemE": "CRANE OPERATING APRX PSN 581122N 0062244W (STORNOWAY HARBOUR).\nMAX HGT 237FT AMSL, 222FT AGL.",
                   "Marker": "+",
                   "NotamStoreDate": "010920230542"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "2815",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5813N00620W",
-                  "Radius": "3",
-                  "ItemA": "EGPO",
-                  "StartValidity": "2309170500",
-                  "EndValidity": "2309170530",
-                  "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "170920230424"
                 }
               ]
             },
@@ -24250,34 +24417,6 @@
                 "ItemE": "NEWCASTLE CTA/CTR/ATZ DEACTIVATED. NEWCASTLE CONTROLLED AIRSPACE \nREVERTS TO CLASS G. SUITABLY EQUIPPED ACFT WI NEWCASTLE AIRSPACE \nDURING THESE PERIODS SHOULD MONITOR NEWCASTLE TOWER ON 119.705MHZ \nAND SQUAWK EITHER 3737, ANY DISCRETE TASK SPECIFIC CODE, OR ANY \nDISCRETE CODE ALLOCATED BY ANOTHER UNIT",
                 "Marker": "+",
                 "NotamStoreDate": "090920230634"
-              },
-              {
-                "@Reference": "EGPO",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2815",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5813N00620W",
-                "Radius": "3",
-                "ItemA": "EGPO",
-                "StartValidity": "2309170500",
-                "EndValidity": "2309170530",
-                "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "170920230424"
               }
             ]
           },
