@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066224046",
+    "@PIBId": "400000066224971",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-18T22:00:59+00:00",
-        "ValidTo": "2023-09-19T22:00:00+00:00"
+        "ValidFrom": "2023-09-18T23:00:15+00:00",
+        "ValidTo": "2023-09-19T23:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-18T22:00:59+00:00",
+      "Issued": "2023-09-18T23:00:15+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309181639",
+      "PibUid": "EG712309181652",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5945,6 +5945,33 @@
                   "ItemE": "LEEDS BRADFORD PRIMARY RADAR U/S, SECONDARY RADAR STILL AVAILABLE.",
                   "Marker": "+",
                   "NotamStoreDate": "180920231024"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5281",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2309190245",
+                  "EndValidity": "2309190400",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "180920232246"
                 }
               ]
             },
@@ -7728,62 +7755,33 @@
             "Code": "EGTK",
             "Name": "OXFORD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "3231",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "4"
-                  },
-                  "Coordinates": "5150N00119W",
-                  "Radius": "1",
-                  "ItemA": "EGTK",
-                  "StartValidity": "2306050000",
-                  "EndValidity": "PERM",
-                  "ItemE": "ADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: MOBILE CRANE\nPOSITION: 514938.65N 0011836.26W\nELEVATION/HEIGHT: 393FT AMSL/165FT AGL\nLIGHTING: YES - RED\nREMARKS: OXFORD TECHNOLOGY PARK, LANGFORD LANE. NOT PRESENT ALL THE \nTIME. OPERATING WITHIN RADIUS 150 M FROM POSITION. END ESTIMATED DEC \n2023.\nUK AIP EGTK AD 2.10 REFERS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "020620231114"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "3231",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "4"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5499",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5150N00119W",
-                  "Radius": "5",
-                  "ItemA": "EGTK",
-                  "StartValidity": "2309182200",
-                  "EndValidity": "2309182259",
-                  "ItemE": "AD OPEN FOR PRE ARRANGED MOVEMENTS ONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "170920232027"
-                }
-              ]
+                "Coordinates": "5150N00119W",
+                "Radius": "1",
+                "ItemA": "EGTK",
+                "StartValidity": "2306050000",
+                "EndValidity": "PERM",
+                "ItemE": "ADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: MOBILE CRANE\nPOSITION: 514938.65N 0011836.26W\nELEVATION/HEIGHT: 393FT AMSL/165FT AGL\nLIGHTING: YES - RED\nREMARKS: OXFORD TECHNOLOGY PARK, LANGFORD LANE. NOT PRESENT ALL THE \nTIME. OPERATING WITHIN RADIUS 150 M FROM POSITION. END ESTIMATED DEC \n2023.\nUK AIP EGTK AD 2.10 REFERS.",
+                "Marker": "+",
+                "NotamStoreDate": "020620231114"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -17159,6 +17157,34 @@
                 "NotamStoreDate": "180920230953"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5281",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2309190245",
+                "EndValidity": "2309190400",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "180920232246"
+              },
+              {
                 "@Reference": "EGBJ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -21362,6 +21388,33 @@
                   "ItemE": "TWY APLHA CLSD DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "140920231155"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "6928",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2309192200",
+                  "EndValidity": "2309200400",
+                  "ItemE": "RWY 25 CLOSED DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "140920231150"
                 }
               ]
             },
@@ -22278,66 +22331,37 @@
             "Code": "EGPE",
             "Name": "INVERNESS",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6499",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "A",
-                  "ReferredNumber": "5018",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "SP",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5733N00403W",
-                  "Radius": "3",
-                  "ItemA": "EGPE",
-                  "StartValidity": "2308310926",
-                  "EndValidity": "2309302130",
-                  "Estimation": "EST",
-                  "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
-                  "Marker": "+",
-                  "NotamStoreDate": "310820230926"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "6499",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "A",
+                "ReferredNumber": "5018",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7058",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5733N00403W",
-                  "Radius": "3",
-                  "ItemA": "EGPE",
-                  "StartValidity": "2309182130",
-                  "EndValidity": "2309182230",
-                  "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, FIRE AND RESCUE HR OF\nOPERATION EXTENDED. AIRPORT REMAINS STRICTLY PPR. RADAR\nSERVICE AVAILABLE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "180920231957"
-                }
-              ]
+                "Coordinates": "5733N00403W",
+                "Radius": "3",
+                "ItemA": "EGPE",
+                "StartValidity": "2308310926",
+                "EndValidity": "2309302130",
+                "Estimation": "EST",
+                "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nAD OPENING, INVERNESS TWR AND APP HOURS:\nSUN-MON 0525-2130\nTUE 0130-0315, 0345-2130\nWED-SAT 0145-2130\nINVERNESS RADAR HOURS:\nSUN-SAT 0530-2130.",
+                "Marker": "+",
+                "NotamStoreDate": "310820230926"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -24665,34 +24689,6 @@
                 "ItemE": "ABERDEEN OFFSHORE NIGHT FIS WILL BE UNAVAILABLE. THE FOLLOWING\nFREQ WILL NOT BE MONITORED. 122.250MHZ, 124.9MHZ, 125.275MHZ,\n128.925MHZ, 131.3MHZ, 132.550MHZ, 134.1MHZ, 135.175MHZ",
                 "Marker": "+",
                 "NotamStoreDate": "180920231725"
-              },
-              {
-                "@Reference": "EGPE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "7058",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5733N00403W",
-                "Radius": "3",
-                "ItemA": "EGPE",
-                "StartValidity": "2309182130",
-                "EndValidity": "2309182230",
-                "ItemE": "INVERNESS ATZ ACTIVATED. AD, ATS, MET, FIRE AND RESCUE HR OF\nOPERATION EXTENDED. AIRPORT REMAINS STRICTLY PPR. RADAR\nSERVICE AVAILABLE.",
-                "Marker": "+",
-                "NotamStoreDate": "180920231957"
               },
               {
                 "@Reference": "EGTT",
