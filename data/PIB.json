@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066380100",
+    "@PIBId": "400000066382808",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-22T08:00:14+00:00",
-        "ValidTo": "2023-09-23T08:00:00+00:00"
+        "ValidFrom": "2023-09-22T09:00:55+00:00",
+        "ValidTo": "2023-09-23T09:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-22T08:00:14+00:00",
+      "Issued": "2023-09-22T09:00:55+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309220705",
+      "PibUid": "EG712309220782",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3938,33 +3938,6 @@
                   "ItemE": "REFERENCE ALL IAP CHARTS - VM(C) OCA SOUTH OF RUNWAY 10/28 FOR\nALL AIRCRAFT CATEGORIES AMENDED TO N/A. VISUAL CIRCLING PROCEDURES TO\nTHE SOUTH OF RUNWAY 10/28 WITHDRAWN",
                   "Marker": "+",
                   "NotamStoreDate": "050920231439"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "5329",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "NL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5346N00302W",
-                  "Radius": "5",
-                  "ItemA": "EGNH",
-                  "StartValidity": "2309220730",
-                  "EndValidity": "2309220830",
-                  "ItemE": "NDB(L) BPL/BLACKPOOL 318KHZ U/S DUE MAINT. ALL ASSOCIATED\nINSTRUMENT APPROACHES NOT AVBL",
-                  "Marker": "+",
-                  "NotamStoreDate": "210920231256"
                 }
               ]
             },
@@ -4505,33 +4478,62 @@
             "Code": "EGHA",
             "Name": "COMPTON ABBAS",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5197",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MN",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5197",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MN",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5058N00209W",
+                  "Radius": "5",
+                  "ItemA": "EGHA",
+                  "StartValidity": "2309011000",
+                  "EndValidity": "2310311600",
+                  "ItemE": "EXERCISE CAUTION DURING ALL MOVEMENTS ON APRON DUE LOOSE STONES",
+                  "Marker": "+",
+                  "NotamStoreDate": "010920230953"
                 },
-                "Coordinates": "5058N00209W",
-                "Radius": "5",
-                "ItemA": "EGHA",
-                "StartValidity": "2309011000",
-                "EndValidity": "2310311600",
-                "ItemE": "EXERCISE CAUTION DURING ALL MOVEMENTS ON APRON DUE LOOSE STONES",
-                "Marker": "+",
-                "NotamStoreDate": "010920230953"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5441",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5058N00209W",
+                  "Radius": "5",
+                  "ItemA": "EGHA",
+                  "StartValidity": "2309230800",
+                  "EndValidity": "2309241600",
+                  "ItemE": "AD CLOSED TO VISITING TRAFFIC NOT PRIORLY INVITED BY POOLEYS FOR \nEVENT WEEKEND",
+                  "Marker": "+",
+                  "NotamStoreDate": "150920231234"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -7742,35 +7744,64 @@
             "Code": "EGMD",
             "Name": "LYDD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6587",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WM",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "3"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5345",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00056E",
+                  "Radius": "5",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2309220828",
+                  "EndValidity": "2309291800",
+                  "ItemE": "ALDIS LAMP U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "220920230834"
                 },
-                "Coordinates": "5056N00055E",
-                "Radius": "1",
-                "ItemA": "EGMD",
-                "StartValidity": "2309221845",
-                "EndValidity": "2309221925",
-                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 505552N 0005433E (LYDD). FOR\nINFO 07811 214992. 2023-09-0550/AU6.",
-                "ItemF": "SFC",
-                "ItemG": "260FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "210920230905"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "6587",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WM",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5056N00055E",
+                  "Radius": "1",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2309221845",
+                  "EndValidity": "2309221925",
+                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 505552N 0005433E (LYDD). FOR\nINFO 07811 214992. 2023-09-0550/AU6.",
+                  "ItemF": "SFC",
+                  "ItemG": "260FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "210920230905"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8193,7 +8224,35 @@
           {
             "Code": "EGTH",
             "Name": "OLD WARDEN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5518",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5205N00019W",
+                "Radius": "2",
+                "ItemA": "EGTH",
+                "StartValidity": "2309230800",
+                "EndValidity": "2309231500",
+                "ItemE": "OLD WARDEN ATZ ACTIVE. AFIS OPR ON FREQ 130.705MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "180920231511"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -8288,7 +8347,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5472",
+                  "Number": "5628",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8304,45 +8363,18 @@
                   "Coordinates": "5317N00057W",
                   "Radius": "5",
                   "ItemA": "EGNE",
-                  "StartValidity": "2309220730",
-                  "EndValidity": "2309221030",
-                  "ItemE": "RWY 02/20 CLSD DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "160920231513"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5510",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5317N00057W",
-                  "Radius": "5",
-                  "ItemA": "EGNE",
-                  "StartValidity": "2309221030",
-                  "EndValidity": "2309221230",
+                  "StartValidity": "2309220819",
+                  "EndValidity": "2309221000",
                   "ItemE": "UNLICENSED RWY 14/32 CLSD DUE WIP",
                   "Marker": "+",
-                  "NotamStoreDate": "180920231208"
+                  "NotamStoreDate": "220920230825"
                 },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5513",
+                  "Number": "5627",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -8358,11 +8390,38 @@
                   "Coordinates": "5317N00057W",
                   "Radius": "5",
                   "ItemA": "EGNE",
-                  "StartValidity": "2309221030",
-                  "EndValidity": "2309221230",
-                  "ItemE": "TAXIWAY CHARLIE CLSD DUE WIP",
+                  "StartValidity": "2309220820",
+                  "EndValidity": "2309221000",
+                  "ItemE": "TWY CHARLIE CLSD DUE WIP",
                   "Marker": "+",
-                  "NotamStoreDate": "180920231210"
+                  "NotamStoreDate": "220920230824"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5626",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5317N00057W",
+                  "Radius": "5",
+                  "ItemA": "EGNE",
+                  "StartValidity": "2309221000",
+                  "EndValidity": "2309221500",
+                  "ItemE": "RWY 02/20 CLSD DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "220920230823"
                 }
               ]
             },
@@ -9591,34 +9650,6 @@
                   "ItemE": "RFFS CAT CHANGES\nTUE 0710-0850 CAT 7, 1130-1415 CAT 7\nWED 1615-1755 CAT 7\nTHU 0640-0855 CAT 7\nFRI 0605-0745 CAT 7\nSAT 0605-0955 CAT 7, 1015-1255 CAT 7, 1750-1930 CAT 7\nSUN 0600-0825 CAT 7",
                   "Marker": "+",
                   "NotamStoreDate": "170920231544"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "5338",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2309220615",
-                  "EndValidity": "2309220815",
-                  "ItemD": "0615-0645 0745-0815",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEMS BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "210920231713"
                 }
               ]
             },
@@ -9954,6 +9985,34 @@
                   "ItemE": "AD OPR HOURS\nFRI 15 - 0800 - 1900\nSAT 16 - CLOSED\nSUN 17 - CLOSED\nMON 18 - 0800 - 2130\nTUE 19 - 0800 - 2130\nWED 20 - 0800 - 0030\nTHU 21 - 0800 - 2130\nFRI 22 - 0800 - 1615\nSAT 23 - CLOSED\nSUN 24 - CLOSED\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT)",
                   "Marker": "+",
                   "NotamStoreDate": "150920231311"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5920",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5137N00106W",
+                  "Radius": "5",
+                  "ItemA": "EGUB",
+                  "StartValidity": "2309230845",
+                  "EndValidity": "2309231445",
+                  "ItemD": "0845-1045, 1245-1445",
+                  "ItemE": "AD CLSD DUE TO PEDESTRIANS AND CYCLISTS TRANSITING AD. ATZ\nREMAINS ACTIVE FOR POLICE HELICOPTER, AIR AMBULACE AND NATIONAL\nSTANDBY ACFT ONLY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920231545"
                 }
               ]
             },
@@ -10081,6 +10140,35 @@
                   "ItemE": "POSSIBLE FALSE TFC ADVISORY SYSTEM ACFT INDICATIONS MAY OCCUR WI \n4NM RADIUS OF MAGNETIC COMPASS BASE. UP TO 1000FT AGL/1380FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "120920231328"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6183",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "7"
+                  },
+                  "Coordinates": "5111N00141W",
+                  "Radius": "1",
+                  "ItemA": "EGDM",
+                  "StartValidity": "2309220900",
+                  "EndValidity": "2309221330",
+                  "ItemE": "UAS OPR WI 0.5NM RADIUS OF 511052N 0014040W (CHOLDERTON, \nWILTSHIRE)\nUP TO 400FT AGL",
+                  "ItemF": "SFC",
+                  "ItemG": "695FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "220920230850"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -10314,6 +10402,36 @@
                   "ItemE": "NO PRACTICE DIVERSIONS DUE TO STAFFING",
                   "Marker": "+",
                   "NotamStoreDate": "150920230841"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "6598",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WC",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "13"
+                  },
+                  "Coordinates": "5142N00141W",
+                  "Radius": "1",
+                  "ItemA": "EGVN",
+                  "StartValidity": "2309230800",
+                  "EndValidity": "2309241700",
+                  "ItemD": "0800-1700",
+                  "ItemE": "KITE FLYING WI 0.5NM RADIUS: 514152N 0014113W\n(LECHLADE-ON-THAMES, GLOUCESTERSHIRE). MAX HGT 1000FT AGL. FOR \nINFO 07973 753389 OR 07917 762254. 2023-09-0605/AO3.",
+                  "ItemF": "SFC",
+                  "ItemG": "1300FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "210920231104"
                 }
               ]
             },
@@ -11234,7 +11352,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "6174",
+                  "Number": "6181",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -11250,11 +11368,11 @@
                   "Coordinates": "5225N00034E",
                   "Radius": "5",
                   "ItemA": "EGUL",
-                  "StartValidity": "2309220518",
-                  "EndValidity": "2309221700",
-                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
+                  "StartValidity": "2309220827",
+                  "EndValidity": "2309221500",
+                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE DRY ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
                   "Marker": "+",
-                  "NotamStoreDate": "220920230527"
+                  "NotamStoreDate": "220920230830"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11581,34 +11699,6 @@
                   "ItemE": "RNP APPROACHES NOT AVBL DUE TO CONTROLLER TRAINING",
                   "Marker": "+",
                   "NotamStoreDate": "080920230640"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6103",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "32"
-                  },
-                  "Coordinates": "5418N00132W",
-                  "Radius": "5",
-                  "ItemA": "EGXE",
-                  "StartValidity": "2309191800",
-                  "EndValidity": "2309222300",
-                  "ItemD": "1800-2300",
-                  "ItemE": "OUTSIDE OF AD OPENING HOURS, LEEMING ATS NOT AVAILABLE,\nATZ ACTIVE, AD WILL OPERATE CLOSED FIELD OPS",
-                  "Marker": "+",
-                  "NotamStoreDate": "190920231335"
                 }
               ]
             },
@@ -12753,35 +12843,7 @@
           {
             "Code": "EGOW",
             "Name": "WOODVALE",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6128",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "ST",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5335N00303W",
-                "Radius": "5",
-                "ItemA": "EGOW",
-                "StartValidity": "2309201439",
-                "EndValidity": "2909210800",
-                "ItemE": "WOODVALE ATS AND ATC CLOSED, ATZ REMAINS ACTIVE",
-                "Marker": "+",
-                "NotamStoreDate": "200920231448"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -17474,35 +17536,6 @@
                 "NotamStoreDate": "190920231329"
               },
               {
-                "@Reference": "EGXE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6103",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "32"
-                },
-                "Coordinates": "5418N00132W",
-                "Radius": "5",
-                "ItemA": "EGXE",
-                "StartValidity": "2309191800",
-                "EndValidity": "2309222300",
-                "ItemD": "1800-2300",
-                "ItemE": "OUTSIDE OF AD OPENING HOURS, LEEMING ATS NOT AVAILABLE,\nATZ ACTIVE, AD WILL OPERATE CLOSED FIELD OPS",
-                "Marker": "+",
-                "NotamStoreDate": "190920231335"
-              },
-              {
                 "@Reference": "EGSC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17843,35 +17876,6 @@
                 "NotamStoreDate": "210920231524"
               },
               {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5338",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2309220615",
-                "EndValidity": "2309220815",
-                "ItemD": "0615-0645 0745-0815",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEMS BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "210920231713"
-              },
-              {
                 "@Reference": "EGKA",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18012,6 +18016,60 @@
                 "ItemE": "GLOUCESTER APPROACH AND TOWER SERVICES COMBINED DUE STAFF \nSHORTAGE.\nTRAFFIC RESTRICTIONS IN PLACE AND ALL MOVEMENTS STRICTLY PPR VIA\nBRIEFING 01452 857 700 EXT223.",
                 "Marker": "+",
                 "NotamStoreDate": "050920231732"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "323",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "9"
+                },
+                "Coordinates": "5039N00334W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309220820",
+                "EndValidity": "2311302359",
+                "ItemE": "UNLIT MASTS PSN 503833N 0033351W (HALDRON FOREST PARK, DEVON)\nIN LOW FLYING AREA 2 AND NIGHT ROTARY REGION 2. HGT 891FT AMSL \n(100FT AGL). 23/09/221/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "220920230838"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "324",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5039N00335W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309220925",
+                "EndValidity": "2311302359",
+                "ItemE": "UNLIT MASTS PSN 503904N 0033453W (HALDRON FOREST PARK, DEVON)\nIN LOW FLYING AREA 2 AND NIGHT ROTARY REGION 2. HGT 932FT AMSL \n(100FT AGL). 23/09/222/LFTP",
+                "Marker": "+",
+                "NotamStoreDate": "220920230841"
               },
               {
                 "@OriginalMessage": "false",
@@ -18534,6 +18592,34 @@
                 "ItemE": "2 LIT CRANES OPR 502424N 0053046W (TRENCREEK,NEWQUAY) MAX HGT\n164FT AGL / 305FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "290820231013"
+              },
+              {
+                "@Reference": "EGTH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5518",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5205N00019W",
+                "Radius": "2",
+                "ItemA": "EGTH",
+                "StartValidity": "2309230800",
+                "EndValidity": "2309231500",
+                "ItemE": "OLD WARDEN ATZ ACTIVE. AFIS OPR ON FREQ 130.705MHZ",
+                "Marker": "+",
+                "NotamStoreDate": "180920231511"
               }
             ]
           },
@@ -21843,6 +21929,36 @@
                 "NotamStoreDate": "210920231753"
               },
               {
+                "@Reference": "EGDM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "6183",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5111N00141W",
+                "Radius": "1",
+                "ItemA": "EGDM",
+                "StartValidity": "2309220900",
+                "EndValidity": "2309221330",
+                "ItemE": "UAS OPR WI 0.5NM RADIUS OF 511052N 0014040W (CHOLDERTON, \nWILTSHIRE)\nUP TO 400FT AGL",
+                "ItemF": "SFC",
+                "ItemG": "695FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220920230850"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -22649,6 +22765,35 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
+                "Number": "6633",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "27"
+                },
+                "Coordinates": "5038N00221W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309230530",
+                "EndValidity": "2309231830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS\nOPERATING IN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN \n503824N 0022037W (RINGSTEAD BAY, DORSET). 2000FT AGL.\nCTC 07713 126122. 23/09/223/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2700FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220920230842"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
                 "Number": "6530",
                 "Year": "23",
                 "Type": "N",
@@ -22794,6 +22939,66 @@
                 "ItemG": "1500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "210920231409"
+              },
+              {
+                "@Reference": "EGVN",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6598",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "13"
+                },
+                "Coordinates": "5142N00141W",
+                "Radius": "1",
+                "ItemA": "EGVN",
+                "StartValidity": "2309230800",
+                "EndValidity": "2309241700",
+                "ItemD": "0800-1700",
+                "ItemE": "KITE FLYING WI 0.5NM RADIUS: 514152N 0014113W\n(LECHLADE-ON-THAMES, GLOUCESTERSHIRE). MAX HGT 1000FT AGL. FOR \nINFO 07973 753389 OR 07917 762254. 2023-09-0605/AO3.",
+                "ItemF": "SFC",
+                "ItemG": "1300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "210920231104"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6609",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "50"
+                },
+                "Coordinates": "5345N00105W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2309230800",
+                "EndValidity": "2309231700",
+                "ItemE": "INTENSE GLIDING ACTIVITY WITH AEROBATICS WI 2NM RADIUS: \n534438N 0010502W (BURN AD, NORTH YORKSHIRE) FOR INFO 07712 467401. \n2023-09-0621/AU3.",
+                "ItemF": "SFC",
+                "ItemG": "5000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "210920231454"
               }
             ]
           },
@@ -27273,35 +27478,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "M",
-                "Number": "4821",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "230"
-                },
-                "Coordinates": "5530N00035W",
-                "Radius": "32",
-                "ItemA": "EGPX",
-                "StartValidity": "2309220830",
-                "EndValidity": "2309221600",
-                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 0830-0930 SFC-FL230\nEG D513A 1400-1500 SFC-FL230\nEG D513A 1515-1600 SFC-FL230\nEG D513B 0830-0930 SFC-FL230\nEG D513B 1400-1500 SFC-FL230\nEG D513B 1515-1600 SFC-FL230\nEG D513C 0830-0930 SFC-FL100\nEG D513C 1400-1500 SFC-FL100\nEG D513C 1515-1600 SFC-FL100",
-                "ItemF": "SFC",
-                "ItemG": "FL230",
-                "Marker": "+",
-                "NotamStoreDate": "210920231256"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
                 "Number": "4611",
                 "Year": "23",
                 "Type": "N",
@@ -27391,6 +27567,35 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "210920231317"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4832",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5530N00035W",
+                "Radius": "32",
+                "ItemA": "EGPX",
+                "StartValidity": "2309221400",
+                "EndValidity": "2309221600",
+                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 1400-1500 SFC-FL230\nEG D513A 1515-1600 SFC-FL230\nEG D513B 1400-1500 SFC-FL230\nEG D513B 1515-1600 SFC-FL230\nEG D513C 1400-1500 SFC-FL100\nEG D513C 1515-1600 SFC-FL100",
+                "ItemF": "SFC",
+                "ItemG": "FL230",
+                "Marker": "+",
+                "NotamStoreDate": "220920230831"
               },
               {
                 "@OriginalMessage": "false",
