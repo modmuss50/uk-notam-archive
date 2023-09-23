@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066434243",
+    "@PIBId": "400000066436416",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-23T09:00:56+00:00",
-        "ValidTo": "2023-09-24T09:00:00+00:00"
+        "ValidFrom": "2023-09-23T10:00:28+00:00",
+        "ValidTo": "2023-09-24T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-23T09:00:56+00:00",
+      "Issued": "2023-09-23T10:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309230688",
+      "PibUid": "EG712309230761",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7999,7 +7999,37 @@
           {
             "Code": "EGTO",
             "Name": "ROCHESTER",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6520",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "14"
+                },
+                "Coordinates": "5121N00033E",
+                "Radius": "2",
+                "ItemA": "EGTO",
+                "StartValidity": "2309240900",
+                "EndValidity": "2309241600",
+                "ItemE": "KITE FLYING WI 1NM RADIUS 512107N 0003252E (CAPSTONE, KENT).\nMAX HGT 1000FT AGL. FOR INFO 07868 588692. 2023-09-0462/AO3",
+                "ItemF": "SFC",
+                "ItemG": "1400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "180920231401"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9255,33 +9285,62 @@
             "Code": "EGNW",
             "Name": "WICKENBY",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "4352",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FU",
-                  "Code45": "AU",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "4352",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FU",
+                    "Code45": "AU",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5319N00021W",
+                  "Radius": "5",
+                  "ItemA": "EGNW",
+                  "StartValidity": "2307231000",
+                  "EndValidity": "2309301600",
+                  "ItemE": "JET A1 FUEL NOT AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "230720230910"
                 },
-                "Coordinates": "5319N00021W",
-                "Radius": "5",
-                "ItemA": "EGNW",
-                "StartValidity": "2307231000",
-                "EndValidity": "2309301600",
-                "ItemE": "JET A1 FUEL NOT AVBL",
-                "Marker": "+",
-                "NotamStoreDate": "230720230910"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5650",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5319N00021W",
+                  "Radius": "5",
+                  "ItemA": "EGNW",
+                  "StartValidity": "2309240900",
+                  "EndValidity": "2309241500",
+                  "ItemE": "AD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "230920230922"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -9289,33 +9348,62 @@
             "Code": "EGBO",
             "Name": "WOLVERHAMPTON/HALFPENNY GREEN",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5361",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5361",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5231N00216W",
+                  "Radius": "5",
+                  "ItemA": "EGBO",
+                  "StartValidity": "2309110858",
+                  "EndValidity": "2309251800",
+                  "ItemE": "TAXIWAY A CLOSED BETWEEN FUEL BAY AND HOLDING POINT A5",
+                  "Marker": "+",
+                  "NotamStoreDate": "110920230916"
                 },
-                "Coordinates": "5231N00216W",
-                "Radius": "5",
-                "ItemA": "EGBO",
-                "StartValidity": "2309110858",
-                "EndValidity": "2309251800",
-                "ItemE": "TAXIWAY A CLOSED BETWEEN FUEL BAY AND HOLDING POINT A5",
-                "Marker": "+",
-                "NotamStoreDate": "110920230916"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5651",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "LE",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5231N00216W",
+                  "Radius": "5",
+                  "ItemA": "EGBO",
+                  "StartValidity": "2309230945",
+                  "EndValidity": "2310072300",
+                  "ItemE": "RUNWAY 16/34 EDGE LIGHTS ARE 50 PER CENT U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "230920230949"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -12293,7 +12381,35 @@
           {
             "Code": "EGTP",
             "Name": "PERRANPORTH",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "E",
+                "Number": "185",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FU",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5020N00511W",
+                "Radius": "5",
+                "ItemA": "EGTP",
+                "StartValidity": "2309230910",
+                "EndValidity": "2309281600",
+                "ItemE": "NO FUEL AVAILABLE",
+                "Marker": "+",
+                "NotamStoreDate": "230920230914"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -21789,6 +21905,65 @@
                 "ItemG": "1750FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "220920231049"
+              },
+              {
+                "@Reference": "EGTO",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6520",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "14"
+                },
+                "Coordinates": "5121N00033E",
+                "Radius": "2",
+                "ItemA": "EGTO",
+                "StartValidity": "2309240900",
+                "EndValidity": "2309241600",
+                "ItemE": "KITE FLYING WI 1NM RADIUS 512107N 0003252E (CAPSTONE, KENT).\nMAX HGT 1000FT AGL. FOR INFO 07868 588692. 2023-09-0462/AO3",
+                "ItemF": "SFC",
+                "ItemG": "1400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "180920231401"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6636",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5235N00208W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2309240900",
+                "EndValidity": "2309241500",
+                "ItemE": "UAS OPR WI 0.1NM RADIUS OF 523432N 0020803W (WOLVERHAMPTON,\nWEST MIDLANDS). MAX HGT 390FT AGL. FOR INFO 07821 795511. \n2023-09-0607/AU2",
+                "ItemF": "SFC",
+                "ItemG": "950FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "220920230912"
               }
             ]
           },
