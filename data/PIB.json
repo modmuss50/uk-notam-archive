@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066673440",
+    "@PIBId": "400000066675830",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-09-28T11:00:17+00:00",
-        "ValidTo": "2023-09-29T11:00:00+00:00"
+        "ValidFrom": "2023-09-28T12:00:22+00:00",
+        "ValidTo": "2023-09-29T12:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-09-28T11:00:17+00:00",
+      "Issued": "2023-09-28T12:00:22+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712309280957",
+      "PibUid": "EG712309281016",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4029,7 +4029,35 @@
           {
             "Code": "EGHH",
             "Name": "BOURNEMOUTH",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5467",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5047N00151W",
+                "Radius": "5",
+                "ItemA": "EGHH",
+                "StartValidity": "2309281130",
+                "EndValidity": "2309292000",
+                "ItemE": "RUNWAY 26X UNAVAILABLE",
+                "Marker": "+",
+                "NotamStoreDate": "280920231135"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -6132,33 +6160,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5745",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5350N00112W",
-                  "Radius": "5",
-                  "ItemA": "EGCM",
-                  "StartValidity": "2309280745",
-                  "EndValidity": "2309281200",
-                  "ItemE": "RFFS DOWNGRADED TO CAT 1",
-                  "Marker": "+",
-                  "NotamStoreDate": "280920230740"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
                   "Number": "5747",
                   "Year": "23",
                   "Type": "N",
@@ -6689,35 +6690,6 @@
                   "ItemE": "LONDON CITY OBSTACLE\nADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nTYPE: CRANES\nPOSITION: 512922.0N 0000406.0E\nELEVATION/HEIGHT: 344FT AMSL/302FT AGL\nLIGHTING: YES - RED\nREMARKS: WOOLWICH. END ESTIMATED JANUARY 2025.\nUK AIP EGLC AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "210920231009"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "6635",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "1"
-                  },
-                  "Coordinates": "5130N00002W",
-                  "Radius": "1",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2309281100",
-                  "EndValidity": "2309281200",
-                  "ItemE": "UAS OPR WI 0.2NM RADIUS OF 513011N 0000226W. (SW OF LONDON CITY\nAD) MAX HGT 50FT AGL. FOR INFO 07740 048610. 2023-09-0592/AU2",
-                  "ItemF": "SFC",
-                  "ItemG": "60FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "220920230911"
                 }
               ]
             },
@@ -10293,36 +10265,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "6293",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "6262",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "35"
-                  },
-                  "Coordinates": "5109N00145W",
-                  "Radius": "5",
-                  "ItemA": "EGDM",
-                  "StartValidity": "2309271305",
-                  "EndValidity": "2309281630",
-                  "ItemE": "BOSCOMBE DOWN BACKUP GENERATOR OFFLINE DUE TO MAINTENANCE",
-                  "Marker": "+",
-                  "NotamStoreDate": "270920231305"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "6305",
                   "Year": "23",
                   "Type": "N",
@@ -10344,6 +10286,36 @@
                   "ItemE": "RFFS CAT 7",
                   "Marker": "+",
                   "NotamStoreDate": "280920230734"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6314",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "U",
+                  "ReferredNumber": "6293",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "35"
+                  },
+                  "Coordinates": "5109N00145W",
+                  "Radius": "5",
+                  "ItemA": "EGDM",
+                  "StartValidity": "2309281151",
+                  "EndValidity": "2310021630",
+                  "ItemE": "BOSCOMBE DOWN BACKUP GENERATOR OFFLINE DUE TO MAINTENANCE",
+                  "Marker": "+",
+                  "NotamStoreDate": "280920231156"
                 }
               ]
             },
@@ -10860,7 +10832,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "6287",
+                  "Number": "6312",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -10877,10 +10849,10 @@
                   "Radius": "5",
                   "ItemA": "EGYD",
                   "StartValidity": "2309290600",
-                  "EndValidity": "2309291600",
+                  "EndValidity": "2309290900",
                   "ItemE": "NO DIVERSION COMMITMENTS OR VISITORS ACCEPTED",
                   "Marker": "+",
-                  "NotamStoreDate": "270920231230"
+                  "NotamStoreDate": "280920231143"
                 }
               ]
             },
@@ -18324,37 +18296,6 @@
                 "NotamStoreDate": "210920231625"
               },
               {
-                "@Reference": "EGDM",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6293",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "U",
-                "ReferredNumber": "6262",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "35"
-                },
-                "Coordinates": "5109N00145W",
-                "Radius": "5",
-                "ItemA": "EGDM",
-                "StartValidity": "2309271305",
-                "EndValidity": "2309281630",
-                "ItemE": "BOSCOMBE DOWN BACKUP GENERATOR OFFLINE DUE TO MAINTENANCE",
-                "Marker": "+",
-                "NotamStoreDate": "270920231305"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -18608,6 +18549,37 @@
                 "ItemE": "CRANE OPR PSN 530551N 0000957W (RAF CONINGSBY) MAX HGT 114FT AGL \n139FT AMSL. CTC 07842 316912",
                 "Marker": "+",
                 "NotamStoreDate": "250920231238"
+              },
+              {
+                "@Reference": "EGDM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "6314",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "U",
+                "ReferredNumber": "6293",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "35"
+                },
+                "Coordinates": "5109N00145W",
+                "Radius": "5",
+                "ItemA": "EGDM",
+                "StartValidity": "2309281151",
+                "EndValidity": "2310021630",
+                "ItemE": "BOSCOMBE DOWN BACKUP GENERATOR OFFLINE DUE TO MAINTENANCE",
+                "Marker": "+",
+                "NotamStoreDate": "280920231156"
               },
               {
                 "@Reference": "EGNR",
@@ -22737,36 +22709,6 @@
                 "NotamStoreDate": "270920231206"
               },
               {
-                "@Reference": "EGLC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6635",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "1"
-                },
-                "Coordinates": "5130N00002W",
-                "Radius": "1",
-                "ItemA": "EGLC",
-                "StartValidity": "2309281100",
-                "EndValidity": "2309281200",
-                "ItemE": "UAS OPR WI 0.2NM RADIUS OF 513011N 0000226W. (SW OF LONDON CITY\nAD) MAX HGT 50FT AGL. FOR INFO 07740 048610. 2023-09-0592/AU2",
-                "ItemF": "SFC",
-                "ItemG": "60FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "220920230911"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -23435,6 +23377,70 @@
                 "ItemG": "256FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "270920230937"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4935",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5453N00036E",
+                "Radius": "62",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2309290745",
+                "EndValidity": "2309291530",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323A 0745-1015 FL050-FL320\nEG D323A 1100-1245 FL050-FL660\nEG D323A 1245-1530 FL050-FL320\nEG D323G 1130-1245 FL150-FL660\nEG D323G 1245-1530 FL150-FL320\nEG D323L 0745-1015 FL100-FL320\nEG D323L 1100-1245 FL100-FL660\nEG D323L 1245-1530 FL100-FL320\nEG D323Q 0745-1015 FL100-FL320\nEG D323Q 1100-1245 FL100-FL660\nEG D323Q 1245-1530 FL100-FL320",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "280920231158"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4936",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5442N00046E",
+                "Radius": "63",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2309290745",
+                "EndValidity": "2309291530",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323B 0745-1015 FL050-FL320\nEG D323B 1100-1245 FL050-FL660\nEG D323B 1245-1530 FL050-FL320\nEG D323H 1130-1245 FL150-FL660\nEG D323H 1245-1530 FL150-FL320\nEG D323M 0745-1015 FL100-FL320\nEG D323M 1100-1245 FL100-FL660\nEG D323M 1245-1530 FL100-FL320\nEG D323R 0745-1015 FL100-FL320\nEG D323R 1100-1245 FL100-FL660\nEG D323R 1245-1530 FL100-FL320",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "280920231200"
               },
               {
                 "@Reference": "EGXE",
@@ -26753,33 +26759,6 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "B",
-                "Number": "2368",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5600N00350W",
-                "Radius": "120",
-                "ItemA": "EGPX",
-                "StartValidity": "2309280001",
-                "EndValidity": "2309281200",
-                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH\nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM,\nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST\n(ALDERGROVE), AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "270920230845"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
                 "Number": "2333",
                 "Year": "23",
                 "Type": "N",
@@ -28241,6 +28220,72 @@
                 "ItemG": "FL245",
                 "Marker": "+",
                 "NotamStoreDate": "270920231209"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4935",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5453N00036E",
+                "Radius": "62",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2309290745",
+                "EndValidity": "2309291530",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323A 0745-1015 FL050-FL320\nEG D323A 1100-1245 FL050-FL660\nEG D323A 1245-1530 FL050-FL320\nEG D323G 1130-1245 FL150-FL660\nEG D323G 1245-1530 FL150-FL320\nEG D323L 0745-1015 FL100-FL320\nEG D323L 1100-1245 FL100-FL660\nEG D323L 1245-1530 FL100-FL320\nEG D323Q 0745-1015 FL100-FL320\nEG D323Q 1100-1245 FL100-FL660\nEG D323Q 1245-1530 FL100-FL320",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "280920231158"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4936",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5442N00046E",
+                "Radius": "63",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2309290745",
+                "EndValidity": "2309291530",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323B 0745-1015 FL050-FL320\nEG D323B 1100-1245 FL050-FL660\nEG D323B 1245-1530 FL050-FL320\nEG D323H 1130-1245 FL150-FL660\nEG D323H 1245-1530 FL150-FL320\nEG D323M 0745-1015 FL100-FL320\nEG D323M 1100-1245 FL100-FL660\nEG D323M 1245-1530 FL100-FL320\nEG D323R 0745-1015 FL100-FL320\nEG D323R 1100-1245 FL100-FL660\nEG D323R 1245-1530 FL100-FL320",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "280920231200"
               }
             ]
           },
