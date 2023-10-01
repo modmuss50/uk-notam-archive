@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066877374",
+    "@PIBId": "400000066880858",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-01T09:00:55+00:00",
-        "ValidTo": "2023-10-02T09:00:00+00:00"
+        "ValidFrom": "2023-10-01T10:00:27+00:00",
+        "ValidTo": "2023-10-02T10:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-01T09:00:55+00:00",
+      "Issued": "2023-10-01T10:00:27+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310010638",
+      "PibUid": "EG712310010701",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -7807,13 +7807,13 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5834",
+                  "Number": "5836",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FA",
-                    "Code45": "XX",
+                    "Code45": "LT",
                     "Traffic": "IV",
                     "Purpose": "NBO",
                     "Scope": "A",
@@ -7823,11 +7823,11 @@
                   "Coordinates": "5328N00223W",
                   "Radius": "5",
                   "ItemA": "EGCB",
-                  "StartValidity": "2310010754",
+                  "StartValidity": "2310010930",
                   "EndValidity": "2310011700",
-                  "ItemE": "AD MAY CLOSE AT SHORT NOTICE SUBJECT TO FURTHER RAINFALL",
+                  "ItemE": "AD NOT AVAILABLE TO FIXED WING DUE WATERLOGGING",
                   "Marker": "+",
-                  "NotamStoreDate": "011020230800"
+                  "NotamStoreDate": "011020230926"
                 }
               ]
             },
@@ -8479,9 +8479,12 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "5816",
+                "Number": "5838",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "5816",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "NB",
@@ -8495,11 +8498,11 @@
                 "Coordinates": "5215N00253W",
                 "Radius": "5",
                 "ItemA": "EGBS",
-                "StartValidity": "2310010815",
-                "EndValidity": "2310071600",
+                "StartValidity": "2310010925",
+                "EndValidity": "2311160000",
                 "ItemE": "NDB SH/SHOBDON 426KHZ U/S",
                 "Marker": "+",
-                "NotamStoreDate": "300920231326"
+                "NotamStoreDate": "011020230934"
               }
             },
             "ObsoleteNotamList": null
@@ -21711,6 +21714,93 @@
                 "ItemG": "567FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "300920230939"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4959",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5410N00117E",
+                "Radius": "63",
+                "ItemA": "EGTT",
+                "StartValidity": "2310020915",
+                "EndValidity": "2310021430",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323D 0915-1015 FL050-FL660\nEG D323D 1015-1115 FL050-FL660\nEG D323D 1115-1215 FL050-FL660\nEG D323D 1215-1315 FL050-FL660\nEG D323D 1345-1430 FL050-FL660\nEG D323K 0915-1015 FL150-FL660\nEG D323K 1015-1115 FL150-FL660\nEG D323K 1115-1215 FL150-FL660\nEG D323K 1215-1315 FL150-FL660\nEG D323K 1345-1430 FL150-FL660\nEG D323P 0915-1015 FL100-FL300\nEG D323P 1015-1115 FL100-FL300\nEG D323P 1115-1215 FL100-FL300\nEG D323P 1215-1315 FL100-FL300\nEG D323P 1345-1430 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "290920231113"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4960",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5358N00148E",
+                "Radius": "48",
+                "ItemA": "EGTT",
+                "StartValidity": "2310020915",
+                "EndValidity": "2310021430",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323E 0915-1015 FL050-FL660\nEG D323E 1015-1115 FL050-FL660\nEG D323E 1115-1215 FL050-FL660\nEG D323E 1215-1315 FL050-FL660\nEG D323E 1345-1430 FL050-FL660",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "290920231113"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "4963",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "245",
+                  "Upper": "660"
+                },
+                "Coordinates": "5250N00040E",
+                "Radius": "47",
+                "ItemA": "EGTT",
+                "StartValidity": "2310020915",
+                "EndValidity": "2310021445",
+                "ItemE": "THE FOLLOWING EAST ANGLIA MILITARY TRAINING AREAS ACTIVATED:\nEAMTA LOW  0915-1015 FL245-FL285\nEAMTA LOW  1345-1445 FL245-FL285\nEAMTA HIGH 0915-1015 FL285-FL660\nEAMTA HIGH 1345-1445 FL285-FL660",
+                "ItemF": "FL245",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "290920231117"
               }
             ]
           },
@@ -21724,35 +21814,7 @@
           {
             "Code": "EGPR",
             "Name": "BARRA",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "2677",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "FA",
-                  "Code45": "HW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5701N00727W",
-                "Radius": "5",
-                "ItemA": "EGPR",
-                "StartValidity": "2309020951",
-                "EndValidity": "2310010930",
-                "ItemE": "AD WIP BETWEEN TERMINAL AND RWY 15 MARKER",
-                "Marker": "+",
-                "NotamStoreDate": "020920230956"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -23003,6 +23065,35 @@
                   "ItemE": "STAND 12 OUT OF SERVICE",
                   "Marker": "+",
                   "NotamStoreDate": "300920231934"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5508",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "7"
+                  },
+                  "Coordinates": "5502N00141W",
+                  "Radius": "1",
+                  "ItemA": "EGNT",
+                  "StartValidity": "2310020900",
+                  "EndValidity": "2310021100",
+                  "ItemE": "UAS OPR WI 2NM RADIUS OF 550217N 0014123W (NEWCASTLE AD).\nVISUAL LINE OF SIGHT UPTO 666FT AMSL 400FT AGL.",
+                  "ItemF": "SFC",
+                  "ItemG": "666FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "300920230745"
                 }
               ]
             },
@@ -23180,6 +23271,33 @@
                   "ItemE": "PRESTWICK ATS NOT AVAILABLE DUE STAFFING",
                   "Marker": "+",
                   "NotamStoreDate": "240920231048"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7349",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5530N00435W",
+                  "Radius": "1",
+                  "ItemA": "EGPK",
+                  "StartValidity": "2310020900",
+                  "EndValidity": "2310021500",
+                  "ItemE": "CRANE OPERATING AT 553006N 0043524W PRESTWICK HEIGHT 83FT AGL \n118FT\nAMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "290920231502"
                 }
               ]
             },
@@ -24433,6 +24551,34 @@
                 "ItemE": "VOR/DME STN/STORNOWAY 115.10MHZ CH098X BOTH PARTS U/S",
                 "Marker": "+",
                 "NotamStoreDate": "210920231226"
+              },
+              {
+                "@Reference": "EGPK",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "7349",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5530N00435W",
+                "Radius": "1",
+                "ItemA": "EGPK",
+                "StartValidity": "2310020900",
+                "EndValidity": "2310021500",
+                "ItemE": "CRANE OPERATING AT 553006N 0043524W PRESTWICK HEIGHT 83FT AGL \n118FT\nAMSL",
+                "Marker": "+",
+                "NotamStoreDate": "290920231502"
               }
             ]
           },
@@ -25353,6 +25499,36 @@
                 "ItemG": "FL230",
                 "Marker": "+",
                 "NotamStoreDate": "290920231114"
+              },
+              {
+                "@Reference": "EGNT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5508",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "7"
+                },
+                "Coordinates": "5502N00141W",
+                "Radius": "1",
+                "ItemA": "EGNT",
+                "StartValidity": "2310020900",
+                "EndValidity": "2310021100",
+                "ItemE": "UAS OPR WI 2NM RADIUS OF 550217N 0014123W (NEWCASTLE AD).\nVISUAL LINE OF SIGHT UPTO 666FT AMSL 400FT AGL.",
+                "ItemF": "SFC",
+                "ItemG": "666FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "300920230745"
               }
             ]
           },
