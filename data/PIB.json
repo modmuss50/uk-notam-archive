@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000066880858",
+    "@PIBId": "400000066883537",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-01T10:00:27+00:00",
-        "ValidTo": "2023-10-02T10:00:00+00:00"
+        "ValidFrom": "2023-10-01T11:00:17+00:00",
+        "ValidTo": "2023-10-02T11:00:00+00:00"
       },
       "ProfileId": "400000001684471",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-01T10:00:27+00:00",
+      "Issued": "2023-10-01T11:00:17+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310010701",
+      "PibUid": "EG712310010735",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4973,37 +4973,7 @@
           {
             "Code": "EGSU",
             "Name": "DUXFORD",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5744",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "4"
-                },
-                "Coordinates": "5204N00009E",
-                "Radius": "1",
-                "ItemA": "EGSU",
-                "StartValidity": "2310010900",
-                "EndValidity": "2310011100",
-                "ItemE": "UAS OPR WI 0.05NM RADIUS OF PSN 520339N 0000845E (1.92NM FM\nDUXFORD AD). MAX HGT 300FT AGL/326FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "326FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "270920231631"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -6075,7 +6045,37 @@
           {
             "Code": "EGKH",
             "Name": "LASHENDEN/HEADCORN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6803",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5109N00038E",
+                "Radius": "3",
+                "ItemA": "EGKH",
+                "StartValidity": "2310021000",
+                "EndValidity": "2310021100",
+                "ItemE": "ARTICLE DROP WI 2NM RADIUS: 510923N 0003818E (HEADCORN AD,\nASHFORD). FOR INFO CONTACT 07880 741988. 2023-10-0088/AU1",
+                "ItemF": "SFC",
+                "ItemG": "1000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "280920231021"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -6223,9 +6223,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "7264",
+                  "Number": "7407",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "A",
+                  "ReferredNumber": "7264",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "MN",
@@ -6239,11 +6242,11 @@
                   "Coordinates": "5320N00251W",
                   "Radius": "5",
                   "ItemA": "EGGP",
-                  "StartValidity": "2309260918",
-                  "EndValidity": "2310021100",
-                  "ItemE": "APRON ENTRANCE AND EXIT VIA VICTOR CLOSED",
+                  "StartValidity": "2310010953",
+                  "EndValidity": "2310092359",
+                  "ItemE": "APRON ENTRANCE/EXIT VICTOR IS CLOSED",
                   "Marker": "+",
-                  "NotamStoreDate": "260920230918"
+                  "NotamStoreDate": "011020231002"
                 }
               ]
             },
@@ -9512,7 +9515,35 @@
           {
             "Code": "EGFH",
             "Name": "SWANSEA",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5839",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5136N00404W",
+                "Radius": "5",
+                "ItemA": "EGFH",
+                "StartValidity": "2310011100",
+                "EndValidity": "2310012359",
+                "ItemE": "AD CLSD DUE TO WX",
+                "Marker": "+",
+                "NotamStoreDate": "011020231054"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -20853,36 +20884,6 @@
                 "NotamStoreDate": "280920230931"
               },
               {
-                "@Reference": "EGSU",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5744",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "4"
-                },
-                "Coordinates": "5204N00009E",
-                "Radius": "1",
-                "ItemA": "EGSU",
-                "StartValidity": "2310010900",
-                "EndValidity": "2310011100",
-                "ItemE": "UAS OPR WI 0.05NM RADIUS OF PSN 520339N 0000845E (1.92NM FM\nDUXFORD AD). MAX HGT 300FT AGL/326FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "326FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "270920231631"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -21801,6 +21802,36 @@
                 "ItemG": "FL660",
                 "Marker": "+",
                 "NotamStoreDate": "290920231117"
+              },
+              {
+                "@Reference": "EGKH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6803",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5109N00038E",
+                "Radius": "3",
+                "ItemA": "EGKH",
+                "StartValidity": "2310021000",
+                "EndValidity": "2310021100",
+                "ItemE": "ARTICLE DROP WI 2NM RADIUS: 510923N 0003818E (HEADCORN AD,\nASHFORD). FOR INFO CONTACT 07880 741988. 2023-10-0088/AU1",
+                "ItemF": "SFC",
+                "ItemG": "1000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "280920231021"
               }
             ]
           },
@@ -24411,33 +24442,6 @@
                 "ItemE": "OBST OFFSHORE WINDFARM UNDER CONSTRUCTION WI 10NM RADIUS: \n545835N 0014136E (DOGGER BANK, NORTH SEA). UP TO 814FT AMSL. FOR INFO\nCONTACT 07586 332078. ON EXPIRY OF THIS NOTAM DETAILS WILL BE\nINCLUDED IN THE UK AIP ENR 5.4. AR-2023-331/AOPS1.",
                 "Marker": "+",
                 "NotamStoreDate": "290920231144"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2381",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "SE",
-                  "Code45": "AH",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5622N00252W",
-                "Radius": "40",
-                "ItemA": "EGPX",
-                "StartValidity": "2310010800",
-                "EndValidity": "2310011100",
-                "ItemE": "LEUCHARS LOWER AIRSPACE RADAR SERVICE AVAILABLE",
-                "Marker": "+",
-                "NotamStoreDate": "280920230821"
               },
               {
                 "@Reference": "EGPK",
