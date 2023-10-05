@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067117572",
+    "@PIBId": "400000067120105",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-05T05:00:50+00:00",
-        "ValidTo": "2023-10-06T05:00:00+00:00"
+        "ValidFrom": "2023-10-05T06:00:28+00:00",
+        "ValidTo": "2023-10-06T06:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-05T05:00:50+00:00",
+      "Issued": "2023-10-05T06:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310050391",
+      "PibUid": "EG712310050514",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5769,7 +5769,36 @@
           {
             "Code": "EGHF",
             "Name": "LEE-ON-SOLENT",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "4421",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5049N00112W",
+                "Radius": "5",
+                "ItemA": "EGHF",
+                "StartValidity": "2307280500",
+                "EndValidity": "2310270730",
+                "ItemD": "FRI 0500-0730",
+                "ItemE": "RESIDENTS OUT OF HOURS MOVEMENT NOT PERMITTED DUE TO SCHEDULED\nAIRPORT AND RUNWAY SWEEPING. COASTGUARD SAR IS EXCLUDED FROM THIS\nRESTRICTION",
+                "Marker": "+",
+                "NotamStoreDate": "260720231335"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -7674,7 +7703,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001254342",
+                "TAMloc": "EGHQ",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-05T05:01:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGHQ",
+                    "10050501 12 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-05T05:01:00+00:00",
+                "TamObservationTime": "2023-10-05T05:01:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGBK",
@@ -10662,6 +10710,63 @@
                   "ItemE": "RFFS CAPABILITY DOWNGRADED TO 2 VEHICLES WITH 6000 GALLONS AGENT\nAVAILABLE. CRITICAL LEVEL OF SERVICE FOR CAT 10 AND 9 AIRCRAFTS,\nREDUCED LEVEL OF SERVICE FOR CAT 8 AIRCRAFTS",
                   "Marker": "+",
                   "NotamStoreDate": "031020231712"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6459",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "U",
+                  "ReferredNumber": "6458",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2310050500",
+                  "EndValidity": "2310050700",
+                  "ItemE": "AIR TRAFFIC CONTROL TOWER CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "051020230532"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6263",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2310060500",
+                  "EndValidity": "2310061700",
+                  "ItemE": "ATC TOWER AND AIRFIELD MANAGEMENT FACILITIES CLSD.",
+                  "Marker": "+",
+                  "NotamStoreDate": "260920231206"
                 }
               ]
             },
@@ -20679,64 +20784,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5038",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "30"
-                },
-                "Coordinates": "5113N00142W",
-                "Radius": "5",
-                "ItemA": "EGTT",
-                "StartValidity": "2310041800",
-                "EndValidity": "2310050600",
-                "ItemE": "THE FOLLOWING BULFORD DANGER AREAS ARE ACTIVATED:\nEG D126   1800-0600   SFC-3000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "3000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "031020231231"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5041",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "30"
-                },
-                "Coordinates": "5117N00144W",
-                "Radius": "5",
-                "ItemA": "EGTT",
-                "StartValidity": "2310041800",
-                "EndValidity": "2310050600",
-                "ItemE": "THE FOLLOWING EVERLEIGH DANGER AREAS ARE ACTIVATED:\nEG D128   1800-05/0600   SFC-3000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "3000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "031020231233"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "H",
                 "Number": "6873",
                 "Year": "23",
@@ -21969,6 +22016,36 @@
                 "ItemG": "800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "031020231016"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6951",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "28"
+                },
+                "Coordinates": "5037N00206W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2310060530",
+                "EndValidity": "2310071830",
+                "ItemD": "0530-1830",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 2 WI 1NM RADIUS OF PSN 503655N 0020621W \n(KIMMERIDGE, DORSET). 2000FT AGL. CTC 07713 126122. 23/10/033/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "031020231132"
               }
             ]
           },
