@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067178766",
+    "@PIBId": "400000067181230",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-06T10:00:24+00:00",
-        "ValidTo": "2023-10-07T10:00:00+00:00"
+        "ValidFrom": "2023-10-06T11:00:28+00:00",
+        "ValidTo": "2023-10-07T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-06T10:00:24+00:00",
+      "Issued": "2023-10-06T11:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310060920",
+      "PibUid": "EG712310060990",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3936,7 +3936,27 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001254665",
+                "TAMloc": "EGNH",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-06T10:16:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNH",
+                    "10061016 10 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null,
+                    "TEST SNOWTAM FOR ADDRESS CHANGE ISSUE."
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-06T10:17:00+00:00",
+                "TamObservationTime": "2023-10-06T10:16:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGHH",
@@ -8064,33 +8084,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5943",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "CA",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "25"
-                  },
-                  "Coordinates": "5218N00048W",
-                  "Radius": "2",
-                  "ItemA": "EGBK",
-                  "StartValidity": "2310060800",
-                  "EndValidity": "2310061100",
-                  "ItemE": "NORTHAMPTON/SYWELL A/G COM SERVICE NOT AVBL, MAKE BLIND CALLS TO \nSYWELL TRAFFIC 122.705MHZ",
-                  "Marker": "+",
-                  "NotamStoreDate": "041020231700"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
                   "Number": "5941",
                   "Year": "23",
                   "Type": "N",
@@ -8112,6 +8105,34 @@
                   "ItemE": "OVERHEAD JOINS NOT PERMITTED DUE AEROBATICS WI NORTHAMPTON/SYWELL \nATZ. ACFT TO ENTER/LEAVE ATZ ON RUNWAY HEADING. INFO ON STATUS FROM \nSYWELL RADIO ON 122.705MHZ. HEL PROCEDURES VIA HELI E, HELI NE \nUNAFFECTED.",
                   "Marker": "+",
                   "NotamStoreDate": "041020231624"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5979",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5218N00048W",
+                  "Radius": "5",
+                  "ItemA": "EGBK",
+                  "StartValidity": "2310070800",
+                  "EndValidity": "2310081700",
+                  "ItemD": "0800-1700",
+                  "ItemE": "AD NOT AVBL TO ACFT REQUIRING THE USE OF A LICENSED AD DUE RFFS\nCOVER DEPLETED",
+                  "Marker": "+",
+                  "NotamStoreDate": "061020231012"
                 }
               ]
             },
@@ -9469,6 +9490,34 @@
                   "ItemE": "RWY 07 ASDA INTERSECTION DISTANCE WITH TWY CHARLIE AMENDED TO READ\n1388 M.\nUK AIP AD 2.13 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "040920230802"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5866",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00326W",
+                  "Radius": "5",
+                  "ItemA": "EGSY",
+                  "StartValidity": "2310071000",
+                  "EndValidity": "2310081600",
+                  "ItemD": "1000-1030 1230-1300 1500-1600",
+                  "ItemE": "ATC CLOSED. IN AN EMERGENCY CONTACT AD SECURITY ON 01446 243900.",
+                  "Marker": "+",
+                  "NotamStoreDate": "021020231210"
                 }
               ]
             },
@@ -17334,34 +17383,6 @@
                 "NotamStoreDate": "051020231438"
               },
               {
-                "@Reference": "EGBK",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5943",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "25"
-                },
-                "Coordinates": "5218N00048W",
-                "Radius": "2",
-                "ItemA": "EGBK",
-                "StartValidity": "2310060800",
-                "EndValidity": "2310061100",
-                "ItemE": "NORTHAMPTON/SYWELL A/G COM SERVICE NOT AVBL, MAKE BLIND CALLS TO \nSYWELL TRAFFIC 122.705MHZ",
-                "Marker": "+",
-                "NotamStoreDate": "041020231700"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -21581,6 +21602,35 @@
                 "NotamStoreDate": "031020230802"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5092",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5114N00154W",
+                "Radius": "6",
+                "ItemA": "EGTT",
+                "StartValidity": "2310070730",
+                "EndValidity": "2310072259",
+                "ItemE": "THE FOLLOWING LARKHILL DANGER AREAS ARE ACTIVATED:\nEG D125   0730-2259   SFC-23000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "23000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "061020231017"
+              },
+              {
                 "@Reference": "EGOV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -24656,6 +24706,33 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
+                "Series": "N",
+                "Number": "300",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5610N00302W",
+                "Radius": "1",
+                "ItemA": "EGPX",
+                "StartValidity": "2310061030",
+                "EndValidity": "2310172359",
+                "ItemE": "OBST MAST AT PSN: 561023N 0030132W (FIFE). UP TO 365FT AGL, \n415FT AMSL. FOR INFO CONTACT 07411 782145. ON EXPIRY OF THIS \nNOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4. \nAR-2023-474/AOPS1.",
+                "Marker": "+",
+                "NotamStoreDate": "061020231032"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
                 "Series": "B",
                 "Number": "2437",
                 "Year": "23",
@@ -25949,6 +26026,64 @@
                 "ItemG": "15000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "061020230955"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7108",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "240"
+                },
+                "Coordinates": "5718N00312W",
+                "Radius": "28",
+                "ItemA": "EGPX",
+                "StartValidity": "2310061230",
+                "EndValidity": "2310061800",
+                "ItemE": "TRA(G) SCOTTISH LOWER AREA (NORTH) ACTIVE.",
+                "ItemF": "FL195",
+                "ItemG": "FL240",
+                "Marker": "+",
+                "NotamStoreDate": "061020231042"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7109",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "240"
+                },
+                "Coordinates": "5643N00351W",
+                "Radius": "23",
+                "ItemA": "EGPX",
+                "StartValidity": "2310061230",
+                "EndValidity": "2310061800",
+                "ItemE": "TRA(G) SCOTTISH LOWER AREA (SOUTH) ACTIVE",
+                "ItemF": "FL195",
+                "ItemG": "FL240",
+                "Marker": "+",
+                "NotamStoreDate": "061020231043"
               },
               {
                 "@OriginalMessage": "false",
