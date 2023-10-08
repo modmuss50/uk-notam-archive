@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067258581",
+    "@PIBId": "400000067260711",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-08T05:00:51+00:00",
-        "ValidTo": "2023-10-09T05:00:00+00:00"
+        "ValidFrom": "2023-10-08T06:00:29+00:00",
+        "ValidTo": "2023-10-09T06:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-08T05:00:51+00:00",
+      "Issued": "2023-10-08T06:00:29+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310080391",
+      "PibUid": "EG712310080483",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3822,9 +3822,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "5926",
+                  "Number": "6006",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "5926",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FU",
@@ -3838,11 +3841,11 @@
                   "Coordinates": "5119N00051W",
                   "Radius": "5",
                   "ItemA": "EGLK",
-                  "StartValidity": "2310040901",
-                  "EndValidity": "2310081700",
-                  "ItemE": "AVGAS 100LL PUMPS CLSD. FUEL AVBL FROM BOWSER ONLY",
+                  "StartValidity": "2310080540",
+                  "EndValidity": "2310121700",
+                  "ItemE": "AVGAS 100LL PUMPS CLSD. FUEL AVBL FROM BOWSER ONLY.",
                   "Marker": "+",
-                  "NotamStoreDate": "041020230906"
+                  "NotamStoreDate": "081020230544"
                 }
               ]
             },
@@ -5294,35 +5297,6 @@
                   "ItemE": "AD CLSD",
                   "Marker": "+",
                   "NotamStoreDate": "031020231253"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5989",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WU",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5154N00210W",
-                  "Radius": "1",
-                  "ItemA": "EGBJ",
-                  "StartValidity": "2310080530",
-                  "EndValidity": "2310080600",
-                  "ItemE": "UAS OPR WI 0.5NM RADIUS OF 515353N 0021014W, (CHURCHDOWN, \nGLOUCESTERSHIRE) MAX HGT 164FT AGL, 237FT AMSL.)",
-                  "ItemF": "SFC",
-                  "ItemG": "237FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "061020231349"
                 }
               ]
             },
@@ -7537,7 +7511,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001255111",
+                "TAMloc": "EGHQ",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-08T05:25:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGHQ",
+                    "10080525 12 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-08T05:26:00+00:00",
+                "TamObservationTime": "2023-10-08T05:25:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGBK",
@@ -8748,33 +8741,6 @@
                   "ItemE": "SOUTHEND CTA/CTR/ATZ ACTIVATED, AD HOURS EXTENDED",
                   "Marker": "+",
                   "NotamStoreDate": "300920230733"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7580",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5134N00042E",
-                  "Radius": "5",
-                  "ItemA": "EGMC",
-                  "StartValidity": "2310071800",
-                  "EndValidity": "2310080600",
-                  "ItemE": "RFFS DOWNGRADED TO CATEGORY 4.",
-                  "Marker": "+",
-                  "NotamStoreDate": "071020231456"
                 }
               ]
             },
@@ -9102,7 +9068,35 @@
           {
             "Code": "EGHG",
             "Name": "YEOVIL/WESTLAND",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5939",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5057N00237W",
+                "Radius": "1",
+                "ItemA": "EGHG",
+                "StartValidity": "2310090500",
+                "EndValidity": "2310092359",
+                "ItemE": "CRANE OPR PSN 505639N 0023631W (077 DEG MAG 1.8NM FM\nYEOVIL/WESTLAND ARP). MAX HGT 100FT AGL / 220FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "041020231211"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -10289,6 +10283,33 @@
                   "ItemE": "PROTECTIVE AIRCRAFT SHELTER 24 CLOSED TO AIRCRAFT OPERATIONS",
                   "Marker": "+",
                   "NotamStoreDate": "021020231734"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6497",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2310090500",
+                  "EndValidity": "2310092100",
+                  "ItemE": "ATC TOWER AND AIRFIELD MANAGEMENT FACILITIES CLOSED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "061020230758"
                 }
               ]
             },
@@ -16359,6 +16380,34 @@
                 "ItemE": "LIT CRANE AT PSN 522446N 0001636E (ARCHER'S WOOD FARM, \nCAMBRIDGESHIRE) IN LOW FLYING AREA 6 AND NIGHT SECTOR 5A\nHGT 237FT AMSL (100FT AGL). 23/10/024/LFC",
                 "Marker": "+",
                 "NotamStoreDate": "021020231513"
+              },
+              {
+                "@Reference": "EGHG",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5939",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5057N00237W",
+                "Radius": "1",
+                "ItemA": "EGHG",
+                "StartValidity": "2310090500",
+                "EndValidity": "2310092359",
+                "ItemE": "CRANE OPR PSN 505639N 0023631W (077 DEG MAG 1.8NM FM\nYEOVIL/WESTLAND ARP). MAX HGT 100FT AGL / 220FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "041020231211"
               }
             ]
           },
@@ -19022,36 +19071,6 @@
                 "ItemG": "800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "051020231348"
-              },
-              {
-                "@Reference": "EGBJ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5989",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5154N00210W",
-                "Radius": "1",
-                "ItemA": "EGBJ",
-                "StartValidity": "2310080530",
-                "EndValidity": "2310080600",
-                "ItemE": "UAS OPR WI 0.5NM RADIUS OF 515353N 0021014W, (CHURCHDOWN, \nGLOUCESTERSHIRE) MAX HGT 164FT AGL, 237FT AMSL.)",
-                "ItemF": "SFC",
-                "ItemG": "237FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "061020231349"
               },
               {
                 "@OriginalMessage": "false",
