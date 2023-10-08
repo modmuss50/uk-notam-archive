@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067273212",
+    "@PIBId": "400000067274991",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-08T12:00:34+00:00",
-        "ValidTo": "2023-10-09T12:00:00+00:00"
+        "ValidFrom": "2023-10-08T13:00:48+00:00",
+        "ValidTo": "2023-10-09T13:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-08T12:00:34+00:00",
+      "Issued": "2023-10-08T13:00:48+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310080817",
+      "PibUid": "EG712310080857",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3846,33 +3846,6 @@
                   "ItemE": "AVGAS 100LL PUMPS CLSD. FUEL AVBL FROM BOWSER ONLY.",
                   "Marker": "+",
                   "NotamStoreDate": "081020230544"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6013",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5119N00051W",
-                  "Radius": "5",
-                  "ItemA": "EGLK",
-                  "StartValidity": "2310081200",
-                  "EndValidity": "2310081215",
-                  "ItemE": "AD CLSD DUE UAS ACTIVITY ON AD BOUNDARY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "081020231023"
                 }
               ]
             },
@@ -7685,36 +7658,67 @@
             "Code": "EGMD",
             "Name": "LYDD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5637",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "C",
-                "ReferredNumber": "5489",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "ST",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5637",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "5489",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00056E",
+                  "Radius": "5",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2310061538",
+                  "EndValidity": "2310131800",
+                  "ItemE": "ALDIS LAMP U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "061020231544"
                 },
-                "Coordinates": "5057N00056E",
-                "Radius": "5",
-                "ItemA": "EGMD",
-                "StartValidity": "2310061538",
-                "EndValidity": "2310131800",
-                "ItemE": "ALDIS LAMP U/S",
-                "Marker": "+",
-                "NotamStoreDate": "061020231544"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5664",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "1"
+                  },
+                  "Coordinates": "5055N00053E",
+                  "Radius": "3",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2310091200",
+                  "EndValidity": "2310091800",
+                  "ItemE": "UAS OPR WI 350M RADIUS OF PSN 505446N 0005610E AND PSN 505536N\n0005004E (S QUADRANT OF LYDD ATZ, DENGEMARSH BEACH AND JURYS GAP) MAX\nHGT 60FT AGL/60FT AMSL.",
+                  "ItemF": "SFC",
+                  "ItemG": "60FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "081020231021"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -17305,6 +17309,60 @@
                 "NotamStoreDate": "081020230846"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2487",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5147N00009W",
+                "Radius": "36",
+                "ItemA": "EGTT",
+                "StartValidity": "2310081245",
+                "EndValidity": "2310081900",
+                "ItemE": "FARNBOROUGH LOWER AIRSPACE RADAR SER NORTH FREQ 132.8MHZ NOT \nAVBL. WHEN OPR IN THE VICINITY OF CONTROLLED AIRSPACE, PILOTS ARE \nENCOURAGED TO MONITOR THE APPROPRIATE FREQ AND, WHERE APPLICABLE, \nSELECT THE ASSOCIATED FREQ MONITORING CODE",
+                "Marker": "+",
+                "NotamStoreDate": "081020231230"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2488",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5112N00010E",
+                "Radius": "33",
+                "ItemA": "EGTT",
+                "StartValidity": "2310081245",
+                "EndValidity": "2310081900",
+                "ItemE": "FARNBOROUGH LOWER AIRSPACE RADAR SER EAST FREQ 123.225MHZ NOT \nAVBL. WHEN OPR IN THE VICINITY OF CONTROLLED AIRSPACE, PILOTS ARE \nENCOURAGED TO MONITOR THE APPROPRIATE FREQ AND, WHERE APPLICABLE, \nSELECT THE ASSOCIATED FREQ MONITORING CODE",
+                "Marker": "+",
+                "NotamStoreDate": "081020231231"
+              },
+              {
                 "@Reference": "EGNS",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -21974,6 +22032,36 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "071020231300"
+              },
+              {
+                "@Reference": "EGMD",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5664",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "1"
+                },
+                "Coordinates": "5055N00053E",
+                "Radius": "3",
+                "ItemA": "EGMD",
+                "StartValidity": "2310091200",
+                "EndValidity": "2310091800",
+                "ItemE": "UAS OPR WI 350M RADIUS OF PSN 505446N 0005610E AND PSN 505536N\n0005004E (S QUADRANT OF LYDD ATZ, DENGEMARSH BEACH AND JURYS GAP) MAX\nHGT 60FT AGL/60FT AMSL.",
+                "ItemF": "SFC",
+                "ItemG": "60FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "081020231021"
               }
             ]
           },
