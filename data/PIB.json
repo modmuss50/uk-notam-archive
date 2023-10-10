@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067360259",
+    "@PIBId": "400000067362598",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-10T10:00:25+00:00",
-        "ValidTo": "2023-10-11T10:00:00+00:00"
+        "ValidFrom": "2023-10-10T11:00:29+00:00",
+        "ValidTo": "2023-10-11T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-10T10:00:25+00:00",
+      "Issued": "2023-10-10T11:00:29+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310100953",
+      "PibUid": "EG712310101014",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4600,33 +4600,62 @@
             "Code": "EGHR",
             "Name": "CHICHESTER/GOODWOOD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6014",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6014",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5052N00046W",
+                  "Radius": "5",
+                  "ItemA": "EGHR",
+                  "StartValidity": "2310081021",
+                  "EndValidity": "2310311600",
+                  "ItemE": "RWY 10/28 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "081020231025"
                 },
-                "Coordinates": "5052N00046W",
-                "Radius": "5",
-                "ItemA": "EGHR",
-                "StartValidity": "2310081021",
-                "EndValidity": "2310311600",
-                "ItemE": "RWY 10/28 CLSD",
-                "Marker": "+",
-                "NotamStoreDate": "081020231025"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6040",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5052N00046W",
+                  "Radius": "5",
+                  "ItemA": "EGHR",
+                  "StartValidity": "2310101019",
+                  "EndValidity": "2310111100",
+                  "ItemE": "ATS TEL NO 01243 755061 U/S. USE ATS MOBILE 07966 314630.",
+                  "Marker": "+",
+                  "NotamStoreDate": "101020231028"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -12610,33 +12639,6 @@
                   "ItemE": "TWY A CLSD BTN C AND RWY 02 THRESHOLD (EXCEPT RAFAT HAWK AND \nSHADOW)",
                   "Marker": "+",
                   "NotamStoreDate": "051020231043"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6516",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5310N00031W",
-                  "Radius": "5",
-                  "ItemA": "EGXW",
-                  "StartValidity": "2310100900",
-                  "EndValidity": "2310101100",
-                  "ItemE": "FLYING EMBARGO, NO DEPARTURES OR ARRIVALS, NO DIVERSIONS OR\nPRACTICE DIVERSIONS EXCEPT LINCOLNSHIRE AND NOTTINGHAM AIR\nAMBULANCE SERVICE DUE TO WADDINGTON GROUND EVENT",
-                  "Marker": "+",
-                  "NotamStoreDate": "091020230754"
                 }
               ]
             },
@@ -23487,6 +23489,33 @@
                   "ItemE": "VOR/DME INS/INVERNESS 109.2MHZ CH29X VOR PART U/S",
                   "Marker": "+",
                   "NotamStoreDate": "280920231023"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7653",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "SA",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5733N00403W",
+                  "Radius": "5",
+                  "ItemA": "EGPE",
+                  "StartValidity": "2310101034",
+                  "EndValidity": "2310101630",
+                  "ItemE": "ATIS NOT AVBL ON FREQ 109.20MHZ DUE MAINT INS DVOR. AD DETAILS \nAVBL ON 01667 464255.",
+                  "Marker": "+",
+                  "NotamStoreDate": "101020231035"
                 }
               ]
             },
