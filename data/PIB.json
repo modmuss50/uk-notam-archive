@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067409633",
+    "@PIBId": "400000067411755",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-11T10:00:23+00:00",
-        "ValidTo": "2023-10-12T10:00:00+00:00"
+        "ValidFrom": "2023-10-11T11:00:26+00:00",
+        "ValidTo": "2023-10-12T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-11T10:00:23+00:00",
+      "Issued": "2023-10-11T11:00:26+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310110956",
+      "PibUid": "EG712310111030",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3660,36 +3660,65 @@
             "Code": "EGBB",
             "Name": "BIRMINGHAM",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4922",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "C",
-                "ReferredNumber": "4001",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "5"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "4922",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "4001",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "5"
+                  },
+                  "Coordinates": "5227N00144W",
+                  "Radius": "1",
+                  "ItemA": "EGBB",
+                  "StartValidity": "2308311545",
+                  "EndValidity": "2311272359",
+                  "ItemE": "MOBILE CRANE OPR 522704N 0014351W (BIRMINGHAM AIRPORT 102DEG MAG\n1187M FM BIRMINGHAM ARP). MAX HGT 136FT AGL/467FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "310820231602"
                 },
-                "Coordinates": "5227N00144W",
-                "Radius": "1",
-                "ItemA": "EGBB",
-                "StartValidity": "2308311545",
-                "EndValidity": "2311272359",
-                "ItemE": "MOBILE CRANE OPR 522704N 0014351W (BIRMINGHAM AIRPORT 102DEG MAG\n1187M FM BIRMINGHAM ARP). MAX HGT 136FT AGL/467FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "310820231602"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5712",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "IC",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5227N00145W",
+                  "Radius": "5",
+                  "ItemA": "EGBB",
+                  "StartValidity": "2310111015",
+                  "EndValidity": "2310111500",
+                  "ItemE": "ILS RWY 15/33 U/S DUE MAINT",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020231040"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -4237,53 +4266,26 @@
                   "ItemE": "CAMBRIDGE OBSTACLE\nADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nOBSTACLE ID: C030.23\nTYPE: CRANE\nPOSITION: 521056N 0001025E\nELEVATION/HEIGHT: 341.5FT AMSL/262.5FT AGL\nREMARKS: END ESTIMATED SEPTEMBER 2024.\nUK AIP EGSC AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "080820231647"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7665",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5212N00011E",
-                  "Radius": "3",
-                  "ItemA": "EGSC",
-                  "StartValidity": "2310110900",
-                  "EndValidity": "2310111100",
-                  "ItemE": "CAMBRIDGE RADAR FREQUENCY 124.980 NOT AVBL DUE MAINT",
-                  "Marker": "+",
-                  "NotamStoreDate": "101020231436"
                 }
               ]
             },
             "ObsoleteNotamList": null,
             "Snowtam": {
               "TAMMessage": {
-                "TAMID": "400000001256069",
+                "TAMID": "400000001256071",
                 "TAMloc": "EGSC",
                 "TAMMessageAIXMType": "SW",
-                "TAMItemB": "2023-10-11T08:28:00+00:00",
+                "TAMItemB": "2023-10-11T10:10:00+00:00",
                 "TAMYear": "0",
                 "TAMNationalLetter": "EG",
                 "TAMItemList": {
                   "TAMItem": [
                     "EGSC",
-                    "10110828 05 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                    "10111010 05 5/5/5 50/50/50 NR/NR/NR WET/WET/WET"
                   ]
                 },
-                "TAMUpdateTime": "2023-10-11T08:34:00+00:00",
-                "TamObservationTime": "2023-10-11T08:28:00+00:00"
+                "TAMUpdateTime": "2023-10-11T10:19:00+00:00",
+                "TamObservationTime": "2023-10-11T10:10:00+00:00"
               }
             }
           },
@@ -6990,6 +6992,33 @@
                   "ItemE": "LIT MOBILE CRANE PSN 513019.0N 0000432.5E, (GALLIONS MARINA CROFT \nLOCK, LONDON E16 2QY). MAX 53FT AGL/68FT AMSL, LOWERED IN LVP.",
                   "Marker": "+",
                   "NotamStoreDate": "091020231249"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5713",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5130N00002E",
+                  "Radius": "1",
+                  "ItemA": "EGLC",
+                  "StartValidity": "2310111049",
+                  "EndValidity": "2311212259",
+                  "ItemE": "LIT MOBILE CRANE PSN 513016N 0000203E (LENDLEASE, SILVERTOWN \nQUAYS). MAX 95FT AGL/113FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020231049"
                 }
               ]
             },
@@ -8486,33 +8515,6 @@
                   "ItemE": "MOBILE CRANE OPR 523950N 0012210E (NEW RACKHEATH) HGT 115FT AGL/ \n218FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "111020230632"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7680",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5240N00118E",
-                  "Radius": "1",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2310110730",
-                  "EndValidity": "2310111500",
-                  "ItemE": "MOBILE CRANE OPR 524016N 0011743E (OLD CATTON) HGT 98FT AGL /\n215FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "111020230722"
                 }
               ]
             },
@@ -10095,7 +10097,35 @@
           {
             "Code": "EGFH",
             "Name": "SWANSEA",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6067",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5136N00404W",
+                "Radius": "5",
+                "ItemA": "EGFH",
+                "StartValidity": "2310111039",
+                "EndValidity": "2310120800",
+                "ItemE": "AD CLSD",
+                "Marker": "+",
+                "NotamStoreDate": "111020231042"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -11607,33 +11637,6 @@
                   "ItemE": "PROTECTIVE AIRCRAFT SHELTER 24 CLOSED TO AIRCRAFT OPERATIONS",
                   "Marker": "+",
                   "NotamStoreDate": "021020231734"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6542",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MH",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2310110616",
-                  "EndValidity": "2310111030",
-                  "ItemE": "RWY 06/24 ARRESTING GEAR LOWERED",
-                  "Marker": "+",
-                  "NotamStoreDate": "111020230627"
                 }
               ]
             },
@@ -18266,12 +18269,12 @@
                 "NotamStoreDate": "021020231555"
               },
               {
-                "@Reference": "EGSH",
+                "@Reference": "EGLC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "A",
-                "Number": "7680",
+                "Series": "C",
+                "Number": "5713",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -18282,44 +18285,16 @@
                   "Purpose": "M",
                   "Scope": "AE",
                   "Lower": "0",
-                  "Upper": "3"
+                  "Upper": "2"
                 },
-                "Coordinates": "5240N00118E",
+                "Coordinates": "5130N00002E",
                 "Radius": "1",
-                "ItemA": "EGSH",
-                "StartValidity": "2310110730",
-                "EndValidity": "2310111500",
-                "ItemE": "MOBILE CRANE OPR 524016N 0011743E (OLD CATTON) HGT 98FT AGL /\n215FT AMSL",
+                "ItemA": "EGLC",
+                "StartValidity": "2310111049",
+                "EndValidity": "2311212259",
+                "ItemE": "LIT MOBILE CRANE PSN 513016N 0000203E (LENDLEASE, SILVERTOWN \nQUAYS). MAX 95FT AGL/113FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "111020230722"
-              },
-              {
-                "@Reference": "EGSC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "7665",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5212N00011E",
-                "Radius": "3",
-                "ItemA": "EGSC",
-                "StartValidity": "2310110900",
-                "EndValidity": "2310111100",
-                "ItemE": "CAMBRIDGE RADAR FREQUENCY 124.980 NOT AVBL DUE MAINT",
-                "Marker": "+",
-                "NotamStoreDate": "101020231436"
+                "NotamStoreDate": "111020231049"
               },
               {
                 "@OriginalMessage": "false",
@@ -22795,6 +22770,35 @@
                 "ItemG": "226FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "270920231124"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7214",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WD",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5351N00007W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2310121000",
+                "EndValidity": "2310121200",
+                "ItemE": "DEMOLITION OF EXPLOSIVES WILL TAKE PLACE IN LOW FLYING AREA 11 WI \n1NM RADIUS OF PSN 535109N 0000635W (COWDEN BEACH, EAST RIDING OF \nYORKSHIRE) MAX HGT 2000FT AGL. ON SITE CTC 07947 244846. \n23/10/098/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "101020231105"
               }
             ]
           },
@@ -24382,6 +24386,34 @@
                   "ItemE": "CRANE OPR AT 552759N 0043553W (AYR). HGT 165FT AGL, 230FT AMSL. \nINNER HORIZONTAL SFC INFRINGED BY 45FT.",
                   "Marker": "+",
                   "NotamStoreDate": "031020231258"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7684",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5531N00436W",
+                  "Radius": "5",
+                  "ItemA": "EGPK",
+                  "StartValidity": "2310120700",
+                  "EndValidity": "2310281500",
+                  "ItemD": "0700-1500",
+                  "ItemE": "RWY 03/21 CLOSED DUE WIP. OPENED FOR OPERATIONAL REQUIREMENTS WITH\n30 MINS NOTICE",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020231022"
                 }
               ]
             },
