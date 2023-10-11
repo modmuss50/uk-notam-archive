@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067394745",
+    "@PIBId": "400000067397012",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-11T04:00:27+00:00",
-        "ValidTo": "2023-10-12T04:00:00+00:00"
+        "ValidFrom": "2023-10-11T05:00:51+00:00",
+        "ValidTo": "2023-10-12T05:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-11T04:00:27+00:00",
+      "Issued": "2023-10-11T05:00:51+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310110333",
+      "PibUid": "EG712310110400",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5038,7 +5038,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001256113",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-11T04:38:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "10110438 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-11T04:39:00+00:00",
+                "TamObservationTime": "2023-10-11T04:38:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -7640,11 +7659,11 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "7676",
+                  "Number": "7677",
                   "Year": "23",
                   "Type": "R",
                   "ReferredSeries": "A",
-                  "ReferredNumber": "7674",
+                  "ReferredNumber": "7676",
                   "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
@@ -7659,11 +7678,11 @@
                   "Coordinates": "5152N00022W",
                   "Radius": "5",
                   "ItemA": "EGGW",
-                  "StartValidity": "2310110141",
-                  "EndValidity": "2310111100",
+                  "StartValidity": "2310110403",
+                  "EndValidity": "2310111400",
                   "ItemE": "AD CLSD TO ALL MOVEMENTS",
                   "Marker": "+",
-                  "NotamStoreDate": "111020230142"
+                  "NotamStoreDate": "111020230403"
                 }
               ]
             },
@@ -22796,87 +22815,6 @@
                   "ItemE": "STEEL PLATE ON TAXILANE PAPA ABEAM STAND 206/207",
                   "Marker": "+",
                   "NotamStoreDate": "280920230809"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "6807",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2310101700",
-                  "EndValidity": "2310110500",
-                  "ItemE": "INBOUND ACFT TO EDINBURGH MAY EXPERIENCE HOLDING DUE TO WEATHER.\nPLEASE CONSIDER ADDITIONAL FUEL AS A RESULT.",
-                  "Marker": "+",
-                  "NotamStoreDate": "100920231713"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7675",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2310110100",
-                  "EndValidity": "2310110415",
-                  "ItemE": "B1 HOLDING POINT CLSD",
-                  "Marker": "+",
-                  "NotamStoreDate": "101020232234"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7660",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5557N00322W",
-                  "Radius": "5",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2310110200",
-                  "EndValidity": "2310110415",
-                  "ItemE": "RUNWAY 06/24 CLOSED FOR REPAIRS.",
-                  "Marker": "+",
-                  "NotamStoreDate": "101020231309"
                 }
               ]
             },
@@ -23125,33 +23063,6 @@
                   "ItemE": "OBSTRUCTION LIGHTS ON AD ARE CURRENTLY U/S - ILS/DME CABIN,\nVDS MAST, 09 ANEMOMETER, 27 ANEMOMETER, 09 RWY 27 WINDSOCK",
                   "Marker": "+",
                   "NotamStoreDate": "061020231344"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "3072",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5857N00254W",
-                  "Radius": "2",
-                  "ItemA": "EGPA",
-                  "StartValidity": "2310110340",
-                  "EndValidity": "2310110500",
-                  "ItemE": "KIRKWALL ATZ ACTIVE. AFIS/AD/ATIS/MET/FIRE AND RESCUE CAT3/\nADDITIONAL HOURS OF OPERATION. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "111020230349"
                 }
               ]
             },
@@ -24810,34 +24721,6 @@
                 "ItemE": "AIR NAV OBST LGT UK28145585F RTM RTM KNOCKMORE MAST SINGLE U/S \nPSN 573156.49N 0030806.35W ELEV 1544FT HGT 387FT",
                 "Marker": "+",
                 "NotamStoreDate": "101020232347"
-              },
-              {
-                "@Reference": "EGPA",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "3072",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5857N00254W",
-                "Radius": "2",
-                "ItemA": "EGPA",
-                "StartValidity": "2310110340",
-                "EndValidity": "2310110500",
-                "ItemE": "KIRKWALL ATZ ACTIVE. AFIS/AD/ATIS/MET/FIRE AND RESCUE CAT3/\nADDITIONAL HOURS OF OPERATION. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "111020230349"
               },
               {
                 "@Reference": "EGQS",
