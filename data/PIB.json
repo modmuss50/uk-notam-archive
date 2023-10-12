@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067479620",
+    "@PIBId": "400000067480514",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-12T21:00:16+00:00",
-        "ValidTo": "2023-10-13T21:00:00+00:00"
+        "ValidFrom": "2023-10-12T22:00:38+00:00",
+        "ValidTo": "2023-10-13T22:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-12T21:00:16+00:00",
+      "Issued": "2023-10-12T22:00:38+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310121707",
+      "PibUid": "EG712310121735",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5091,21 +5091,21 @@
             "ObsoleteNotamList": null,
             "Snowtam": {
               "TAMMessage": {
-                "TAMID": "400000001256713",
+                "TAMID": "400000001256736",
                 "TAMloc": "EGNX",
                 "TAMMessageAIXMType": "SW",
-                "TAMItemB": "2023-10-12T18:44:00+00:00",
+                "TAMItemB": "2023-10-12T21:32:00+00:00",
                 "TAMYear": "0",
                 "TAMNationalLetter": "EG",
                 "TAMItemList": {
                   "TAMItem": [
                     "EGNX",
-                    "10121844 09 5/6/6 75/NR/NR NR/NR/NR WET/DRY/DRY",
+                    "10122132 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
                     null
                   ]
                 },
-                "TAMUpdateTime": "2023-10-12T18:44:00+00:00",
-                "TamObservationTime": "2023-10-12T18:44:00+00:00"
+                "TAMUpdateTime": "2023-10-12T21:33:00+00:00",
+                "TamObservationTime": "2023-10-12T21:32:00+00:00"
               }
             }
           },
@@ -8158,62 +8158,33 @@
             "Code": "EGSH",
             "Name": "NORWICH",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7072",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "5",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2309190635",
-                  "EndValidity": "2311182130",
-                  "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
-                  "Marker": "+",
-                  "NotamStoreDate": "190920230635"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "7072",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7734",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2310122130",
-                  "EndValidity": "2310122200",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-\nARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "121020232016"
-                }
-              ]
+                "Coordinates": "5241N00117E",
+                "Radius": "5",
+                "ItemA": "EGSH",
+                "StartValidity": "2309190635",
+                "EndValidity": "2311182130",
+                "ItemE": "CAUTION BRIGHT FLOOD LIGHTING AT SPORTS GROUND 1.5NM FINAL RWY 27",
+                "Marker": "+",
+                "NotamStoreDate": "190920230635"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -17994,36 +17965,6 @@
                 "NotamStoreDate": "121020231816"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6040",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "4958N00426W",
-                "Radius": "175",
-                "ItemA": [
-                  "EGTT",
-                  "EGPX"
-                ],
-                "StartValidity": "2310122100",
-                "EndValidity": "2310122200",
-                "ItemE": "SWANWICK MIL SOUTH WEST INITIAL CONTACT FREQ 278.60MHZ UNAVAILABLE\nPILOTS ARE REQUESTED TO CONTACT THE ALTERNATIVE FREQUENCY 282.50MHZ.",
-                "Marker": "+",
-                "NotamStoreDate": "170920231943"
-              },
-              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18050,34 +17991,6 @@
                 "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ ACTIVATED. AD HOURS EXTENDED.",
                 "Marker": "+",
                 "NotamStoreDate": "121020232028"
-              },
-              {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "7734",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2310122130",
-                "EndValidity": "2310122200",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-\nARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "121020232016"
               },
               {
                 "@OriginalMessage": "false",
@@ -23764,6 +23677,34 @@
                   "ItemE": "RWY 03/21 CLOSED DUE WIP. OPENED FOR OPERATIONAL REQUIREMENTS WITH\n30 MINS NOTICE",
                   "Marker": "+",
                   "NotamStoreDate": "111020231022"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7587",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "SP",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5529N00433W",
+                  "Radius": "16",
+                  "ItemA": "EGPK",
+                  "StartValidity": "2310132100",
+                  "EndValidity": "2310190600",
+                  "ItemD": "2100-0600",
+                  "ItemE": "PRESTWICK RADAR SERVICE NOT AVAILABLE. NON RADAR SERVICE PROVIDED.\nAIRCRAFT MAY EXPERIENCE DELAYS AND REDUCED FLOW RATE DUE STAFFING",
+                  "Marker": "+",
+                  "NotamStoreDate": "081020230515"
                 }
               ]
             },
@@ -25165,37 +25106,6 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "U",
-                "Number": "6040",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "CA",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "4958N00426W",
-                "Radius": "175",
-                "ItemA": [
-                  "EGTT",
-                  "EGPX"
-                ],
-                "StartValidity": "2310122100",
-                "EndValidity": "2310122200",
-                "ItemE": "SWANWICK MIL SOUTH WEST INITIAL CONTACT FREQ 278.60MHZ UNAVAILABLE\nPILOTS ARE REQUESTED TO CONTACT THE ALTERNATIVE FREQUENCY 282.50MHZ.",
-                "Marker": "+",
-                "NotamStoreDate": "170920231943"
-              },
-              {
-                "@Reference": "EGTT",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
                 "Number": "6037",
                 "Year": "23",
                 "Type": "N",
@@ -25342,6 +25252,35 @@
                 "ItemE": "BENBECULA ATZ DEACTIVATED. AD/APP/TWR/ATIS/MET CLSD. LATEST DEP \nTIME 15 MIN PRIOR TO CLOSE TIME. AFIS SER AVBL FOR AIR AMBULANCE AND \nSAR FLIGHTS.",
                 "Marker": "+",
                 "NotamStoreDate": "071020230704"
+              },
+              {
+                "@Reference": "EGPK",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "7587",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5529N00433W",
+                "Radius": "16",
+                "ItemA": "EGPK",
+                "StartValidity": "2310132100",
+                "EndValidity": "2310190600",
+                "ItemD": "2100-0600",
+                "ItemE": "PRESTWICK RADAR SERVICE NOT AVAILABLE. NON RADAR SERVICE PROVIDED.\nAIRCRAFT MAY EXPERIENCE DELAYS AND REDUCED FLOW RATE DUE STAFFING",
+                "Marker": "+",
+                "NotamStoreDate": "081020230515"
               }
             ]
           },
