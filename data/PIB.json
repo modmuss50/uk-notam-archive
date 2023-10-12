@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067454194",
+    "@PIBId": "400000067456614",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-12T08:00:52+00:00",
-        "ValidTo": "2023-10-13T08:00:00+00:00"
+        "ValidFrom": "2023-10-12T09:00:12+00:00",
+        "ValidTo": "2023-10-13T09:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-12T08:00:52+00:00",
+      "Issued": "2023-10-12T09:00:12+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310120664",
+      "PibUid": "EG712310120747",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5191,7 +5191,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001256513",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-12T08:02:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "10120802 09 5/5/5 100/75/25 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-12T08:03:00+00:00",
+                "TamObservationTime": "2023-10-12T08:02:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -5710,7 +5729,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "6055",
+                  "Number": "6082",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -5726,11 +5745,11 @@
                   "Coordinates": "5154N00210W",
                   "Radius": "2",
                   "ItemA": "EGBJ",
-                  "StartValidity": "2310120830",
-                  "EndValidity": "2310120900",
-                  "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
+                  "StartValidity": "2310130830",
+                  "EndValidity": "2310130900",
+                  "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT\nAPPROACHES NOT AVBL.",
                   "Marker": "+",
-                  "NotamStoreDate": "111020230708"
+                  "NotamStoreDate": "121020230853"
                 }
               ]
             },
@@ -6271,6 +6290,33 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5732",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2310120759",
+                  "EndValidity": "2310122359",
+                  "ItemE": "LEEDS BRADFORD PRIMARY RADAR U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "121020230806"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
                   "Series": "H",
                   "Number": "6998",
                   "Year": "23",
@@ -6385,6 +6431,35 @@
                   "ItemE": "RFFS DOWNGRADED TO CAT 1",
                   "Marker": "+",
                   "NotamStoreDate": "121020230721"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5936",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "5"
+                  },
+                  "Coordinates": "5350N00112W",
+                  "Radius": "1",
+                  "ItemA": "EGCM",
+                  "StartValidity": "2310130800",
+                  "EndValidity": "2310131000",
+                  "ItemE": "UAS OPR WI 0.5NM RADIUS OF PSN 535003.8N 0011143.8W (WI LEEDS \nEAST ATZ). MAX HGT 429FT AMSL, 400FT AGL. ACFT MAY BE REQUESTED TO \nREMAIN CLR OF ATZ WHILE UAS IS ACTIVE.",
+                  "ItemF": "SFC",
+                  "ItemG": "429FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "041020231119"
                 }
               ]
             },
@@ -18048,6 +18123,34 @@
                 "NotamStoreDate": "121020230731"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5732",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2310120759",
+                "EndValidity": "2310122359",
+                "ItemE": "LEEDS BRADFORD PRIMARY RADAR U/S",
+                "Marker": "+",
+                "NotamStoreDate": "121020230806"
+              },
+              {
                 "@Reference": "EGKK",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18075,34 +18178,6 @@
                 "ItemE": "CRANE OPR PSN 510922N 0000937W (VCY GATWICK). MAX HGT 309FT AMSL, \n118FT AGL",
                 "Marker": "+",
                 "NotamStoreDate": "111020231225"
-              },
-              {
-                "@Reference": "EGBJ",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6055",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "22"
-                },
-                "Coordinates": "5154N00210W",
-                "Radius": "2",
-                "ItemA": "EGBJ",
-                "StartValidity": "2310120830",
-                "EndValidity": "2310120900",
-                "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
-                "Marker": "+",
-                "NotamStoreDate": "111020230708"
               },
               {
                 "@Reference": "EGFF",
@@ -18477,6 +18552,34 @@
                 "ItemE": "CRANE OPR PSN 530552N 0000956W (RAF CONINGSBY JUNIOR RANKS \nACCOMODATION) MAX HGT 114FT AGL/139FT AMSL. CTC 07842 316912",
                 "Marker": "+",
                 "NotamStoreDate": "080920231033"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6082",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5154N00210W",
+                "Radius": "2",
+                "ItemA": "EGBJ",
+                "StartValidity": "2310130830",
+                "EndValidity": "2310130900",
+                "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT\nAPPROACHES NOT AVBL.",
+                "Marker": "+",
+                "NotamStoreDate": "121020230853"
               }
             ]
           },
@@ -22322,6 +22425,36 @@
                 "NotamStoreDate": "111020231534"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7265",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "35"
+                },
+                "Coordinates": "5320N00137W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310120833",
+                "EndValidity": "2310121718",
+                "ItemD": "0833-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 8 WI 2NM RADIUS OF PSN 532029N 0013728W (STANAGE, \nDERBYSHIRE). 2000FT AGL. CTC 07873 156187. 23/10/123/LFC",
+                "ItemF": "SFC",
+                "ItemG": "3500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "121020230834"
+              },
+              {
                 "@Reference": "EGSU",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -22879,6 +23012,94 @@
                 "ItemG": "4000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "121020230748"
+              },
+              {
+                "@Reference": "EGCM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5936",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5350N00112W",
+                "Radius": "1",
+                "ItemA": "EGCM",
+                "StartValidity": "2310130800",
+                "EndValidity": "2310131000",
+                "ItemE": "UAS OPR WI 0.5NM RADIUS OF PSN 535003.8N 0011143.8W (WI LEEDS \nEAST ATZ). MAX HGT 429FT AMSL, 400FT AGL. ACFT MAY BE REQUESTED TO \nREMAIN CLR OF ATZ WHILE UAS IS ACTIVE.",
+                "ItemF": "SFC",
+                "ItemG": "429FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "041020231119"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "1058",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5248N00408W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310130800",
+                "EndValidity": "2310131200",
+                "ItemE": "DANGER AREA EG D217A LLANBEDR ACTIVATED",
+                "ItemF": "GND",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "071020231303"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "1070",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5253N00015E",
+                "Radius": "6",
+                "ItemA": "EGTT",
+                "StartValidity": "2310130800",
+                "EndValidity": "2310131130",
+                "ItemE": "DANGER AREA EG D207 HOLBEACH DEACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "23000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "101020231615"
               }
             ]
           },
@@ -23298,6 +23519,34 @@
                   "ItemE": "FUEL NOT AVAILABLE.\nUK AIP AD 2.2, AD 2.3, AD 2.4 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "111020230912"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3025",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "AZ",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5729N00722W",
+                  "Radius": "2",
+                  "ItemA": "EGPL",
+                  "StartValidity": "2310130830",
+                  "EndValidity": "2310201300",
+                  "ItemD": "13 16 20 0830-0930 1130-1300",
+                  "ItemE": "BENBECULA ATZ DEACTIVATED. AD/APP/TWR/ATIS/MET CLSD. LATEST DEP \nTIME 15 MIN PRIOR TO CLOSE TIME. AFIS SER AVBL FOR AIR AMBULANCE AND \nSAR FLIGHTS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "071020230704"
                 }
               ]
             },
@@ -23658,7 +23907,27 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001256547",
+                "TAMloc": "EGPH",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-12T08:35:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGPH",
+                    "10120835 06 6/5/5 NR/25/50 NR/NR/NR DRY/WET/WET",
+                    null,
+                    "RWY 06 CHEMICALLY TREATED."
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-12T08:43:00+00:00",
+                "TamObservationTime": "2023-10-12T08:35:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGAB",
@@ -24773,7 +25042,36 @@
           {
             "Code": "EGPC",
             "Name": "WICK",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2960",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5828N00306W",
+                "Radius": "2",
+                "ItemA": "EGPC",
+                "StartValidity": "2310090815",
+                "EndValidity": "2310131900",
+                "ItemD": "09 13 0815-0845 1615-1645 1845-1900",
+                "ItemE": "WICK ATZ DEACTIVATED, AD CLOSED AND ATC/MET NOT AVAILABLE FOR\nTHREE PERIODS THROUGHOUT THE DAY DUE ATC STAFF SHORTAGE.",
+                "Marker": "+",
+                "NotamStoreDate": "031020231315"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -25589,6 +25887,35 @@
                 "NotamStoreDate": "061020231245"
               },
               {
+                "@Reference": "EGPC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "2960",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5828N00306W",
+                "Radius": "2",
+                "ItemA": "EGPC",
+                "StartValidity": "2310090815",
+                "EndValidity": "2310131900",
+                "ItemD": "09 13 0815-0845 1615-1645 1845-1900",
+                "ItemE": "WICK ATZ DEACTIVATED, AD CLOSED AND ATC/MET NOT AVAILABLE FOR\nTHREE PERIODS THROUGHOUT THE DAY DUE ATC STAFF SHORTAGE.",
+                "Marker": "+",
+                "NotamStoreDate": "031020231315"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -26099,6 +26426,35 @@
                 "ItemE": "SWANWICK MIL EAST INITIAL CONTACT FREQ 259.60MHZ UNAVAILABLE\nPILOTS ARE REQUESTED TO  CONTACT THE ALTERNATIVE FREQUENCY 269.47MHZ.",
                 "Marker": "+",
                 "NotamStoreDate": "170920231941"
+              },
+              {
+                "@Reference": "EGPL",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "3025",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AZ",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5729N00722W",
+                "Radius": "2",
+                "ItemA": "EGPL",
+                "StartValidity": "2310130830",
+                "EndValidity": "2310201300",
+                "ItemD": "13 16 20 0830-0930 1130-1300",
+                "ItemE": "BENBECULA ATZ DEACTIVATED. AD/APP/TWR/ATIS/MET CLSD. LATEST DEP \nTIME 15 MIN PRIOR TO CLOSE TIME. AFIS SER AVBL FOR AIR AMBULANCE AND \nSAR FLIGHTS.",
+                "Marker": "+",
+                "NotamStoreDate": "071020230704"
               }
             ]
           },
@@ -27113,6 +27469,35 @@
                 "ItemG": "FL195",
                 "Marker": "+",
                 "NotamStoreDate": "121020230554"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7264",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WE",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "14"
+                },
+                "Coordinates": "5753N00526W",
+                "Radius": "3",
+                "ItemA": "EGPX",
+                "StartValidity": "2310130700",
+                "EndValidity": "2310132030",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL \nOPERATE LOW FLYING AREA 14, 14T AND NIGHT SECTOR 1BE WI 2NM RADIUS \nOF PSN 575251N 0052550W, (GRUINARD ESTATE, HIGHLAND). MAX HGT 500FT \nAGL. ACFT MAY BE RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO \nCOMPLY WITH RAC OPS CTC 01667 464404. 23/10/121/LFC",
+                "ItemF": "SFC",
+                "ItemG": "1400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "121020230808"
               }
             ]
           },
