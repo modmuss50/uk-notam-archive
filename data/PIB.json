@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067449372",
+    "@PIBId": "400000067451747",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-12T06:00:27+00:00",
-        "ValidTo": "2023-10-13T06:00:00+00:00"
+        "ValidFrom": "2023-10-12T07:00:07+00:00",
+        "ValidTo": "2023-10-13T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-12T06:00:27+00:00",
+      "Issued": "2023-10-12T07:00:07+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310120460",
+      "PibUid": "EG712310120565",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4060,6 +4060,33 @@
                   "ItemE": "OVERFLIGHTS OF FLOCKS OF JACKDAWS CROSSING THE EASTERN END OF THE\nAD AND RWY 27 APCH. DAWN +2 HOURS AND DUSK -2 HOURS",
                   "Marker": "+",
                   "NotamStoreDate": "041020230659"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5729",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5123N00243W",
+                  "Radius": "5",
+                  "ItemA": "EGGD",
+                  "StartValidity": "2310120630",
+                  "EndValidity": "2310121200",
+                  "ItemE": "POSS LOSS OF SUPPORT TO 50 PERCENT OF AIRFIELD GROUND LIGHTING \nDUE GENERATOR FAILURE",
+                  "Marker": "+",
+                  "NotamStoreDate": "121020230634"
                 }
               ]
             },
@@ -4927,10 +4954,57 @@
                   "ItemE": "CRANE OPR PSN 520432N 0003616W (CRANFIELD VILLAGE) TO HGT 115FT \nAGL/480FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "210920231234"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6077",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MD",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5204N00037W",
+                  "Radius": "5",
+                  "ItemA": "EGTC",
+                  "StartValidity": "2310120645",
+                  "EndValidity": "PERM",
+                  "ItemE": "REMOVE RWY 03 INTERSECTION TAKE-OFF DISTANCES FROM HOLD D1 DUE TO\nPERMANENT TWY DELTA CLOSURE.\nUK AIP AD 2.13 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "121020230645"
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001256486",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-12T06:49:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "10120649 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null,
+                    "SS."
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-12T06:50:00+00:00",
+                "TamObservationTime": "2023-10-12T06:49:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -8078,9 +8152,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "5666",
+                  "Number": "5730",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "5666",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FA",
@@ -8094,11 +8171,11 @@
                   "Coordinates": "5026N00500W",
                   "Radius": "5",
                   "ItemA": "EGHQ",
-                  "StartValidity": "2310090600",
-                  "EndValidity": "2310132100",
-                  "ItemE": "AIRSTART AVBL FOR AIRCRAFT UP TO EMBRAER 145",
+                  "StartValidity": "2310120649",
+                  "EndValidity": "PERM",
+                  "ItemE": "AIR START AVBL FOR AIRCRAFT UP TO EMBRAER 145.\nUK AIP AD 2.4-7 REFERS.",
                   "Marker": "+",
-                  "NotamStoreDate": "081020231128"
+                  "NotamStoreDate": "121020230649"
                 }
               ]
             },
@@ -11297,33 +11374,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "6571",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "ST",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2310120515",
-                  "EndValidity": "2310120630",
-                  "ItemE": "AIR TRAFFIC CONTROL TOWER CLOSED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "121020230515"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "6572",
                   "Year": "23",
                   "Type": "N",
@@ -12038,33 +12088,6 @@
                   "ItemE": "NEW PARKING LAYOUT ON AIRCRAFT SERVICING PLATFORM 1. NEW LAYOUT \nCOMPRISES 8 ROWS WITH ROW 1 TOWARDS EAST AND ROW 8 TOWARDS WEST. \nPLEASE UPDATE RAMP CHARTS. MORE INFORMATION AVAILABLE FROM EMAIL\nNOR-NORTHOLTOPS(AT)MOD.GOV.UK OR PHONE 020 8833 8918",
                   "Marker": "+",
                   "NotamStoreDate": "300920230635"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6570",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2310111900",
-                  "EndValidity": "2310120700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "111020231904"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -21819,6 +21842,35 @@
                 "ItemG": "FL285",
                 "Marker": "+",
                 "NotamStoreDate": "111020231155"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7261",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "51"
+                },
+                "Coordinates": "5438N00307W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310120645",
+                "EndValidity": "2310121730",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 543739N 0030705W (JENKIN \nHILL, CUMBRIA). 2000FT AGL. CTC 07941 33023. 23/10/119/LFBC",
+                "ItemF": "SFC",
+                "ItemG": "5100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "121020230641"
               },
               {
                 "@Reference": "EGCJ",
