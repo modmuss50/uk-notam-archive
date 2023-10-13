@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067490347",
+    "@PIBId": "400000067492129",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-13T06:00:28+00:00",
-        "ValidTo": "2023-10-14T06:00:00+00:00"
+        "ValidFrom": "2023-10-13T07:00:08+00:00",
+        "ValidTo": "2023-10-14T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-13T06:00:28+00:00",
+      "Issued": "2023-10-13T07:00:08+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310130503",
+      "PibUid": "EG712310130579",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4215,6 +4215,60 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
+                  "Number": "7744",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310130650",
+                  "EndValidity": "2310131630",
+                  "ItemE": "GRASS RUNWAY 05/23 CLOSED DUE WATERLOGGING",
+                  "Marker": "+",
+                  "NotamStoreDate": "131020230650"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7745",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310130657",
+                  "EndValidity": "2310131630",
+                  "ItemE": "GRASS TWY V CLSD. HOLDING POINTS L1 AND L2 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "131020230657"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
                   "Number": "7695",
                   "Year": "23",
                   "Type": "N",
@@ -4958,7 +5012,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001256854",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-13T06:44:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "10130644 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-13T06:45:00+00:00",
+                "TamObservationTime": "2023-10-13T06:44:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -5588,6 +5661,34 @@
                   "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT\nAPPROACHES NOT AVBL.",
                   "Marker": "+",
                   "NotamStoreDate": "121020230853"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6048",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5152N00212W",
+                  "Radius": "1",
+                  "ItemA": "EGBJ",
+                  "StartValidity": "2310140600",
+                  "EndValidity": "2310151800",
+                  "ItemD": "0600-1800",
+                  "ItemE": "CRANE OPR 515153N 0021154W, (GLOUCESTER) MAX HGT 206FT AGL, 295FT\nAMSL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "101020231519"
                 }
               ]
             },
@@ -18182,6 +18283,62 @@
                 "ItemE": "DUE TO STAFF ISSUES THE FOLLOWING AIRSPACE WILL BE DELEGATED TO  \nLONDON AREA CONTROL (LAC). CTC THE APPROPRIATE LAC SECTOR OR \nGROUP SUPERVISOR WEST ON 01489 612413.\nCOTSWOLD CTA 1 3 8 9 11 12 13\nPEPZE CTA 14\nSTRUMBLE CTA 2 3 4\nBERRY HEAD CTA 1 2 8\nSEVERN CTA 1 2\nTHE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL:\nCARDIFF CTA 1-8 (ABOVE 6000FT)",
                 "Marker": "+",
                 "NotamStoreDate": "121020231700"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "361",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5129N00003E",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140600",
+                "EndValidity": "2310141700",
+                "ItemE": "LIT CRANE AT PSN 512841N 0000300E (QUEEN VICTORIA HOSPITAL, \nLONDON)\nIN THE THAMES VALLEY AVOIDANCE AREA. HGT 369FT AMSL (184FT AGL). \n23/10/100/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "101020231323"
+              },
+              {
+                "@Reference": "EGBJ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6048",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5152N00212W",
+                "Radius": "1",
+                "ItemA": "EGBJ",
+                "StartValidity": "2310140600",
+                "EndValidity": "2310151800",
+                "ItemD": "0600-1800",
+                "ItemE": "CRANE OPR 515153N 0021154W, (GLOUCESTER) MAX HGT 206FT AGL, 295FT\nAMSL.",
+                "Marker": "+",
+                "NotamStoreDate": "101020231519"
               }
             ]
           },
@@ -21872,6 +22029,156 @@
                 "ItemG": "2050FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "041020231020"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7205",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "28"
+                },
+                "Coordinates": "5114N00014W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140622",
+                "EndValidity": "2310151709",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN THAMES VALLEY AVOIDANCE \nAREA \nWI 2NM RADIUS OF PSN 511352N 0001331W (REIGATE, SURREY) \nMILITARY AIRCRAFT SHALL AVOID THE AREA FROM SURFACE TO 2000FT AGL. \n23/10/091/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "101020230854"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7206",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5256N00030W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140625",
+                "EndValidity": "2310151707",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 11\nWI 2NM RADIUS OF PSN 525614N 0003022W (OASBY, LINCOLNSHIRE) \nMILITARY AIRCRAFT SHALL AVOID THE AREA FROM SURFACE TO 2000FT AGL. \nEVENT 23/10/092/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2400FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "101020230907"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7212",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5042N00214W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140629",
+                "EndValidity": "2310151718",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 2\nWI 2NM RADIUS OF PSN 504145N 0021416W (BOVINGTON, DORSET) \nMILITARY AIRCRAFT SHALL AVOID THE AREA FROM SURFACE TO 2000FT AGL. \n23/10/095/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "101020231002"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7294",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "28"
+                },
+                "Coordinates": "5110N00412W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140638",
+                "EndValidity": "2310151725",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 510943N 0041224W \n(WOOLACOMBE, DEVON). 2000FT AGL. CTC 07554 995150. 23/10/134/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2800FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020230624"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7296",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "26"
+                },
+                "Coordinates": "5102N00416W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140638",
+                "EndValidity": "2310141728",
+                "ItemD": "SR-SS",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 510212N 0041533W \n(CORNBOROUGH,DEVON). 2000FT AGL. CTC 07554 995150. 23/10/135/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2600FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020230642"
               }
             ]
           },
@@ -25838,6 +26145,35 @@
                 "ItemG": "15000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "121020231347"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7295",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "240"
+                },
+                "Coordinates": "5705N00255W",
+                "Radius": "14",
+                "ItemA": "EGPX",
+                "StartValidity": "2310130810",
+                "EndValidity": "2310131600",
+                "ItemE": "TRA(G) ABOYNE AREA ACTIVE",
+                "ItemF": "FL195",
+                "ItemG": "FL240",
+                "Marker": "+",
+                "NotamStoreDate": "131020230636"
               },
               {
                 "@Reference": "EGTT",
