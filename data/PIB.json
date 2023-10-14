@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067531669",
+    "@PIBId": "400000067534014",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-14T07:00:08+00:00",
-        "ValidTo": "2023-10-15T07:00:00+00:00"
+        "ValidFrom": "2023-10-14T08:00:53+00:00",
+        "ValidTo": "2023-10-15T08:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-14T07:00:08+00:00",
+      "Issued": "2023-10-14T08:00:53+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310140551",
+      "PibUid": "EG712310140629",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4501,6 +4501,87 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
+                  "Number": "7788",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "105"
+                  },
+                  "Coordinates": "5123N00310W",
+                  "Radius": "22",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2310140715",
+                  "EndValidity": "2310141700",
+                  "ItemE": "DUE TO ATC STAFFING, REQUESTS TO CROSS THE CARDIFF CTA/CTR MAY BE\nREFUSED OR DELAYED. PILOTS SHOULD PLAN TO REMAIN CLEAR OF CARDIFF\nCONTROLLED AIRSPACE AND USE THE LISTENING SSR CODE 3636",
+                  "Marker": "+",
+                  "NotamStoreDate": "141020230715"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7789",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5124N00321W",
+                  "Radius": "5",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2310140715",
+                  "EndValidity": "2310141700",
+                  "ItemE": "INSTRUMENT TRAINING APPROACHES NOT AVAILABLE",
+                  "Marker": "+",
+                  "NotamStoreDate": "141020230715"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7790",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "105"
+                  },
+                  "Coordinates": "5123N00310W",
+                  "Radius": "22",
+                  "ItemA": "EGFF",
+                  "StartValidity": "2310140716",
+                  "EndValidity": "2310141700",
+                  "ItemE": "BASIC SERVICE,TRAFFIC SERVICE AND DECONFLICTION SERVICE NOT\nAVAILABLE FROM CARDIFF ATS. PILOTS ARE ENCOURAGED TO USE THE CARDIFF\nLISTENING SQUAWK 3636)",
+                  "Marker": "+",
+                  "NotamStoreDate": "141020230716"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
                   "Number": "7775",
                   "Year": "23",
                   "Type": "N",
@@ -5018,7 +5099,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001257228",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-14T07:50:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "10140750 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-14T07:55:00+00:00",
+                "TamObservationTime": "2023-10-14T07:50:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -9612,35 +9712,7 @@
           {
             "Code": "EGFH",
             "Name": "SWANSEA",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6107",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5136N00404W",
-                "Radius": "5",
-                "ItemA": "EGFH",
-                "StartValidity": "2310131031",
-                "EndValidity": "2310140800",
-                "ItemE": "AD CLSD",
-                "Marker": "+",
-                "NotamStoreDate": "131020231039"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -10490,6 +10562,33 @@
                   "ItemE": "GRASS RWY 26L/08R CLOSED DURING ROUTINE OPENING HOURS",
                   "Marker": "+",
                   "NotamStoreDate": "111020230858"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6551",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5302N00030W",
+                  "Radius": "5",
+                  "ItemA": "EGYD",
+                  "StartValidity": "2310150700",
+                  "EndValidity": "2310151630",
+                  "ItemE": "AD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020230818"
                 }
               ]
             },
@@ -11106,6 +11205,33 @@
                   "ItemE": "RWY 10/28 WET-WET WITH NO STANDING WATER",
                   "Marker": "+",
                   "NotamStoreDate": "131020231457"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6630",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "CA",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2310140712",
+                  "EndValidity": "2310141600",
+                  "ItemE": "PILOT TO DISPATCH FREQUENCY 308.85/131.975 UNSERVICABLE DUE TO\nMAINTENANCE. PLEASE CONTACT COMMAND POST (BANNER OPS) AT 300.8\nUNTIL FURTHER NOTICE",
+                  "Marker": "+",
+                  "NotamStoreDate": "141020230723"
                 }
               ]
             },
@@ -17410,6 +17536,62 @@
                 "NotamStoreDate": "111020231000"
               },
               {
+                "@Reference": "EGFF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "7788",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5123N00310W",
+                "Radius": "22",
+                "ItemA": "EGFF",
+                "StartValidity": "2310140715",
+                "EndValidity": "2310141700",
+                "ItemE": "DUE TO ATC STAFFING, REQUESTS TO CROSS THE CARDIFF CTA/CTR MAY BE\nREFUSED OR DELAYED. PILOTS SHOULD PLAN TO REMAIN CLEAR OF CARDIFF\nCONTROLLED AIRSPACE AND USE THE LISTENING SSR CODE 3636",
+                "Marker": "+",
+                "NotamStoreDate": "141020230715"
+              },
+              {
+                "@Reference": "EGFF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "7790",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5123N00310W",
+                "Radius": "22",
+                "ItemA": "EGFF",
+                "StartValidity": "2310140716",
+                "EndValidity": "2310141700",
+                "ItemE": "BASIC SERVICE,TRAFFIC SERVICE AND DECONFLICTION SERVICE NOT\nAVAILABLE FROM CARDIFF ATS. PILOTS ARE ENCOURAGED TO USE THE CARDIFF\nLISTENING SQUAWK 3636)",
+                "Marker": "+",
+                "NotamStoreDate": "141020230716"
+              },
+              {
                 "@Reference": "EGNJ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -21508,6 +21690,122 @@
                 "ItemG": "149FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "131020231551"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7298",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "33"
+                },
+                "Coordinates": "5113N00358W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310150700",
+                "EndValidity": "2310151730",
+                "ItemE": "CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR \nIN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 511249N 0035756W \n(TRENTISHOE, DEVON). 2000FT AGL. CTC 07554 995150. 23/10/136/LFC",
+                "ItemF": "SFC",
+                "ItemG": "3300FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020230750"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1859",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "170"
+                },
+                "Coordinates": "4945N00420W",
+                "Radius": "11",
+                "ItemA": "EGTT",
+                "StartValidity": "2310150730",
+                "EndValidity": "2310150900",
+                "ItemE": "DANGER AREA EG D008B PLYMOUTH ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "17000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020231114"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1860",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "170"
+                },
+                "Coordinates": "5002N00423W",
+                "Radius": "23",
+                "ItemA": "EGTT",
+                "StartValidity": "2310150730",
+                "EndValidity": "2310150900",
+                "ItemE": "DANGER AREA EG D008C PLYMOUTH ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "17000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020231114"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1858",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "170"
+                },
+                "Coordinates": "4941N00439W",
+                "Radius": "20",
+                "ItemA": "EGTT",
+                "StartValidity": "2310150730",
+                "EndValidity": "2310150900",
+                "ItemE": "DANGER AREA EG D008A PLYMOUTH ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "17000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "131020231112"
               }
             ]
           },
@@ -21521,7 +21819,35 @@
           {
             "Code": "EGPR",
             "Name": "BARRA",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "3112",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FA",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5701N00727W",
+                "Radius": "5",
+                "ItemA": "EGPR",
+                "StartValidity": "2310140742",
+                "EndValidity": "2310141500",
+                "ItemE": "REVISED AD HOURS 0830-1000 AND 1330-1500",
+                "Marker": "+",
+                "NotamStoreDate": "141020230750"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -25149,6 +25475,35 @@
                 "ItemG": "16000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "031020230902"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7316",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WG",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "100",
+                  "Upper": "195"
+                },
+                "Coordinates": "5640N00406W",
+                "Radius": "107",
+                "ItemA": "EGPX",
+                "StartValidity": "2310150700",
+                "EndValidity": "2310151710",
+                "ItemE": "GLD FLY WO SSR TRANSPONDER WI \n550000N 0050000W - 560000N 0070000W - 580000N 0040000W - \n580000N 0020000W - 560700N 0020000W - 560703N 0040000W - \n561400N 0040926W - 555330N 0050000W - 550000N 0050000W\nREF AIP ENR 1.1",
+                "ItemF": "FL100",
+                "ItemG": "FL195",
+                "Marker": "+",
+                "NotamStoreDate": "141020230508"
               }
             ]
           },
