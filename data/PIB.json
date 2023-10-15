@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067583455",
+    "@PIBId": "400000067585238",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-15T11:00:28+00:00",
-        "ValidTo": "2023-10-16T11:00:00+00:00"
+        "ValidFrom": "2023-10-15T12:00:39+00:00",
+        "ValidTo": "2023-10-16T12:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-15T11:00:28+00:00",
+      "Issued": "2023-10-15T12:00:39+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310150792",
+      "PibUid": "EG712310150834",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8234,6 +8234,33 @@
                   "ItemE": "NEWQUAY ATZ ACTIVATION AND AD HOURS.\nMON-FRI  0545-2100\nSAT      0545-1900\nSUN      0545-2100\nDURING OPENING TIMES RFFS CAT 6 UNLESS STATED. OUTSIDE OF THESE HOURS\nSAR AND AIR AMBULANCE FLIGHTS MAY TAKE PLACE.",
                   "Marker": "+",
                   "NotamStoreDate": "200820230813"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5708",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "24"
+                  },
+                  "Coordinates": "5026N00500W",
+                  "Radius": "3",
+                  "ItemA": "EGHQ",
+                  "StartValidity": "2310161100",
+                  "EndValidity": "2310191800",
+                  "ItemE": "NEWQUAY RADAR SERVICES NOT AVAILABLE DUE MAINT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020230904"
                 }
               ]
             },
@@ -9937,35 +9964,7 @@
           {
             "Code": "EGBW",
             "Name": "WELLESBOURNE MOUNTFORD",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6073",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5212N00137W",
-                "Radius": "5",
-                "ItemA": "EGBW",
-                "StartValidity": "2310150800",
-                "EndValidity": "2310151200",
-                "ItemE": "MAIN TWY CLSD AT HOLDING POINT ALPHA DUE PARKED ACFT, ACCESS TO \nRWY\n18 VIA HOLDING POINT BRAVO ONLY",
-                "Marker": "+",
-                "NotamStoreDate": "111020231530"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -18891,6 +18890,61 @@
                 "ItemE": "OXFORD RADAR CLOSED DUE MAINT. RESTRICTIONS IN ATZ CROSSING\nSERVICES. FREQ MONITORING CODE NOT AVBL. RESTRICTED IFR\nTRAINING AVBL TO BASED OPERATORS ONLY. REVISED IFR AND VFR\nRESTRICTIONS IN FORCE. ALL USERS ARE TO ENSURE PRE-BRIEFED\nBEFORE GETTING AIRBORNE. NO AIRTEST PROFILES. FOR INFO CTC ATC\n01865 290650 OPTION 0.",
                 "Marker": "+",
                 "NotamStoreDate": "081020232002"
+              },
+              {
+                "@Reference": "EGHQ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5708",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "24"
+                },
+                "Coordinates": "5026N00500W",
+                "Radius": "3",
+                "ItemA": "EGHQ",
+                "StartValidity": "2310161100",
+                "EndValidity": "2310191800",
+                "ItemE": "NEWQUAY RADAR SERVICES NOT AVAILABLE DUE MAINT.",
+                "Marker": "+",
+                "NotamStoreDate": "111020230904"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2498",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5026N00500W",
+                "Radius": "60",
+                "ItemA": "EGTT",
+                "StartValidity": "2310161100",
+                "EndValidity": "2310191800",
+                "ItemE": "NEWQUAY LOWER AIRSPACE RADAR SERVICES NOT AVAILABLE DUE MAINT.",
+                "Marker": "+",
+                "NotamStoreDate": "111020230905"
               }
             ]
           },
@@ -25041,33 +25095,6 @@
                   "ItemE": "CLOUD BASE RECORDER MAY GIVE INACCURATE READINGS ON AUTO\nMETAR.",
                   "Marker": "+",
                   "NotamStoreDate": "131020231258"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "3123",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5813N00620W",
-                  "Radius": "3",
-                  "ItemA": "EGPO",
-                  "StartValidity": "2310150841",
-                  "EndValidity": "2310151145",
-                  "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "151020230842"
                 }
               ]
             },
@@ -26357,34 +26384,6 @@
                 "ItemE": "PRESTWICK ATS NOT AVAILABLE DUE STAFFING",
                 "Marker": "+",
                 "NotamStoreDate": "081020230517"
-              },
-              {
-                "@Reference": "EGPO",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "3123",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5813N00620W",
-                "Radius": "3",
-                "ItemA": "EGPO",
-                "StartValidity": "2310150841",
-                "EndValidity": "2310151145",
-                "ItemE": "STORNOWAY ATZ ACTIVE. AD/FIS/MET SERVICE OPEN. RFFS CAT3 AVBL. AD\nREMAINS PPR.",
-                "Marker": "+",
-                "NotamStoreDate": "151020230842"
               },
               {
                 "@OriginalMessage": "false",
