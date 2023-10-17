@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067663150",
+    "@PIBId": "400000067665399",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-17T06:00:29+00:00",
-        "ValidTo": "2023-10-18T06:00:00+00:00"
+        "ValidFrom": "2023-10-17T07:00:14+00:00",
+        "ValidTo": "2023-10-18T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-17T06:00:29+00:00",
+      "Issued": "2023-10-17T07:00:14+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310170495",
+      "PibUid": "EG712310170579",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4463,10 +4463,82 @@
                   "ItemE": "CAMBRIDGE OBSTACLE\nADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nOBSTACLE ID: C030.23\nTYPE: CRANE\nPOSITION: 521056N 0001025E\nELEVATION/HEIGHT: 341.5FT AMSL/262.5FT AGL\nREMARKS: END ESTIMATED SEPTEMBER 2024.\nUK AIP EGSC AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "080820231647"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7853",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310170650",
+                  "EndValidity": "2310171630",
+                  "ItemE": "GRASS RUNWAY 05/23 CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "171020230650"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7854",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310170650",
+                  "EndValidity": "2310171630",
+                  "ItemE": "GRASS TAXIWAY VICTOR CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "171020230650"
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001258203",
+                "TAMloc": "EGSC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-17T06:46:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGSC",
+                    "10170646 05 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-17T06:51:00+00:00",
+                "TamObservationTime": "2023-10-17T06:46:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGFF",
@@ -11896,33 +11968,6 @@
                   "ItemE": "TWY DELTA UP TO RWY 07 THR CLSD DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "161020230913"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6658",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2310162033",
-                  "EndValidity": "2310170700",
-                  "ItemE": "RFFS DOWNGRADED TO ICAO CAT 4",
-                  "Marker": "+",
-                  "NotamStoreDate": "161020232033"
                 }
               ]
             },
@@ -20442,6 +20487,36 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
+                "Number": "7002",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5355N00058W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310140559",
+                "EndValidity": "2310181731",
+                "ItemD": "14 18 SR MINUS30-SS PLUS30",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.3NM RADIUS 535529N 0005828W\n(ELVINGTON AD). FOR INFO CONTACT 07557 513242 / 07761 480111. \n2023-09-0696/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "2050FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "041020231020"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
                 "Number": "7313",
                 "Year": "23",
                 "Type": "N",
@@ -23016,6 +23091,36 @@
                 "ItemG": "2000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "161020230952"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "1705",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5309N00130W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310180637",
+                "EndValidity": "2401161620",
+                "ItemD": "SR-SS",
+                "ItemE": "KITE FLYING FOR FALCONRY PURPOSES AT VARIOUS POSITIONS WI 0.5NM\nRADIUS 530842N 0012941W (HOLESTONE MOOR, NEAR ASHOVER). LARGE BIRDS \nOF PREY FLYING TO/FROM THE KITE.  FOR INFO TEL 07860 331351.  \n2023-04-0181/AS7.",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "180420230805"
               }
             ]
           },
