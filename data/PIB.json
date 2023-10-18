@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067704742",
+    "@PIBId": "400000067706997",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-18T04:00:25+00:00",
-        "ValidTo": "2023-10-19T04:00:00+00:00"
+        "ValidFrom": "2023-10-18T05:00:52+00:00",
+        "ValidTo": "2023-10-19T05:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-18T04:00:25+00:00",
+      "Issued": "2023-10-18T05:00:52+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310180329",
+      "PibUid": "EG712310180401",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6399,33 +6399,6 @@
                   "ItemE": "DME ASSOCIATED WITH ILS RWY 09 U/S",
                   "Marker": "+",
                   "NotamStoreDate": "171020230945"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "7858",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00251W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2310180045",
-                  "EndValidity": "2310180450",
-                  "ItemE": "TWY ALPHA CLSD BTN FOXTROT AND TANGO DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "171020231251"
                 }
               ]
             },
@@ -8266,33 +8239,62 @@
             "Code": "EGTK",
             "Name": "OXFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6112",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6112",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5150N00119W",
+                  "Radius": "5",
+                  "ItemA": "EGTK",
+                  "StartValidity": "2310131225",
+                  "EndValidity": "2310272130",
+                  "ItemE": "DEICING EQUIPMENT U/S.",
+                  "Marker": "+",
+                  "NotamStoreDate": "131020231228"
                 },
-                "Coordinates": "5150N00119W",
-                "Radius": "5",
-                "ItemA": "EGTK",
-                "StartValidity": "2310131225",
-                "EndValidity": "2310272130",
-                "ItemE": "DEICING EQUIPMENT U/S.",
-                "Marker": "+",
-                "NotamStoreDate": "131020231228"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6197",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "23"
+                  },
+                  "Coordinates": "5150N00119W",
+                  "Radius": "2",
+                  "ItemA": "EGTK",
+                  "StartValidity": "2310180600",
+                  "EndValidity": "2310180630",
+                  "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "181020230459"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -18245,6 +18247,34 @@
                 "NotamStoreDate": "171020230902"
               },
               {
+                "@Reference": "EGTK",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6197",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "23"
+                },
+                "Coordinates": "5150N00119W",
+                "Radius": "2",
+                "ItemA": "EGTK",
+                "StartValidity": "2310180600",
+                "EndValidity": "2310180630",
+                "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE.",
+                "Marker": "+",
+                "NotamStoreDate": "181020230459"
+              },
+              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -27006,39 +27036,6 @@
                 "ItemG": "5500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "111020231015"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EKCH",
-                "Series": "D",
-                "Number": "1503",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "D",
-                "ReferredNumber": "1502",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WS",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5629N00455E",
-                "Radius": "5",
-                "ItemA": "EKSI",
-                "StartValidity": "2310180303",
-                "EndValidity": "2310181200",
-                "Estimation": "EST",
-                "ItemE": "COLD FLARING EXPECTED",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "181020230304"
               },
               {
                 "@Reference": "EGTT",
