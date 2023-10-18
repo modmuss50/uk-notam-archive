@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067709172",
+    "@PIBId": "400000067711385",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-18T06:00:29+00:00",
-        "ValidTo": "2023-10-19T06:00:00+00:00"
+        "ValidFrom": "2023-10-18T07:00:09+00:00",
+        "ValidTo": "2023-10-19T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-18T06:00:29+00:00",
+      "Issued": "2023-10-18T07:00:09+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310180503",
+      "PibUid": "EG712310180614",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5836,6 +5836,33 @@
                   "ItemE": "HAWARDEN RADAR SERVICE AVBL FOR PRE BOOKED IFR TRAFFIC ONLY DUE \nSTAFF SHORTAGE. FOR ALL OTHER TFC HAWARDEN RADAR FREQ WILL BE \nBAND-BOXED WITH HAWARDEN TOWER PROVIDING A BASIC SERVICE ONLY.",
                   "Marker": "+",
                   "NotamStoreDate": "151020231455"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6109",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AZ",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "21"
+                  },
+                  "Coordinates": "5311N00259W",
+                  "Radius": "3",
+                  "ItemA": "EGNR",
+                  "StartValidity": "2310190640",
+                  "EndValidity": "2310190700",
+                  "ItemE": "HAWARDEN ATZ AND RMZ 1-3 ADDITIONALLY ACTIVE. AD OPEN. ALL ATS\nSERVICES AVAILABLE",
+                  "Marker": "+",
+                  "NotamStoreDate": "131020231133"
                 }
               ]
             },
@@ -8268,62 +8295,33 @@
             "Code": "EGTK",
             "Name": "OXFORD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6112",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5150N00119W",
-                  "Radius": "5",
-                  "ItemA": "EGTK",
-                  "StartValidity": "2310131225",
-                  "EndValidity": "2310272130",
-                  "ItemE": "DEICING EQUIPMENT U/S.",
-                  "Marker": "+",
-                  "NotamStoreDate": "131020231228"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6112",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6197",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "SP",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "23"
-                  },
-                  "Coordinates": "5150N00119W",
-                  "Radius": "2",
-                  "ItemA": "EGTK",
-                  "StartValidity": "2310180600",
-                  "EndValidity": "2310180630",
-                  "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "181020230459"
-                }
-              ]
+                "Coordinates": "5150N00119W",
+                "Radius": "5",
+                "ItemA": "EGTK",
+                "StartValidity": "2310131225",
+                "EndValidity": "2310272130",
+                "ItemE": "DEICING EQUIPMENT U/S.",
+                "Marker": "+",
+                "NotamStoreDate": "131020231228"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -12675,33 +12673,6 @@
                   "ItemE": "TWY SIERRA CLSD WEST OF ATC",
                   "Marker": "+",
                   "NotamStoreDate": "260920231312"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6602",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5237N00029W",
-                  "Radius": "5",
-                  "ItemA": "EGXT",
-                  "StartValidity": "2310121510",
-                  "EndValidity": "2310180700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "121020231513"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -18276,34 +18247,6 @@
                 "NotamStoreDate": "171020230902"
               },
               {
-                "@Reference": "EGTK",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6197",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "SP",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "23"
-                },
-                "Coordinates": "5150N00119W",
-                "Radius": "2",
-                "ItemA": "EGTK",
-                "StartValidity": "2310180600",
-                "EndValidity": "2310180630",
-                "ItemE": "OXFORD ATS NOT AVBL. ATZ REMAINS ACTIVE.",
-                "Marker": "+",
-                "NotamStoreDate": "181020230459"
-              },
-              {
                 "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18553,6 +18496,34 @@
                 "ItemE": "CAUTION  LOW ATMOSPHERIC PRESSURE IS FCST IN THE LONDON TMA. ALL \nPILOTS, ESPECIALLY THOSE INBD TO OR OUBD FM HEATHROW,GATWICK, LUTON, \nSTANSTED, LONDON CITY, BIRMINGHAM, COVENTRY, BIGGIN HILL, SOUTHEND, \nOXFORD, FARNBOROUGH AND SOUTHAMPTON ARE TO EXER EXTREME CTN WHEN \nCLIMBING OR DESCENDING THROUGH THE TRL LVL DUE TO SIG DIFFERENCE BTN \nTHE AD QNH AND THE STD ATMOSPHERIC PRESSURE SETTING.",
                 "Marker": "+",
                 "NotamStoreDate": "171020230922"
+              },
+              {
+                "@Reference": "EGNR",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6109",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AZ",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5311N00259W",
+                "Radius": "3",
+                "ItemA": "EGNR",
+                "StartValidity": "2310190640",
+                "EndValidity": "2310190700",
+                "ItemE": "HAWARDEN ATZ AND RMZ 1-3 ADDITIONALLY ACTIVE. AD OPEN. ALL ATS\nSERVICES AVAILABLE",
+                "Marker": "+",
+                "NotamStoreDate": "131020231133"
               }
             ]
           },
