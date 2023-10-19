@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067765151",
+    "@PIBId": "400000067767069",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-19T10:00:30+00:00",
-        "ValidTo": "2023-10-20T10:00:00+00:00"
+        "ValidFrom": "2023-10-19T11:00:28+00:00",
+        "ValidTo": "2023-10-20T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-19T10:00:30+00:00",
+      "Issued": "2023-10-19T11:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310190808",
+      "PibUid": "EG712310190863",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5739,7 +5739,35 @@
           {
             "Code": "EGCL",
             "Name": "FENLAND",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6015",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5244N00002W",
+                "Radius": "5",
+                "ItemA": "EGCL",
+                "StartValidity": "2310201000",
+                "EndValidity": "2310201800",
+                "ItemE": "AD CLSD DUE TO INTERRUPTION OF ELECTRICITY SUPPLY",
+                "Marker": "+",
+                "NotamStoreDate": "081020231455"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -10058,7 +10086,35 @@
           {
             "Code": "EGFH",
             "Name": "SWANSEA",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6229",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5136N00404W",
+                "Radius": "5",
+                "ItemA": "EGFH",
+                "StartValidity": "2310191013",
+                "EndValidity": "2310200800",
+                "ItemE": "AD CLSD WX",
+                "Marker": "+",
+                "NotamStoreDate": "191020231019"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -12799,33 +12855,62 @@
             "Code": "EGUW",
             "Name": "WATTISHAM",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6589",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6589",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5208N00057E",
+                  "Radius": "5",
+                  "ItemA": "EGUW",
+                  "StartValidity": "2310121209",
+                  "EndValidity": "2401122359",
+                  "ItemE": "ALL RNP PROCEDURES NOT AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "121020231239"
                 },
-                "Coordinates": "5208N00057E",
-                "Radius": "5",
-                "ItemA": "EGUW",
-                "StartValidity": "2310121209",
-                "EndValidity": "2401122359",
-                "ItemE": "ALL RNP PROCEDURES NOT AVBL",
-                "Marker": "+",
-                "NotamStoreDate": "121020231239"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6703",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "IC",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5208N00057E",
+                  "Radius": "5",
+                  "ItemA": "EGUW",
+                  "StartValidity": "2310190959",
+                  "EndValidity": "2311010130",
+                  "ItemE": "ILS RUNWAY 23 UNSERVICEABLE",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020231005"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -22890,35 +22975,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "F",
-                "Number": "1892",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "25"
-                },
-                "Coordinates": "4957N00515W",
-                "Radius": "7",
-                "ItemA": "EGTT",
-                "StartValidity": "2310191100",
-                "EndValidity": "2310191500",
-                "ItemE": "DANGER AREA EG D005B PREDANNACK CORRIDOR ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "2500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231634"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "M",
                 "Number": "5333",
                 "Year": "23",
@@ -23328,6 +23384,35 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5345",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RM",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "195",
+                  "Upper": "285"
+                },
+                "Coordinates": "5237N00426W",
+                "Radius": "50",
+                "ItemA": "EGTT",
+                "StartValidity": "2310200645",
+                "EndValidity": "2310201645",
+                "ItemE": "THE FOLLOWING NORTH WALES MILITARY TRAINING AREAS ACTIVATED:\nNORTH (LOW)  0645-1645 FL195-FL285\nSOUTH (LOW)  0645-1645 FL195-FL285",
+                "ItemF": "FL195",
+                "ItemG": "FL285",
+                "Marker": "+",
+                "NotamStoreDate": "191020231059"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
                 "Series": "D",
                 "Number": "1061",
                 "Year": "23",
@@ -23498,6 +23583,157 @@
                 "ItemG": "350FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "161020231431"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5339",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5445N00059E",
+                "Radius": "56",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323B 0915-1045 FL050-FL660\nEG D323M 0915-1045 FL100-FL300\nEG D323R 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231056"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5337",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5503N00038E",
+                "Radius": "57",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323A 0915-1045 FL050-FL660\nEG D323L 0915-1045 FL100-FL300\nEG D323Q 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231055"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5338",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5433N00113E",
+                "Radius": "53",
+                "ItemA": "EGTT",
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323C 0915-1045 FL050-FL660\nEG D323N 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231055"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5340",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5414N00130E",
+                "Radius": "55",
+                "ItemA": "EGTT",
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323D 0915-1045 FL050-FL660\nEG D323P 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231056"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5341",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5358N00148E",
+                "Radius": "48",
+                "ItemA": "EGTT",
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323E 0915-1045 FL050-FL660",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231056"
               }
             ]
           },
@@ -24754,33 +24990,6 @@
                   "ItemE": "NO OUT OF HOURS ON CALL SERVICE",
                   "Marker": "+",
                   "NotamStoreDate": "021020231347"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "3155",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "6012N00115W",
-                  "Radius": "5",
-                  "ItemA": "EGET",
-                  "StartValidity": "2310190945",
-                  "EndValidity": "2310191045",
-                  "ItemE": "AD CLOSED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "191020230939"
                 }
               ]
             },
@@ -28049,6 +28258,64 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "M",
+                "Number": "5342",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "100",
+                  "Upper": "660"
+                },
+                "Coordinates": "5640N00006E",
+                "Radius": "72",
+                "ItemA": "EGPX",
+                "StartValidity": "2310200800",
+                "EndValidity": "2310201530",
+                "ItemE": "THE FOLLOWING CENTRAL MANAGED DANGER AREAS ARE ACTIVATED:\nEG D613A 0800-0930 FL100-FL660\nEG D613A 0930-1215 FL100-FL660\nEG D613A 1300-1530 FL100-FL660\nEG D613B 0800-0930 FL100-FL660\nEG D613B 0930-1215 FL100-FL660\nEG D613B 1300-1530 FL100-FL660\nEG D613C 0800-0930 FL100-FL660\nEG D613C 0930-1215 FL100-FL660\nEG D613C 1300-1530 FL100-FL660\nEG D613D 0800-0930 FL100-FL660\nEG D613D 0930-1215 FL100-FL660\nEG D613D 1300-1530 FL100-FL660",
+                "ItemF": "FL100",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231057"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5343",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5530N00035W",
+                "Radius": "32",
+                "ItemA": "EGPX",
+                "StartValidity": "2310200830",
+                "EndValidity": "2310201215",
+                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 0830-0945 SFC-FL230\nEG D513A 1100-1215 SFC-FL230\nEG D513B 0830-0945 SFC-FL230\nEG D513B 1100-1215 SFC-FL230\nEG D513C 0830-0945 SFC-FL100\nEG D513C 1100-1215 SFC-FL100",
+                "ItemF": "SFC",
+                "ItemG": "FL230",
+                "Marker": "+",
+                "NotamStoreDate": "191020231057"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
                 "Number": "5232",
                 "Year": "23",
                 "Type": "N",
@@ -28102,6 +28369,101 @@
                 "ItemG": "FL195",
                 "Marker": "+",
                 "NotamStoreDate": "171020230937"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5339",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5445N00059E",
+                "Radius": "56",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323B 0915-1045 FL050-FL660\nEG D323M 0915-1045 FL100-FL300\nEG D323R 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231056"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5337",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "50",
+                  "Upper": "660"
+                },
+                "Coordinates": "5503N00038E",
+                "Radius": "57",
+                "ItemA": [
+                  "EGTT",
+                  "EGPX"
+                ],
+                "StartValidity": "2310200915",
+                "EndValidity": "2310201045",
+                "ItemE": "THE FOLLOWING SOUTHERN MANAGED DANGER AREAS ARE ACTIVATED:\nEG D323A 0915-1045 FL050-FL660\nEG D323L 0915-1045 FL100-FL300\nEG D323Q 0915-1045 FL100-FL300",
+                "ItemF": "FL050",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "191020231055"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5344",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "550"
+                },
+                "Coordinates": "5837N00204W",
+                "Radius": "49",
+                "ItemA": "EGPX",
+                "StartValidity": "2310200930",
+                "EndValidity": "2310201200",
+                "ItemE": "THE FOLLOWING MORAY FIRTH DANGER AREAS ARE ACTIVATED:\nEG D809N 0930-1200 SFC-55000FT AMSL\nEG D809C 0930-1200 SFC-55000FT AMSL\nEG D809S 0930-1200 SFC-55000FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "55000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "191020231058"
               }
             ]
           },
@@ -28160,7 +28522,7 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "G",
-                "Number": "338",
+                "Number": "340",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -28173,16 +28535,16 @@
                   "Lower": "170",
                   "Upper": "230"
                 },
-                "Coordinates": "4752N01110W",
-                "Radius": "212",
+                "Coordinates": "4732N01109W",
+                "Radius": "197",
                 "ItemA": "EGGX",
-                "StartValidity": "2310191345",
-                "EndValidity": "2310191810",
-                "ItemE": "AIRSPACE RESERVATION\nTR: ARKIL - TAMEL - GONAN\nFLW SEPARATIONS WILL BE PROVIDED WITHIN SHANWICK OCEANIC AIRSPACE:\nMNPS/NAT HIGH LEVEL AIRSPACE(HLA) 60NM, NON-MNPS/NAT HLA 120NM.",
+                "StartValidity": "2310191325",
+                "EndValidity": "2310191648",
+                "ItemE": "AIRSPACE RESERVATION\nTR: GAPLI - TAMEL - GONAN\nFLW SEPARATIONS WILL BE PROVIDED WITHIN SHANWICK OCEANIC AIRSPACE:\nMNPS/NAT HIGH LEVEL AIRSPACE(HLA) 60NM, NON-MNPS/NAT HLA 120NM.",
                 "ItemF": "FL170",
                 "ItemG": "FL230",
                 "Marker": "+",
-                "NotamStoreDate": "191020230920"
+                "NotamStoreDate": "191020231035"
               },
               {
                 "@OriginalMessage": "false",
