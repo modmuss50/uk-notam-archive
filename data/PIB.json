@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067755917",
+    "@PIBId": "400000067758122",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-19T06:00:29+00:00",
-        "ValidTo": "2023-10-20T06:00:00+00:00"
+        "ValidFrom": "2023-10-19T07:00:09+00:00",
+        "ValidTo": "2023-10-20T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-19T06:00:29+00:00",
+      "Issued": "2023-10-19T07:00:09+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310190499",
+      "PibUid": "EG712310190583",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4430,10 +4430,82 @@
                   "ItemE": "CAMBRIDGE OBSTACLE\nADD A NEW CRANE TO AD OBSTACLES - IN CIRCLING AREA AND AT AD\nOBSTACLE ID: C030.23\nTYPE: CRANE\nPOSITION: 521056N 0001025E\nELEVATION/HEIGHT: 341.5FT AMSL/262.5FT AGL\nREMARKS: END ESTIMATED SEPTEMBER 2024.\nUK AIP EGSC AD 2.10 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "080820231647"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7914",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310190700",
+                  "EndValidity": "2310191630",
+                  "ItemE": "GRASS RWY 05G/23G CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230651"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7915",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5212N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310190700",
+                  "EndValidity": "2310191630",
+                  "ItemE": "GRASS TAXIWAYS LIMA 1, LIMA 2 AND VICTOR CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230652"
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001259110",
+                "TAMloc": "EGSC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-19T06:44:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGSC",
+                    "10190644 05 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-19T06:58:00+00:00",
+                "TamObservationTime": "2023-10-19T06:44:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGFF",
@@ -5098,7 +5170,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001259185",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-19T06:53:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "10190653 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-19T06:54:00+00:00",
+                "TamObservationTime": "2023-10-19T06:53:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -6191,7 +6282,35 @@
           {
             "Code": "EGBP",
             "Name": "KEMBLE",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6185",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "6"
+                },
+                "Coordinates": "5140N00203W",
+                "Radius": "1",
+                "ItemA": "EGBP",
+                "StartValidity": "2310200600",
+                "EndValidity": "2310201600",
+                "ItemE": "CRANE OPR PSN 514013N 0020241W (KEMBLE AD BELFAST APRON) UPTO\n120FT AGL/529FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "171020231331"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -7132,6 +7251,89 @@
                   "ItemE": "RWY 08L/26R BTN ECHO AND FOXTROT ROMEO CLSD DUE TO WIP",
                   "Marker": "+",
                   "NotamStoreDate": "161020230640"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7912",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2310190900",
+                  "EndValidity": "2310191700",
+                  "ItemE": "TWY ROMEO BTN TWY LIMA AND TWY JUILET CLSD DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230622"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7911",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2310192130",
+                  "EndValidity": "2310210430",
+                  "ItemD": "2130-0430",
+                  "ItemE": "RWY 08R/26L CLSD. RWY 08L/26R IN USE 2140-0420. LIGHTS FOR CLSD\nRWY 08R/26L AND PARALLEL TWY NOT VISIBLE ON APCH. FROM 2130-2140 AND \n0420-0430 NEITHER RWY 08R/26L OR RWY 08L/26R WILL BE AVBL TO ALLOW\nFOR THE CHANGE OF RWY. LAST DEPARTURE 5 MIN BEFORE CHANGEOVER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230620"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7913",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2310192130",
+                  "EndValidity": "2310210430",
+                  "ItemD": "2130-0430",
+                  "ItemE": "TWY YANKEE CLSD DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230623"
                 }
               ]
             },
@@ -8135,6 +8337,34 @@
                   "ItemE": "AMEND AD OPERATIONAL HOURS TO READ:\nMON: CLOSED. TUE-SUN 0900-1800 (0800-1700) OR SS, WHICHEVER IS\nEARLIER, AND BY ARRANGEMENT. PPR H24.\nUK AIP AD 2.3, AD 2.18 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "131020230658"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5792",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5218N00048W",
+                  "Radius": "5",
+                  "ItemA": "EGBK",
+                  "StartValidity": "2310200600",
+                  "EndValidity": "2310211800",
+                  "ItemD": "0600-1800",
+                  "ItemE": "AD CLSD DUE EVENT",
+                  "Marker": "+",
+                  "NotamStoreDate": "290920231557"
                 }
               ]
             },
@@ -10955,6 +11185,33 @@
                   "ItemE": "TACAN FFA/FAIRFORD FREQ 113.4MHZ CH81X U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "181020231701"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6696",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5141N00147W",
+                  "Radius": "5",
+                  "ItemA": "EGVA",
+                  "StartValidity": "2310190616",
+                  "EndValidity": "2310191659",
+                  "ItemE": "RWY 27/09 SURFACE CONDITION IS CONCRETE WET ASPHALT WET WITH\nNO STANDING WATER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230618"
                 }
               ]
             },
@@ -11229,6 +11486,33 @@
                   "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
                   "Marker": "+",
                   "NotamStoreDate": "191020230532"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6695",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2310190601",
+                  "EndValidity": "2310192100",
+                  "ItemE": "RFFS CAPABILITY DOWNGRADED TO 2 VEHICLES WITH 6000 GALLONS AGENT\nAVAILABLE. CRITICAL LEVEL OF SERVICE FOR CAT 10 AND 9 AIRCRAFT,\nREDUCED LEVEL OF SERVICE FOR CAT 8 AIRCRAFT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230608"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -18161,6 +18445,33 @@
                 "NotamStoreDate": "181020231640"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "387",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5411N00122W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310190625",
+                "EndValidity": "2310202359",
+                "ItemE": "LIT CRANE AT PSN 541122N 0012156W (TOPCLIFFE, YORKSHIRE) IN LOW \nFLYING AREA 12 AND NIGHT SECTOR 4BW. HGT 217FT AMSL (144FT AGL). \n23/10/189/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "191020230626"
+              },
+              {
                 "@Reference": "EGMD",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18357,6 +18668,34 @@
                 "ItemE": "SSR ALLOCATION. MODE 3/A CODES 2401-2477 TEMPO ALLOCATED TO AIR\nEXER (JOINT WARRIOR 23-2). INFO CTC 03001 640779. AIRSPACE \nCOORDINATION NOTICE 2023-10-0010 REFERS. 2023-10-0010/AU3.",
                 "Marker": "+",
                 "NotamStoreDate": "240820230947"
+              },
+              {
+                "@Reference": "EGBP",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6185",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "6"
+                },
+                "Coordinates": "5140N00203W",
+                "Radius": "1",
+                "ItemA": "EGBP",
+                "StartValidity": "2310200600",
+                "EndValidity": "2310201600",
+                "ItemE": "CRANE OPR PSN 514013N 0020241W (KEMBLE AD BELFAST APRON) UPTO\n120FT AGL/529FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "171020231331"
               }
             ]
           },
@@ -22879,6 +23218,36 @@
                 "ItemG": "2500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "171020231200"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7456",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5308N00042W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310200638",
+                "EndValidity": "2310221652",
+                "ItemD": "SR-SS",
+                "ItemE": "AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 11\nWI 2NM RADIUS OF PSN 530745N 0004137W (NORTON DISNEY, LINCOLNSHIRE) \nMILITARY AIRCRAFT SHALL AVOID THE AREA FROM SURFACE TO 2000FT AGL. \n23/10/184/LFC",
+                "ItemF": "SFC",
+                "ItemG": "2100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "181020231241"
               }
             ]
           },
@@ -26816,6 +27185,36 @@
                 "ItemG": "6500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "181020231709"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EKCH",
+                "Series": "D",
+                "Number": "1506",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WS",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5629N00455E",
+                "Radius": "5",
+                "ItemA": "EKSI",
+                "StartValidity": "2310190608",
+                "EndValidity": "2310200730",
+                "Estimation": "EST",
+                "ItemE": "COLD FLARING AT EKSI WILL TAKE PLACE",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "191020230608"
               },
               {
                 "@Reference": "EGTT",
