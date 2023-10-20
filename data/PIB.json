@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067811574",
+    "@PIBId": "400000067814220",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-20T11:00:28+00:00",
-        "ValidTo": "2023-10-21T11:00:00+00:00"
+        "ValidFrom": "2023-10-20T12:00:34+00:00",
+        "ValidTo": "2023-10-21T12:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-20T11:00:28+00:00",
+      "Issued": "2023-10-20T12:00:34+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310200946",
+      "PibUid": "EG712310201002",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4882,9 +4882,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "6256",
+                  "Number": "6267",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "6256",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FA",
@@ -4898,11 +4901,11 @@
                   "Coordinates": "5052N00046W",
                   "Radius": "5",
                   "ItemA": "EGHR",
-                  "StartValidity": "2310200817",
-                  "EndValidity": "2310201200",
+                  "StartValidity": "2310201058",
+                  "EndValidity": "2310201700",
                   "ItemE": "AD CLSD TO FIXED WING ACFT DUE SFC CONDITIONS",
                   "Marker": "+",
-                  "NotamStoreDate": "201020230819"
+                  "NotamStoreDate": "201020231100"
                 }
               ]
             },
@@ -5316,33 +5319,6 @@
                   "ItemE": "REMOVE RWY 03 INTERSECTION TAKE-OFF DISTANCES FROM HOLD D1 DUE TO\nPERMANENT TWY DELTA CLOSURE.\nUK AIP AD 2.13 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "121020230645"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6123",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "4"
-                  },
-                  "Coordinates": "5205N00036W",
-                  "Radius": "1",
-                  "ItemA": "EGTC",
-                  "StartValidity": "2310200700",
-                  "EndValidity": "2310201200",
-                  "ItemE": "CRANE OPR PSN 520435N 0003620W (CRANFIELD VILLAGE) HGT 83FT AGL/ \n363FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "131020231350"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -8734,7 +8710,27 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001259666",
+                "TAMloc": "EGSH",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-20T10:55:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGSH",
+                    "10201055 09 2/2/2 25/25/25 04/04/04 STANDING WATER/STANDING",
+                    "WATER/STANDING WATER",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-20T11:26:00+00:00",
+                "TamObservationTime": "2023-10-20T10:55:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGBN",
@@ -19049,34 +19045,6 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "6123",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "4"
-                },
-                "Coordinates": "5205N00036W",
-                "Radius": "1",
-                "ItemA": "EGTC",
-                "StartValidity": "2310200700",
-                "EndValidity": "2310201200",
-                "ItemE": "CRANE OPR PSN 520435N 0003620W (CRANFIELD VILLAGE) HGT 83FT AGL/ \n363FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "131020231350"
-              },
-              {
-                "@Reference": "EGTC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
                 "Number": "6238",
                 "Year": "23",
                 "Type": "N",
@@ -24137,33 +24105,62 @@
             "Code": "EGEC",
             "Name": "CAMPBELTOWN",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "3107",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "FF",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3107",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FF",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5526N00541W",
+                  "Radius": "5",
+                  "ItemA": "EGEC",
+                  "StartValidity": "2310150000",
+                  "EndValidity": "PERM",
+                  "ItemE": "RFFS - CAPABILITY FOR REMOVAL OF DISABLED AIRCRAFT - LIMITED.\nUK AIP AD 2.6-3 REFERS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "131020231425"
                 },
-                "Coordinates": "5526N00541W",
-                "Radius": "5",
-                "ItemA": "EGEC",
-                "StartValidity": "2310150000",
-                "EndValidity": "PERM",
-                "ItemE": "RFFS - CAPABILITY FOR REMOVAL OF DISABLED AIRCRAFT - LIMITED.\nUK AIP AD 2.6-3 REFERS.",
-                "Marker": "+",
-                "NotamStoreDate": "131020231425"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3168",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5526N00541W",
+                  "Radius": "5",
+                  "ItemA": "EGEC",
+                  "StartValidity": "2310201645",
+                  "EndValidity": "2310230720",
+                  "ItemE": "AD NOT AVBL TO PRIVATE OUT OF HOURS MOVEMENTS",
+                  "Marker": "+",
+                  "NotamStoreDate": "201020231144"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
