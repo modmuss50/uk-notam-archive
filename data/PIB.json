@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067799130",
+    "@PIBId": "400000067801184",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-20T05:00:52+00:00",
-        "ValidTo": "2023-10-21T05:00:00+00:00"
+        "ValidFrom": "2023-10-20T06:00:29+00:00",
+        "ValidTo": "2023-10-21T06:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-20T05:00:52+00:00",
+      "Issued": "2023-10-20T06:00:29+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310200383",
+      "PibUid": "EG712310200483",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -8288,7 +8288,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001259555",
+                "TAMloc": "EGHQ",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-20T05:55:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGHQ",
+                    "10200555 12 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-20T05:55:00+00:00",
+                "TamObservationTime": "2023-10-20T05:55:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGBK",
@@ -9926,7 +9945,34 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "5900",
+                  "Number": "5903",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "IG",
+                    "Code45": "AS",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5431N00126W",
+                  "Radius": "5",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2310200525",
+                  "EndValidity": "2310201200",
+                  "ItemE": "ILS GLIDEPATH RWY 05 U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "201020230533"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5905",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -9942,12 +9988,12 @@
                   "Coordinates": "5432N00123W",
                   "Radius": "12",
                   "ItemA": "EGNV",
-                  "StartValidity": "2310200615",
+                  "StartValidity": "2310200550",
                   "EndValidity": "2310200815",
-                  "ItemD": "0615-0645, 0745-0815",
+                  "ItemD": "0550-0620 0745-0815",
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEMS BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
                   "Marker": "+",
-                  "NotamStoreDate": "191020231637"
+                  "NotamStoreDate": "201020230535"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11242,6 +11288,33 @@
                   "ItemE": "TACAN FFA/FAIRFORD FREQ 113.4MHZ CH81X SER INTERMITTENT. CONTACT \nFAIRFORD TOWER FOR TACAN AVALABILITY",
                   "Marker": "+",
                   "NotamStoreDate": "191020231406"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6719",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5141N00147W",
+                  "Radius": "5",
+                  "ItemA": "EGVA",
+                  "StartValidity": "2310201512",
+                  "EndValidity": "2310201659",
+                  "ItemE": "RWY 27/09 SURFACE CONDITION IS CONCRETE WET ASPHALT WET WITH\nNO STANDING WATER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "201020230513"
                 }
               ]
             },
@@ -18499,6 +18572,35 @@
                 "NotamStoreDate": "240820230947"
               },
               {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5905",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2310200550",
+                "EndValidity": "2310200815",
+                "ItemD": "0550-0620 0745-0815",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEMS BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "201020230535"
+              },
+              {
                 "@Reference": "EGBP",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18525,35 +18627,6 @@
                 "ItemE": "CRANE OPR PSN 514013N 0020241W (KEMBLE AD BELFAST APRON) UPTO\n120FT AGL/529FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "171020231331"
-              },
-              {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5900",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2310200615",
-                "EndValidity": "2310200815",
-                "ItemD": "0615-0645, 0745-0815",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEMS BASE. PILOTS TRANSITING THE AREA ARE\nADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT NOTICE\nCHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "191020231637"
               },
               {
                 "@Reference": "EGTC",
@@ -21819,38 +21892,6 @@
                 "ItemG": "500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "161020231431"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5314",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "300"
-                },
-                "Coordinates": "5507N00523W",
-                "Radius": "12",
-                "ItemA": [
-                  "EGPX",
-                  "EGTT"
-                ],
-                "StartValidity": "2310190700",
-                "EndValidity": "2310200600",
-                "ItemE": "THE FOLLOWING CAMPBELTOWN DANGER AREA IS ACTIVATED:\nEG D509 0700-2359 SFC-30000FT AMSL\nEG D509 0000-0600 SFC-30000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "30000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231137"
               },
               {
                 "@Reference": "EGBJ",
@@ -27009,39 +27050,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "171020231711"
-              },
-              {
-                "@Reference": "EGTT",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5314",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "300"
-                },
-                "Coordinates": "5507N00523W",
-                "Radius": "12",
-                "ItemA": [
-                  "EGPX",
-                  "EGTT"
-                ],
-                "StartValidity": "2310190700",
-                "EndValidity": "2310200600",
-                "ItemE": "THE FOLLOWING CAMPBELTOWN DANGER AREA IS ACTIVATED:\nEG D509 0700-2359 SFC-30000FT AMSL\nEG D509 0000-0600 SFC-30000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "30000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231137"
               },
               {
                 "@OriginalMessage": "false",
