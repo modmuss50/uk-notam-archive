@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067859882",
+    "@PIBId": "400000067861884",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-21T14:00:17+00:00",
-        "ValidTo": "2023-10-22T14:00:00+00:00"
+        "ValidFrom": "2023-10-21T15:00:20+00:00",
+        "ValidTo": "2023-10-22T15:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-21T14:00:17+00:00",
+      "Issued": "2023-10-21T15:00:20+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310210861",
+      "PibUid": "EG712310210909",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5349,7 +5349,35 @@
           {
             "Code": "EGTR",
             "Name": "ELSTREE",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6314",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MX",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5139N00020W",
+                "Radius": "5",
+                "ItemA": "EGTR",
+                "StartValidity": "2310211445",
+                "EndValidity": "2401201900",
+                "ItemE": "TWY CHARLIE CLSD",
+                "Marker": "+",
+                "NotamStoreDate": "211020231435"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -7772,60 +7800,6 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8016",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5321N00217W",
-                  "Radius": "5",
-                  "ItemA": "EGCC",
-                  "StartValidity": "2310211017",
-                  "EndValidity": "2310211700",
-                  "ItemE": "TAXIWAY HOLDING POINT PAPA 2 CLOSED DUE EMERGENCY PAVEMENT REPAIR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "211020231019"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8017",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5321N00217W",
-                  "Radius": "5",
-                  "ItemA": "EGCC",
-                  "StartValidity": "2310211019",
-                  "EndValidity": "2310211700",
-                  "ItemE": "RUNWAY 05L/23R CROSSING POINT PAPA 1 TO DELTA ZULU 1 UNAVAIALABLE",
-                  "Marker": "+",
-                  "NotamStoreDate": "211020231021"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
                   "Series": "H",
                   "Number": "7351",
                   "Year": "23",
@@ -9305,35 +9279,6 @@
                   "ItemE": "OBSTACLE LIGHT VULCAN HANGAR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "181020230739"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "7275",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WE",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "14"
-                  },
-                  "Coordinates": "5140N00038E",
-                  "Radius": "3",
-                  "ItemA": "EGMC",
-                  "StartValidity": "2310210900",
-                  "EndValidity": "2310211500",
-                  "ItemE": "AREA OF INCREASED AERIAL ACTIVITY FOR FLY-IN WI 2NM RADIUS:\n514014N 0003753E (STOW MARIES, ESSEX). FOR INFO 07944 292052. \n2023-10-0371/AU1.",
-                  "ItemF": "SFC",
-                  "ItemG": "1400FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "121020231142"
                 }
               ]
             },
@@ -20716,36 +20661,6 @@
                 "NotamStoreDate": "201020230956"
               },
               {
-                "@Reference": "EGMC",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7275",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "14"
-                },
-                "Coordinates": "5140N00038E",
-                "Radius": "3",
-                "ItemA": "EGMC",
-                "StartValidity": "2310210900",
-                "EndValidity": "2310211500",
-                "ItemE": "AREA OF INCREASED AERIAL ACTIVITY FOR FLY-IN WI 2NM RADIUS:\n514014N 0003753E (STOW MARIES, ESSEX). FOR INFO 07944 292052. \n2023-10-0371/AU1.",
-                "ItemF": "SFC",
-                "ItemG": "1400FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "121020231142"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -22211,33 +22126,6 @@
                   "ItemE": "AIRCRAFT DEICING EQUIPMENT NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "191020231520"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "3050",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "FF",
-                    "Code45": "CG",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5627N00302W",
-                  "Radius": "5",
-                  "ItemA": "EGPN",
-                  "StartValidity": "2310210800",
-                  "EndValidity": "2310211500",
-                  "ItemE": "RFFS DOWNGRADED TO CAT 3",
-                  "Marker": "+",
-                  "NotamStoreDate": "091020230759"
                 }
               ]
             },
@@ -23408,33 +23296,6 @@
                   "ItemE": "CLOUD BASE RECORDER MAY GIVE INACCURATE READINGS ON AUTO\nMETAR.",
                   "Marker": "+",
                   "NotamStoreDate": "131020231258"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
-                  "Number": "3175",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5813N00620W",
-                  "Radius": "3",
-                  "ItemA": "EGPO",
-                  "StartValidity": "2310211359",
-                  "EndValidity": "2310211430",
-                  "ItemE": "STORNOWAY ATZ DEACTIVATED. AD/ATS/MET CLOSED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "211020231356"
                 }
               ]
             },
@@ -23594,7 +23455,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "8020",
+                  "Number": "8022",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -23611,10 +23472,10 @@
                   "Radius": "19",
                   "ItemA": "EGPB",
                   "StartValidity": "2310211645",
-                  "EndValidity": "2310211700",
-                  "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 3. PPR ONLY.",
+                  "EndValidity": "2310211715",
+                  "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
                   "Marker": "+",
-                  "NotamStoreDate": "211020231320"
+                  "NotamStoreDate": "211020231445"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -24713,34 +24574,6 @@
                 "NotamStoreDate": "201020231020"
               },
               {
-                "@Reference": "EGPO",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "I",
-                "Number": "3175",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5813N00620W",
-                "Radius": "3",
-                "ItemA": "EGPO",
-                "StartValidity": "2310211359",
-                "EndValidity": "2310211430",
-                "ItemE": "STORNOWAY ATZ DEACTIVATED. AD/ATS/MET CLOSED.",
-                "Marker": "+",
-                "NotamStoreDate": "211020231356"
-              },
-              {
                 "@Reference": "EGPB",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -24774,7 +24607,7 @@
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
                 "Series": "A",
-                "Number": "8020",
+                "Number": "8022",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -24791,10 +24624,10 @@
                 "Radius": "19",
                 "ItemA": "EGPB",
                 "StartValidity": "2310211645",
-                "EndValidity": "2310211700",
-                "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 3. PPR ONLY.",
+                "EndValidity": "2310211715",
+                "ItemE": "SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION\nEXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.",
                 "Marker": "+",
-                "NotamStoreDate": "211020231320"
+                "NotamStoreDate": "211020231445"
               },
               {
                 "@Reference": "EGPK",
@@ -25415,96 +25248,6 @@
                 "ItemG": "FL195",
                 "Marker": "+",
                 "NotamStoreDate": "171020230937"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "J",
-                "Number": "3730",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "13"
-                },
-                "Coordinates": "6028N00055W",
-                "Radius": "9",
-                "ItemA": "EGPX",
-                "StartValidity": "2310210600",
-                "EndValidity": "2310211500",
-                "ItemE": "TEMPO DANGER AREA (TDA) (EG D6098B) ACTIVATED WI AN AREA BOUNDED \nBY 603012N 0010939W - 603145N 0004026W - 602703N 0004253W - \n602459N 0010920W - 603012N 0010939W (SHETLAND ISLANDS) BEYOND \nVISUAL LINE OF SIGHT UAS OPERATIONS CONTAINED WHOLLY WITHIN THE \nTDA. A DANGER AREA ACTIVITY INFORMATION SERVICE (DAAIS) WILL BE \nAVAILABLE FROM SUMBURGH RADAR 131.300 MHZ / 124.900 MHZ OR BRENT \nRADAR 122.250 MHZ. FOR INFO 07957 617158. AIC Y100/23 REFERS. \n2023-08-0050/AOPS3.",
-                "ItemF": "SFC",
-                "ItemG": "1300FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231011"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "J",
-                "Number": "3732",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGXX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "13"
-                },
-                "Coordinates": "6033N00023E",
-                "Radius": "34",
-                "ItemA": [
-                  "EGPX",
-                  "ENOR"
-                ],
-                "StartValidity": "2310210600",
-                "EndValidity": "2310211500",
-                "ItemE": "DANGER AREA ACTIVATED\nTEMPO DANGER AREA (TDA) (EG D6098E) ACTIVATED WI AN AREA BOUNDED BY \n603145N 0004026W - 603912N 0012918E - 603413N 0013009E - \n602703N 0004253W - 603145N 0004026W (SHETLAND ISLANDS) BEYOND \nVISUAL LINE OF SIGHT UAS OPERATIONS CONTAINED WHOLLY WITHIN THE \nTDA. A DANGER AREA ACTIVITY INFORMATION SERVICE (DAAIS) WILL BE \nAVAILABLE FROM SUMBURGH RADAR 131.300 MHZ / 124.900 MHZ OR BRENT \nRADAR 122.250 MHZ. FOR INFO 07957 617158. AIC Y100/23 REFERS. \n2023-08-0050/AOPS3.\nAREA BOUNDED BY:\n603145N 0004026W - 603912N 0012918E - 603413N 0013009E - 602703N \n0004253W - 603145N 0004026W",
-                "ItemF": "SFC",
-                "ItemG": "1300FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231018"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "J",
-                "Number": "3733",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "13"
-                },
-                "Coordinates": "6027N00116W",
-                "Radius": "5",
-                "ItemA": "EGPX",
-                "StartValidity": "2310210600",
-                "EndValidity": "2310211500",
-                "ItemE": "TEMPO DANGER AREA (TDA) (EG D6098A) ACTIVATED WI AN AREA BOUNDED \nBY 602821N 0012144W - 603012N 0010939W - 602459N 0010920W - \n602341N 0012139W - 602821N 0012144W (SHETLAND ISLANDS) BEYOND \nVISUAL LINE OF SIGHT UAS OPERATIONS CONTAINED WHOLLY WITHIN THE \nTDA. A DANGER AREA ACTIVITY INFORMATION SERVICE (DAAIS) WILL BE \nAVAILABLE FROM SUMBURGH RADAR 131.300 MHZ / 124.900 MHZ OR BRENT \nRADAR 122.250 MHZ. FOR INFO 07957 617158. AIC Y100/23 REFERS. \n2023-08-0050/AOPS3.",
-                "ItemF": "SFC",
-                "ItemG": "1300FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "181020231019"
               },
               {
                 "@Reference": "EGPH",
