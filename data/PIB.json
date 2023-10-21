@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067854576",
+    "@PIBId": "400000067856426",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-21T11:00:28+00:00",
-        "ValidTo": "2023-10-22T11:00:00+00:00"
+        "ValidFrom": "2023-10-21T12:00:34+00:00",
+        "ValidTo": "2023-10-22T12:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-21T11:00:28+00:00",
+      "Issued": "2023-10-21T12:00:34+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310210756",
+      "PibUid": "EG712310210787",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4744,62 +4744,33 @@
             "Code": "EGHR",
             "Name": "CHICHESTER/GOODWOOD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6014",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5052N00046W",
-                  "Radius": "5",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2310081021",
-                  "EndValidity": "2310311600",
-                  "ItemE": "RWY 10/28 CLSD",
-                  "Marker": "+",
-                  "NotamStoreDate": "081020231025"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6014",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6306",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5052N00046W",
-                  "Radius": "5",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2310210904",
-                  "EndValidity": "2310211200",
-                  "ItemE": "AD CLSD TO FIXED WING ACFT DUE SFC CONDITIONS",
-                  "Marker": "+",
-                  "NotamStoreDate": "211020230904"
-                }
-              ]
+                "Coordinates": "5052N00046W",
+                "Radius": "5",
+                "ItemA": "EGHR",
+                "StartValidity": "2310081021",
+                "EndValidity": "2310311600",
+                "ItemE": "RWY 10/28 CLSD",
+                "Marker": "+",
+                "NotamStoreDate": "081020231025"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -4871,34 +4842,6 @@
             "Name": "COVENTRY",
             "NotamList": {
               "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "4310",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "5"
-                  },
-                  "Coordinates": "5221N00132W",
-                  "Radius": "1",
-                  "ItemA": "EGBE",
-                  "StartValidity": "2308020600",
-                  "EndValidity": "2310281200",
-                  "ItemD": "MON-FRI 0600-1730, SAT 0630-1200",
-                  "ItemE": "CRANE OPR PSN 522105N 0013209W (2.4NM SW OF AD WITHIN COVENTRY\nATZ). MAX JIB HGT 173FT AGL/423FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "010820231154"
-                },
                 {
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
@@ -4983,34 +4926,6 @@
                   "ItemE": "UAS OPR RADIUS 0.8NM 522311N 0013038W 1.5NM NE OF AD WITHIN\nCOVENTRY ATZ. MAX HEIGHT 400FT AGL, 710FT AMSL",
                   "ItemF": "SFC",
                   "ItemG": "710FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "220920230937"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "5348",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5221N00132W",
-                  "Radius": "1",
-                  "ItemA": "EGBE",
-                  "StartValidity": "2310090600",
-                  "EndValidity": "2310281200",
-                  "ItemD": "MON-FRI 0600-1730, SAT 0630-1200",
-                  "ItemE": "CRANE OPR PSN 522057N 0013146W (2.5NM SW OF AD WI COVENTRY ATZ).\nMAX JIB HGT 173FT AGL/249FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "220920230937"
                 },
@@ -7074,33 +6989,6 @@
                   "ItemE": "RWY 09 PAPI 2ND SET FROM SOUTH, SOUTHERN PAPI U/S",
                   "Marker": "+",
                   "NotamStoreDate": "211020230426"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "5958",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5130N00003E",
-                  "Radius": "5",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2310211130",
-                  "EndValidity": "2310211200",
-                  "ItemE": "AERODROME OPENING HOURS EXTENDED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "211020230853"
                 }
               ]
             },
@@ -9762,6 +9650,33 @@
                   "ItemE": "RFFS CAT CHANGES\nSAT 0815-0955 CAT 7, 1015-1255 CAT 7, 1750-1930 CAT 7\nSUN 0635-0825 CAT 7, 0915-1755 CAT 4",
                   "Marker": "+",
                   "NotamStoreDate": "211020230928"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5960",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "60"
+                  },
+                  "Coordinates": "5432N00123W",
+                  "Radius": "12",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2310211715",
+                  "EndValidity": "2310211800",
+                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERGENCY SERV BASE. PILOTS TRANSITING \nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MIN BEFORE \nCLOSURE.",
+                  "Marker": "+",
+                  "NotamStoreDate": "211020231131"
                 }
               ]
             },
@@ -9998,7 +9913,35 @@
           {
             "Code": "EGTB",
             "Name": "WYCOMBE AIR PARK/BOOKER",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6106",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5137N00049W",
+                "Radius": "5",
+                "ItemA": "EGTB",
+                "StartValidity": "2310221100",
+                "EndValidity": "2310221630",
+                "ItemE": "RWY 24/06 CLOSED. RWY 24/06 GRASS AVAILABLE ONLY",
+                "Marker": "+",
+                "NotamStoreDate": "131020231033"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -10583,6 +10526,33 @@
                   "ItemE": "GRASS RWY 26L/08R CLOSED DURING ROUTINE OPENING HOURS",
                   "Marker": "+",
                   "NotamStoreDate": "111020230858"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6751",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5302N00030W",
+                  "Radius": "5",
+                  "ItemA": "EGYD",
+                  "StartValidity": "2310220800",
+                  "EndValidity": "2310221600",
+                  "ItemE": "AIRFIELD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "211020231121"
                 }
               ]
             },
@@ -12998,35 +12968,6 @@
                 "ItemE": "VOR/DME LYD/LYDD 114.05MHZ CH087Y VOR PART U/S",
                 "Marker": "+",
                 "NotamStoreDate": "310720231229"
-              },
-              {
-                "@Reference": "EGBE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "4310",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "5"
-                },
-                "Coordinates": "5221N00132W",
-                "Radius": "1",
-                "ItemA": "EGBE",
-                "StartValidity": "2308020600",
-                "EndValidity": "2310281200",
-                "ItemD": "MON-FRI 0600-1730, SAT 0630-1200",
-                "ItemE": "CRANE OPR PSN 522105N 0013209W (2.4NM SW OF AD WITHIN COVENTRY\nATZ). MAX JIB HGT 173FT AGL/423FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "010820231154"
               },
               {
                 "@Reference": "EGNS",
@@ -16167,35 +16108,6 @@
                 "NotamStoreDate": "270920230909"
               },
               {
-                "@Reference": "EGBE",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5348",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5221N00132W",
-                "Radius": "1",
-                "ItemA": "EGBE",
-                "StartValidity": "2310090600",
-                "EndValidity": "2310281200",
-                "ItemD": "MON-FRI 0600-1730, SAT 0630-1200",
-                "ItemE": "CRANE OPR PSN 522057N 0013146W (2.5NM SW OF AD WI COVENTRY ATZ).\nMAX JIB HGT 173FT AGL/249FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "220920230937"
-              },
-              {
                 "@Reference": "EGLC",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17875,6 +17787,34 @@
                 "ItemE": "LIT MOBILE CRANE OPERATING AT 515238N 0002219W (AIRPORT MULTI\nSTOREY CAR PARK 2) 350M FROM LUTON ARP MAX HT 263FT AGL 775FT AMSL)",
                 "Marker": "+",
                 "NotamStoreDate": "201020231602"
+              },
+              {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5960",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2310211715",
+                "EndValidity": "2310211800",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERGENCY SERV BASE. PILOTS TRANSITING \nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MIN BEFORE \nCLOSURE.",
+                "Marker": "+",
+                "NotamStoreDate": "211020231131"
               },
               {
                 "@OriginalMessage": "false",
@@ -21669,6 +21609,33 @@
                   "ItemE": "FLIGHT TRAINING OR CIRCUIT TRAINING RESTRICTED. PPR REQ 72 HOURS\nPRIOR",
                   "Marker": "+",
                   "NotamStoreDate": "021020231601"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8018",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2310211136",
+                  "EndValidity": "2401212300",
+                  "ItemE": "STEEL PLATE ON SOUTHSIDE OF TWY ALPHA, EAST OF GENERAL AVIATION\nTERMINAL.",
+                  "Marker": "+",
+                  "NotamStoreDate": "211020231141"
                 }
               ]
             },
