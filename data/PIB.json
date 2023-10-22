@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067898489",
+    "@PIBId": "400000067900316",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-22T11:00:28+00:00",
-        "ValidTo": "2023-10-23T11:00:00+00:00"
+        "ValidFrom": "2023-10-22T12:00:34+00:00",
+        "ValidTo": "2023-10-23T12:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-22T11:00:28+00:00",
+      "Issued": "2023-10-22T12:00:34+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310220807",
+      "PibUid": "EG712310220848",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5351,35 +5351,7 @@
           {
             "Code": "EGSU",
             "Name": "DUXFORD",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "2173",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5205N00008E",
-                "Radius": "5",
-                "ItemA": "EGSU",
-                "StartValidity": "2310220500",
-                "EndValidity": "2310221130",
-                "ItemE": "AD CLOSED",
-                "Marker": "+",
-                "NotamStoreDate": "130420231359"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -5476,7 +5448,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001260248",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-22T10:55:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "10221055 09 5/5/5 100/75/50 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-22T11:01:00+00:00",
+                "TamObservationTime": "2023-10-22T10:55:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -11355,33 +11345,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "6191",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MP",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5141N00147W",
-                  "Radius": "5",
-                  "ItemA": "EGVA",
-                  "StartValidity": "2309221152",
-                  "EndValidity": "2310221152",
-                  "ItemE": "HARSTAND 9 CLOSED DUE TO BEING USED AS AN EQUIPMENT STAGING AREA",
-                  "Marker": "+",
-                  "NotamStoreDate": "220920231156"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "6321",
                   "Year": "23",
                   "Type": "N",
@@ -12336,6 +12299,33 @@
                   "ItemE": "NEW PARKING LAYOUT ON AIRCRAFT SERVICING PLATFORM 1. NEW LAYOUT \nCOMPRISES 8 ROWS WITH ROW 1 TOWARDS EAST AND ROW 8 TOWARDS WEST. \nPLEASE UPDATE RAMP CHARTS. MORE INFORMATION AVAILABLE FROM EMAIL\nNOR-NORTHOLTOPS(AT)MOD.GOV.UK OR PHONE 020 8833 8918",
                   "Marker": "+",
                   "NotamStoreDate": "300920230635"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6756",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5133N00025W",
+                  "Radius": "5",
+                  "ItemA": "EGWU",
+                  "StartValidity": "2310221116",
+                  "EndValidity": "2310221510",
+                  "ItemE": "RFFS DOWNGRADED TO ICAO CAT 4",
+                  "Marker": "+",
+                  "NotamStoreDate": "221020231116"
                 }
               ]
             },
@@ -17981,33 +17971,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2563",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5129N00028W",
-                "Radius": "100",
-                "ItemA": "EGTT",
-                "StartValidity": "2310180900",
-                "EndValidity": "2310221200",
-                "ItemE": "CAUTION  LOW ATMOSPHERIC PRESSURE IS FCST IN THE LONDON TMA. ALL \nPILOTS, ESPECIALLY THOSE INBD TO OR OUBD FM HEATHROW,GATWICK, LUTON, \nSTANSTED, LONDON CITY, BIRMINGHAM, COVENTRY, BIGGIN HILL, SOUTHEND, \nOXFORD, FARNBOROUGH AND SOUTHAMPTON ARE TO EXER EXTREME CTN WHEN \nCLIMBING OR DESCENDING THROUGH THE TRL LVL DUE TO SIG DIFFERENCE BTN \nTHE AD QNH AND THE STD ATMOSPHERIC PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "171020230922"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
                 "Series": "N",
                 "Number": "313",
                 "Year": "23",
@@ -23081,6 +23044,35 @@
                 "ItemG": "13200FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "201020230958"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6842",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "83"
+                },
+                "Coordinates": "5037N00230W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2310231115",
+                "EndValidity": "2310231200",
+                "ItemE": "PARACHUTE DISPLAY WI 2NM RADIUS: 503644N 0023005W (CHICKERELL,\nDORSET). DROP HGT SUBJ ATC CLR. FOR INFO 07598 452238. \n2023-10-0151/AU3.",
+                "ItemF": "SFC",
+                "ItemG": "8250FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "290920230810"
               }
             ]
           },
@@ -25172,7 +25164,35 @@
           {
             "Code": "EGPU",
             "Name": "TIREE",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "I",
+                "Number": "3181",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5630N00652W",
+                "Radius": "5",
+                "ItemA": "EGPU",
+                "StartValidity": "2310221315",
+                "EndValidity": "2310221430",
+                "ItemE": "AD CLOSED. NORMAL CALLOUT PROCEDURE FOR AIR AMBULANCE AND SAR.",
+                "Marker": "+",
+                "NotamStoreDate": "221020231124"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -26328,33 +26348,6 @@
                 "ItemE": "NEWCASTLE ATS NOT AVBL DUE STAFF SICKNESS.",
                 "Marker": "+",
                 "NotamStoreDate": "131020232007"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2623",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5600N00350W",
-                "Radius": "120",
-                "ItemA": "EGPX",
-                "StartValidity": "2310220001",
-                "EndValidity": "2310221200",
-                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH\nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM,\nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST\n(ALDERGROVE), AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "211020231031"
               },
               {
                 "@Reference": "EGPK",
