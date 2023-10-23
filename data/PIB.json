@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000067931860",
+    "@PIBId": "400000067934015",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-23T06:00:29+00:00",
-        "ValidTo": "2023-10-24T06:00:00+00:00"
+        "ValidFrom": "2023-10-23T07:00:09+00:00",
+        "ValidTo": "2023-10-24T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-23T06:00:29+00:00",
+      "Issued": "2023-10-23T07:00:09+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310230506",
+      "PibUid": "EG712310230591",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4536,6 +4536,33 @@
                   "ItemE": "ILS RWY 23 U/S DUE CRANE OPERATION WITHIN THE TECHINCAL\nSAFEGUARDING FRAME",
                   "Marker": "+",
                   "NotamStoreDate": "201020231254"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7081",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NL",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5213N00011E",
+                  "Radius": "5",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2310240630",
+                  "EndValidity": "2310240700",
+                  "ItemE": "LOCATOR CAM/CAMBRIDGE 332.5KHZ U/S DUE MAINT",
+                  "Marker": "+",
+                  "NotamStoreDate": "190920231254"
                 }
               ]
             },
@@ -5246,7 +5273,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001260573",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-23T06:53:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "10230653 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-23T06:54:00+00:00",
+                "TamObservationTime": "2023-10-23T06:53:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -8573,6 +8619,33 @@
                   "ItemE": "NDB MAST OBSTRUCTION LIGHT U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "201020230824"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8054",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "3"
+                  },
+                  "Coordinates": "5240N00119E",
+                  "Radius": "1",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2310230658",
+                  "EndValidity": "2310231500",
+                  "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT AGL, \n209FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "231020230658"
                 }
               ]
             },
@@ -10290,33 +10363,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "5981",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2310230630",
-                  "EndValidity": "2310230700",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERGENCY SERV BASE. PILOTS TRANSITING \nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES \nBEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "221020231505"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
                   "Number": "5911",
                   "Year": "23",
                   "Type": "N",
@@ -10638,7 +10684,35 @@
           {
             "Code": "EGHG",
             "Name": "YEOVIL/WESTLAND",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6205",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5057N00237W",
+                "Radius": "1",
+                "ItemA": "EGHG",
+                "StartValidity": "2310240600",
+                "EndValidity": "2310261700",
+                "ItemE": "CRANE OPR PSN 505639N 0023631W (077 DEG MAG 1.8NM FM \nYEOVIL/WESTLAND ARP). MAX HGT 100FT AGL/220FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "181020230909"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -12425,33 +12499,6 @@
                   "ItemE": "NEW PARKING LAYOUT ON AIRCRAFT SERVICING PLATFORM 1. NEW LAYOUT \nCOMPRISES 8 ROWS WITH ROW 1 TOWARDS EAST AND ROW 8 TOWARDS WEST. \nPLEASE UPDATE RAMP CHARTS. MORE INFORMATION AVAILABLE FROM EMAIL\nNOR-NORTHOLTOPS(AT)MOD.GOV.UK OR PHONE 020 8833 8918",
                   "Marker": "+",
                   "NotamStoreDate": "300920230635"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6758",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5133N00025W",
-                  "Radius": "5",
-                  "ItemA": "EGWU",
-                  "StartValidity": "2310221717",
-                  "EndValidity": "2310230700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "221020231718"
                 }
               ]
             },
@@ -13230,33 +13277,6 @@
                   "ItemE": "MAIN RUNWAY UNDERGOING REFURBISHMENT, NOT AVBL FOR ANY ACFT. \nNORTHERN RWY AVBL FOR BASED TUTOR OPS ONLY. AD NOT BE AVBL FOR \nVISITORS, DIVERSIONS, PRACTICE DIVERSIONS OR INSTRUMENT APPROACHES.",
                   "Marker": "+",
                   "NotamStoreDate": "191020230948"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6720",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5237N00029W",
-                  "Radius": "5",
-                  "ItemA": "EGXT",
-                  "StartValidity": "2310200714",
-                  "EndValidity": "2310230700",
-                  "ItemE": "AD CLOSED",
-                  "Marker": "+",
-                  "NotamStoreDate": "201020230720"
                 }
               ]
             },
@@ -18684,32 +18704,59 @@
                 "NotamStoreDate": "280920231639"
               },
               {
-                "@Reference": "EGNV",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "C",
-                "Number": "5981",
+                "Series": "K",
+                "Number": "392",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
                   "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
+                  "Code23": "OB",
+                  "Code45": "CE",
                   "Traffic": "IV",
-                  "Purpose": "NBO",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "4"
+                },
+                "Coordinates": "5225N00141W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310230635",
+                "EndValidity": "2311172359",
+                "ItemE": "LIT CRANE AT PSN 522458N 0014035W (BRADNOCK'S MARCH, SOLIHULL)\nIN LOW FLYING AREA 8, NIGHT ROTARY REGION 4C AND THE BIRMINGHAM \nRESTRICTED AREA HGT 400FT AMSL (102FT AGL). 23/10/203/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "231020230636"
+              },
+              {
+                "@Reference": "EGSH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "8054",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
                   "Scope": "AE",
                   "Lower": "0",
-                  "Upper": "60"
+                  "Upper": "3"
                 },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2310230630",
-                "EndValidity": "2310230700",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERGENCY SERV BASE. PILOTS TRANSITING \nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES \nBEFORE CLOSURE.",
+                "Coordinates": "5240N00119E",
+                "Radius": "1",
+                "ItemA": "EGSH",
+                "StartValidity": "2310230658",
+                "EndValidity": "2310231500",
+                "ItemE": "MOBILE CRANE OPR 524020N 0011841E (SPIXWORTH) MAX HGT 113FT AGL, \n209FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "221020231505"
+                "NotamStoreDate": "231020230658"
               },
               {
                 "@Reference": "EGBJ",
@@ -19283,6 +19330,34 @@
                 "ItemE": "LIT CRANE OPR PSN 531046N 0025924W (842M 282 DEG MAG FM HAWARDEN \nARP). MAX HGT 171FT AGL/200FT AMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "171020230836"
+              },
+              {
+                "@Reference": "EGHG",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6205",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "3"
+                },
+                "Coordinates": "5057N00237W",
+                "Radius": "1",
+                "ItemA": "EGHG",
+                "StartValidity": "2310240600",
+                "EndValidity": "2310261700",
+                "ItemE": "CRANE OPR PSN 505639N 0023631W (077 DEG MAG 1.8NM FM \nYEOVIL/WESTLAND ARP). MAX HGT 100FT AGL/220FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "181020230909"
               }
             ]
           },
@@ -26241,6 +26316,33 @@
                 "ItemE": "WICK ATZ DEACTIVATED, AD CLSD, ATC/MET NOT AVBL DUE ATC STAFF \nSHORTAGE.",
                 "Marker": "+",
                 "NotamStoreDate": "131020230753"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "K",
+                "Number": "393",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5538N00611W",
+                "Radius": "1",
+                "ItemA": "EGPX",
+                "StartValidity": "2310230840",
+                "EndValidity": "2312212359",
+                "ItemE": "LIT CRANE AT PSN 553744N 0061034W (PORT ELLEN, ARGYLL AND BUTE)\nIN LOW FLYING AREA 14 AND NIGHT SECTOR 1A. HGT 157FT AMSL (125FT \nAGL). 23/10/203/LFC",
+                "Marker": "+",
+                "NotamStoreDate": "231020230642"
               },
               {
                 "@OriginalMessage": "false",
