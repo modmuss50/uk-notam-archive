@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068170266",
+    "@PIBId": "400000068172240",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-28T06:00:29+00:00",
-        "ValidTo": "2023-10-29T06:00:00+00:00"
+        "ValidFrom": "2023-10-28T07:00:09+00:00",
+        "ValidTo": "2023-10-29T07:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-28T06:00:29+00:00",
+      "Issued": "2023-10-28T07:00:09+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310280486",
+      "PibUid": "EG712310280549",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4287,36 +4287,6 @@
                   "ItemE": "ACFT PUSHBACKS FROM STANDS 22, 23, 24 AND 25 MUST BE NON STANDARD \nON TO TWY ZULU",
                   "Marker": "+",
                   "NotamStoreDate": "131020231130"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "6145",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "C",
-                  "ReferredNumber": "6144",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5123N00243W",
-                  "Radius": "5",
-                  "ItemA": "EGGD",
-                  "StartValidity": "2310280442",
-                  "EndValidity": "2310280700",
-                  "ItemE": "AERODROME CLOSED. ATC SERVICES ARE AVAILABLE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "281020230442"
                 }
               ]
             },
@@ -5350,7 +5320,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001263445",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-28T06:01:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "10280601 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-28T06:08:00+00:00",
+                "TamObservationTime": "2023-10-28T06:01:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -6389,6 +6377,60 @@
                   "ItemE": "DME ASSOCIATED WITH ILS RWY 08/26 NOT AVBL",
                   "Marker": "+",
                   "NotamStoreDate": "241020231838"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5894",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "105"
+                  },
+                  "Coordinates": "5401N00438W",
+                  "Radius": "21",
+                  "ItemA": "EGNS",
+                  "StartValidity": "2310290645",
+                  "EndValidity": "2401192045",
+                  "ItemE": "ISLE OF MAN CTA/CTZ/ATZ TWR AND APP OPR HOURS:\nMON-SAT 0630-0830, 0905-1100, 1135-2045\nSUN     0645-0830, 0905-1100, 1135-2045",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020231524"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "5895",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "105"
+                  },
+                  "Coordinates": "5401N00438W",
+                  "Radius": "21",
+                  "ItemA": "EGNS",
+                  "StartValidity": "2310290645",
+                  "EndValidity": "2401192045",
+                  "ItemE": "ISLE OF MAN RADAR HOURS\nMON-SUN 0905-1100, 1135-1900\nRAD SUBJ SHORT NOTICE CLOSURE PROMULGATED BY ATIS. OUTSIDE THESE\nHOURS PROCEDURAL SER ONLY.",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020231525"
                 }
               ]
             },
@@ -8409,7 +8451,35 @@
           {
             "Code": "EGTK",
             "Name": "OXFORD",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6461",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FI",
+                  "Code45": "AU",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5150N00119W",
+                "Radius": "5",
+                "ItemA": "EGTK",
+                "StartValidity": "2310280611",
+                "EndValidity": "2311302359",
+                "ItemE": "DEICING EQUIPMENT U/S",
+                "Marker": "+",
+                "NotamStoreDate": "281020230618"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9463,6 +9533,61 @@
                   "ItemE": "LOC/DME/NDB(L) RWY 05 AND SRA 2NM RWY 05 REQUIRED OCH(H) 580(525) \nDUE TO CRANE AT PSN 513235.19N 0003850.08E",
                   "Marker": "+",
                   "NotamStoreDate": "271020230911"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8222",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5134N00042E",
+                  "Radius": "5",
+                  "ItemA": "EGMC",
+                  "StartValidity": "2310290630",
+                  "EndValidity": "2311302300",
+                  "ItemE": "DIVERSIONS ACCEPTED WHEN PASSENGER DISEMBARKATION AND USE OF\nPASSENGER TERMINAL IS NOT REQUIRED. DIVERSIONS OF BUSINESS JETS AND\nGENERAL AVIATION STILL ACCEPTED ON A TACTICAL BASIS.",
+                  "Marker": "+",
+                  "NotamStoreDate": "281020230557"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8223",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "SP",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5135N00056E",
+                  "Radius": "22",
+                  "ItemA": "EGMC",
+                  "StartValidity": "2310290630",
+                  "EndValidity": "2311302200",
+                  "ItemD": "0630-0800 1900-2200",
+                  "ItemE": "SOUTHEND RADAR SERVICES MAY NOT BE AVBL",
+                  "Marker": "+",
+                  "NotamStoreDate": "281020230559"
                 }
               ]
             },
@@ -9716,6 +9841,33 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPERATE FROM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING \nTHE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO \nSHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10 MINUTES \nBEFORE CLOSURE.",
                   "Marker": "+",
                   "NotamStoreDate": "271020231707"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6070",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "60"
+                  },
+                  "Coordinates": "5432N00123W",
+                  "Radius": "12",
+                  "ItemA": "EGNV",
+                  "StartValidity": "2310290600",
+                  "EndValidity": "2310292200",
+                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HR\nSUN      0630-2200",
+                  "Marker": "+",
+                  "NotamStoreDate": "261020230729"
                 }
               ]
             },
@@ -18245,6 +18397,119 @@
                 "ItemE": "NEWQUAY ATZ ACTIVATION AND AD HOURS.\nMON-FRI 0645-2130\nSAT     0645-1900\nSUN     0900-2130\nDURING OPENING TIMES RFFS CAT 6 UNLESS STATED. OUTSIDE OF THESE HOURS\nSAR AND AIR AMBULANCE FLIGHTS MAY TAKE PLACE.",
                 "Marker": "+",
                 "NotamStoreDate": "071020231501"
+              },
+              {
+                "@Reference": "EGNV",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "6070",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "60"
+                },
+                "Coordinates": "5432N00123W",
+                "Radius": "12",
+                "ItemA": "EGNV",
+                "StartValidity": "2310290600",
+                "EndValidity": "2310292200",
+                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HR\nSUN      0630-2200",
+                "Marker": "+",
+                "NotamStoreDate": "261020230729"
+              },
+              {
+                "@Reference": "EGMC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "8223",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5135N00056E",
+                "Radius": "22",
+                "ItemA": "EGMC",
+                "StartValidity": "2310290630",
+                "EndValidity": "2311302200",
+                "ItemD": "0630-0800 1900-2200",
+                "ItemE": "SOUTHEND RADAR SERVICES MAY NOT BE AVBL",
+                "Marker": "+",
+                "NotamStoreDate": "281020230559"
+              },
+              {
+                "@Reference": "EGNS",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5894",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5401N00438W",
+                "Radius": "21",
+                "ItemA": "EGNS",
+                "StartValidity": "2310290645",
+                "EndValidity": "2401192045",
+                "ItemE": "ISLE OF MAN CTA/CTZ/ATZ TWR AND APP OPR HOURS:\nMON-SAT 0630-0830, 0905-1100, 1135-2045\nSUN     0645-0830, 0905-1100, 1135-2045",
+                "Marker": "+",
+                "NotamStoreDate": "191020231524"
+              },
+              {
+                "@Reference": "EGNS",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "5895",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SP",
+                  "Code45": "AH",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "105"
+                },
+                "Coordinates": "5401N00438W",
+                "Radius": "21",
+                "ItemA": "EGNS",
+                "StartValidity": "2310290645",
+                "EndValidity": "2401192045",
+                "ItemE": "ISLE OF MAN RADAR HOURS\nMON-SUN 0905-1100, 1135-1900\nRAD SUBJ SHORT NOTICE CLOSURE PROMULGATED BY ATIS. OUTSIDE THESE\nHOURS PROCEDURAL SER ONLY.",
+                "Marker": "+",
+                "NotamStoreDate": "191020231525"
               }
             ]
           },
@@ -22393,6 +22658,36 @@
                 "ItemG": "800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "251020231044"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7005",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "21"
+                },
+                "Coordinates": "5355N00058W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2310290628",
+                "EndValidity": "2310291707",
+                "ItemD": "SR MINUS30-SS PLUS30",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.3NM RADIUS 535529N 0005828W (ELVINGTON \nAD). FOR INFO CTC 07557 513242 / 07761 480111. 2023-09-0696/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "2050FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "041020231024"
               }
             ]
           },
@@ -24525,6 +24820,33 @@
                   "ItemE": "RWY 33 WIND SENSOR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "201020230859"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8224",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "SF",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5953N00118W",
+                  "Radius": "5",
+                  "ItemA": "EGPB",
+                  "StartValidity": "2310280645",
+                  "EndValidity": "2310280745",
+                  "ItemE": "FLIGHT INFORMATION SERVICE OFFICER TRAINING TAKING PLACE ON\n118.255MHZ CALLSIGN 'SUMBURGH INFORMATION'. ATC MONITORING AT \nALL TIMES.",
+                  "Marker": "+",
+                  "NotamStoreDate": "281020230640"
                 }
               ]
             },
