@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068231142",
+    "@PIBId": "400000068233856",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-29T12:00:34+00:00",
-        "ValidTo": "2023-10-30T12:00:00+00:00"
+        "ValidFrom": "2023-10-29T13:00:47+00:00",
+        "ValidTo": "2023-10-30T13:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-29T12:00:34+00:00",
+      "Issued": "2023-10-29T13:00:47+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310290790",
+      "PibUid": "EG712310290834",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5340,7 +5340,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001264615",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-29T12:29:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "10291229 09 5/5/5 100/50/75 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-29T12:30:00+00:00",
+                "TamObservationTime": "2023-10-29T12:29:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -5733,7 +5751,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "H",
-                  "Number": "7595",
+                  "Number": "7728",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -5749,13 +5767,13 @@
                   "Coordinates": "5109N00044W",
                   "Radius": "4",
                   "ItemA": "EGLF",
-                  "StartValidity": "2310291700",
-                  "EndValidity": "2310292000",
-                  "ItemE": "ARTICLE DROP WI 3NM RADIUS: 510919N 0004411W (RUSHMOOR, SURREY). \nFOR INFO CONTACT 01993 896111. 2023-10-0486/AU3",
+                  "StartValidity": "2310291400",
+                  "EndValidity": "2310291700",
+                  "ItemE": "ARTICLE DROP WI 3NM RADIUS: 510919N 0004411W (RUSHMOOR, SURREY).\nFOR INFO CONTACT 01993 896111. 2023-10-0486/AU3",
                   "ItemF": "SFC",
                   "ItemG": "2750FT AMSL",
                   "Marker": "+",
-                  "NotamStoreDate": "241020231025"
+                  "NotamStoreDate": "291020231255"
                 }
               ]
             },
@@ -6521,7 +6539,37 @@
           {
             "Code": "EGKH",
             "Name": "LASHENDEN/HEADCORN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7329",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5109N00038E",
+                "Radius": "2",
+                "ItemA": "EGKH",
+                "StartValidity": "2310301200",
+                "EndValidity": "2310301300",
+                "ItemE": "ARTICLE DROP WI 1NM RADIUS: 510923N 0003818E (LASHENDEN/HEADCORN \nAD). FOR INFO CONTACT 07880 741988. 2023-10-0374/AU1",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "161020230924"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -9847,9 +9895,12 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "6495",
+                "Number": "6497",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "6495",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "FA",
@@ -9863,11 +9914,11 @@
                 "Coordinates": "5136N00404W",
                 "Radius": "5",
                 "ItemA": "EGFH",
-                "StartValidity": "2310291140",
-                "EndValidity": "2311010800",
+                "StartValidity": "2310291217",
+                "EndValidity": "2310300800",
                 "ItemE": "AD CLSD DUE TO WX",
                 "Marker": "+",
-                "NotamStoreDate": "291020231149"
+                "NotamStoreDate": "291020231220"
               }
             },
             "ObsoleteNotamList": null
@@ -9996,7 +10047,35 @@
           {
             "Code": "EGLM",
             "Name": "WHITE WALTHAM",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6496",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "FA",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5130N00046W",
+                "Radius": "5",
+                "ItemA": "EGLM",
+                "StartValidity": "2310291230",
+                "EndValidity": "2310300800",
+                "ItemE": "AD CLOSED DUE WATERLOGGING",
+                "Marker": "+",
+                "NotamStoreDate": "291020231213"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -22361,7 +22440,7 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "7595",
+                "Number": "7728",
                 "Year": "23",
                 "Type": "N",
                 "QLine": {
@@ -22377,13 +22456,13 @@
                 "Coordinates": "5109N00044W",
                 "Radius": "4",
                 "ItemA": "EGLF",
-                "StartValidity": "2310291700",
-                "EndValidity": "2310292000",
-                "ItemE": "ARTICLE DROP WI 3NM RADIUS: 510919N 0004411W (RUSHMOOR, SURREY). \nFOR INFO CONTACT 01993 896111. 2023-10-0486/AU3",
+                "StartValidity": "2310291400",
+                "EndValidity": "2310291700",
+                "ItemE": "ARTICLE DROP WI 3NM RADIUS: 510919N 0004411W (RUSHMOOR, SURREY).\nFOR INFO CONTACT 01993 896111. 2023-10-0486/AU3",
                 "ItemF": "SFC",
                 "ItemG": "2750FT AMSL",
                 "Marker": "+",
-                "NotamStoreDate": "241020231025"
+                "NotamStoreDate": "291020231255"
               },
               {
                 "@OriginalMessage": "false",
@@ -23724,6 +23803,65 @@
                 "ItemG": "25500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "181020231322"
+              },
+              {
+                "@Reference": "EGKH",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7329",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "15"
+                },
+                "Coordinates": "5109N00038E",
+                "Radius": "2",
+                "ItemA": "EGKH",
+                "StartValidity": "2310301200",
+                "EndValidity": "2310301300",
+                "ItemE": "ARTICLE DROP WI 1NM RADIUS: 510923N 0003818E (LASHENDEN/HEADCORN \nAD). FOR INFO CONTACT 07880 741988. 2023-10-0374/AU1",
+                "ItemF": "SFC",
+                "ItemG": "1500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "161020230924"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5568",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "660"
+                },
+                "Coordinates": "5239N00451W",
+                "Radius": "35",
+                "ItemA": "EGTT",
+                "StartValidity": "2310301230",
+                "EndValidity": "2310301600",
+                "ItemE": "THE FOLLOWING ABERPORTH DANGER AREAS ARE ACTIVATED:\nEG D201H  1230-1600   SFC-FL660\nEG D201J  1230-1600   SFC-FL660",
+                "ItemF": "SFC",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "271020231222"
               }
             ]
           },
@@ -23882,6 +24020,60 @@
                   "ItemE": "STAND 18 CLOSED",
                   "Marker": "+",
                   "NotamStoreDate": "271020231057"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8244",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2310291300",
+                  "EndValidity": "2310301200",
+                  "ItemE": "RWY 17/35 AVAILABLE FOR TAXI ONLY. NO MOVEMENTS SOUTH OF JULIET",
+                  "Marker": "+",
+                  "NotamStoreDate": "291020231248"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8245",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5439N00613W",
+                  "Radius": "5",
+                  "ItemA": "EGAA",
+                  "StartValidity": "2310291300",
+                  "EndValidity": "2310301200",
+                  "ItemE": "TWY FOXTROT CLOSED, SOUTH OF F1 HOLD",
+                  "Marker": "+",
+                  "NotamStoreDate": "291020231256"
                 }
               ]
             },
@@ -27680,35 +27872,6 @@
                 "NotamStoreDate": "280720231156"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "6931",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WM",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "17"
-                },
-                "Coordinates": "5525N00136W",
-                "Radius": "2",
-                "ItemA": "EGPX",
-                "StartValidity": "2310290900",
-                "EndValidity": "2310291300",
-                "ItemE": "MODEL ROCKET FIRING WI 1NM RADIUS 552518N 0013554W (BOULMER,\nNORTHUMBERLAND). FOR INFO 07428 909939. 2023-10-0201/AU2.",
-                "ItemF": "SFC",
-                "ItemG": "1700FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "021020231553"
-              },
-              {
                 "@Reference": "EGPF",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -28133,6 +28296,125 @@
                 "ItemG": "22000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "231020231154"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7462",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "136"
+                },
+                "Coordinates": "5634N00446W",
+                "Radius": "6",
+                "ItemA": "EGPX",
+                "StartValidity": "2310301200",
+                "EndValidity": "2311032300",
+                "ItemD": "1200-2300",
+                "ItemE": "ARTICLE DROP WI 5NM RADIUS: 563349N 0044623W (BLACK MOUNT,\nARGYLL AND BUTE). FOR INFO CONTACT 07526 366424. 2023-10-0453/AU3",
+                "ItemF": "SFC",
+                "ItemG": "13600FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "191020230916"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7463",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "136"
+                },
+                "Coordinates": "5638N00447W",
+                "Radius": "6",
+                "ItemA": "EGPX",
+                "StartValidity": "2310301200",
+                "EndValidity": "2311032300",
+                "ItemD": "1200-2300",
+                "ItemE": "ARTICLE DROP WI 5NM RADIUS: 563800N 0044717W (RANNOCH MOOR,\nARGYLL AND BUTE). FOR INFO CONTACT 07526 366424. 2023-10-0455/AU3",
+                "ItemF": "SFC",
+                "ItemG": "13600FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "191020230918"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7464",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "122"
+                },
+                "Coordinates": "5654N00455W",
+                "Radius": "6",
+                "ItemA": "EGPX",
+                "StartValidity": "2310301200",
+                "EndValidity": "2311032300",
+                "ItemD": "1200-2300",
+                "ItemE": "ARTICLE DROP WI 5NM RADIUS: 565339N 0045509W (SPEAN BRIDGE,\nHIGHLANDS). FOR INFO CONTACT 07526 366424. 2023-10-0456/AU3",
+                "ItemF": "SFC",
+                "ItemG": "12150FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "191020230919"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5559",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "230"
+                },
+                "Coordinates": "5530N00035W",
+                "Radius": "32",
+                "ItemA": "EGPX",
+                "StartValidity": "2310301200",
+                "EndValidity": "2310301315",
+                "ItemE": "THE FOLLOWING DRURIDGE BAY DANGER AREAS ARE ACTIVATED:\nEG D513A 1200-1315 SFC-FL230\nEG D513B 1200-1315 SFC-FL230\nEG D513C 1200-1315 SFC-FL100",
+                "ItemF": "SFC",
+                "ItemG": "FL230",
+                "Marker": "+",
+                "NotamStoreDate": "271020231143"
               }
             ]
           },
