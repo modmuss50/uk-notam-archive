@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068312951",
+    "@PIBId": "400000068318055",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-30T12:00:34+00:00",
-        "ValidTo": "2023-10-31T12:00:00+00:00"
+        "ValidFrom": "2023-10-30T13:00:47+00:00",
+        "ValidTo": "2023-10-31T13:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-30T12:00:34+00:00",
+      "Issued": "2023-10-30T13:00:47+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310300984",
+      "PibUid": "EG712310301046",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6530,37 +6530,7 @@
           {
             "Code": "EGKH",
             "Name": "LASHENDEN/HEADCORN",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7329",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "15"
-                },
-                "Coordinates": "5109N00038E",
-                "Radius": "2",
-                "ItemA": "EGKH",
-                "StartValidity": "2310301200",
-                "EndValidity": "2310301300",
-                "ItemE": "ARTICLE DROP WI 1NM RADIUS: 510923N 0003818E (LASHENDEN/HEADCORN \nAD). FOR INFO CONTACT 07880 741988. 2023-10-0374/AU1",
-                "ItemF": "SFC",
-                "ItemG": "1500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "161020230924"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -7850,33 +7820,64 @@
             "Code": "EGSS",
             "Name": "LONDON STANSTED",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "7121",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "PN",
-                  "Code45": "TT",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7121",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PN",
+                    "Code45": "TT",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5153N00014E",
+                  "Radius": "5",
+                  "ItemA": "EGSS",
+                  "StartValidity": "2310290000",
+                  "EndValidity": "2311112359",
+                  "ItemE": "TRIGGER NOTAM - AIP SUP 061/23 WEF 29 OCT 23 UNTIL 31 MAR 24\nLONDON HEATHROW, LONDON GATWICK AND LONDON STANSTED AIRPORTS NOISE \nRESTRICTIONS NOTICE (NO. 2) 2023 - REPLACES SUP 007/2023",
+                  "Marker": "+",
+                  "NotamStoreDate": "210920230016"
                 },
-                "Coordinates": "5153N00014E",
-                "Radius": "5",
-                "ItemA": "EGSS",
-                "StartValidity": "2310290000",
-                "EndValidity": "2311112359",
-                "ItemE": "TRIGGER NOTAM - AIP SUP 061/23 WEF 29 OCT 23 UNTIL 31 MAR 24\nLONDON HEATHROW, LONDON GATWICK AND LONDON STANSTED AIRPORTS NOISE \nRESTRICTIONS NOTICE (NO. 2) 2023 - REPLACES SUP 007/2023",
-                "Marker": "+",
-                "NotamStoreDate": "210920230016"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8002",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WU",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "5"
+                  },
+                  "Coordinates": "5152N00013E",
+                  "Radius": "1",
+                  "ItemA": "EGSS",
+                  "StartValidity": "2310311230",
+                  "EndValidity": "2310311315",
+                  "ItemE": "UAS OPR PSN 515210N 0001310E (DUNMOW ROAD, 2329M FROM LONDON \nSTANSTED ARP) WI 180M RADIUS. MAX HEIGHT 128FT AGL, 437FT AMSL",
+                  "ItemF": "SFC",
+                  "ItemG": "437FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "201020232302"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -8454,6 +8455,33 @@
                   "ItemE": "HOLDING POINT D1 CLOSED DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "301020231136"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8276",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5241N00117E",
+                  "Radius": "5",
+                  "ItemA": "EGSH",
+                  "StartValidity": "2310310600",
+                  "EndValidity": "2310312230",
+                  "ItemE": "AD OPR HR 0600-2230",
+                  "Marker": "+",
+                  "NotamStoreDate": "301020231257"
                 }
               ]
             },
@@ -12126,33 +12154,6 @@
                   "ItemE": "AD OPE HR\n26 OCT-1000-1900\n27 OCT-0930-1330\n28-29 OCT-CLOSED\n30 OCT-1400-2300\n31 OCT-1600-2200",
                   "Marker": "+",
                   "NotamStoreDate": "261020231356"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6871",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "2"
-                  },
-                  "Coordinates": "5239N00033E",
-                  "Radius": "1",
-                  "ItemA": "EGYM",
-                  "StartValidity": "2310300800",
-                  "EndValidity": "2310301300",
-                  "ItemE": "CRANE OPR IN PSN 523911N 0003310E (RAF MARHAM) UP TO 65FT AGL\n160FT AMSL.",
-                  "Marker": "+",
-                  "NotamStoreDate": "261020231245"
                 }
               ]
             },
@@ -18873,34 +18874,6 @@
                 "NotamStoreDate": "261020231142"
               },
               {
-                "@Reference": "EGYM",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6871",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "2"
-                },
-                "Coordinates": "5239N00033E",
-                "Radius": "1",
-                "ItemA": "EGYM",
-                "StartValidity": "2310300800",
-                "EndValidity": "2310301300",
-                "ItemE": "CRANE OPR IN PSN 523911N 0003310E (RAF MARHAM) UP TO 65FT AGL\n160FT AMSL.",
-                "Marker": "+",
-                "NotamStoreDate": "261020231245"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -23054,36 +23027,6 @@
                 "NotamStoreDate": "181020231322"
               },
               {
-                "@Reference": "EGKH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7329",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WP",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "15"
-                },
-                "Coordinates": "5109N00038E",
-                "Radius": "2",
-                "ItemA": "EGKH",
-                "StartValidity": "2310301200",
-                "EndValidity": "2310301300",
-                "ItemE": "ARTICLE DROP WI 1NM RADIUS: 510923N 0003818E (LASHENDEN/HEADCORN \nAD). FOR INFO CONTACT 07880 741988. 2023-10-0374/AU1",
-                "ItemF": "SFC",
-                "ItemG": "1500FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "161020230924"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -23610,6 +23553,36 @@
                 "ItemG": "450FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "261020230831"
+              },
+              {
+                "@Reference": "EGSS",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "8002",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "5"
+                },
+                "Coordinates": "5152N00013E",
+                "Radius": "1",
+                "ItemA": "EGSS",
+                "StartValidity": "2310311230",
+                "EndValidity": "2310311315",
+                "ItemE": "UAS OPR PSN 515210N 0001310E (DUNMOW ROAD, 2329M FROM LONDON \nSTANSTED ARP) WI 180M RADIUS. MAX HEIGHT 128FT AGL, 437FT AMSL",
+                "ItemF": "SFC",
+                "ItemG": "437FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "201020232302"
               }
             ]
           },
@@ -23871,33 +23844,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "I",
-                  "Number": "2994",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "OL",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5729N00722W",
-                  "Radius": "5",
-                  "ItemA": "EGPL",
-                  "StartValidity": "2310051411",
-                  "EndValidity": "2310301745",
-                  "ItemE": "NDB OBSTRUCTION LIGHT U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "051020231411"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "I",
                   "Number": "3007",
                   "Year": "23",
                   "Type": "N",
@@ -24060,6 +24006,36 @@
                   "ItemE": "REVISED AD OPR HR:\nMON WED FRI 0800-1600\nTUE THU 0800-1745\nSAT 0800-0830, 1015-1145, 1215-1245\nSUN 1315-1330",
                   "Marker": "+",
                   "NotamStoreDate": "271020231344"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3268",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "I",
+                  "ReferredNumber": "2994",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "OL",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5729N00722W",
+                  "Radius": "5",
+                  "ItemA": "EGPL",
+                  "StartValidity": "2310301246",
+                  "EndValidity": "2311301745",
+                  "ItemE": "NDB OBSTRUCTION LIGHT U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "301020231250"
                 }
               ]
             },
@@ -25749,35 +25725,7 @@
           {
             "Code": "EGQL",
             "Name": "LEUCHARS",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "6921",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "IC",
-                  "Code45": "AS",
-                  "Traffic": "I",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5622N00252W",
-                "Radius": "5",
-                "ItemA": "EGQL",
-                "StartValidity": "2310301045",
-                "EndValidity": "2310301300",
-                "ItemE": "ILS RWY 26RH U/S DUE MAINT",
-                "Marker": "+",
-                "NotamStoreDate": "281020231336"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
