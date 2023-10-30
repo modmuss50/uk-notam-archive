@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068254305",
+    "@PIBId": "400000068256704",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-29T23:00:51+00:00",
-        "ValidTo": "2023-10-30T23:00:00+00:00"
+        "ValidFrom": "2023-10-30T00:00:28+00:00",
+        "ValidTo": "2023-10-31T00:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-29T23:00:51+00:00",
+      "Issued": "2023-10-30T00:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310291439",
+      "PibUid": "EG712310300007",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4769,65 +4769,36 @@
             "Code": "EGHR",
             "Name": "CHICHESTER/GOODWOOD",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6445",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "4"
-                  },
-                  "Coordinates": "5052N00044W",
-                  "Radius": "1",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2310271013",
-                  "EndValidity": "2310292359",
-                  "ItemE": "LIT CRANE PSN 505219N 0004422W (GOODWOOD HOUSE) MAX HGT 342FT \nAMSL,\n142FT AGL",
-                  "Marker": "+",
-                  "NotamStoreDate": "271020231028"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6449",
+                "Year": "23",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "6014",
+                "ReferredYear": "23",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6449",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "L",
-                  "ReferredNumber": "6014",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5052N00046W",
-                  "Radius": "5",
-                  "ItemA": "EGHR",
-                  "StartValidity": "2310271057",
-                  "EndValidity": "2311151600",
-                  "ItemE": "RWY 10/28 CLSD",
-                  "Marker": "+",
-                  "NotamStoreDate": "271020231101"
-                }
-              ]
+                "Coordinates": "5052N00046W",
+                "Radius": "5",
+                "ItemA": "EGHR",
+                "StartValidity": "2310271057",
+                "EndValidity": "2311151600",
+                "ItemE": "RWY 10/28 CLSD",
+                "Marker": "+",
+                "NotamStoreDate": "271020231101"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -7837,6 +7808,34 @@
                   "ItemE": "LIT CRANE OPR 532158.7061N 0021648.2863W (1438M 346DEG MAG FM\nMANCHESTER ARP) MAX HGT 167FT AGL/392FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "191020230936"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "7921",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5321N00217W",
+                  "Radius": "5",
+                  "ItemA": "EGCC",
+                  "StartValidity": "2310302330",
+                  "EndValidity": "2311040500",
+                  "ItemD": "2330-0500",
+                  "ItemE": "TWY LIMA CLSD BTN STAND 6 TO STAND 10 DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020230926"
                 }
               ]
             },
@@ -7846,62 +7845,33 @@
             "Code": "EGCB",
             "Name": "MANCHESTER/BARTON",
             "NotamList": {
-              "Notam": [
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "5955",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5328N00223W",
-                  "Radius": "5",
-                  "ItemA": "EGCB",
-                  "StartValidity": "2310050825",
-                  "EndValidity": "2311301700",
-                  "ItemE": "RWY 02/20 CLOSED DUE WIP",
-                  "Marker": "+",
-                  "NotamStoreDate": "051020230828"
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "5955",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "MR",
+                  "Code45": "LC",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
                 },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "L",
-                  "Number": "6211",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5328N00223W",
-                  "Radius": "5",
-                  "ItemA": "EGCB",
-                  "StartValidity": "2310181426",
-                  "EndValidity": "2310292359",
-                  "ItemE": "RWY 14/32 CLSD DUE SFC CONDITIONS",
-                  "Marker": "+",
-                  "NotamStoreDate": "181020231428"
-                }
-              ]
+                "Coordinates": "5328N00223W",
+                "Radius": "5",
+                "ItemA": "EGCB",
+                "StartValidity": "2310050825",
+                "EndValidity": "2311301700",
+                "ItemE": "RWY 02/20 CLOSED DUE WIP",
+                "Marker": "+",
+                "NotamStoreDate": "051020230828"
+              }
             },
             "ObsoleteNotamList": null
           },
@@ -8151,33 +8121,6 @@
                   "ItemE": "SURFACE WIND OBSERVATIONS FOR RWY 09 OPERATIONS DERIVED FROM\nTHE MID POINT ANEMOMETER.",
                   "Marker": "+",
                   "NotamStoreDate": "231020231152"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8250",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5241N00117E",
-                  "Radius": "14",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2310292300",
-                  "EndValidity": "2310292330",
-                  "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-\nARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
-                  "Marker": "+",
-                  "NotamStoreDate": "291020231914"
                 }
               ]
             },
@@ -10083,36 +10026,6 @@
                   "ItemE": "ILS RWY 19 RESTRICTED TO LOC/DME ONLY APPROACHES. ILS GP INFO IS\nUNRELIABLE",
                   "Marker": "+",
                   "NotamStoreDate": "161020230645"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "6811",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "6734",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5137N00106W",
-                  "Radius": "5",
-                  "ItemA": "EGUB",
-                  "StartValidity": "2310241415",
-                  "EndValidity": "2310292359",
-                  "ItemE": "AD OPR HOURS\nMON 23 0800-2200\nTUE 24 0800-2000\nWED 25 0530-2100\nTHU 26 0800-2000\nFRI 27 0800-1615\nSAT 28 CLOSED\nSUN 29 CLOSED\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT",
-                  "Marker": "+",
-                  "NotamStoreDate": "241020231415"
                 }
               ]
             },
@@ -17266,33 +17179,6 @@
                 "NotamStoreDate": "241020231409"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2650",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5129N00028W",
-                "Radius": "100",
-                "ItemA": "EGTT",
-                "StartValidity": "2310250010",
-                "EndValidity": "2310310010",
-                "ItemE": "CAUTION  LOW ATMOSPHERIC PRESSURE IS FCST IN THE LONDON TMA. ALL \nPILOTS, ESPECIALLY THOSE INBD TO OR OUBD FM HEATHROW, GATWICK, \nLUTON, STANSTED, LONDON CITY, BIRMINGHAM, COVENTRY, BIGGIN HILL,\nSOUTHEND , OXFORD, FARNBOROUGH AND SOUTHAMPTON ARE TO EXER EXTREME\nCTN WHEN CLIMBING OR DESCENDING THROUGH THE TRL LVL DUE TO SIG\nDIFFERENCE BTN THE AD QNH AND THE STD ATMOSPHERIC PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "241020231338"
-              },
-              {
                 "@Reference": "EGGW",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -17490,34 +17376,6 @@
                 "ItemE": "CRANE OPR PSN 513235.19N 0003850.08E (HDG 226 DEG MAG, 4435M FM\nSOUTHEND ARP). MAX HGT 210FT/328FT AMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "271020230902"
-              },
-              {
-                "@Reference": "EGHR",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6445",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "4"
-                },
-                "Coordinates": "5052N00044W",
-                "Radius": "1",
-                "ItemA": "EGHR",
-                "StartValidity": "2310271013",
-                "EndValidity": "2310292359",
-                "ItemE": "LIT CRANE PSN 505219N 0004422W (GOODWOOD HOUSE) MAX HGT 342FT \nAMSL,\n142FT AGL",
-                "Marker": "+",
-                "NotamStoreDate": "271020231028"
               },
               {
                 "@OriginalMessage": "false",
@@ -17891,33 +17749,6 @@
                 "NotamStoreDate": "061020230923"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2709",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5321N00216W",
-                "Radius": "100",
-                "ItemA": "EGTT",
-                "StartValidity": "2310290000",
-                "EndValidity": "2310292359",
-                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE MANCHESTER\nAND MIDLANDS AREA OF THE UK. ALL PILOTS, ESPECIALLY THOSE INBOUND TO,\nOR OUTBOUND FROM, MANCHESTER, LIVERPOOL, HAWARDEN, LEEDS,\nBIRMINGHAM, OXFORD, EAST MIDLANDS, COVENTRY, DONCASTER, ISLE OF MAN,\nHUMBERSIDE, BLACKPOOL, AND WARTON ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "281020230909"
-              },
-              {
                 "@Reference": "EGHQ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18089,32 +17920,34 @@
                 "NotamStoreDate": "300820231820"
               },
               {
-                "@Reference": "EGSH",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
-                "Series": "A",
-                "Number": "8250",
+                "Series": "B",
+                "Number": "2719",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "B",
+                "ReferredNumber": "2650",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
+                  "Code23": "AT",
+                  "Code45": "XX",
                   "Traffic": "IV",
                   "Purpose": "NBO",
-                  "Scope": "AE",
+                  "Scope": "E",
                   "Lower": "0",
-                  "Upper": "40"
+                  "Upper": "100"
                 },
-                "Coordinates": "5241N00117E",
-                "Radius": "14",
-                "ItemA": "EGSH",
-                "StartValidity": "2310292300",
-                "EndValidity": "2310292330",
-                "ItemE": "NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-\nARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.",
+                "Coordinates": "5321N00216W",
+                "Radius": "100",
+                "ItemA": "EGTT",
+                "StartValidity": "2310292230",
+                "EndValidity": "2311032359",
+                "ItemE": "CAUTION  LOW ATMOSPHERIC PRESSURE IS FCST IN THE LONDON TMA.\nALL PILOTS, ESPECIALLY THOSE INBD TO OR OUBD FM HEATHROW,\nGATWICK, LUTON, STANSTED, LONDON CITY, BIRMINGHAM, COVENTRY, BIGGIN\nHILL, SOUTHEND , OXFORD, FARNBOROUGH AND SOUTHAMPTON ARE TO EXER \nEXTREME CTN WHEN CLIMBING OR DESCENDING THROUGH THE TRL LVL DUE TO \nSIG DIFFERENCE BTN THE AD QNH AND THE STD ATMOSPHERIC PRESSURE \nSETTING.",
                 "Marker": "+",
-                "NotamStoreDate": "291020231914"
+                "NotamStoreDate": "291020232303"
               },
               {
                 "@Reference": "EGVN",
@@ -20337,36 +20170,6 @@
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
                 "Series": "H",
-                "Number": "6873",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5154N00037W",
-                "Radius": "2",
-                "ItemA": "EGTT",
-                "StartValidity": "2310041804",
-                "EndValidity": "2310312359",
-                "ItemD": "04-28 SS PLUS30-2259, 29 31 SS PLUS30-2359",
-                "ItemE": "SEARCHLIGHT DISPLAY WI 1NM RADIUS 515351N 0003712W (GREAT\nBILLINGTON, BEDFORDSHIRE). FOR INFO 07543 715716. 2023-09-0703/AU2.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "290920231447"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
                 "Number": "6898",
                 "Year": "23",
                 "Type": "N",
@@ -20847,35 +20650,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "J",
-                "Number": "3703",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RT",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "30"
-                },
-                "Coordinates": "5200N00045W",
-                "Radius": "3",
-                "ItemA": "EGTT",
-                "StartValidity": "2310202300",
-                "EndValidity": "2310292359",
-                "ItemE": "RESTRICTED AREA (TEMPORARY) AT BLETCHLEY PARK, BUCKINGHAMSHIRE \nFOR UAS ONLY. RESTRICTION OF FLYING REGULATIONS MADE UNDER ARTICLE \n239 OF AIR NAVIGATION ORDER 2016. A BRIEFING SHEET WILL REFER. NO \nUNMANNED AIRCRAFT SYSTEM IS TO FLY WI 2NM RADIUS 515945N 0004437W \n(BLETCHLEY PARK) EXCEPT THOSE OPR WITH THE PERMISSION OF POLICE \nINSPECTOR RESPONSIBLE FOR SECURITY OPERATION WHO MAY BE CONTACTED ON \nTEL 07795 317481. FURTHER DETAILS VIA BRIEFING SHEET AT \nNATS-UK.EAD-IT.COM 2023-10-0071/AO1",
-                "ItemF": "SFC",
-                "ItemG": "3000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "171020230830"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "H",
                 "Number": "7376",
                 "Year": "23",
@@ -21292,35 +21066,6 @@
                 "ItemG": "12000FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "150920230858"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5589",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "230"
-                },
-                "Coordinates": "5114N00154W",
-                "Radius": "6",
-                "ItemA": "EGTT",
-                "StartValidity": "2310290830",
-                "EndValidity": "2310292330",
-                "ItemE": "DANGER AREA EG D125 LARKHILL ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "23000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "291020230821"
               },
               {
                 "@Reference": "EGBE",
@@ -26032,33 +25777,6 @@
                 "ItemE": "INVERNESS AD OPR HR AND ATS COM FACILITIES:\nSUN-MON 0630-2200,\nTUE 0230-0415, 0445-2200,\nWED-FRI 0245-2200,\nSAT 0245-2100.\nINVERNESS RADAR HOURS:\nSUN-FRI 0630-2200,\nSAT 0630-2100.\nUK AIP AD 2.3, AD 2.18 REFERS.",
                 "Marker": "+",
                 "NotamStoreDate": "271020231355"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2710",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AT",
-                  "Code45": "XX",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5600N00350W",
-                "Radius": "120",
-                "ItemA": "EGPX",
-                "StartValidity": "2310290000",
-                "EndValidity": "2310292359",
-                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH\nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM,\nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST\n(ALDERGROVE), AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
-                "Marker": "+",
-                "NotamStoreDate": "281020230911"
               },
               {
                 "@Reference": "EGPK",
