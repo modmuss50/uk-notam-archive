@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068300952",
+    "@PIBId": "400000068307467",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-10-30T10:00:35+00:00",
-        "ValidTo": "2023-10-31T10:00:00+00:00"
+        "ValidFrom": "2023-10-30T11:00:28+00:00",
+        "ValidTo": "2023-10-31T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-10-30T10:00:35+00:00",
+      "Issued": "2023-10-30T11:00:28+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712310300859",
+      "PibUid": "EG712310300929",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4654,7 +4654,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001266241",
+                "TAMloc": "EGSC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-10-30T07:00:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGSC",
+                    "10300700 05 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-10-30T10:02:00+00:00",
+                "TamObservationTime": "2023-10-30T07:00:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGFF",
@@ -8374,33 +8392,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "8265",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "OB",
-                    "Code45": "CE",
-                    "Traffic": "IV",
-                    "Purpose": "M",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "3"
-                  },
-                  "Coordinates": "5240N00114E",
-                  "Radius": "1",
-                  "ItemA": "EGSH",
-                  "StartValidity": "2310300830",
-                  "EndValidity": "2310301200",
-                  "ItemE": "MOBILE CRANE OPR 524025N 0011345E (DRAYTON) HGT 115FT AGL /\n208FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "301020230831"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "8270",
                   "Year": "23",
                   "Type": "N",
@@ -9340,6 +9331,33 @@
                   "ItemE": "CRANE OPR PSN 505559N 0012345W (SOUTHAMPTON) MAX HGT 138FT AGL,\n275FT AMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "161020232149"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "B",
+                  "Number": "2591",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NM",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00121W",
+                  "Radius": "25",
+                  "ItemA": "EGHI",
+                  "StartValidity": "2310311030",
+                  "EndValidity": "2310311430",
+                  "ItemE": "VOR/DME SAM/SOUTHAMPTON 113.35MHZ CH80Y, BOTH PARTS U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020231029"
                 }
               ]
             },
@@ -10625,33 +10643,6 @@
                   "@OriginalMessage": "false",
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
-                  "Series": "B",
-                  "Number": "2554",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AC",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "40"
-                  },
-                  "Coordinates": "5145N00135W",
-                  "Radius": "11",
-                  "ItemA": "EGVN",
-                  "StartValidity": "2310300935",
-                  "EndValidity": "2310301057",
-                  "ItemE": "TEMPO CONTROLLED AIRSPACE CLASS D ESTABLISHED AS FLW: BRIZE \nNORTON CTR UPPER LIMIT RAISED TO 4000FT AMSL. CONTROLLING AUTHORITY: \nBRIZE NORTON ATC. 2023-10-0384/AU6.",
-                  "Marker": "+",
-                  "NotamStoreDate": "161020230756"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
                   "Series": "U",
                   "Number": "6938",
                   "Year": "23",
@@ -10899,6 +10890,33 @@
                   "ItemE": "GRASS RWY 26L/08R CLOSED DURING ROUTINE OPENING HOURS",
                   "Marker": "+",
                   "NotamStoreDate": "111020230858"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6704",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NB",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5302N00029W",
+                  "Radius": "5",
+                  "ItemA": "EGYD",
+                  "StartValidity": "2310311000",
+                  "EndValidity": "2310311300",
+                  "ItemE": "NDB CWL/CRANWELL 423KHZ U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "191020231052"
                 }
               ]
             },
@@ -12803,6 +12821,35 @@
                   "ItemG": "9500FT AMSL",
                   "Marker": "+",
                   "NotamStoreDate": "021020231332"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "6940",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "RO",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "29"
+                  },
+                  "Coordinates": "5310N00031W",
+                  "Radius": "2",
+                  "ItemA": "EGXW",
+                  "StartValidity": "2310301030",
+                  "EndValidity": "2310302359",
+                  "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW\nFLYING AREA AND NIGHT SECTOR AT PSN 531014N 0003038W,\n(RAF WADDINGTON, LINCOLN) RADIUS 1NM. MAX HEIGHT 2600FT AGL.",
+                  "ItemF": "SFC",
+                  "ItemG": "2840FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "301020231035"
                 }
               ]
             },
@@ -18787,34 +18834,6 @@
                 "NotamStoreDate": "271020230702"
               },
               {
-                "@Reference": "EGSH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "8265",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "OB",
-                  "Code45": "CE",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "3"
-                },
-                "Coordinates": "5240N00114E",
-                "Radius": "1",
-                "ItemA": "EGSH",
-                "StartValidity": "2310300830",
-                "EndValidity": "2310301200",
-                "ItemE": "MOBILE CRANE OPR 524025N 0011345E (DRAYTON) HGT 115FT AGL /\n208FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "301020230831"
-              },
-              {
                 "@Reference": "EGUN",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -18899,88 +18918,6 @@
                 "NotamStoreDate": "301020230624"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2552",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "40",
-                  "Upper": "95"
-                },
-                "Coordinates": "5139N00140W",
-                "Radius": "9",
-                "ItemA": "EGTT",
-                "StartValidity": "2310300935",
-                "EndValidity": "2310301057",
-                "ItemE": "TEMPO CTA (CTA 1) CLASS D ESTABLISHED WI AREA BOUNDED BY:\n514454N 0014947W - 514412N 0014010W - 513945N 0012646W - \n513911N 0012629W - 513640N 0013011W - 513928N 0015338W - \n514454N 0014947W. 4000FT AMSL/FL095. CONTROLLING AUTHORITIES: LONDON \nAREA CONTROL/BRIZE NORTON ATC. 2023-10-0384/AU6.",
-                "Marker": "+",
-                "NotamStoreDate": "161020230755"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2553",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "40",
-                  "Upper": "105"
-                },
-                "Coordinates": "5141N00148W",
-                "Radius": "14",
-                "ItemA": "EGTT",
-                "StartValidity": "2310300935",
-                "EndValidity": "2310301057",
-                "ItemE": "TEMPO CTA (CTA 2) CLASS D ESTABLISHED WI AREA BOUNDED BY:\n515242N 0015604W - 514951N 0013158W - 513945N 0012646W - \n514412N 0014010W - 514454N 0014947W - 513928N 0015338W - \n514028N 0020214W - 514117N 0020916W - 514707N 0020509W - \n515242N 0015604W. 4000FT AMSL/FL105. CONTROLLING AUTHORITIES: LONDON \nAREA CONTROL/BRIZE NORTON ATC. 2023-10-0384/AU6.",
-                "Marker": "+",
-                "NotamStoreDate": "161020230756"
-              },
-              {
-                "@Reference": "EGVN",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2554",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AC",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "40"
-                },
-                "Coordinates": "5145N00135W",
-                "Radius": "11",
-                "ItemA": "EGVN",
-                "StartValidity": "2310300935",
-                "EndValidity": "2310301057",
-                "ItemE": "TEMPO CONTROLLED AIRSPACE CLASS D ESTABLISHED AS FLW: BRIZE \nNORTON CTR UPPER LIMIT RAISED TO 4000FT AMSL. CONTROLLING AUTHORITY: \nBRIZE NORTON ATC. 2023-10-0384/AU6.",
-                "Marker": "+",
-                "NotamStoreDate": "161020230756"
-              },
-              {
                 "@Reference": "EGTF",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -19010,6 +18947,33 @@
                 "ItemE": "FAIROAKS ATS REVISED HOURS:\n0800-1000 1030-1230 1300-1500 1530-1730\nOTHER AIRFIELD SERVICES UNAFFECTED. DURING ATS CLOSURE PERIODS\nTAKEOFF AND LANDING BY SOLO STUDENTS PROHIBITED AND CIRCUIT FLYING\nNOT AVBL. NORMAL OUT OF HOURS PROCEDURES WILL APPLY))",
                 "Marker": "+",
                 "NotamStoreDate": "301020230958"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2720",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "SE",
+                  "Code45": "LT",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5250N00120W",
+                "Radius": "30",
+                "ItemA": "EGTT",
+                "StartValidity": "2310301032",
+                "EndValidity": "2311302359",
+                "ItemE": "EAST MIDLANDS LOWER AIRSPACE RADAR SER MAY NOT BE AVBL AT TIMES \nDUE TO STAFF SHORTAGE",
+                "Marker": "+",
+                "NotamStoreDate": "301020231044"
               },
               {
                 "@OriginalMessage": "false",
@@ -19097,6 +19061,33 @@
                 "ItemE": "SOUTHEND CTA/CTR/ATZ ACTIVATED. AD HOURS EXTENDED",
                 "Marker": "+",
                 "NotamStoreDate": "281020230802"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2721",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AT",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5321N00216W",
+                "Radius": "100",
+                "ItemA": "EGTT",
+                "StartValidity": "2310310001",
+                "EndValidity": "2310311200",
+                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE MANCHESTER\nAND MIDLANDS AREA OF THE UK. ALL PILOTS, ESPECIALLY THOSE INBOUND TO,\nOR OUTBOUND FROM, MANCHESTER, LIVERPOOL, HAWARDEN, LEEDS,\nBIRMINGHAM, OXFORD, EAST MIDLANDS, COVENTRY, DONCASTER, ISLE OF MAN,\nHUMBERSIDE, BLACKPOOL, AND WARTON ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
+                "Marker": "+",
+                "NotamStoreDate": "301020231044"
               },
               {
                 "@Reference": "EGHG",
@@ -19208,6 +19199,34 @@
                 "ItemE": "LIT CRANE AT PSN 512247N 0024223W (SOUTHEASTERN CORNER OF BRISTOL \nAD) MAX HGT 82FT AGL/682FT AMSL.",
                 "Marker": "+",
                 "NotamStoreDate": "101020231020"
+              },
+              {
+                "@Reference": "EGHI",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2591",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "NM",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5057N00121W",
+                "Radius": "25",
+                "ItemA": "EGHI",
+                "StartValidity": "2310311030",
+                "EndValidity": "2310311430",
+                "ItemE": "VOR/DME SAM/SOUTHAMPTON 113.35MHZ CH80Y, BOTH PARTS U/S",
+                "Marker": "+",
+                "NotamStoreDate": "191020231029"
               }
             ]
           },
@@ -21847,35 +21866,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5565",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "500"
-                },
-                "Coordinates": "5418N00343W",
-                "Radius": "12",
-                "ItemA": "EGTT",
-                "StartValidity": "2310300700",
-                "EndValidity": "2310301700",
-                "ItemE": "THE FOLLOWING ESKMEALS DANGER AREAS ARE ACTIVATED:\nEG D406A  0700-1700  SFC-50000FT AMSL\nEG D406B  0700-1700  SFC-50000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "50000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "271020231203"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "H",
                 "Number": "7729",
                 "Year": "23",
@@ -22743,6 +22733,36 @@
                 "ItemG": "2500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "271020231136"
+              },
+              {
+                "@Reference": "EGXW",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "U",
+                "Number": "6940",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RO",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "29"
+                },
+                "Coordinates": "5310N00031W",
+                "Radius": "2",
+                "ItemA": "EGXW",
+                "StartValidity": "2310301030",
+                "EndValidity": "2310302359",
+                "ItemE": "E BAND HIGH INTENSITY RADIO TRANSMISSION AREA (HIRTA) IN LOW\nFLYING AREA AND NIGHT SECTOR AT PSN 531014N 0003038W,\n(RAF WADDINGTON, LINCOLN) RADIUS 1NM. MAX HEIGHT 2600FT AGL.",
+                "ItemF": "SFC",
+                "ItemG": "2840FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "301020231035"
               },
               {
                 "@OriginalMessage": "false",
@@ -24300,6 +24320,33 @@
                   "ItemE": "CRANE OPR 555520N 0032332W (RATHO EDINBURGH) MAX HGT 378FT AMSL \n98FT AGL. CRANE WILL BE LOWERED DURING LVP",
                   "Marker": "+",
                   "NotamStoreDate": "080920231203"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8272",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MX",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5557N00322W",
+                  "Radius": "5",
+                  "ItemA": "EGPH",
+                  "StartValidity": "2310301044",
+                  "EndValidity": "2311301200",
+                  "ItemE": "STEEL PLATE ON TWY ALPHA 20M WEST A14",
+                  "Marker": "+",
+                  "NotamStoreDate": "301020231047"
                 }
               ]
             },
@@ -26879,6 +26926,33 @@
                 "NotamStoreDate": "261020231130"
               },
               {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2722",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AT",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5600N00350W",
+                "Radius": "120",
+                "ItemA": "EGPX",
+                "StartValidity": "2310310001",
+                "EndValidity": "2310311200",
+                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH \nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM, \nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST \n(ALDERGROVE) AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME \nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION \nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BTN THE AD QNH AND \nTHE STANDARD PRESSURE SETTING.",
+                "Marker": "+",
+                "NotamStoreDate": "301020231049"
+              },
+              {
                 "@Reference": "EGPO",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -28361,6 +28435,35 @@
                 "ItemG": "1550FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "171020230835"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5582",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5807N00847W",
+                "Radius": "93",
+                "ItemA": "EGPX",
+                "StartValidity": "2310311000",
+                "EndValidity": "2310312230",
+                "ItemE": "THE FOLLOWING HEBRIDES DANGER AREAS ARE ACTIVATED:\nEG D701A 1000-2230 SFC-UNL\nEG D701B 1000-2230 SFC-UNL\nEG D701C 1000-2230 SFC-UNL\nEG D701D 1000-2230 SFC-UNL\nEG D701E 1000-2230 SFC-UNL\nEG D701F 1000-2230 SFC-UNL\nEG D701G 1000-2230 SFC-UNL\nEG D701H 1000-2230 SFC-UNL\nEG D701Y 1000-2230 SFC-UNL",
+                "ItemF": "SFC",
+                "ItemG": "UNL",
+                "Marker": "+",
+                "NotamStoreDate": "271020231411"
               }
             ]
           },
@@ -28505,6 +28608,35 @@
                 "ItemG": "FL195",
                 "Marker": "+",
                 "NotamStoreDate": "181020230921"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "G",
+                "Number": "371",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGGX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5822N01111W",
+                "Radius": "79",
+                "ItemA": "EGGX",
+                "StartValidity": "2310311000",
+                "EndValidity": "2310312230",
+                "ItemE": "THE FLW EG D701 HEBRIDES COMPLEX DANGER AREAS ARE ACTIVATED:\nEG D701R 1000-2230 SFC-UNL\nEG D701S 1000-2230 SFC-UNL\nEG D701T 1000-2230 SFC-UNL\nEG D701U 1000-2230 SFC-UNL\nEG D701V 1000-2230 SFC-UNL\nEG D701W 1000-2230 SFC-UNL\nFLW SEPARATIONS AROUND THE AREA WILL BE PROVIDED IN SHANWICK\nOCEANIC AIRSPACE: MNPS/NAT HLA(HIGH LEVEL AIRSPACE) 30NM, NON\nMNPS/NAT HLA 60NM",
+                "ItemF": "SFC",
+                "ItemG": "UNL",
+                "Marker": "+",
+                "NotamStoreDate": "271020231524"
               }
             ]
           },
