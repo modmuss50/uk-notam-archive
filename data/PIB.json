@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068497695",
+    "@PIBId": "400000068499956",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-03T10:00:37+00:00",
-        "ValidTo": "2023-11-04T10:00:00+00:00"
+        "ValidFrom": "2023-11-03T11:00:30+00:00",
+        "ValidTo": "2023-11-04T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-03T10:00:37+00:00",
+      "Issued": "2023-11-03T11:00:30+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311030816",
+      "PibUid": "EG712311030899",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -3780,7 +3780,28 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001270087",
+                "TAMloc": "EGBB",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-03T10:07:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGBB",
+                    "11031007 15 2/2/2 100/100/100 15/15/15 STANDING WATER/STANDING",
+                    "WATER/STANDING WATER",
+                    null,
+                    "TEST TEST TEST."
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-03T10:24:00+00:00",
+                "TamObservationTime": "2023-11-03T10:07:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLK",
@@ -5704,20 +5725,20 @@
             "ObsoleteNotamList": null,
             "Snowtam": {
               "TAMMessage": {
-                "TAMID": "400000001269947",
+                "TAMID": "400000001270103",
                 "TAMloc": "EGNX",
                 "TAMMessageAIXMType": "SW",
-                "TAMItemB": "2023-11-03T06:42:00+00:00",
+                "TAMItemB": "2023-11-03T10:48:00+00:00",
                 "TAMYear": "0",
                 "TAMNationalLetter": "EG",
                 "TAMItemList": {
                   "TAMItem": [
                     "EGNX",
-                    "11030642 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                    "11031048 09 5/5/5 50/50/50 NR/NR/NR WET/WET/WET"
                   ]
                 },
-                "TAMUpdateTime": "2023-11-03T06:49:00+00:00",
-                "TamObservationTime": "2023-11-03T06:42:00+00:00"
+                "TAMUpdateTime": "2023-11-03T10:51:00+00:00",
+                "TamObservationTime": "2023-11-03T10:48:00+00:00"
               }
             }
           },
@@ -5897,7 +5918,27 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001270106",
+                "TAMloc": "EGTE",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-03T09:03:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTE",
+                    "11030903 08 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET",
+                    null,
+                    "TEST TEST TEST."
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-03T10:58:00+00:00",
+                "TamObservationTime": "2023-11-03T09:03:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTF",
@@ -9169,6 +9210,33 @@
                   "ItemE": "TEMPORARY HOLD MARKER T2 PLACED NORTH OF TOWER AT THE EXIT/ENTRY \nOF\nRWY 08R/26L",
                   "Marker": "+",
                   "NotamStoreDate": "301020230830"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6636",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5328N00223W",
+                  "Radius": "5",
+                  "ItemA": "EGCB",
+                  "StartValidity": "2311031014",
+                  "EndValidity": "2311051700",
+                  "ItemE": "BRAVO TWY CLSD BETWEEN B1 AND B3, ACFT LANDING RWY 26R TO VACATE \nAT B3 AND HOLD AT B4 UNLESS INSTRUCTED TO BACKTRACK",
+                  "Marker": "+",
+                  "NotamStoreDate": "031120231029"
                 }
               ]
             },
@@ -11526,7 +11594,35 @@
           {
             "Code": "EGCW",
             "Name": "WELSHPOOL",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "L",
+                "Number": "6633",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "NL",
+                  "Code45": "AS",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "A",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5238N00309W",
+                "Radius": "5",
+                "ItemA": "EGCW",
+                "StartValidity": "2311031001",
+                "EndValidity": "2311240900",
+                "ItemE": "LOCATOR WPL/WELSHPOOL 323KHZ U/S.",
+                "Marker": "+",
+                "NotamStoreDate": "031120231002"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -12313,33 +12409,62 @@
             "Code": "EGWC",
             "Name": "COSFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "7091",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7091",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5238N00218W",
+                  "Radius": "5",
+                  "ItemA": "EGWC",
+                  "StartValidity": "2311031200",
+                  "EndValidity": "2401312359",
+                  "ItemE": "AD NOT AVBL TO ALL CIVIL FIXED WING AND ROTARY",
+                  "Marker": "+",
+                  "NotamStoreDate": "031120230946"
                 },
-                "Coordinates": "5238N00218W",
-                "Radius": "5",
-                "ItemA": "EGWC",
-                "StartValidity": "2311031200",
-                "EndValidity": "2401312359",
-                "ItemE": "AD NOT AVBL TO ALL CIVIL FIXED WING AND ROTARY",
-                "Marker": "+",
-                "NotamStoreDate": "031120230946"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7093",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "AH",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5238N00218W",
+                  "Radius": "5",
+                  "ItemA": "EGWC",
+                  "StartValidity": "2311031200",
+                  "EndValidity": "2312282300",
+                  "ItemE": "ATC OPR HOURS MON-FRI 0900-1730",
+                  "Marker": "+",
+                  "NotamStoreDate": "031120231028"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -26007,6 +26132,33 @@
                   "ItemE": "NDB OBSTRUCTION LIGHT U/S",
                   "Marker": "+",
                   "NotamStoreDate": "301020231250"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3299",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FW",
+                    "Code45": "AS",
+                    "Traffic": "V",
+                    "Purpose": "M",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5729N00722W",
+                  "Radius": "5",
+                  "ItemA": "EGPL",
+                  "StartValidity": "2311031050",
+                  "EndValidity": "2311031110",
+                  "ItemE": "RWY 24 WINDSLEEVE MAST LOWERED FOR MAINT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "031120231050"
                 }
               ]
             },
