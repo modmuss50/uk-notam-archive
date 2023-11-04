@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068537396",
+    "@PIBId": "400000068539308",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-04T08:00:56+00:00",
-        "ValidTo": "2023-11-05T08:00:00+00:00"
+        "ValidFrom": "2023-11-04T09:00:17+00:00",
+        "ValidTo": "2023-11-05T09:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-04T08:00:56+00:00",
+      "Issued": "2023-11-04T09:00:17+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311040557",
+      "PibUid": "EG712311040619",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5027,36 +5027,65 @@
             "Code": "EGHR",
             "Name": "CHICHESTER/GOODWOOD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6449",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "L",
-                "ReferredNumber": "6014",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MR",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6449",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "6014",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5052N00046W",
+                  "Radius": "5",
+                  "ItemA": "EGHR",
+                  "StartValidity": "2310271057",
+                  "EndValidity": "2311151600",
+                  "ItemE": "RWY 10/28 CLSD",
+                  "Marker": "+",
+                  "NotamStoreDate": "271020231101"
                 },
-                "Coordinates": "5052N00046W",
-                "Radius": "5",
-                "ItemA": "EGHR",
-                "StartValidity": "2310271057",
-                "EndValidity": "2311151600",
-                "ItemE": "RWY 10/28 CLSD",
-                "Marker": "+",
-                "NotamStoreDate": "271020231101"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6658",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5052N00046W",
+                  "Radius": "5",
+                  "ItemA": "EGHR",
+                  "StartValidity": "2311040900",
+                  "EndValidity": "2311041700",
+                  "ItemE": "AD CLSD TO FIXED WING ACFT DUE SFC CONDITIONS",
+                  "Marker": "+",
+                  "NotamStoreDate": "041120230848"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -5357,7 +5386,26 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001270528",
+                "TAMloc": "EGTC",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-04T08:45:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGTC",
+                    "11040845 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
+                    null
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-04T08:46:00+00:00",
+                "TamObservationTime": "2023-11-04T08:45:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLD",
@@ -5576,7 +5624,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001270527",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-04T08:38:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "11040838 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-04T08:40:00+00:00",
+                "TamObservationTime": "2023-11-04T08:38:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -8762,6 +8828,33 @@
                   "ItemE": "LOCATOR LZD/LYDD 397KHZ U/S",
                   "Marker": "+",
                   "NotamStoreDate": "031120231805"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6354",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FF",
+                    "Code45": "CG",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00056E",
+                  "Radius": "5",
+                  "ItemA": "EGMD",
+                  "StartValidity": "2311040835",
+                  "EndValidity": "2311041900",
+                  "ItemE": "RFFS DOWNGRADED TO CAT 1.",
+                  "Marker": "+",
+                  "NotamStoreDate": "041120230836"
                 }
               ]
             },
@@ -11232,7 +11325,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "L",
-                  "Number": "6504",
+                  "Number": "6657",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -11249,11 +11342,11 @@
                   "Radius": "5",
                   "ItemA": "EGSY",
                   "StartValidity": "2311041100",
-                  "EndValidity": "2311081700",
+                  "EndValidity": "2311091700",
                   "ItemD": "1100-1130 1330-1400 1600-1700",
-                  "ItemE": "ATC CLSD. IN THE EVENT OF AN EMERG CTC AD SECURITY ON 01446 \n243900.",
+                  "ItemE": "ATC CLOSED. IN THE EVENT OF AN EMERGENCY CONTACT AD SECURITY ON\n01446 243900",
                   "Marker": "+",
-                  "NotamStoreDate": "301020230936"
+                  "NotamStoreDate": "041120230839"
                 }
               ]
             },
@@ -11383,33 +11476,6 @@
                   "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ AND AD OPR HR\nSAT    0600-1900\nSUN    0730-2200\nSAT 04 0600-2130\nSAT 25 0600-2045",
                   "Marker": "+",
                   "NotamStoreDate": "011120232037"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "6345",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "AE",
-                    "Code45": "CD",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "60"
-                  },
-                  "Coordinates": "5432N00123W",
-                  "Radius": "12",
-                  "ItemA": "EGNV",
-                  "StartValidity": "2311040730",
-                  "EndValidity": "2311040815",
-                  "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA\nARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.",
-                  "Marker": "+",
-                  "NotamStoreDate": "031120231707"
                 }
               ]
             },
@@ -11424,9 +11490,12 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "6628",
+                "Number": "6659",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "6628",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "MR",
@@ -11440,11 +11509,11 @@
                 "Coordinates": "5136N00404W",
                 "Radius": "5",
                 "ItemA": "EGFH",
-                "StartValidity": "2311030839",
-                "EndValidity": "2311050800",
+                "StartValidity": "2311040847",
+                "EndValidity": "2311080800",
                 "ItemE": "RWY 22/04 CLSD DUE TO MAINTENANCE",
                 "Marker": "+",
-                "NotamStoreDate": "031120230844"
+                "NotamStoreDate": "041120230850"
               }
             },
             "ObsoleteNotamList": null
@@ -13813,7 +13882,38 @@
           {
             "Code": "EGXZ",
             "Name": "TOPCLIFFE",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6849",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5408N00125W",
+                "Radius": "1",
+                "ItemA": "EGXZ",
+                "StartValidity": "2310080800",
+                "EndValidity": "2312301800",
+                "ItemD": "OCT 08 15 22 0800-1700, OCT 29 0800-1800, NOV 05 12 19 26 \n0800-1800, DEC 03 10 17 24 30 0800-1800",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.5NM RADIUS 540827N 0012505W (DISHFORTH \nDISUSED AD). FOR INFO CTC 07761 480111 OR 07825 06493. \n2023-10-0068/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "2150FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "290920230931"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -19152,34 +19252,6 @@
                 "NotamStoreDate": "271020231040"
               },
               {
-                "@Reference": "EGNV",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "6345",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "AE",
-                  "Code45": "CD",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "60"
-                },
-                "Coordinates": "5432N00123W",
-                "Radius": "12",
-                "ItemA": "EGNV",
-                "StartValidity": "2311040730",
-                "EndValidity": "2311040815",
-                "ItemE": "TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS\nTO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY\nSTILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA\nARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT\nNOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.",
-                "Marker": "+",
-                "NotamStoreDate": "031120231707"
-              },
-              {
                 "@Reference": "EGBJ",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -20430,6 +20502,37 @@
                 "ItemG": "1225FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "021020230912"
+              },
+              {
+                "@Reference": "EGXZ",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "6849",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "22"
+                },
+                "Coordinates": "5408N00125W",
+                "Radius": "1",
+                "ItemA": "EGXZ",
+                "StartValidity": "2310080800",
+                "EndValidity": "2312301800",
+                "ItemD": "OCT 08 15 22 0800-1700, OCT 29 0800-1800, NOV 05 12 19 26 \n0800-1800, DEC 03 10 17 24 30 0800-1800",
+                "ItemE": "FLYING OF MODEL ACFT WI 0.5NM RADIUS 540827N 0012505W (DISHFORTH \nDISUSED AD). FOR INFO CTC 07761 480111 OR 07825 06493. \n2023-10-0068/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "2150FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "290920230931"
               },
               {
                 "@OriginalMessage": "false",
@@ -25017,6 +25120,209 @@
                 "ItemG": "800FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "011120231101"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7843",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5123N00056E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS: 512310N 0005625E (LEYSDOWN-ON-SEA,\nKENT). MAX HGT 3000FT AGL. FOR INFO 07985 278262. AR-2023-38330/AO3.",
+                "ItemF": "SFC",
+                "ItemG": "3020FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231015"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7849",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5407N00307W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS 540643N 0030717W (NEWBIGGIN,\nCUMBRIA). MAX HGT 3000FT AGL. FOR INFO 07867 520530 OR 07380 \n272742. AR-2023-38318/AO3",
+                "ItemF": "SFC",
+                "ItemG": "3100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231235"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7850",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5317N00019E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS 531700N 0001836E (SKEGNESS,\nLINCOLNSHIRE). MAX HGT 3000FT AGL. FOR INFO 07867 520530 OR 07380 \n272742. AR-2023-38321/AO3",
+                "ItemF": "SFC",
+                "ItemG": "3100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231236"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7851",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5321N00319W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS 532120N 0031855W (TALACRE, FLINTSHIRE). \nMAX HGT 2000FT AGL. FOR INFO 07867 520530 OR 07380 272742. \nAR-2023-38322/ AO3",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231237"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7852",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5116N00123E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS: 511619N 0012308E (SANDWICH BAY, KENT). \nMAX HGT 3000FT AGL. FOR INFO 07985 278262. AR-2023-38332/A03.",
+                "ItemF": "SFC",
+                "ItemG": "3020FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231238"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7854",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "31"
+                },
+                "Coordinates": "5210N00136E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS: 520953N 0013626E (ALDEBURGH, SUFFOLK). \nMAX HGT 3000FT AGL. FOR INFO 07985 278262. AR-2023-38333/A03.",
+                "ItemF": "SFC",
+                "ItemG": "3100FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231239"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7853",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WC",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "32"
+                },
+                "Coordinates": "5202N00128E",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311050800",
+                "EndValidity": "2311051800",
+                "ItemE": "KITE FLYING WI 1NM RADIUS: 520159N 0012730E (SHINGLE BEACH,\nWOODBRIDGE). MAX HGT 3000FT AGL. FOR INFO 07985 278262. \nAR-2023-38336/A03.",
+                "ItemF": "SFC",
+                "ItemG": "3120FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "021120231238"
               }
             ]
           },
@@ -26234,6 +26540,33 @@
                   "ItemE": "NO OUT OF HOURS ON CALL SERVICE",
                   "Marker": "+",
                   "NotamStoreDate": "011120231155"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3304",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "6012N00115W",
+                  "Radius": "5",
+                  "ItemA": "EGET",
+                  "StartValidity": "2311050800",
+                  "EndValidity": "2311051300",
+                  "ItemE": "RUNWAY 02/20 CLOSED DUE WIP",
+                  "Marker": "+",
+                  "NotamStoreDate": "031120231549"
                 }
               ]
             },
@@ -26536,33 +26869,6 @@
                   "ItemE": "AD CLOSED DUE STAFF SICKNESS",
                   "Marker": "+",
                   "NotamStoreDate": "261020231933"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "6349",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "LP",
-                    "Code45": "AS",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5502N00141W",
-                  "Radius": "5",
-                  "ItemA": "EGNT",
-                  "StartValidity": "2311032103",
-                  "EndValidity": "2311041000",
-                  "ItemE": "PAPI RWY 07 U/S",
-                  "Marker": "+",
-                  "NotamStoreDate": "031120232108"
                 },
                 {
                   "@OriginalMessage": "false",
