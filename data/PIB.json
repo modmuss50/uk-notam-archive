@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068587945",
+    "@PIBId": "400000068589471",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-05T13:00:49+00:00",
-        "ValidTo": "2023-11-06T13:00:00+00:00"
+        "ValidFrom": "2023-11-05T14:00:19+00:00",
+        "ValidTo": "2023-11-06T14:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-05T13:00:49+00:00",
+      "Issued": "2023-11-05T14:00:19+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311050812",
+      "PibUid": "EG712311050839",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5618,7 +5618,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001270951",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-05T13:36:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "11051336 09 5/5/5 100/50/50 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-05T13:38:00+00:00",
+                "TamObservationTime": "2023-11-05T13:36:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -10323,36 +10341,65 @@
             "Code": "EGBS",
             "Name": "SHOBDON",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "5838",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "L",
-                "ReferredNumber": "5816",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "NB",
-                  "Code45": "AS",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "5838",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "L",
+                  "ReferredNumber": "5816",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "NB",
+                    "Code45": "AS",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5215N00253W",
+                  "Radius": "5",
+                  "ItemA": "EGBS",
+                  "StartValidity": "2310010925",
+                  "EndValidity": "2311160000",
+                  "ItemE": "NDB SH/SHOBDON 426KHZ U/S",
+                  "Marker": "+",
+                  "NotamStoreDate": "011020230934"
                 },
-                "Coordinates": "5215N00253W",
-                "Radius": "5",
-                "ItemA": "EGBS",
-                "StartValidity": "2310010925",
-                "EndValidity": "2311160000",
-                "ItemE": "NDB SH/SHOBDON 426KHZ U/S",
-                "Marker": "+",
-                "NotamStoreDate": "011020230934"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6686",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5215N00253W",
+                  "Radius": "5",
+                  "ItemA": "EGBS",
+                  "StartValidity": "2311051300",
+                  "EndValidity": "2311051700",
+                  "ItemE": "GRASS TAXIWAY AT HOLDING POINT ALPHA CLOSED. ACFT CAN EXPECT A \nBACKTRACK MAIN RUNWAY 26.",
+                  "Marker": "+",
+                  "NotamStoreDate": "051120231300"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -25732,6 +25779,64 @@
                 "ItemG": "430FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "011120230858"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "M",
+                "Number": "5720",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "660"
+                },
+                "Coordinates": "5239N00451W",
+                "Radius": "35",
+                "ItemA": "EGTT",
+                "StartValidity": "2311061300",
+                "EndValidity": "2311061500",
+                "ItemE": "THE FOLLOWING ABERPORTH DANGER AREAS ARE ACTIVATED:\nEG D201H  1300-1500   SFC-FL660\nEG D201J  1300-1500   SFC-FL660",
+                "ItemF": "SFC",
+                "ItemG": "FL660",
+                "Marker": "+",
+                "NotamStoreDate": "031120231238"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "F",
+                "Number": "1973",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "390"
+                },
+                "Coordinates": "5002N00423W",
+                "Radius": "23",
+                "ItemA": "EGTT",
+                "StartValidity": "2311061345",
+                "EndValidity": "2311061430",
+                "ItemE": "DANGER AREA EG D008C PLYMOUTH ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "39000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "031120231233"
               }
             ]
           },
