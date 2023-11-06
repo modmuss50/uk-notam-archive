@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068630869",
+    "@PIBId": "400000068632975",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-06T12:00:46+00:00",
-        "ValidTo": "2023-11-07T12:00:00+00:00"
+        "ValidFrom": "2023-11-06T13:00:49+00:00",
+        "ValidTo": "2023-11-07T13:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-06T12:00:46+00:00",
+      "Issued": "2023-11-06T13:00:49+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311061018",
+      "PibUid": "EG712311061080",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6659,33 +6659,62 @@
             "Code": "EGBP",
             "Name": "KEMBLE",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6670",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6670",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5140N00203W",
+                  "Radius": "5",
+                  "ItemA": "EGBP",
+                  "StartValidity": "2311041700",
+                  "EndValidity": "2311070800",
+                  "ItemE": "AD CLOSED TO VISITING AIRCRAFT",
+                  "Marker": "+",
+                  "NotamStoreDate": "041120231500"
                 },
-                "Coordinates": "5140N00203W",
-                "Radius": "5",
-                "ItemA": "EGBP",
-                "StartValidity": "2311041700",
-                "EndValidity": "2311070800",
-                "ItemE": "AD CLOSED TO VISITING AIRCRAFT",
-                "Marker": "+",
-                "NotamStoreDate": "041120231500"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6700",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5140N00203W",
+                  "Radius": "5",
+                  "ItemA": "EGBP",
+                  "StartValidity": "2311070600",
+                  "EndValidity": "2311070900",
+                  "ItemE": "RWY 26 HARD CLOSED FOR FRICTION TEST",
+                  "Marker": "+",
+                  "NotamStoreDate": "061120231220"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -7537,33 +7566,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "8451",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "PO",
-                    "Code45": "CH",
-                    "Traffic": "I",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5109N00011W",
-                  "Radius": "5",
-                  "ItemA": "EGKK",
-                  "StartValidity": "2311060800",
-                  "EndValidity": "2311061800",
-                  "ItemE": "ILS/DME RWY 08R CAT I OCA/H CHANGE:-\nCAT A  367FT  CAT B 376FT   CAT C 386FT   CAT D 396FT\nILS/DME RWY 08R CAT II OCA/H CHANGE:-\nCAT A  278FT   CAT B  294FT  CAT C  308FT  CAT D 321FT\nILS/DME RWY 26L CAT I OCA/H CHANGE:-\nCAT A 360FT CAT B 370FT CAT C 380FT CAT D 390FT\nILS/DME RWY 26L CAT II OCA/H CHANGE\nCAT A 272FT CAT B 288FT CAT C 301FT  CAT D 314FT. \nDUE TO CRANE WORKING AT PSN 510846N 0001122N.",
-                  "Marker": "+",
-                  "NotamStoreDate": "041120231530"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "8476",
                   "Year": "23",
                   "Type": "N",
@@ -7639,6 +7641,33 @@
                   "ItemE": "TWY SIERRA CLSD DUE WIP",
                   "Marker": "+",
                   "NotamStoreDate": "061120230132"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8482",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PO",
+                    "Code45": "CH",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00011W",
+                  "Radius": "5",
+                  "ItemA": "EGKK",
+                  "StartValidity": "2311061248",
+                  "EndValidity": "2311061800",
+                  "ItemE": "ILS/DME RWY 08R CAT I OCA CHANGE:-\nCAT A  367FT  CAT B 376FT   CAT C 386FT   CAT D 396FT\nILS/DME RWY 08R CAT II OCA CHANGE:-\nCAT A  278FT   CAT B  294FT  CAT C  308FT  CAT D 321FT\nILS/DME RWY 26L CAT I OCA CHANGE:-\nCAT A 360FT CAT B 370FT CAT C 380FT CAT D 390FT\nILS/DME RWY 26L CAT II OCA CHANGE\nCAT A 272FT CAT B 288FT CAT C 301FT  CAT D 314FT. \nDUE TO CRANE WORKING AT PSN 510846N 0001122N.",
+                  "Marker": "+",
+                  "NotamStoreDate": "061120231254"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -11656,9 +11685,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "7101",
+                  "Number": "7142",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "U",
+                  "ReferredNumber": "7101",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FA",
@@ -11672,11 +11704,11 @@
                   "Coordinates": "5137N00106W",
                   "Radius": "5",
                   "ItemA": "EGUB",
-                  "StartValidity": "2311060000",
+                  "StartValidity": "2311061236",
                   "EndValidity": "2311122359",
-                  "ItemE": "AD OPR HOURS:\nMON 06 0830-2015\nTUE 07 0900-2000\nWED 08 0900-2000\nTHU 09 0900-1600\nFRI 10 1000-1700\nSAT 11 CLOSED\nSUN 12 1000-1300\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT",
+                  "ItemE": "AD OPR HOURS:\nMON 06 0830-2015\nTUE 07 0900-2000\nWED 08 0900-2030\nTHU 09 0725-1600\nFRI 10 1000-1700\nSAT 11 CLOSED\nSUN 12 1000-1300\nBENSON ATZ REMAINS ACTIVE AT ALL TIMES FOR BENSON FLYING CLUB,\nPOLICE HELICOPTER, AIR AMBULANCE AND MIL NATIONAL STANDBY ACFT",
                   "Marker": "+",
-                  "NotamStoreDate": "031120231305"
+                  "NotamStoreDate": "061120231236"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -25507,6 +25539,33 @@
                   "ItemE": "AD AND RFFS HR OF OPR\nMON-FRI     0625-0730 0815-1900 2000-2215\nSAT         0625-0730 0900-1600 1700-1815\nSUN         0900-0945 1145-1900 1945-2215\nFIRE CATEGORY MAY CHANGE AND WILL BE BASED AROUND SCHEDULED AND \nPLANNED COROPRATE MOVEMENTS. TO ENSURE THAT AD FIRE AND RESCUE \nSERVICE ARE MAINTAINED FOR 15 MINUTES AFTER DEPARTURE, ACFT ARE \nREQUIRED TO BE AIRBORNE 15 MINUTES PRIOR TO THE AD PUBLISHED CLOSING \nTIME.",
                   "Marker": "+",
                   "NotamStoreDate": "291020231308"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "I",
+                  "Number": "3319",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5503N00710W",
+                  "Radius": "5",
+                  "ItemA": "EGAE",
+                  "StartValidity": "2311071200",
+                  "EndValidity": "2311081600",
+                  "ItemE": "INSTRUMENT APPROACH TRAINING NOT AVBL DUE ILS CALIBRATION. \nRESTRICTIONS ON VISUAL CIRCUIT TRAINING. FOR DETAILS \nCONTACT ATC ON +44 2871 813314",
+                  "Marker": "+",
+                  "NotamStoreDate": "061120230855"
                 }
               ]
             },
@@ -28541,6 +28600,35 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "031120231619"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "G",
+                "Number": "392",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGGX",
+                  "Code23": "RA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "W",
+                  "Lower": "220",
+                  "Upper": "270"
+                },
+                "Coordinates": "5229N01900W",
+                "Radius": "999",
+                "ItemA": "EGGX",
+                "StartValidity": "2311071240",
+                "EndValidity": "2311071801",
+                "ItemE": "AIRSPACE RESERVATION\nTR1:FL220 FL240 LESLU - 5033N 01000W - ATSUR - SOMAX - 5000N 02000W\nTR2:FL220 FL270 5000N 02000W - 5000N 02100W\nTR3:FL270 5000N 02100W - 5000N 02500W - 4900N 03000W\nTR4:FL220 FL270 5000N 02000W - 5000N 01943W\nTR5:FL250 FL270 5000N 01943W - SOMAX - ATSUR - GAPLI\nFLW SEPARATIONS WILL BE PROVIDED WITHIN SHANWICK OCEANIC AIRSPACE:\nMNPS/NAT HIGH LEVEL AIRSPACE(HLA) 60NM, NON-MNPS/NAT HLA 120NM.",
+                "ItemF": "FL220",
+                "ItemG": "FL270",
+                "Marker": "+",
+                "NotamStoreDate": "061120231041"
               }
             ]
           },
