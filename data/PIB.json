@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068659081",
+    "@PIBId": "400000068660921",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-07T04:00:27+00:00",
-        "ValidTo": "2023-11-08T04:00:00+00:00"
+        "ValidFrom": "2023-11-07T05:00:54+00:00",
+        "ValidTo": "2023-11-08T05:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-07T04:00:27+00:00",
+      "Issued": "2023-11-07T05:00:54+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311070320",
+      "PibUid": "EG712311070354",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4429,9 +4429,12 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "C",
-                  "Number": "6408",
+                  "Number": "6409",
                   "Year": "23",
-                  "Type": "N",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "6408",
+                  "ReferredYear": "23",
                   "QLine": {
                     "FIR": "EGTT",
                     "Code23": "FA",
@@ -4445,11 +4448,11 @@
                   "Coordinates": "5123N00243W",
                   "Radius": "5",
                   "ItemA": "EGGD",
-                  "StartValidity": "2311070317",
-                  "EndValidity": "2311070530",
+                  "StartValidity": "2311070431",
+                  "EndValidity": "2311070800",
                   "ItemE": "AIRFIELD CLOSED. ATC SERVICES ARE AVAILABLE",
                   "Marker": "+",
-                  "NotamStoreDate": "071120230320"
+                  "NotamStoreDate": "071120230431"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -5461,26 +5464,7 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null,
-            "Snowtam": {
-              "TAMMessage": {
-                "TAMID": "400000001271675",
-                "TAMloc": "EGNX",
-                "TAMMessageAIXMType": "SW",
-                "TAMItemB": "2023-11-06T20:48:00+00:00",
-                "TAMYear": "0",
-                "TAMNationalLetter": "EG",
-                "TAMItemList": {
-                  "TAMItem": [
-                    "EGNX",
-                    "11062048 09 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY",
-                    null
-                  ]
-                },
-                "TAMUpdateTime": "2023-11-06T20:48:00+00:00",
-                "TamObservationTime": "2023-11-06T20:48:00+00:00"
-              }
-            }
+            "ObsoleteNotamList": null
           },
           {
             "Code": "EGTR",
@@ -6860,33 +6844,6 @@
                   "ItemE": "CORRECTION TO STANDARD DEPARTURE CHART - REXAM\nAMEND WAL R184 ON REXAM 2T DEPARTURE TO READ R183.\nUK AIP AD 2.EGGP-6-2 REFERS.",
                   "Marker": "+",
                   "NotamStoreDate": "261020231132"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8508",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "LC",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00251W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2311070100",
-                  "EndValidity": "2311070500",
-                  "ItemE": "TWY ALPHA CLOSED BETWEEN ALPHA 3 AND ALPHA 6 DUE MAINTENANCE",
-                  "Marker": "+",
-                  "NotamStoreDate": "071120230016"
                 }
               ]
             },
@@ -24876,34 +24833,65 @@
             "Code": "EGPF",
             "Name": "GLASGOW",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "8347",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "MR",
-                  "Code45": "AP",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8347",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "AP",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5552N00426W",
+                  "Radius": "5",
+                  "ItemA": "EGPF",
+                  "StartValidity": "2311052300",
+                  "EndValidity": "2311090600",
+                  "ItemD": "2300-0600",
+                  "ItemE": "RUNWAY 05/23 AVAILABLE STRICTLY BY PPR DUE WIP.",
+                  "Marker": "+",
+                  "NotamStoreDate": "011120230940"
                 },
-                "Coordinates": "5552N00426W",
-                "Radius": "5",
-                "ItemA": "EGPF",
-                "StartValidity": "2311052300",
-                "EndValidity": "2311090600",
-                "ItemD": "2300-0600",
-                "ItemE": "RUNWAY 05/23 AVAILABLE STRICTLY BY PPR DUE WIP.",
-                "Marker": "+",
-                "NotamStoreDate": "011120230940"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "J",
+                  "Number": "3823",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "RD",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "10"
+                  },
+                  "Coordinates": "5553N00427W",
+                  "Radius": "3",
+                  "ItemA": "EGPF",
+                  "StartValidity": "2311080400",
+                  "EndValidity": "2311080800",
+                  "ItemE": "TEMPO SEGREGATED AREA EG TSA 598 ACTIVE WI AREA BOUNDED BY \nSTRAIGHT LINES JOINING 555402N 0042249W - 555035N 0042914W - THENCE \nCLOCKWISE ARC OF A CIRCLE RADIUS 2.5NM CENTRED 555218N 0042601W BTN \n555035N 0042914W - 555402N 0042249W (GLASGOW, LANARKSHIRE). BEYOND \nVISUAL LINE OF SIGHT UAS OPERATIONS WHOLLY CONTAINED WI THE AREA. \nFOR INFO FREQ 118.805MHZ (GLASGOW TOWER) OR TEL 02843 039424. \nAIC Y 119/2023 REFERS. 2023-10-0490/AU2.",
+                  "ItemF": "SFC",
+                  "ItemG": "1000FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "251020231452"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -25789,33 +25777,6 @@
                   "ItemE": "RWY 15 WINDSOCK U/S",
                   "Marker": "+",
                   "NotamStoreDate": "061120231404"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8510",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "AZ",
-                    "Code45": "CA",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "AE",
-                    "Lower": "0",
-                    "Upper": "21"
-                  },
-                  "Coordinates": "5953N00118W",
-                  "Radius": "2",
-                  "ItemA": "EGPB",
-                  "StartValidity": "2311070147",
-                  "EndValidity": "2311070500",
-                  "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
-                  "Marker": "+",
-                  "NotamStoreDate": "071120230205"
                 }
               ]
             },
@@ -26964,34 +26925,6 @@
                 "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH\nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM,\nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST\n(ALDERGROVE), AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.\nISSUED BY SCOTTISH AREA CONTROL (PRESTWICK)",
                 "Marker": "+",
                 "NotamStoreDate": "061120231150"
-              },
-              {
-                "@Reference": "EGPB",
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "8510",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AZ",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "AE",
-                  "Lower": "0",
-                  "Upper": "21"
-                },
-                "Coordinates": "5953N00118W",
-                "Radius": "2",
-                "ItemA": "EGPB",
-                "StartValidity": "2311070147",
-                "EndValidity": "2311070500",
-                "ItemE": "SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR\nONLY.",
-                "Marker": "+",
-                "NotamStoreDate": "071120230205"
               },
               {
                 "@Reference": "EGPK",
@@ -28150,6 +28083,36 @@
                 "ItemG": "FL220",
                 "Marker": "+",
                 "NotamStoreDate": "061120231418"
+              },
+              {
+                "@Reference": "EGPF",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "J",
+                "Number": "3823",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "10"
+                },
+                "Coordinates": "5553N00427W",
+                "Radius": "3",
+                "ItemA": "EGPF",
+                "StartValidity": "2311080400",
+                "EndValidity": "2311080800",
+                "ItemE": "TEMPO SEGREGATED AREA EG TSA 598 ACTIVE WI AREA BOUNDED BY \nSTRAIGHT LINES JOINING 555402N 0042249W - 555035N 0042914W - THENCE \nCLOCKWISE ARC OF A CIRCLE RADIUS 2.5NM CENTRED 555218N 0042601W BTN \n555035N 0042914W - 555402N 0042249W (GLASGOW, LANARKSHIRE). BEYOND \nVISUAL LINE OF SIGHT UAS OPERATIONS WHOLLY CONTAINED WI THE AREA. \nFOR INFO FREQ 118.805MHZ (GLASGOW TOWER) OR TEL 02843 039424. \nAIC Y 119/2023 REFERS. 2023-10-0490/AU2.",
+                "ItemF": "SFC",
+                "ItemG": "1000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "251020231452"
               }
             ]
           },
