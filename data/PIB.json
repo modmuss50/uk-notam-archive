@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068740995",
+    "@PIBId": "400000068742712",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-08T20:00:16+00:00",
-        "ValidTo": "2023-11-09T20:00:00+00:00"
+        "ValidFrom": "2023-11-08T21:00:19+00:00",
+        "ValidTo": "2023-11-09T21:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-08T20:00:16+00:00",
+      "Issued": "2023-11-08T21:00:19+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311081682",
+      "PibUid": "EG712311081722",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5403,7 +5403,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001272807",
+                "TAMloc": "EGNX",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-08T20:12:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGNX",
+                    "11082012 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-08T20:50:00+00:00",
+                "TamObservationTime": "2023-11-08T20:12:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGTR",
@@ -8142,34 +8160,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "8341",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "LT",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5321N00217W",
-                  "Radius": "5",
-                  "ItemA": "EGCC",
-                  "StartValidity": "2311011638",
-                  "EndValidity": "2311100724",
-                  "ItemD": "SS-SR",
-                  "ItemE": "RWY 05L ENTRY LINK AF NOT AVBL DUE GROUND LIGHTING FAULT \nOVERNIGHT AND DURING LVP",
-                  "Marker": "+",
-                  "NotamStoreDate": "011120230620"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
                   "Number": "8379",
                   "Year": "23",
                   "Type": "N",
@@ -8641,35 +8631,6 @@
                   "ItemE": "PAPI RWY 03L/21R U/S",
                   "Marker": "+",
                   "NotamStoreDate": "081120231147"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "7946",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "WE",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5217N00050W",
-                  "Radius": "2",
-                  "ItemA": "EGBK",
-                  "StartValidity": "2311081700",
-                  "EndValidity": "2311082100",
-                  "ItemE": "SEARCHLIGHT DISPLAY WI 1NM RADIUS 521641N 0005007W (NORTHAMPTON). \nFOR INFO 07739 892696. AR-2023-38411/AU2.",
-                  "ItemF": "SFC",
-                  "ItemG": "UNL",
-                  "Marker": "+",
-                  "NotamStoreDate": "071120231045"
                 }
               ]
             },
@@ -10228,6 +10189,60 @@
                   "ItemE": "CRANE OPR 505641N 0012037W (NEAREST TOWN EASTLEIGH, SOUTHAMPTON) \nMAX HGT 156FT AGL/ 220FT AMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "071120231400"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6462",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5057N00121W",
+                  "Radius": "5",
+                  "ItemA": "EGHI",
+                  "StartValidity": "2311082026",
+                  "EndValidity": "2311082200",
+                  "ItemE": "AD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120232032"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "B",
+                  "Number": "2829",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "55"
+                  },
+                  "Coordinates": "5050N00132W",
+                  "Radius": "23",
+                  "ItemA": "EGHI",
+                  "StartValidity": "2311082035",
+                  "EndValidity": "2311082200",
+                  "ItemE": "SOLENT CTA, SOUTHAMPTON CTR/ATZ DEACTIVATED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120232031"
                 }
               ]
             },
@@ -12569,33 +12584,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "7193",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MR",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2311080606",
-                  "EndValidity": "2311082100",
-                  "ItemE": "RWY 06/24 SURFACE CONDITION IS CONCRETE WET ASPHALT WET, LESS THAN\n1/10 OF AN INCH OF STANDING WATER.",
-                  "Marker": "+",
-                  "NotamStoreDate": "081120230609"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "7236",
                   "Year": "23",
                   "Type": "R",
@@ -12620,6 +12608,33 @@
                   "ItemE": "RWY 24 WIND SENSOR U/S",
                   "Marker": "+",
                   "NotamStoreDate": "081120231546"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7240",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "ST",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5225N00034E",
+                  "Radius": "5",
+                  "ItemA": "EGUL",
+                  "StartValidity": "2311082030",
+                  "EndValidity": "2311082200",
+                  "ItemE": "AIR TRAFFIC CONTROL TOWER AND AIRFIELD MANAGEMENT FACILITIES\nCLOSED.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120232020"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -19432,6 +19447,34 @@
                 "NotamStoreDate": "081120231945"
               },
               {
+                "@Reference": "EGHI",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2829",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "55"
+                },
+                "Coordinates": "5050N00132W",
+                "Radius": "23",
+                "ItemA": "EGHI",
+                "StartValidity": "2311082035",
+                "EndValidity": "2311082200",
+                "ItemE": "SOLENT CTA, SOUTHAMPTON CTR/ATZ DEACTIVATED.",
+                "Marker": "+",
+                "NotamStoreDate": "081120232031"
+              },
+              {
                 "@Reference": "EGCB",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -22548,36 +22591,6 @@
                 "ItemG": "5500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "081120231032"
-              },
-              {
-                "@Reference": "EGBK",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7946",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5217N00050W",
-                "Radius": "2",
-                "ItemA": "EGBK",
-                "StartValidity": "2311081700",
-                "EndValidity": "2311082100",
-                "ItemE": "SEARCHLIGHT DISPLAY WI 1NM RADIUS 521641N 0005007W (NORTHAMPTON). \nFOR INFO 07739 892696. AR-2023-38411/AU2.",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "071120231045"
               },
               {
                 "@OriginalMessage": "false",
@@ -27348,39 +27361,6 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "130720230830"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "5160",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "H",
-                "ReferredNumber": "4783",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WU",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "18"
-                },
-                "Coordinates": "5611N00308W",
-                "Radius": "1",
-                "ItemA": "EGPX",
-                "StartValidity": "2308100815",
-                "EndValidity": "2311082100",
-                "ItemD": "AUG 10 0815-2000, AUG 11-OCT 28 0700-2000, OCT 29-NOV 08 0800-2100",
-                "ItemE": "FLYING OF MODEL ACFT WI 0.4NM RADIUS 561031N 0030747W\n(GLENROTHES, FIFE). FOR INFO CONTACT 01592 742190 / 07581 167962. \n2023-08-0142/AS2.",
-                "ItemF": "SFC",
-                "ItemG": "1750FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "100820230824"
               },
               {
                 "@OriginalMessage": "false",
