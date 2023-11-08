@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068744173",
+    "@PIBId": "400000068745886",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-08T22:00:41+00:00",
-        "ValidTo": "2023-11-09T22:00:00+00:00"
+        "ValidFrom": "2023-11-08T23:00:53+00:00",
+        "ValidTo": "2023-11-09T23:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-08T22:00:41+00:00",
+      "Issued": "2023-11-08T23:00:53+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311081759",
+      "PibUid": "EG712311081787",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6530,36 +6530,65 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "6405",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "C",
-                "ReferredNumber": "6183",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6405",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "6183",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2311062054",
+                  "EndValidity": "2401312359",
+                  "ItemE": "TWY ALPHA CLSD BTN RWY INTERSECTION AND HOLDING POINT BRAVO.\nACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY",
+                  "Marker": "+",
+                  "NotamStoreDate": "061120232054"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2311062054",
-                "EndValidity": "2401312359",
-                "ItemE": "TWY ALPHA CLSD BTN RWY INTERSECTION AND HOLDING POINT BRAVO.\nACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY",
-                "Marker": "+",
-                "NotamStoreDate": "061120232054"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6465",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2311082300",
+                  "EndValidity": "2311090600",
+                  "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120232201"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -7031,33 +7060,6 @@
                   "ItemE": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 11/23 WEF 02 NOV 23\nAD 2 EGLC 6-1/6-3/6-4 RWY 09 MINIMUM CLIMB GRADIENT INCREASED.",
                   "Marker": "+",
                   "NotamStoreDate": "210920230011"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "C",
-                  "Number": "6463",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FA",
-                    "Code45": "AH",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5130N00003E",
-                  "Radius": "5",
-                  "ItemA": "EGLC",
-                  "StartValidity": "2311082200",
-                  "EndValidity": "2311082230",
-                  "ItemE": "AERODROME OPENING HOURS EXTENDED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "081120232124"
                 }
               ]
             },
@@ -7209,7 +7211,7 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "A",
-                  "Number": "8561",
+                  "Number": "8593",
                   "Year": "23",
                   "Type": "N",
                   "QLine": {
@@ -7225,11 +7227,11 @@
                   "Coordinates": "5109N00011W",
                   "Radius": "5",
                   "ItemA": "EGKK",
-                  "StartValidity": "2311080800",
-                  "EndValidity": "2311082230",
-                  "ItemE": "TWY YANKEE CLSD DUE WIP",
+                  "StartValidity": "2311091230",
+                  "EndValidity": "2311091800",
+                  "ItemE": "TWY ROMEO BTN TWY JULIET AND KILO CLSD DUE WIP",
                   "Marker": "+",
-                  "NotamStoreDate": "081120230055"
+                  "NotamStoreDate": "081120232208"
                 }
               ]
             },
@@ -12821,33 +12823,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "7219",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MX",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5222N00029E",
-                  "Radius": "5",
-                  "ItemA": "EGUN",
-                  "StartValidity": "2311081003",
-                  "EndValidity": "2311091000",
-                  "ItemE": "CAUTION: POSSIBLE INCREASED BASH HAZARD. MODERATE PONDING LOCATED\nON TWY CHARLIE SOUTH.",
-                  "Marker": "+",
-                  "NotamStoreDate": "081120231011"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "7239",
                   "Year": "23",
                   "Type": "R",
@@ -12872,6 +12847,33 @@
                   "ItemE": "TACAN MLD/MILDENHALL 115.900MHZ CH106X UNMONITORED",
                   "Marker": "+",
                   "NotamStoreDate": "081120231839"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7243",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5222N00029E",
+                  "Radius": "5",
+                  "ItemA": "EGUN",
+                  "StartValidity": "2311082159",
+                  "EndValidity": "2311092359",
+                  "ItemE": "RUNWAY DISTANCE MARKER 8/1 FOR RUNWAY 28 IS UNLIT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120232203"
                 }
               ]
             },
@@ -19317,6 +19319,34 @@
                 "ItemE": "DUE TO MAINTENANCE ON THE BURRINGTON RADAR\nTHERE IS A POTENTIAL FOR A REDUCTION IN SERVICE. \nPOSITION: 4947N 00513W 100NM RADIUS.",
                 "Marker": "+",
                 "NotamStoreDate": "031120231640"
+              },
+              {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "6465",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2311082300",
+                "EndValidity": "2311090600",
+                "ItemE": "LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC\nSERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS\nTO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT\nWI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR\nLEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE\nTASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER\nUNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE",
+                "Marker": "+",
+                "NotamStoreDate": "081120232201"
               },
               {
                 "@Reference": "EGCB",
