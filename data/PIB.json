@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068727294",
+    "@PIBId": "400000068729399",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-08T13:00:49+00:00",
-        "ValidTo": "2023-11-09T13:00:00+00:00"
+        "ValidFrom": "2023-11-08T14:00:19+00:00",
+        "ValidTo": "2023-11-09T14:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-08T13:00:49+00:00",
+      "Issued": "2023-11-08T14:00:19+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311081068",
+      "PibUid": "EG712311081123",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -4654,6 +4654,33 @@
                   "ItemE": "GRASS TAXIWAYS L, V ,J  AND N CLSD",
                   "Marker": "+",
                   "NotamStoreDate": "081120230803"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8572",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "OB",
+                    "Code45": "CE",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "2"
+                  },
+                  "Coordinates": "5211N00011E",
+                  "Radius": "1",
+                  "ItemA": "EGSC",
+                  "StartValidity": "2311081330",
+                  "EndValidity": "2401310000",
+                  "ItemE": "AIP SUP 030/2023 CAMBRIDGE (EGSC) - CRANE OPR IN THE VICINITY OF \nTHE AIRPORT, PSN 521115N 0001032E, MAX HGT 98FT AGL/141FT AMSL - \nEXTENDED UNTIL 31 JANUARY 2024.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120231354"
                 }
               ]
             },
@@ -6883,7 +6910,25 @@
                 }
               ]
             },
-            "ObsoleteNotamList": null
+            "ObsoleteNotamList": null,
+            "Snowtam": {
+              "TAMMessage": {
+                "TAMID": "400000001272650",
+                "TAMloc": "EGGP",
+                "TAMMessageAIXMType": "SW",
+                "TAMItemB": "2023-11-08T13:06:00+00:00",
+                "TAMYear": "0",
+                "TAMNationalLetter": "EG",
+                "TAMItemList": {
+                  "TAMItem": [
+                    "EGGP",
+                    "11081306 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET"
+                  ]
+                },
+                "TAMUpdateTime": "2023-11-08T13:15:00+00:00",
+                "TamObservationTime": "2023-11-08T13:06:00+00:00"
+              }
+            }
           },
           {
             "Code": "EGLC",
@@ -8084,6 +8129,33 @@
                   "ItemE": "ILS RWY 04/22 SUBJECT TO INTERRUPTION DUE MAINT",
                   "Marker": "+",
                   "NotamStoreDate": "220920230741"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "A",
+                  "Number": "8571",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "IC",
+                    "Code45": "LS",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5153N00014E",
+                  "Radius": "5",
+                  "ItemA": "EGSS",
+                  "StartValidity": "2311090900",
+                  "EndValidity": "2311091600",
+                  "ItemE": "ILS RWY 04 WILL BE SUBJ INTERRUPTION DUE MAINT.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120231312"
                 }
               ]
             },
@@ -11021,9 +11093,12 @@
                 "@PIBSection": "AD",
                 "NOF": "EGGN",
                 "Series": "L",
-                "Number": "6724",
+                "Number": "6731",
                 "Year": "23",
-                "Type": "N",
+                "Type": "R",
+                "ReferredSeries": "L",
+                "ReferredNumber": "6724",
+                "ReferredYear": "23",
                 "QLine": {
                   "FIR": "EGTT",
                   "Code23": "MR",
@@ -11037,11 +11112,11 @@
                 "Coordinates": "5136N00404W",
                 "Radius": "5",
                 "ItemA": "EGFH",
-                "StartValidity": "2311080935",
-                "EndValidity": "2311090800",
+                "StartValidity": "2311081320",
+                "EndValidity": "2311100800",
                 "ItemE": "RWY 22/04 CLSD DUE MAINT",
                 "Marker": "+",
-                "NotamStoreDate": "081120230938"
+                "NotamStoreDate": "081120231320"
               }
             },
             "ObsoleteNotamList": null
@@ -12754,36 +12829,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "7150",
-                  "Year": "23",
-                  "Type": "R",
-                  "ReferredSeries": "U",
-                  "ReferredNumber": "7137",
-                  "ReferredYear": "23",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "MK",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5225N00034E",
-                  "Radius": "5",
-                  "ItemA": "EGUL",
-                  "StartValidity": "2311061613",
-                  "EndValidity": "2311302200",
-                  "ItemE": "PROTECTIVE AIRCRAFT SHELTER (PAS) 1-8 INFO SIGN AT THE \nINTERSECTION\nOF TAXITRACK SIERRA AND TWY VICTOR U/S.",
-                  "Marker": "+",
-                  "NotamStoreDate": "061120231613"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "7192",
                   "Year": "23",
                   "Type": "N",
@@ -13067,33 +13112,6 @@
                   "@PIBSection": "AD",
                   "NOF": "EGGN",
                   "Series": "U",
-                  "Number": "7218",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FH",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5222N00029E",
-                  "Radius": "5",
-                  "ItemA": "EGUN",
-                  "StartValidity": "2311081100",
-                  "EndValidity": "2311081630",
-                  "ItemE": "CAUTION: HELICOPTER FAST ROPE OPERATIONS IN PROGRESS IN FOSS\nHELICOPTER LANDING ZONE LOCATED IN GRASSY AREA EAST OF TAXIWAYS\nALPHA AND DELTA. AIRCRAFT MAY NOT UTILIZE TAXIWAY ALPHA BETWEEN THE\nHAMMERHEAD AND AMC RAMP WHEN AIRBORNE OPERATIONS AT FOSS ARE IN\nPROGRESS. SIMULTANEOUS NON-352 SPECIAL OPERATIONS WING AIRCRAFT\nARRIVAL OR DEPARTURE OPERATIONS TO THE RUNWAY AND FOSS ARE\nAUTHORIZED.",
-                  "Marker": "+",
-                  "NotamStoreDate": "081120231008"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
                   "Number": "7227",
                   "Year": "23",
                   "Type": "N",
@@ -13115,33 +13133,6 @@
                   "ItemE": "TACAN MLD/MILDENHALL 115.900MHZ CH106X UNMONITORED.",
                   "Marker": "+",
                   "NotamStoreDate": "081120231149"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "U",
-                  "Number": "7199",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "FH",
-                    "Code45": "XX",
-                    "Traffic": "IV",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5222N00029E",
-                  "Radius": "5",
-                  "ItemA": "EGUN",
-                  "StartValidity": "2311081730",
-                  "EndValidity": "2311082300",
-                  "ItemE": "CAUTION: HELICOPTER FAST ROPE OPERATIONS IN PROGRESS IN FOSS\nHELICOPTER LANDING ZONE LOCATED IN GRASSY AREA EAST OF TAXIWAYS\nALPHA AND DELTA. AIRCRAFT MAY NOT UTILIZE TAXIWAY ALPHA BETWEEN THE\nHAMMERHEAD AND AMC RAMP WHEN AIRBORNE OPERATIONS AT FOSS ARE IN\nPROGRESS. HELICOPTER FAST ROPE OPERATIONS IN PROGRESS IN VANDY\nHELICOPTER LANDING ZONE LOCATED IN GRASSY AREA 353FT SOUTH OF\nRWY. SIMULTANEOUS NON-352 SPECIAL OPERATIONS WING AIRCRAFT ARRIVAL\nOR DEPARTURE OPERATIONS TO THE RUNWAY AND VANDY ARE NOT\nAUTHORIZED",
-                  "Marker": "+",
-                  "NotamStoreDate": "081120230807"
                 }
               ]
             },
@@ -14104,6 +14095,33 @@
                   "ItemG": "FL105",
                   "Marker": "+",
                   "NotamStoreDate": "061120231546"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7221",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5310N00031W",
+                  "Radius": "5",
+                  "ItemA": "EGXW",
+                  "StartValidity": "2311091330",
+                  "EndValidity": "2311091500",
+                  "ItemE": "AD FLYING EMBARGO. UNABLE TO ACCEPT DIVERSIONS, PRACTICE \nDIVERSIONS OR VISITORS DURING THIS TIME.",
+                  "Marker": "+",
+                  "NotamStoreDate": "081120231016"
                 }
               ]
             },
@@ -19557,6 +19575,34 @@
                 "NotamStoreDate": "081120231033"
               },
               {
+                "@Reference": "EGSC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "A",
+                "Number": "8572",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "OB",
+                  "Code45": "CE",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "2"
+                },
+                "Coordinates": "5211N00011E",
+                "Radius": "1",
+                "ItemA": "EGSC",
+                "StartValidity": "2311081330",
+                "EndValidity": "2401310000",
+                "ItemE": "AIP SUP 030/2023 CAMBRIDGE (EGSC) - CRANE OPR IN THE VICINITY OF \nTHE AIRPORT, PSN 521115N 0001032E, MAX HGT 98FT AGL/141FT AMSL - \nEXTENDED UNTIL 31 JANUARY 2024.",
+                "Marker": "+",
+                "NotamStoreDate": "081120231354"
+              },
+              {
                 "@Reference": "EGUN",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -23381,35 +23427,6 @@
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7967",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WV",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "M",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "30"
-                },
-                "Coordinates": "5228N00104W",
-                "Radius": "49",
-                "ItemA": "EGTT",
-                "StartValidity": "2311081305",
-                "EndValidity": "2311081322",
-                "ItemE": "FORMATION TRANSIT BY MULTIPLE ACFT ROUTING:\n514500N 0013459W  BRIZE NORTON AD       1305\n515617N 0013425W  W OF CHIPPING NORTON  1308\n521354N 0005902W  VCY OF KISLINGBURY    1312\n524821N 0005157W  SE OF SCALFORD        1318\n530958N 0003126W  WADDINGTON AD         1322\nACFT EXPECTED TO TRANSIT BTN 250FT AGL-2000FT AGL. TIMINGS, HGT \nAND ROUTE ARE APRX AND SUBJ TO CHANGE. FOR INFO 01522 726707. \nAR-2023-38371/AU1.",
-                "ItemF": "SFC",
-                "ItemG": "3000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "081120231224"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
                 "Series": "F",
                 "Number": "1989",
                 "Year": "23",
@@ -24227,35 +24244,6 @@
                 "ItemG": "3500FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "021120231003"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "F",
-                "Number": "1987",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "220"
-                },
-                "Coordinates": "5017N00413W",
-                "Radius": "8",
-                "ItemA": "EGTT",
-                "StartValidity": "2311090900",
-                "EndValidity": "2311091600",
-                "ItemE": "DANGER AREA EG D009B WEMBURY ACTIVATED",
-                "ItemF": "SFC",
-                "ItemG": "22000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "071120231215"
               },
               {
                 "@OriginalMessage": "false",
@@ -27990,33 +27978,6 @@
                 "NotamStoreDate": "071120230942"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "FIR",
-                "NOF": "EGGN",
-                "Series": "B",
-                "Number": "2787",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "AE",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "E",
-                  "Lower": "55",
-                  "Upper": "195"
-                },
-                "Coordinates": "5623N00420W",
-                "Radius": "21",
-                "ItemA": "EGPX",
-                "StartValidity": "2311080900",
-                "EndValidity": "2311082245",
-                "ItemE": "MORAY CTA 12 AND CTA 13 ACTIVATED.",
-                "Marker": "+",
-                "NotamStoreDate": "031120231631"
-              },
-              {
                 "@Reference": "EGPL",
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
@@ -29020,35 +28981,6 @@
                 "NotamStoreDate": "071120231232"
               },
               {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5736",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5807N00847W",
-                "Radius": "93",
-                "ItemA": "EGPX",
-                "StartValidity": "2311081000",
-                "EndValidity": "2311082230",
-                "ItemE": "THE FOLLOWING HEBRIDES DANGER AREAS ARE ACTIVATED:\nEG D701A 1000-2230 SFC-UNL\nEG D701B 1000-2230 SFC-UNL\nEG D701C 1000-2230 SFC-UNL\nEG D701D 1000-2230 SFC-UNL\nEG D701E 1000-2230 SFC-UNL\nEG D701F 1000-2230 SFC-UNL\nEG D701G 1000-2230 SFC-UNL\nEG D701H 1000-2230 SFC-UNL\nEG D701Y 1000-2230 SFC-UNL",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "031120231555"
-              },
-              {
                 "@Reference": "EGTT",
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
@@ -29567,35 +29499,6 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "011120231510"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "G",
-                "Number": "391",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGGX",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5822N01111W",
-                "Radius": "79",
-                "ItemA": "EGGX",
-                "StartValidity": "2311081000",
-                "EndValidity": "2311082230",
-                "ItemE": "THE FLW EG D701 HEBRIDES COMPLEX DANGER AREAS ARE ACTIVATED:\nEG D701R 1000-2230 SFC-UNL\nEG D701S 1000-2230 SFC-UNL\nEG D701T 1000-2230 SFC-UNL\nEG D701U 1000-2230 SFC-UNL\nEG D701V 1000-2230 SFC-UNL\nEG D701W 1000-2230 SFC-UNL\nFLW SEPARATIONS AROUND THE AREA WILL BE PROVIDED IN SHANWICK\nOCEANIC AIRSPACE: MNPS/NAT HLA(HIGH LEVEL AIRSPACE) 30NM, NON\nMNPS/NAT HLA 60NM",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "031120231624"
               },
               {
                 "@OriginalMessage": "false",
