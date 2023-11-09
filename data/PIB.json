@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068769529",
+    "@PIBId": "400000068771500",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-09T11:00:30+00:00",
-        "ValidTo": "2023-11-10T11:00:00+00:00"
+        "ValidFrom": "2023-11-09T12:00:46+00:00",
+        "ValidTo": "2023-11-10T12:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-09T11:00:30+00:00",
+      "Issued": "2023-11-09T12:00:46+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311090907",
+      "PibUid": "EG712311090981",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -12467,6 +12467,33 @@
                   "ItemE": "CAUTION: PERSONNEL AND EQUIPMENT WORKING 170FT NORTH OF TWY ALPHA\nADJECENT TO SPOT 13. SPOT 13 CLOSED",
                   "Marker": "+",
                   "NotamStoreDate": "091120230908"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "7260",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MR",
+                    "Code45": "XX",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5141N00147W",
+                  "Radius": "5",
+                  "ItemA": "EGVA",
+                  "StartValidity": "2311091126",
+                  "EndValidity": "2311091759",
+                  "ItemE": "RWY 27/09 SURFACE CONDITION IS CONCRETE WET ASPHALT WET WITH\nNO STANDING WATER.",
+                  "Marker": "+",
+                  "NotamStoreDate": "091120231128"
                 }
               ]
             },
@@ -24343,35 +24370,7 @@
           {
             "Code": "EGAC",
             "Name": "BELFAST/CITY",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "A",
-                "Number": "8602",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5437N00552W",
-                "Radius": "5",
-                "ItemA": "EGAC",
-                "StartValidity": "2311091030",
-                "EndValidity": "2311091200",
-                "ItemE": "TWY ALPHA CLSD BEHIND STAND 1 FOR WIP. ALL ACFT CAN EXPECT TO \nTAXI VIA A1.",
-                "Marker": "+",
-                "NotamStoreDate": "091120230828"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -25962,7 +25961,37 @@
           {
             "Code": "EGEO",
             "Name": "OBAN",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": {
+                "@OriginalMessage": "false",
+                "@PIBSection": "AD",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7976",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "30"
+                },
+                "Coordinates": "5625N00529W",
+                "Radius": "3",
+                "ItemA": "EGEO",
+                "StartValidity": "2311101040",
+                "EndValidity": "2311101140",
+                "ItemE": "FLYPAST WI 2NM RADIUS: 562523N 0052902W (OBAN, ARGYLL AND\nBUTE). FOR INFO 01343 816872. AR-2023-38419/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "3000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "091120231116"
+              }
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -28917,6 +28946,65 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "031120231557"
+              },
+              {
+                "@Reference": "EGEO",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7976",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "30"
+                },
+                "Coordinates": "5625N00529W",
+                "Radius": "3",
+                "ItemA": "EGEO",
+                "StartValidity": "2311101040",
+                "EndValidity": "2311101140",
+                "ItemE": "FLYPAST WI 2NM RADIUS: 562523N 0052902W (OBAN, ARGYLL AND\nBUTE). FOR INFO 01343 816872. AR-2023-38419/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "3000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "091120231116"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "D",
+                "Number": "1146",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "RD",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "220"
+                },
+                "Coordinates": "5756N00350W",
+                "Radius": "14",
+                "ItemA": "EGPX",
+                "StartValidity": "2311101145",
+                "EndValidity": "2311101400",
+                "ItemE": "DANGER AREA EG D703 TAIN ACTIVATED",
+                "ItemF": "SFC",
+                "ItemG": "22000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "231020231222"
               }
             ]
           },
