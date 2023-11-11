@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068880435",
+    "@PIBId": "400000068882052",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-11T22:00:41+00:00",
-        "ValidTo": "2023-11-12T22:00:00+00:00"
+        "ValidFrom": "2023-11-11T23:00:53+00:00",
+        "ValidTo": "2023-11-12T23:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-11T22:00:41+00:00",
+      "Issued": "2023-11-11T23:00:53+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311111388",
+      "PibUid": "EG712311111421",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -6578,36 +6578,65 @@
             "Code": "EGNM",
             "Name": "LEEDS BRADFORD",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "C",
-                "Number": "6405",
-                "Year": "23",
-                "Type": "R",
-                "ReferredSeries": "C",
-                "ReferredNumber": "6183",
-                "ReferredYear": "23",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "MX",
-                  "Code45": "LC",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6405",
+                  "Year": "23",
+                  "Type": "R",
+                  "ReferredSeries": "C",
+                  "ReferredNumber": "6183",
+                  "ReferredYear": "23",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "MX",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5352N00140W",
+                  "Radius": "5",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2311062054",
+                  "EndValidity": "2401312359",
+                  "ItemE": "TWY ALPHA CLSD BTN RWY INTERSECTION AND HOLDING POINT BRAVO.\nACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY",
+                  "Marker": "+",
+                  "NotamStoreDate": "061120232054"
                 },
-                "Coordinates": "5352N00140W",
-                "Radius": "5",
-                "ItemA": "EGNM",
-                "StartValidity": "2311062054",
-                "EndValidity": "2401312359",
-                "ItemE": "TWY ALPHA CLSD BTN RWY INTERSECTION AND HOLDING POINT BRAVO.\nACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY",
-                "Marker": "+",
-                "NotamStoreDate": "061120232054"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6529",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "AE",
+                    "Code45": "CD",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "AE",
+                    "Lower": "0",
+                    "Upper": "85"
+                  },
+                  "Coordinates": "5348N00144W",
+                  "Radius": "18",
+                  "ItemA": "EGNM",
+                  "StartValidity": "2311112300",
+                  "EndValidity": "2311120600",
+                  "ItemE": "LEEDS BRADFORD CTA/CTR/ATZ DEACTIVATED, AD CLSD, NO ATC SER AVBL. \nLEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G. SUITABLY \nEQUIPPED ACFT WI LEEDS BRADFORD AIRSPACE SHOULD MONITOR LEEDS RADAR \nON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK SPECIFIC \nCODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET \nOBSERVATIONS UNVERIFIED",
+                  "Marker": "+",
+                  "NotamStoreDate": "111120232253"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -9048,37 +9077,7 @@
           {
             "Code": "EGTO",
             "Name": "ROCHESTER",
-            "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7858",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5120N00031E",
-                "Radius": "2",
-                "ItemA": "EGTO",
-                "StartValidity": "2311111200",
-                "EndValidity": "2311112300",
-                "ItemE": "LASER AND SEARCHLIGHT DISPLAY WI 1NM RADIUS 512002N 0003108E\n(ROCHESTER, KENT). FOR INFO 07973 950768. AR-2023-38327/AU2",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "021120231435"
-              }
-            },
+            "NotamList": null,
             "ObsoleteNotamList": null
           },
           {
@@ -18253,6 +18252,34 @@
                 "NotamStoreDate": "091120231001"
               },
               {
+                "@Reference": "EGNM",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "C",
+                "Number": "6529",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "AE",
+                  "Code45": "CD",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "AE",
+                  "Lower": "0",
+                  "Upper": "85"
+                },
+                "Coordinates": "5348N00144W",
+                "Radius": "18",
+                "ItemA": "EGNM",
+                "StartValidity": "2311112300",
+                "EndValidity": "2311120600",
+                "ItemE": "LEEDS BRADFORD CTA/CTR/ATZ DEACTIVATED, AD CLSD, NO ATC SER AVBL. \nLEEDS BRADFORD CONTROLLED AIRSPACE REVERTS TO CLASS G. SUITABLY \nEQUIPPED ACFT WI LEEDS BRADFORD AIRSPACE SHOULD MONITOR LEEDS RADAR \nON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK SPECIFIC \nCODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET \nOBSERVATIONS UNVERIFIED",
+                "Marker": "+",
+                "NotamStoreDate": "111120232253"
+              },
+              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "FIR",
                 "NOF": "EGGN",
@@ -20811,65 +20838,6 @@
                 "NotamStoreDate": "101120231135"
               },
               {
-                "@Reference": "EGTO",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7858",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "WE",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "999"
-                },
-                "Coordinates": "5120N00031E",
-                "Radius": "2",
-                "ItemA": "EGTO",
-                "StartValidity": "2311111200",
-                "EndValidity": "2311112300",
-                "ItemE": "LASER AND SEARCHLIGHT DISPLAY WI 1NM RADIUS 512002N 0003108E\n(ROCHESTER, KENT). FOR INFO 07973 950768. AR-2023-38327/AU2",
-                "ItemF": "SFC",
-                "ItemG": "UNL",
-                "Marker": "+",
-                "NotamStoreDate": "021120231435"
-              },
-              {
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "M",
-                "Number": "5829",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "RD",
-                  "Code45": "CA",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "W",
-                  "Lower": "0",
-                  "Upper": "100"
-                },
-                "Coordinates": "5112N00203W",
-                "Radius": "7",
-                "ItemA": "EGTT",
-                "StartValidity": "2311111930",
-                "EndValidity": "2311112230",
-                "ItemE": "THE FOLLOWING IMBER DANGER AREAS ARE ACTIVATED:\nEG D123   1930-2230   SFC-10000FT AMSL",
-                "ItemF": "SFC",
-                "ItemG": "10000FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "101120231206"
-              },
-              {
                 "@OriginalMessage": "false",
                 "@PIBSection": "WAR",
                 "NOF": "EGGN",
@@ -22594,35 +22562,6 @@
                   "ItemG": "UNL",
                   "Marker": "+",
                   "NotamStoreDate": "311020231517"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "H",
-                  "Number": "7933",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGPX",
-                    "Code23": "WM",
-                    "Code45": "LW",
-                    "Traffic": "IV",
-                    "Purpose": "BO",
-                    "Scope": "AW",
-                    "Lower": "0",
-                    "Upper": "8"
-                  },
-                  "Coordinates": "5558N00325W",
-                  "Radius": "1",
-                  "ItemA": "EGPH",
-                  "StartValidity": "2311112130",
-                  "EndValidity": "2311112230",
-                  "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS \nCASTLE). FOR INFO 07412 220027. AR-2023-38364/AU6.",
-                  "ItemF": "SFC",
-                  "ItemG": "780FT AMSL",
-                  "Marker": "+",
-                  "NotamStoreDate": "061120231424"
                 }
               ]
             },
@@ -23346,6 +23285,33 @@
                   "ItemE": "RWY 07 SUPPLEMENTARY APPROACH LIGHTING 50 PERCENT U/S.",
                   "Marker": "+",
                   "NotamStoreDate": "111120232119"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "C",
+                  "Number": "6528",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGPX",
+                    "Code23": "MR",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5502N00141W",
+                  "Radius": "5",
+                  "ItemA": "EGNT",
+                  "StartValidity": "2311112204",
+                  "EndValidity": "2311121400",
+                  "ItemE": "RWY 07 CAT 1 ONLY DUE RUNWAY LIGHTING FAULT",
+                  "Marker": "+",
+                  "NotamStoreDate": "111120232204"
                 },
                 {
                   "@OriginalMessage": "false",
@@ -25434,36 +25400,6 @@
                 "ItemG": "UNL",
                 "Marker": "+",
                 "NotamStoreDate": "101120231612"
-              },
-              {
-                "@Reference": "EGPH",
-                "@OriginalMessage": "false",
-                "@PIBSection": "WAR",
-                "NOF": "EGGN",
-                "Series": "H",
-                "Number": "7933",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGPX",
-                  "Code23": "WM",
-                  "Code45": "LW",
-                  "Traffic": "IV",
-                  "Purpose": "BO",
-                  "Scope": "AW",
-                  "Lower": "0",
-                  "Upper": "8"
-                },
-                "Coordinates": "5558N00325W",
-                "Radius": "1",
-                "ItemA": "EGPH",
-                "StartValidity": "2311112130",
-                "EndValidity": "2311112230",
-                "ItemE": "FIREWORK DISPLAY WI 0.5NM RADIUS: 555826N 0032443W (DUNDAS \nCASTLE). FOR INFO 07412 220027. AR-2023-38364/AU6.",
-                "ItemF": "SFC",
-                "ItemG": "780FT AMSL",
-                "Marker": "+",
-                "NotamStoreDate": "061120231424"
               },
               {
                 "@Reference": "EGTT",
