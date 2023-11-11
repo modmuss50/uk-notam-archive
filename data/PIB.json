@@ -1,7 +1,7 @@
 {
   "Pib": {
     "@PIBType": "F",
-    "@PIBId": "400000068858676",
+    "@PIBId": "400000068860938",
     "@NewNOTAMDuration": "250",
     "AreaPIBHeader": {
       "ShortSystemTitle": "EAD",
@@ -12,18 +12,18 @@
       "LogoFile": "/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2",
       "Traffic": "IV",
       "Validity": {
-        "ValidFrom": "2023-11-11T10:00:37+00:00",
-        "ValidTo": "2023-11-12T10:00:00+00:00"
+        "ValidFrom": "2023-11-11T11:00:30+00:00",
+        "ValidTo": "2023-11-12T11:00:00+00:00"
       },
       "ProfileId": "400000001921664",
       "ProfileName": "All NOTAM",
       "ServiceType": "FULL",
       "BriefingType": "IM",
       "ContentExplanation": "Aerodromes, En-route, Warnings, including miscellaneous information",
-      "Issued": "2023-11-11T10:00:37+00:00",
+      "Issued": "2023-11-11T11:00:30+00:00",
       "PIBSubject": "All NOTAM",
       "ScheduleName": "Daily",
-      "PibUid": "EG712311110717",
+      "PibUid": "EG712311110771",
       "FlightLevel": {
         "LowerFL": "0",
         "UpperFL": "999"
@@ -5197,7 +5197,66 @@
           {
             "Code": "EGSU",
             "Name": "DUXFORD",
-            "NotamList": null,
+            "NotamList": {
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "7756",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WA",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "45"
+                  },
+                  "Coordinates": "5205N00008E",
+                  "Radius": "3",
+                  "ItemA": "EGSU",
+                  "StartValidity": "2311121000",
+                  "EndValidity": "2311121600",
+                  "ItemE": "AIR DISPLAY AND ARTICLE DROPPING WI 2.5NM RADIUS: \n520525N 0000752E (DUXFORD AD, CAMBRIDGESHIRE). FOR INFO 07847 \n392612. AR-2023-730/AU1",
+                  "ItemF": "SFC",
+                  "ItemG": "4500FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "301020231517"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6785",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5205N00008E",
+                  "Radius": "5",
+                  "ItemA": "EGSU",
+                  "StartValidity": "2311121045",
+                  "EndValidity": "2311121115",
+                  "ItemE": "AD CLOSED TO ALL TRAFFIC DUE TO REMEMBERANCE CEREMONY",
+                  "Marker": "+",
+                  "NotamStoreDate": "101120231322"
+                }
+              ]
+            },
             "ObsoleteNotamList": null
           },
           {
@@ -5353,21 +5412,20 @@
             "ObsoleteNotamList": null,
             "Snowtam": {
               "TAMMessage": {
-                "TAMID": "400000001274175",
+                "TAMID": "400000001274194",
                 "TAMloc": "EGNX",
                 "TAMMessageAIXMType": "SW",
-                "TAMItemB": "2023-11-11T08:42:00+00:00",
+                "TAMItemB": "2023-11-11T10:39:00+00:00",
                 "TAMYear": "0",
                 "TAMNationalLetter": "EG",
                 "TAMItemList": {
                   "TAMItem": [
                     "EGNX",
-                    "11110842 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET",
-                    null
+                    "11111039 09 6/6/6 25/25/NR NR/NR/NR WET/WET/DRY"
                   ]
                 },
-                "TAMUpdateTime": "2023-11-11T08:43:00+00:00",
-                "TamObservationTime": "2023-11-11T08:42:00+00:00"
+                "TAMUpdateTime": "2023-11-11T10:40:00+00:00",
+                "TamObservationTime": "2023-11-11T10:39:00+00:00"
               }
             }
           },
@@ -6806,33 +6864,6 @@
                   "ItemE": "LIVERPOOL ATC RADAR WILL OPR COMBINED APCH RADAR AND AD\nCONTROL SER AT TIMES BY SINGLE CONTROLLER FROM THE TOWER.\nACTIVITY WILL BE ANNOUNCED VIA ATIS AND GENERAL BROADCAST.\nLIVERPOOL TOWER 126.355MHZ AND RADAR 119.855MHZ WILL BE CROSS\nCOUPLED AND STATIONS WILL RECIEVE TRANSMISSIONS MADE ON EITHER\nFREQ, SRA APCH NOT AVBL WHEN RITT (RADAR IN THE TOWER) OPS ARE\nACTIVE.",
                   "Marker": "+",
                   "NotamStoreDate": "071120232029"
-                },
-                {
-                  "@OriginalMessage": "false",
-                  "@PIBSection": "AD",
-                  "NOF": "EGGN",
-                  "Series": "A",
-                  "Number": "8649",
-                  "Year": "23",
-                  "Type": "N",
-                  "QLine": {
-                    "FIR": "EGTT",
-                    "Code23": "IU",
-                    "Code45": "CG",
-                    "Traffic": "I",
-                    "Purpose": "NBO",
-                    "Scope": "A",
-                    "Lower": "0",
-                    "Upper": "999"
-                  },
-                  "Coordinates": "5320N00251W",
-                  "Radius": "5",
-                  "ItemA": "EGGP",
-                  "StartValidity": "2311101504",
-                  "EndValidity": "2311111700",
-                  "ItemE": "RWY 27 CAT III APPROACH DOWNGRADED TO CAT I APPROACH ONLY",
-                  "Marker": "+",
-                  "NotamStoreDate": "101120231511"
                 }
               ]
             },
@@ -7202,6 +7233,35 @@
                   "ItemE": "LIT MOBILE CRANE OPR PSN 513028.8N 0000123.5E (LONDON) MAX HEIGHT\n229FT AGL, 251FT AMSL.",
                   "Marker": "+",
                   "NotamStoreDate": "091120231001"
+                },
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "J",
+                  "Number": "3817",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "RT",
+                    "Code45": "CA",
+                    "Traffic": "IV",
+                    "Purpose": "BO",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "25"
+                  },
+                  "Coordinates": "5130N00008W",
+                  "Radius": "3",
+                  "ItemA": "EGLC",
+                  "StartValidity": "2311121000",
+                  "EndValidity": "2311121230",
+                  "ItemE": "RESTRICTED AREA (TEMPORARY) FOR REMEMBERANCE SUNDAY AT THE \nCENOTAPH WHITEHALL LONDON. RESTRICTION OF FLYING REGULATIONS MADE \nUNDER ARTICLE 239 OF THE AIR NAVIGATION ORDER 2016. AIC M 120/2023 \nREFERS. NO ACFT IS TO FLY WI 2.5NM RADIUS 513009N 0000734W (CENTRAL \nLONDON) EXCEPT THOSE FLYING IN THE SERVICE OF THE NATIONAL POLICE \nAIR SERVICE, FLYING IN THE SERVICE OF THE HELICOPTER EMERGENCY \nSERVICE, FLYING IN THE SERVICE OF THE MARITIME AND COASTGUARD \nAGENCY, OR MAKING AN APPROACH TO RWY 09 AT LONDON CITY AIRPORT AT A \nHEIGHT OF NOT LESS THAN 1500FT AMSL AND TO THE EAST OF A LINE \nRUNNING TRUE NORTH TO TRUE SOUTH THROUGH 513030N 0000514W (LONDON \nBRIDGE) WHILST UNDER THE CONTROL OF LONDON CITY AIRPORT ATC UNIT OR \nLONDON TERMINAL CONTROL CENTRE, SWANWICK, OR THOSE MAKING AN \nAPPROACH TO OR DEPARTURE FROM THE LONDON HELIPORT, TO THE WEST OF A \nLINE RUNNING TRUE NORTH TO TRUE SOUTH THROUGH 512852N 0001018W \n(BATTERSEA BRIDGE) UNDER THE CONTROL OF LONDON HELIPORT ATC, OR \nLONDON TERMINAL CONTROL CENTRE, SWANWICK, OR ACFT FLYING WITH THE \nAUTHORITY OF THE METROPOLITAN POLICE SERVICE WHO MAY BE CONTACTED ON \n07775 010510. HEL ROUTE H4 AND NON-STANDARD FLIGHT/ENHANCED \nNON-STANDARD FLIGHT CLEARANCES CONTAINED WI AREA WITHDRAWN FOR \nDURATION. THIS RESTRICTION OF FLYING ALSO RELATES TO THE OPERATION \nOF ALL UAS, ANY KITE, AND ANY PARACHUTE INCLUDING A PARASCENDING \nPARACHUTE AND PARAMOTOR. 2023-11-0030/AO1.",
+                  "ItemF": "SFC",
+                  "ItemG": "2500FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "251020231416"
                 }
               ]
             },
@@ -8817,33 +8877,62 @@
             "Code": "EGSV",
             "Name": "OLD BUCKENHAM",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "L",
-                "Number": "6358",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "FA",
-                  "Code45": "LT",
-                  "Traffic": "IV",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6358",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LT",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5230N00103E",
+                  "Radius": "5",
+                  "ItemA": "EGSV",
+                  "StartValidity": "2310250700",
+                  "EndValidity": "2312010800",
+                  "ItemE": "RWY 02/20, RWY 07L/25R, HOLD A, TWY A, HOLD B, PARKING AREAS A, C\nAND ALL GRASS AREAS STRICTLY NOT IN USE. PARKING AREA B ONLY TO BE\nUSED IF DIRECTED. ALL DEPARTING AIRCRAFT MUST CTC BUCKENHAM RADIO \nPRIOR TO TAXI. AD AVBL TO MOTORGLIDERS",
+                  "Marker": "+",
+                  "NotamStoreDate": "241020230823"
                 },
-                "Coordinates": "5230N00103E",
-                "Radius": "5",
-                "ItemA": "EGSV",
-                "StartValidity": "2310250700",
-                "EndValidity": "2312010800",
-                "ItemE": "RWY 02/20, RWY 07L/25R, HOLD A, TWY A, HOLD B, PARKING AREAS A, C\nAND ALL GRASS AREAS STRICTLY NOT IN USE. PARKING AREA B ONLY TO BE\nUSED IF DIRECTED. ALL DEPARTING AIRCRAFT MUST CTC BUCKENHAM RADIO \nPRIOR TO TAXI. AD AVBL TO MOTORGLIDERS",
-                "Marker": "+",
-                "NotamStoreDate": "241020230823"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "L",
+                  "Number": "6779",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "FA",
+                    "Code45": "LC",
+                    "Traffic": "IV",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5230N00103E",
+                  "Radius": "5",
+                  "ItemA": "EGSV",
+                  "StartValidity": "2311121050",
+                  "EndValidity": "2311121110",
+                  "ItemE": "AD CLOSED",
+                  "Marker": "+",
+                  "NotamStoreDate": "101120231059"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -12729,33 +12818,64 @@
             "Code": "EGVP",
             "Name": "MIDDLE WALLOP",
             "NotamList": {
-              "Notam": {
-                "@OriginalMessage": "false",
-                "@PIBSection": "AD",
-                "NOF": "EGGN",
-                "Series": "U",
-                "Number": "5914",
-                "Year": "23",
-                "Type": "N",
-                "QLine": {
-                  "FIR": "EGTT",
-                  "Code23": "PD",
-                  "Code45": "AU",
-                  "Traffic": "I",
-                  "Purpose": "NBO",
-                  "Scope": "A",
-                  "Lower": "0",
-                  "Upper": "999"
+              "Notam": [
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "U",
+                  "Number": "5914",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "PD",
+                    "Code45": "AU",
+                    "Traffic": "I",
+                    "Purpose": "NBO",
+                    "Scope": "A",
+                    "Lower": "0",
+                    "Upper": "999"
+                  },
+                  "Coordinates": "5109N00134W",
+                  "Radius": "5",
+                  "ItemA": "EGVP",
+                  "StartValidity": "2309121313",
+                  "EndValidity": "2312010800",
+                  "ItemE": "THE FOLLOWING PUBLISHED DEPARTURES ARE NOT TO BE USED,\nRNAV1 MIDS, RNP MID 015(CAT H), RNP MIDS RWY 22 (CAT H).",
+                  "Marker": "+",
+                  "NotamStoreDate": "120920231344"
                 },
-                "Coordinates": "5109N00134W",
-                "Radius": "5",
-                "ItemA": "EGVP",
-                "StartValidity": "2309121313",
-                "EndValidity": "2312010800",
-                "ItemE": "THE FOLLOWING PUBLISHED DEPARTURES ARE NOT TO BE USED,\nRNAV1 MIDS, RNP MID 015(CAT H), RNP MIDS RWY 22 (CAT H).",
-                "Marker": "+",
-                "NotamStoreDate": "120920231344"
-              }
+                {
+                  "@OriginalMessage": "false",
+                  "@PIBSection": "AD",
+                  "NOF": "EGGN",
+                  "Series": "H",
+                  "Number": "7246",
+                  "Year": "23",
+                  "Type": "N",
+                  "QLine": {
+                    "FIR": "EGTT",
+                    "Code23": "WA",
+                    "Code45": "LW",
+                    "Traffic": "IV",
+                    "Purpose": "M",
+                    "Scope": "AW",
+                    "Lower": "0",
+                    "Upper": "20"
+                  },
+                  "Coordinates": "5108N00133W",
+                  "Radius": "6",
+                  "ItemA": "EGVP",
+                  "StartValidity": "2311121045",
+                  "EndValidity": "2311121145",
+                  "ItemE": "MULTIPLE FLYPASTS WI 5.5NM RADIUS: 510753N 0013239W (MIDDLE\nWALLOP AD, HAMPSHIRE). FOR INFO 07802 389316. 2023-11-0132/AU1.",
+                  "ItemF": "SFC",
+                  "ItemG": "2000FT AMSL",
+                  "Marker": "+",
+                  "NotamStoreDate": "111020231104"
+                }
+              ]
             },
             "ObsoleteNotamList": null
           },
@@ -18600,6 +18720,36 @@
                 "ItemE": "GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVAILABLE. INSTRUMENT\nAPPROACHES NOT AVAILABLE.",
                 "Marker": "+",
                 "NotamStoreDate": "101120231048"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2524",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AF",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2311121000",
+                "EndValidity": "2311121130",
+                "ItemE": "VARIOUS AD ARE TO OBSERVE A TEMPORARY CESSATION OF RADIO FREQ FOR \nTHE TWO MINUTE SILENCE ON REMEMBRANCE DAY. DURING THE TWO MINUTE \nSILENCE NO RADIO TRANSMISSIONS WILL BE MADE, EXCEPT IN AN \nEMERGENCY. MORE INFO IS TO BE PROVIDED BY RELEVANT ATC AND FIS",
+                "Marker": "+",
+                "NotamStoreDate": "121020231200"
               }
             ]
           },
@@ -22067,6 +22217,183 @@
                 "ItemG": "114FT AMSL",
                 "Marker": "+",
                 "NotamStoreDate": "091120231508"
+              },
+              {
+                "@Reference": "EGLC",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "J",
+                "Number": "3817",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "RT",
+                  "Code45": "CA",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "25"
+                },
+                "Coordinates": "5130N00008W",
+                "Radius": "3",
+                "ItemA": "EGLC",
+                "StartValidity": "2311121000",
+                "EndValidity": "2311121230",
+                "ItemE": "RESTRICTED AREA (TEMPORARY) FOR REMEMBERANCE SUNDAY AT THE \nCENOTAPH WHITEHALL LONDON. RESTRICTION OF FLYING REGULATIONS MADE \nUNDER ARTICLE 239 OF THE AIR NAVIGATION ORDER 2016. AIC M 120/2023 \nREFERS. NO ACFT IS TO FLY WI 2.5NM RADIUS 513009N 0000734W (CENTRAL \nLONDON) EXCEPT THOSE FLYING IN THE SERVICE OF THE NATIONAL POLICE \nAIR SERVICE, FLYING IN THE SERVICE OF THE HELICOPTER EMERGENCY \nSERVICE, FLYING IN THE SERVICE OF THE MARITIME AND COASTGUARD \nAGENCY, OR MAKING AN APPROACH TO RWY 09 AT LONDON CITY AIRPORT AT A \nHEIGHT OF NOT LESS THAN 1500FT AMSL AND TO THE EAST OF A LINE \nRUNNING TRUE NORTH TO TRUE SOUTH THROUGH 513030N 0000514W (LONDON \nBRIDGE) WHILST UNDER THE CONTROL OF LONDON CITY AIRPORT ATC UNIT OR \nLONDON TERMINAL CONTROL CENTRE, SWANWICK, OR THOSE MAKING AN \nAPPROACH TO OR DEPARTURE FROM THE LONDON HELIPORT, TO THE WEST OF A \nLINE RUNNING TRUE NORTH TO TRUE SOUTH THROUGH 512852N 0001018W \n(BATTERSEA BRIDGE) UNDER THE CONTROL OF LONDON HELIPORT ATC, OR \nLONDON TERMINAL CONTROL CENTRE, SWANWICK, OR ACFT FLYING WITH THE \nAUTHORITY OF THE METROPOLITAN POLICE SERVICE WHO MAY BE CONTACTED ON \n07775 010510. HEL ROUTE H4 AND NON-STANDARD FLIGHT/ENHANCED \nNON-STANDARD FLIGHT CLEARANCES CONTAINED WI AREA WITHDRAWN FOR \nDURATION. THIS RESTRICTION OF FLYING ALSO RELATES TO THE OPERATION \nOF ALL UAS, ANY KITE, AND ANY PARACHUTE INCLUDING A PARASCENDING \nPARACHUTE AND PARAMOTOR. 2023-11-0030/AO1.",
+                "ItemF": "SFC",
+                "ItemG": "2500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "251020231416"
+              },
+              {
+                "@Reference": "EGSU",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7756",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "45"
+                },
+                "Coordinates": "5205N00008E",
+                "Radius": "3",
+                "ItemA": "EGSU",
+                "StartValidity": "2311121000",
+                "EndValidity": "2311121600",
+                "ItemE": "AIR DISPLAY AND ARTICLE DROPPING WI 2.5NM RADIUS: \n520525N 0000752E (DUXFORD AD, CAMBRIDGESHIRE). FOR INFO 07847 \n392612. AR-2023-730/AU1",
+                "ItemF": "SFC",
+                "ItemG": "4500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "301020231517"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7955",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WU",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "BO",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "19"
+                },
+                "Coordinates": "5320N00047W",
+                "Radius": "1",
+                "ItemA": "EGTT",
+                "StartValidity": "2311121000",
+                "EndValidity": "2402161000",
+                "ItemE": "MODEL AIRCRAFT FLYING WI 0.6NM RADIUS OF 531945N 0004725W\n(NORTH LEVERTON, NOTTINGHAMSHIRE). MAX HGT 1200FT AGL. FOR INFO \n07966 764803. AR-2023-38390/AU2",
+                "ItemF": "SFC",
+                "ItemG": "1850FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "071120231329"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7745",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5349N00055W",
+                "Radius": "2",
+                "ItemA": "EGTT",
+                "StartValidity": "2311121030",
+                "EndValidity": "2311121130",
+                "ItemE": "ARTICLE DROP WI 1.5NM RADIUS: 534902N 0005512W (BREIGHTON, EAST\nRIDING OF YORKSHIRE). FOR INFO CTC 07903 112542. AR-2023-1314/AU1",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "301020231135"
+              },
+              {
+                "@Reference": "EGVP",
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7246",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WA",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "AW",
+                  "Lower": "0",
+                  "Upper": "20"
+                },
+                "Coordinates": "5108N00133W",
+                "Radius": "6",
+                "ItemA": "EGVP",
+                "StartValidity": "2311121045",
+                "EndValidity": "2311121145",
+                "ItemE": "MULTIPLE FLYPASTS WI 5.5NM RADIUS: 510753N 0013239W (MIDDLE\nWALLOP AD, HAMPSHIRE). FOR INFO 07802 389316. 2023-11-0132/AU1.",
+                "ItemF": "SFC",
+                "ItemG": "2000FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "111020231104"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "WAR",
+                "NOF": "EGGN",
+                "Series": "H",
+                "Number": "7806",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGTT",
+                  "Code23": "WP",
+                  "Code45": "LW",
+                  "Traffic": "IV",
+                  "Purpose": "M",
+                  "Scope": "W",
+                  "Lower": "0",
+                  "Upper": "25"
+                },
+                "Coordinates": "5405N00012W",
+                "Radius": "3",
+                "ItemA": "EGTT",
+                "StartValidity": "2311121050",
+                "EndValidity": "2311121110",
+                "ItemE": "ARTICLE DROP WI 2NM RADIUS: 540504N 0001135W (BRIDLINGTON, EAST\nRIDING OF YORKSHIRE). FOR INFO CONTACT 07786 228229. \nAR-2023-971/AU1",
+                "ItemF": "SFC",
+                "ItemG": "2500FT AMSL",
+                "Marker": "+",
+                "NotamStoreDate": "011120230855"
               }
             ]
           },
@@ -25449,6 +25776,64 @@
                 "ItemE": "VARIOUS AD ARE TO OBSERVE A TEMPORARY CESSATION OF RADIO FREQ FOR \nTHE TWO MINUTE SILENCE ON ARMISTICE DAY. DURING THE TWO MINUTE \nSILENCE NO RADIO TRANSMISSIONS WILL BE MADE, EXCEPT IN AN \nEMERGENCY. MORE INFO IS TO BE PROVIDED BY RELEVANT ATC AND FIS",
                 "Marker": "+",
                 "NotamStoreDate": "121020231159"
+              },
+              {
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2845",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGPX",
+                  "Code23": "AT",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "100"
+                },
+                "Coordinates": "5600N00350W",
+                "Radius": "120",
+                "ItemA": "EGPX",
+                "StartValidity": "2311120001",
+                "EndValidity": "2311122359",
+                "ItemE": "CAUTION - LOW ATMOSPHERIC PRESSURE IS FORECAST IN THE SCOTTISH\nTMA. ALL PILOTS, ESPECIALLY THOSE INBOUND TO, OR OUTBOUND FROM,\nGLASGOW, EDINBURGH, PRESTWICK, ABERDEEN, NEWCASTLE, BELFAST\n(ALDERGROVE), AND BELFAST CITY ARE REQUESTED TO EXERCISE EXTREME\nCAUTION WHEN DESCENDING OR CLIMBING THROUGH THE TRANSITION\nLEVEL/ALTITUDE DUE TO THE SIGNIFICANT DIFFERENCE BETWEEN THE\nAERODROME QNH AND THE STANDARD PRESSURE SETTING.",
+                "Marker": "+",
+                "NotamStoreDate": "111120231008"
+              },
+              {
+                "@Reference": "EGTT",
+                "@OriginalMessage": "false",
+                "@PIBSection": "FIR",
+                "NOF": "EGGN",
+                "Series": "B",
+                "Number": "2524",
+                "Year": "23",
+                "Type": "N",
+                "QLine": {
+                  "FIR": "EGXX",
+                  "Code23": "AF",
+                  "Code45": "XX",
+                  "Traffic": "IV",
+                  "Purpose": "NBO",
+                  "Scope": "E",
+                  "Lower": "0",
+                  "Upper": "999"
+                },
+                "Coordinates": "5504N00500W",
+                "Radius": "999",
+                "ItemA": [
+                  "EGPX",
+                  "EGTT"
+                ],
+                "StartValidity": "2311121000",
+                "EndValidity": "2311121130",
+                "ItemE": "VARIOUS AD ARE TO OBSERVE A TEMPORARY CESSATION OF RADIO FREQ FOR \nTHE TWO MINUTE SILENCE ON REMEMBRANCE DAY. DURING THE TWO MINUTE \nSILENCE NO RADIO TRANSMISSIONS WILL BE MADE, EXCEPT IN AN \nEMERGENCY. MORE INFO IS TO BE PROVIDED BY RELEVANT ATC AND FIS",
+                "Marker": "+",
+                "NotamStoreDate": "121020231200"
               }
             ]
           },
