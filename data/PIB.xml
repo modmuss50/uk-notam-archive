@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000072514958" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000072516466" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-02-03T18:00:57+00:00</ValidFrom>
-            <ValidTo>2024-02-04T18:00:00+00:00</ValidTo>
+            <ValidFrom>2024-02-03T19:00:05+00:00</ValidFrom>
+            <ValidTo>2024-02-04T19:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-02-03T18:00:57+00:00</Issued>
+        <Issued>2024-02-03T19:00:05+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712402030689</PibUid>
+        <PibUid>EG712402030704</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -6419,8 +6419,33 @@ ACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY</ItemE>
         <ADSection>
             <Code>EGCM</Code>
             <Name>LEEDS EAST</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>608</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5350N00112W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGCM</ItemA>
+                    <StartValidity>2402031819</StartValidity>
+                    <EndValidity>2402031945</EndValidity>
+                    <ItemE>LEEDS EAST ATZ ACTIVATED, AD OPEN</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030220241819</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -8065,32 +8090,6 @@ UK AIP EGHQ AD 2.12 REFERS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>010220240757</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>701</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>24</Upper>
-                    </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2402031800</StartValidity>
-                    <EndValidity>2402031900</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>030220241651</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -8291,6 +8290,31 @@ THE MID POINT ANEMOMETER.</ItemE>
                     <ItemE>NDB MAST OBSTRUCTION LIGHT U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>310120241328</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>904</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>40</Upper>
+                    </QLine>
+                    <Coordinates>5241N00117E</Coordinates>
+                    <Radius>14</Radius>
+                    <ItemA>EGSH</ItemA>
+                    <StartValidity>2402031900</StartValidity>
+                    <EndValidity>2402032000</EndValidity>
+                    <ItemE>NORWICH CTA, CTR AND ATZ DEACTIVATED. AD CLOSED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030220241855</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -9460,34 +9484,6 @@ STRICTLY PPR.</ItemE>
                     <ItemE>OBST LIGHTS U/S ON RWY 05 LOCALISER AERIAL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>310120240738</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>889</Number>
-                    <Year>24</Year>
-                    <Type>R</Type>
-                    <ReferredSeries>A</ReferredSeries>
-                    <ReferredNumber>884</ReferredNumber>
-                    <ReferredYear>24</ReferredYear>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FF</Code23>
-                        <Code45>CG</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5134N00042E</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGMC</ItemA>
-                    <StartValidity>2402030555</StartValidity>
-                    <EndValidity>2402031900</EndValidity>
-                    <ItemE>RFFS DOWNGRADED TO CAT 6</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>030220240555</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -16666,31 +16662,55 @@ PLATFORM).</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>030220241106</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGHQ" OriginalMessage="false" PIBSection="FIR">
+                <Notam Reference="EGCM" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>701</Number>
+                    <Series>L</Series>
+                    <Number>608</Number>
                     <Year>24</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5350N00112W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGCM</ItemA>
+                    <StartValidity>2402031819</StartValidity>
+                    <EndValidity>2402031945</EndValidity>
+                    <ItemE>LEEDS EAST ATZ ACTIVATED, AD OPEN</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030220241819</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGSH" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>904</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
                         <Code45>CD</Code45>
                         <Traffic>IV</Traffic>
                         <Purpose>NBO</Purpose>
                         <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>24</Upper>
+                        <Upper>40</Upper>
                     </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2402031800</StartValidity>
-                    <EndValidity>2402031900</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE.</ItemE>
+                    <Coordinates>5241N00117E</Coordinates>
+                    <Radius>14</Radius>
+                    <ItemA>EGSH</ItemA>
+                    <StartValidity>2402031900</StartValidity>
+                    <EndValidity>2402032000</EndValidity>
+                    <ItemE>NORWICH CTA, CTR AND ATZ DEACTIVATED. AD CLOSED.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>030220241651</NotamStoreDate>
+                    <NotamStoreDate>030220241855</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -20503,6 +20523,34 @@ ACFT CAT C RWY 06/24 VM(C) OCA(OCH) 1050(914)</ItemE>
                     <ItemE>STEEL PLATE ON TWY MIKE 72M SOUTH OF M3</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>020220241034</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>887</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5557N00322W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPH</ItemA>
+                    <StartValidity>2402041800</StartValidity>
+                    <EndValidity>2402060600</EndValidity>
+                    <ItemD>04 05 1800-0600</ItemD>
+                    <ItemE>SIGNATURE FLIGHT SUPPORT EDINBURGH ARE UNABLE TO PROVIDE 
+NIGHTSHIFT ASSISTANCE OR HANDLING REQUESTS FOR ALL FLIGHTS INCLUDING 
+MEDICAL FLIGHTS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>020220242256</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
