@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000074432368" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000074434254" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-03-15T11:00:38+00:00</ValidFrom>
-            <ValidTo>2024-03-16T11:00:00+00:00</ValidTo>
+            <ValidFrom>2024-03-15T12:00:24+00:00</ValidFrom>
+            <ValidTo>2024-03-16T12:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-03-15T11:00:38+00:00</Issued>
+        <Issued>2024-03-15T12:00:24+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712403150606</PibUid>
+        <PibUid>EG712403150660</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3499,31 +3499,6 @@
                     <Marker>+</Marker>
                     <NotamStoreDate>050320241356</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>1468</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5408N00316W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGNL</ItemA>
-                    <StartValidity>2403150800</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>AERODROME CLOSED DUE STAFF TRAINING</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>130320241411</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -5030,19 +5005,19 @@ AUTHORITY.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001392525</TAMID>
+                    <TAMID>400000001392681</TAMID>
                     <TAMloc>EGTC</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2024-03-15T07:19:00+00:00</TAMItemB>
+                    <TAMItemB>2024-03-15T11:57:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGTC</TAMItem>
-                        <TAMItem>03150719 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>03151157 03 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
                         <TAMItem/>
                     </TAMItemList>
-                    <TAMUpdateTime>2024-03-15T07:20:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2024-03-15T07:19:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2024-03-15T11:57:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2024-03-15T11:57:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -7912,8 +7887,34 @@ AND HOURS OF DARKNESS</ItemE>
         <ADSection>
             <Code>EGMD</Code>
             <Name>LYDD</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1548</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>ST</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5057N00056E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGMD</ItemA>
+                    <StartValidity>2403151120</StartValidity>
+                    <EndValidity>2403221700</EndValidity>
+                    <ItemE>UNABLE TO RECIEVE FLIGHT PLANS VIA FAX. PLEASE EMAIL
+TOWER(A)LYDD-AIRPORT.CO.UK</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241125</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -9174,34 +9175,6 @@ DROP HGT SUBJ ATC CLR. FOR INFO 01993 895052. AR-2024-1416/AU1.</ItemE>
                     <ItemG>13400FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>110320241256</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>1486</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5215N00253W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGBS</ItemA>
-                    <StartValidity>2403150800</StartValidity>
-                    <EndValidity>2403151700</EndValidity>
-                    <ItemE>PARACHUTING OPS ONTO AD. ATS WILL NOTIFY PILOTS WHEN PARACHUTE
-DESCENTS ARE IMMINENT, AND WHEN PARACHUTING IS IN PROGRESS. DURING
-PARACHUTING IN PROGRESS PERIODS AD WILL BE CLOSED TO ALL OTHER TFC
-AND NO GROUND MOVEMENT OF ACFT OR PROPS TURNING WILL BE PERMITTED.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140320241407</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -11049,11 +11022,11 @@ AR-2023-39091/ARO1.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
-                    <Number>1362</Number>
+                    <Number>1504</Number>
                     <Year>24</Year>
                     <Type>R</Type>
                     <ReferredSeries>L</ReferredSeries>
-                    <ReferredNumber>1244</ReferredNumber>
+                    <ReferredNumber>1362</ReferredNumber>
                     <ReferredYear>24</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
@@ -11068,11 +11041,11 @@ AR-2023-39091/ARO1.</ItemE>
                     <Coordinates>4957N00620W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGHT</ItemA>
-                    <StartValidity>2403080847</StartValidity>
-                    <EndValidity>2403161700</EndValidity>
-                    <ItemE>JET A1 FUEL NOT AVBL</ItemE>
+                    <StartValidity>2403151148</StartValidity>
+                    <EndValidity>2403231700</EndValidity>
+                    <ItemE>JET A1 FUEL IS NOT AVAILABLE</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>080320240847</NotamStoreDate>
+                    <NotamStoreDate>150320241151</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -11402,34 +11375,6 @@ ACFT TRANSITTING CLOSE TO THE AREA SHOULD MAKE BLIND CALLS
 ON 127.150MHZ.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>140320241450</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1540</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>7</Upper>
-                    </QLine>
-                    <Coordinates>5137N00107W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGUB</ItemA>
-                    <StartValidity>2403151100</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>UAS OPERATING 0.11NM RADIUS CENTERED ON 513726N 0010631W (BENSON 
-VILLAGE). MAX HGT 650FT AMSL/400FT AGL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>650FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140320241808</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -12100,31 +12045,6 @@ WESTERN SIDE DISTANCE TO GO MARKERS U/S ON RWY 01.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>1173</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NN</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5302N00030W</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGYD</ItemA>
-                    <StartValidity>2403150800</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>TACAN CWZ/CRANWELL 117.4MHZ CH121X U/S DUE MAINT</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>280220241244</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
                     <Number>1044</Number>
                     <Year>24</Year>
                     <Type>N</Type>
@@ -12770,32 +12690,6 @@ FOR INFO 07464 713829. AR-2024-1262/AU2</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040320241443</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1507</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>OB</Code23>
-                        <Code45>CE</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>2</Upper>
-                    </QLine>
-                    <Coordinates>5224N00032E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGUL</ItemA>
-                    <StartValidity>2403150700</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>CRANE OPR PSN 522352N 0003228E (1110FT FM LAKENHEATH RWY 06/24 
-CENTERLINE). MAX HGT 100FT AGL/132FT AMSL.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>130320241635</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -12884,31 +12778,6 @@ RWY 10, 121FT RIGHT OF CL MILDENHALL AD) MAX HGT 35.63FT AGL/
 51.12FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>200220241301</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1088</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FM</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5222N00029E</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGUN</ItemA>
-                    <StartValidity>2402252005</StartValidity>
-                    <EndValidity>2403202359</EndValidity>
-                    <ItemE>RWY 10 WIND SENSOR OUT OF SERVICE</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>250220242005</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -13626,6 +13495,34 @@ MIL 95581 7404 OR 01407 762241 EXTENSION 7404.</ItemE>
                     <ItemE>D-ATIS OPR FREQ CHANGED TO 120.730MHZ.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>140320241448</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>1554</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5314N00431W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGOV</ItemA>
+                    <StartValidity>2403160900</StartValidity>
+                    <EndValidity>2403161100</EndValidity>
+                    <ItemE>UAS OPR WI 0.1NM RADIUS OF PSN 531339N 0043108W (RHOSNEIGR) 
+UP TO 66FT AGL / 105FT AMSL. FOR INFO CTC 07854 857369</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>105FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241135</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -18788,57 +18685,6 @@ VALLEY AVOIDANCE AREA. HGT 250FT AMSL (243FT AGL). 24/03/077/LFC</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>090320240852</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGUL" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1507</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>OB</Code23>
-                        <Code45>CE</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>2</Upper>
-                    </QLine>
-                    <Coordinates>5224N00032E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGUL</ItemA>
-                    <StartValidity>2403150700</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>CRANE OPR PSN 522352N 0003228E (1110FT FM LAKENHEATH RWY 06/24 
-CENTERLINE). MAX HGT 100FT AGL/132FT AMSL.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>130320241635</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGYD" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1173</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NN</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5302N00030W</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGYD</ItemA>
-                    <StartValidity>2403150800</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>TACAN CWZ/CRANWELL 117.4MHZ CH121X U/S DUE MAINT</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>280220241244</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGOQ" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
@@ -22936,34 +22782,6 @@ EGD202D  1600-2100   SFC-FL050</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>140320241344</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGUB" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1540</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>7</Upper>
-                    </QLine>
-                    <Coordinates>5137N00107W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGUB</ItemA>
-                    <StartValidity>2403151100</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>UAS OPERATING 0.11NM RADIUS CENTERED ON 513726N 0010631W (BENSON 
-VILLAGE). MAX HGT 650FT AMSL/400FT AGL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>650FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140320241808</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>M</Series>
@@ -23721,6 +23539,34 @@ AR-2024-1453/AU3.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>230220241409</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGOV" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>1554</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5314N00431W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGOV</ItemA>
+                    <StartValidity>2403160900</StartValidity>
+                    <EndValidity>2403161100</EndValidity>
+                    <ItemE>UAS OPR WI 0.1NM RADIUS OF PSN 531339N 0043108W (RHOSNEIGR) 
+UP TO 66FT AGL / 105FT AMSL. FOR INFO CTC 07854 857369</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>105FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241135</NotamStoreDate>
+                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -23832,6 +23678,35 @@ AR-2024-1543/AU2.</ItemE>
                     <ItemG>35000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>140320241426</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>1279</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>25</Upper>
+                    </QLine>
+                    <Coordinates>5241N00049E</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403161000</StartValidity>
+                    <EndValidity>2403161700</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR 
+IN LOW FLYING AREA 5 WI 2NM RADIUS OF PSN 524128N 0004846E 
+(FRANSHAM, NORFOLK). 2000FT AGL. CTC 07745 289353. 24/03/108/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>2500FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241114</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -24408,34 +24283,8 @@ CALL 01870 604830.</ItemE>
         <ADSection>
             <Code>EGEC</Code>
             <Name>CAMPBELTOWN</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>3893</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>PI</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5526N00541W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGEC</ItemA>
-                    <StartValidity>2312201104</StartValidity>
-                    <EndValidity>2403151200</EndValidity>
-                    <ItemE>ARRIVALS VIA AKELO - ERUBO FOR RNP RWY 11 ARE NOT PERMITTED. 
-ACFT USING THE RWY 11 RNP IAP SHALL ROUTE UNISO OR ERUBO</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>201220231118</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -28394,6 +28243,34 @@ THREE PERIODS THROUGHOUT THE DAY DUE ATC STAFF SHORTAGE.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>210220240833</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>N</Series>
+                    <Number>76</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>5</Upper>
+                    </QLine>
+                    <Coordinates>5742N00402W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2403160000</StartValidity>
+                    <EndValidity>2405152359</EndValidity>
+                    <ItemE>OBST OTHER - WIND TURBINE TOWER AT PSN 574141N 0040152W (TAIN).
+UP TO 424FT AGL/437FT AMSL. FOR INFO CONTACT 07808 018040. ON
+EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR
+5.4 AR-2024-1575/ARO1</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241126</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -29249,6 +29126,33 @@ EGD613B 1300-1400 FL100-FL660</ItemE>
                     <ItemG>FL660</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>140320241410</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>D</Series>
+                    <Number>319</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>150</Upper>
+                    </QLine>
+                    <Coordinates>5756N00350W</Coordinates>
+                    <Radius>14</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2403151108</StartValidity>
+                    <EndValidity>2403151400</EndValidity>
+                    <ItemE>DANGER AREA EGD703 TAIN DEACTIVATED</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>15000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150320241108</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
