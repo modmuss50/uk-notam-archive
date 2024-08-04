@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000082803093" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000082804944" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-08-04T00:00:55+00:00</ValidFrom>
-            <ValidTo>2024-08-05T00:00:00+00:00</ValidTo>
+            <ValidFrom>2024-08-04T01:00:29+00:00</ValidFrom>
+            <ValidTo>2024-08-05T01:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-08-04T00:00:55+00:00</Issued>
+        <Issued>2024-08-04T01:00:29+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712408040006</PibUid>
+        <PibUid>EG712408040027</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -11245,8 +11245,33 @@ TWR 118.330</ItemE>
         <ADSection>
             <Code>EGDI</Code>
             <Name>MERRYFIELD</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>4700</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5058N00256W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGDI</ItemA>
+                    <StartValidity>2408050001</StartValidity>
+                    <EndValidity>2408162359</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>010820241312</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -12019,6 +12044,31 @@ IN SECTORS 020-030, 225-235, 245-250 AND 290-300</ItemE>
                     <ItemE>RUNWAY CARAVAN NOT AVBL ON RWY 26</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260720240731</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>4699</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5100N00239W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGDY</ItemA>
+                    <StartValidity>2408050001</StartValidity>
+                    <EndValidity>2408162359</EndValidity>
+                    <ItemE>AD CLOSED AND NOT AVBL FOR DIVERSIONS DUE WIP.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>010820241311</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -16773,6 +16823,36 @@ TASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT</ItemE>
 FREQ CHANGE 121.580 DUE COMPLIANCE</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>310720241213</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1000</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>CS</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5504N00500W</Coordinates>
+                    <Radius>999</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2408050000</StartValidity>
+                    <EndValidity>2408222359</EndValidity>
+                    <ItemE>SSR ALLOCATION. CODES 1501-1577 AND 2401-2477 ARE TEMPO ASSIGNED 
+TO EXER STORM WARRIOR 24-1. PARTICIPATING AIRCRAFT WILL BE IN 
+RECEIPT OF AN ATS FROM SWANWICK MIL OR CONTROL AND REPORTING CENTRE 
+BOULMER. FOR INFO CTC 01665 572311. AIRSPACE COORDINATION NOTICE 
+AR-2024-1773 REFERS. AR-2024-1773/AU3</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>070520241007</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -24317,6 +24397,88 @@ LANARKSHIRE) UP TO 656FT AGL/1830FT AMSL. FOR INFO CONTACT
 UK AIP ENR 5.4 AR-2024-2647/ARO3.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>230520241110</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>N</Series>
+                    <Number>131</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OL</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>26</Upper>
+                    </QLine>
+                    <Coordinates>5538N00403W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2408050000</StartValidity>
+                    <EndValidity>2408232359</EndValidity>
+                    <ItemE>REPORT OF AIR NAV OBST LGT U/S WI 1.5NM OF PSN 553807N 0040233W 
+(KYPE MUIR). HGT 1425FT AGL/2580FT AMSL. AR-2024-2480/ARO1.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>010520241515</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>N</Series>
+                    <Number>132</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OL</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>26</Upper>
+                    </QLine>
+                    <Coordinates>5531N00349W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2408050000</StartValidity>
+                    <EndValidity>2409202359</EndValidity>
+                    <ItemE>REPORT OF AIR NAV OBST LGT U/S WI 1NM OF PSN 553056N 0034903W 
+(MIDDLE MUIR). HGT 1465FT AGL/2575FT AMSL. AR-2024-2484/ARO1.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>020520241802</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGTT" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1000</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>CS</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5504N00500W</Coordinates>
+                    <Radius>999</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2408050000</StartValidity>
+                    <EndValidity>2408222359</EndValidity>
+                    <ItemE>SSR ALLOCATION. CODES 1501-1577 AND 2401-2477 ARE TEMPO ASSIGNED 
+TO EXER STORM WARRIOR 24-1. PARTICIPATING AIRCRAFT WILL BE IN 
+RECEIPT OF AN ATS FROM SWANWICK MIL OR CONTROL AND REPORTING CENTRE 
+BOULMER. FOR INFO CTC 01665 572311. AIRSPACE COORDINATION NOTICE 
+AR-2024-1773 REFERS. AR-2024-1773/AU3</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>070520241007</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
