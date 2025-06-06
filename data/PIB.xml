@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000102256167" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000102260314" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-06-06T06:00:37+00:00</ValidFrom>
-            <ValidTo>2025-06-07T06:00:00+00:00</ValidTo>
+            <ValidFrom>2025-06-06T07:02:22+00:00</ValidFrom>
+            <ValidTo>2025-06-07T07:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-06-06T06:00:37+00:00</Issued>
+        <Issued>2025-06-06T07:02:22+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712506060332</PibUid>
+        <PibUid>EG712506060517</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4333,6 +4333,22 @@ AGL, 250FT AMSL</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001608266</TAMID>
+                    <TAMloc>EGSC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-06-06T06:42:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSC</TAMItem>
+                        <TAMItem>06060642 05 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-06-06T06:46:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-06-06T06:42:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFF</Code>
@@ -10784,31 +10800,6 @@ TWY UNIFORM RESTRICTED TO TOW OPERATIONS ONLY.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>3318</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NN</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5225N00034E</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGUL</ItemA>
-                    <StartValidity>2506060400</StartValidity>
-                    <EndValidity>2506061700</EndValidity>
-                    <ItemE>TACAN LKH/LAKENHEATH FREQ 110.2MHZ CH39X NOT MONITORED.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060620250501</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
                     <Number>3321</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -10831,6 +10822,35 @@ TWY UNIFORM RESTRICTED TO TOW OPERATIONS ONLY.</ItemE>
 NO STANDING WATER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>060620250555</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>3325</Number>
+                    <Year>25</Year>
+                    <Type>R</Type>
+                    <ReferredSeries>U</ReferredSeries>
+                    <ReferredNumber>3323</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>HG</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5225N00034E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGUL</ItemA>
+                    <StartValidity>2506060649</StartValidity>
+                    <EndValidity>2506061700</EndValidity>
+                    <ItemE>MOWING OPERATIONS IN PROGRESS ON THE NORTH AND SOUTH SIDES OF
+THE RWY 05 OVERRUN WITHIN THE CONTROLLED MOVEMENT AREA.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060620250657</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -16612,31 +16632,6 @@ FLYING AREA 12 AND NIGHT SECTOR 4AS. HGT 403FT AMSL (197FT AGL).
                     <Marker>+</Marker>
                     <NotamStoreDate>020620250932</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGUL" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>3318</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NN</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5225N00034E</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGUL</ItemA>
-                    <StartValidity>2506060400</StartValidity>
-                    <EndValidity>2506061700</EndValidity>
-                    <ItemE>TACAN LKH/LAKENHEATH FREQ 110.2MHZ CH39X NOT MONITORED.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060620250501</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNO" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>B</Series>
@@ -20016,42 +20011,6 @@ AGL. FOR INFO 07716 453575. AR-2025-3784/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>210520251016</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>J</Series>
-                    <Number>2061</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>RD</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>80</Upper>
-                    </QLine>
-                    <Coordinates>5105N00419W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2506020530</StartValidity>
-                    <EndValidity>2506060700</EndValidity>
-                    <ItemD>02 0530-0900, 03 0530-0800, 04 0400-0700, 05 0530-1000, 06 
-0400-0700</ItemD>
-                    <ItemE>TEMPO DANGER AREA (TDA) ESTABLISHED (EGD191) WI AREA BOUNDED BY
-STRAIGHT LINES JOINING 510539N 0042530W - 510440N 0042530W - 
-510440N 0041148W - 510539N 0041148W - 510539N 0042530W (BARNSTABLE 
-OR BIDEFORD BAY). BEYOND VISUAL LINE OF SIGHT UAS OPS CONTAINED 
-WHOLLY WI THE TDA. A SPECIAL USE AIRSPACE ACTIVITY INFORMATION 
-SERVICE (SUAAIS) WILL BE AVBL ON 142.275MHZ. FOR MORE INFO CTC 07540 
-290583. FURTHER DETAILS AT HTTP://WWW.NATS-UK.EAD-IT.COM BRIEFING 
-SHEET 036/2025. AR-2025-3189/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>8000FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>230520251037</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGSH" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -22808,6 +22767,68 @@ AR-2023-11556/AU2.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050620251001</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3794</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RO</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>24</Upper>
+                    </QLine>
+                    <Coordinates>5132N00048W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2506070630</StartValidity>
+                    <EndValidity>2506081900</EndValidity>
+                    <ItemD>0630-1900</ItemD>
+                    <ItemE>AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA
+THAMES VALLEY AVOIDANCE AREA WI 2NM RADIUS OF PSN 513144N 0004802W 
+(HONEY LANE, MAIDENHEAD) MILITARY AIRCRAFT SHALL AVOID THE AREA FROM 
+SURFACE TO 2000FT AGL. EVENT CTC 01949 829061. 25/06/022/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>2400FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030620250758</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3795</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RO</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>23</Upper>
+                    </QLine>
+                    <Coordinates>5122N00211W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2506070630</StartValidity>
+                    <EndValidity>2506081900</EndValidity>
+                    <ItemD>0630-1900</ItemD>
+                    <ItemE>AN EQUESTRIAN EVENT WILL TAKE PLACE IN LOW FLYING AREA 2
+WI 2NM RADIUS OF PSN 512141N 0021056W (MELKSHAM ROAD, WILTSHIRE) 
+MILITARY AIRCRAFT SHALL AVOID THE AREA FROM SURFACE TO 2000FT AGL. 
+CTC 01225 783220 25/06/023/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>2300FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030620250759</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </Warnings>
@@ -22991,6 +23012,33 @@ POINT.</ItemE>
             <Code>EGAC</Code>
             <Name>BELFAST/CITY</Name>
             <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>3751</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>SP</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>35</Upper>
+                    </QLine>
+                    <Coordinates>5435N00543W</Coordinates>
+                    <Radius>16</Radius>
+                    <ItemA>EGAC</ItemA>
+                    <StartValidity>2506060630</StartValidity>
+                    <EndValidity>2506060930</EndValidity>
+                    <ItemE>BELFAST CITY (EGAC) RADAR MAY NOT BE AVAILABLE DUE ATC STAFFING.
+ALDERGROVE RADAR MAY PROVIDE ASSISTANCE WITH VECTORING
+ON TO THE BELFAST CITY ILS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060620250626</NotamStoreDate>
+                </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -26469,6 +26517,33 @@ SCOTTISH AREA CONTROL (PRESTWICK)</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050620251224</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGAC" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>3751</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>SP</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>35</Upper>
+                    </QLine>
+                    <Coordinates>5435N00543W</Coordinates>
+                    <Radius>16</Radius>
+                    <ItemA>EGAC</ItemA>
+                    <StartValidity>2506060630</StartValidity>
+                    <EndValidity>2506060930</EndValidity>
+                    <ItemE>BELFAST CITY (EGAC) RADAR MAY NOT BE AVAILABLE DUE ATC STAFFING.
+ALDERGROVE RADAR MAY PROVIDE ASSISTANCE WITH VECTORING
+ON TO THE BELFAST CITY ILS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060620250626</NotamStoreDate>
+                </Notam>
                 <Notam Reference="EGPK" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
@@ -27426,6 +27501,66 @@ AND THAMES VALLEY AVOIDANCE AREA. MAX HGT 2000FT AGL. UK AIP ENR 6
                     <ItemG>6500FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>050620251555</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3915</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>37</Upper>
+                    </QLine>
+                    <Coordinates>5613N00320W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2506060609</StartValidity>
+                    <EndValidity>2506062100</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS
+OPERATING IN LOW FLYING AREA 14 WI 2NM RADIUS OF 
+PSN 561242N 0031942W (BISHOP HILL, PERTHSHIRE + KINROSS). 
+2000FT AGL. CTC 07484 281231. 25/06/046/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3700FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060620250610</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3916</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>45</Upper>
+                    </QLine>
+                    <Coordinates>5622N00421W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2506060615</StartValidity>
+                    <EndValidity>2506062100</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS
+OPR IN LOW FLYING AREA 14 WI 2NM RADIUS OF 
+PSN 562205N 0042051W (BALQUHIDDER, STIRLING). 2000FT AGL.
+CTC 07850 432892. 25/06/047/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>4500FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060620250618</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
